@@ -11,15 +11,15 @@
 
 **CURSO:** 1ASI0722 - Agile Project Management  
 **CICLO:** 2026-20  
-**SECCIÓN:** [Insertar Sección / NRC]  
+**SECCIÓN:** 9286  
 **PROFESOR:** Rouillon Sixto César Elías  
 
 ---
 
 # INFORME DE TRABAJO FINAL: ENTREGA TB1
 
-### **Nombre de la Startup:** [Insertar Nombre de la Startup]
-### **Nombre del Producto:** [Insertar Nombre del Producto / Solución]
+### **Nombre de la Startup:** Sisifo
+### **Nombre del Producto:** SmartStay
 
 ---
 
@@ -27,7 +27,7 @@
 
 | Código de Estudiante | Apellidos y Nombres | Carrera |
 | :--- | :--- | :--- |
-| U[Insertar Código] | [Apellido Paterno, Apellido Materno, Nombres] | Ingeniería de Software |
+| U20221E617 | Verona Flores Italo Sebastian | Ingeniería de Software |
 | U[Insertar Código] | [Apellido Paterno, Apellido Materno, Nombres] | Ingeniería de Software |
 | U[Insertar Código] | [Apellido Paterno, Apellido Materno, Nombres] | Ingeniería de Software |
 | U[Insertar Código] | [Apellido Paterno, Apellido Materno, Nombres] | Ingeniería de Software |
@@ -35,7 +35,7 @@
 
 ---
 **Mes y Año:** Septiembre, 2026  
-**Repositorio GitHub:** [Enlace a la Organización / Repositorio Público]
+**Repositorio GitHub:** [Organización](https://github.com/sisifoGroup)
 
 </div>
 
@@ -47,13 +47,13 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
 
 | Versión | Fecha | Autor | Descripción de Modificación |
 | :---: | :---: | :--- | :--- |
-| **1.0.0** | 11/09/2026 | [Nombre y Apellidos de Integrante 1] | Creación de la estructura base del informe, carátula e integración del registro de versiones. |
-| **1.0.1** | 12/09/2026 | [Nombre y Apellidos de Integrante 2] | Redacción del Startup Profile y descripción inicial de la organización. |
-| **1.0.2** | 13/09/2026 | [Nombre y Apellidos de Integrante 3] | Documentación de los perfiles individuales de los integrantes y roles preliminares. |
-| **1.0.3** | 14/09/2026 | [Nombre y Apellidos de Integrante 4] | Formulación del Solution Profile: aplicación de técnica 5W2H y análisis del problema. |
-| **1.0.4** | 15/09/2026 | [Nombre y Apellidos de Integrante 5] | Definición de la Propuesta de Valor y caracterización de Segmentos Objetivo. |
-| **1.1.0** | 16/09/2026 | [Nombre y Apellidos de Integrante 1] | Consolidación de los Objetivos SMART de los integrantes y tabla de Student Outcome. |
-| **1.2.0** | 17/09/2026 | [Nombre del Team Leader] | Revisión final de estilo APA 7, validación cruzada y compilación para la entrega TB1. |
+| **1.0.0** | 11/09/2026 | Verona Flores Italo Sebastian | Creación de la estructura base del informe, carátula e integración del registro de versiones. |
+| **1.0.1** | 11/09/2026 | [Nombre y Apellidos de Integrante 2] | Redacción del Startup Profile y descripción inicial de la organización. |
+| **1.0.2** | 11/09/2026 | [Nombre y Apellidos de Integrante 3] | Documentación de los perfiles individuales de los integrantes y roles preliminares. |
+| **1.0.3** | 11/09/2026 | [Nombre y Apellidos de Integrante 4] | Formulación del Solution Profile: aplicación de técnica 5W2H y análisis del problema. |
+| **1.0.4** | 11/09/2026 | [Nombre y Apellidos de Integrante 5] | Definición de la Propuesta de Valor y caracterización de Segmentos Objetivo. |
+| **1.1.0** | 11/09/2026 | [Nombre y Apellidos de Integrante 1] | Consolidación de los Objetivos SMART de los integrantes y tabla de Student Outcome. |
+| **1.2.0** | 11/09/2026 | [Nombre del Team Leader] | Revisión final de estilo APA 7, validación cruzada y compilación para la entrega TB1. |
 
 <div style="page-break-after: always;"></div>
 
