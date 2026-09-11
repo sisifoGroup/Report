@@ -1,6 +1,8 @@
+<div align="center"></div>
+
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
-<div align="center"><img src="assets/UPC-Logo.png" width="120"><br><br></div>
+<img src="assets/UPC-Logo.png" width="120"><br><br>
 
 ## FACULTAD DE INGENIERÍA
 ### CARRERA DE INGENIERÍA DE SOFTWARE
@@ -33,7 +35,9 @@
 
 ---
 **Mes y Año:** Septiembre, 2026  
-**Repositorio GitHub:** [Enlace a la Organización / Repositorio Público]  
+**Repositorio GitHub:** [Enlace a la Organización / Repositorio Público]
+
+</div>
 
 <div style="page-break-after: always;"></div>
 
