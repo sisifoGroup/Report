@@ -29,9 +29,9 @@
 | :--- | :--- | :--- |
 | U20221E617 | Verona Flores Italo Sebastian | Ingeniería de Software |
 | U20221A390 | Su Caletti Eddo | Ingeniería de Software |
-| U[Insertar Código] | [Apellido Paterno, Apellido Materno, Nombres] | Ingeniería de Software |
-| U[Insertar Código] | [Apellido Paterno, Apellido Materno, Nombres] | Ingeniería de Software |
-| U[Insertar Código] | [Apellido Paterno, Apellido Materno, Nombres] | Ingeniería de Software |
+| U202212214 | Oskar Rodrigo  Sosa Soto | Ingeniería de Software |
+| U202224867 | Ever Giusephi  Carlos Lavado| Ingeniería de Software |
+| U202218645| Augusto Sebastian  Montes Maza | Ingeniería de Software |
 
 ---
 **Mes y Año:** Septiembre, 2026  
@@ -48,10 +48,10 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
 | Versión | Fecha | Autor | Descripción de Modificación |
 | :---: | :---: | :--- | :--- |
 | **1.0.0** | 11/09/2026 | Verona Flores Italo Sebastian | Creación de la estructura base del informe, carátula e integración del registro de versiones. |
-| **1.0.1** | 11/09/2026 | [Nombre y Apellidos de Integrante] | Redacción del Startup Profile y descripción inicial de la organización. |
-| **1.0.2** | 11/09/2026 | [Nombre y Apellidos de Integrante] | Documentación de los perfiles individuales de los integrantes y roles preliminares. |
-| **1.0.3** | 11/09/2026 | [Nombre y Apellidos de Integrante] | Formulación del Solution Profile: aplicación de técnica 5W2H y análisis del problema. |
-| **1.0.4** | 11/09/2026 | [Nombre y Apellidos de Integrante] | Definición de la Propuesta de Valor y caracterización de Segmentos Objetivo. |
+| **1.0.1** | 11/09/2026 |  Su Caletti Eddo  | Me encargue de la parte de statup profile de los puntos descripción de la Startup y perfiles de Integrantes del Equipo. |
+| **1.0.2** | 11/09/2026 | Oskar Rodrigo  Sosa Soto | Documentación de los perfiles individuales de los integrantes y roles preliminares. |
+| **1.0.3** | 11/09/2026 | Ever Giusephi Carlos Lavado  | Formulación del Solution Profile: aplicación de técnica 5W2H y análisis del problema. |
+| **1.0.4** | 11/09/2026 | Augusto Sebastian   Montes Maza| Definición de la Propuesta de Valor y caracterización de Segmentos Objetivo. |
 | **1.1.0** | 11/09/2026 | [Nombre y Apellidos de Integrante] | Consolidación de los Objetivos SMART de los integrantes y tabla de Student Outcome. |
 | **1.2.0** | 11/09/2026 | [Nombre y Apellidos de Integrante] | Revisión final de estilo APA 7, validación cruzada y compilación para la entrega TB1. |
 
@@ -81,9 +81,9 @@ En la siguiente tabla se describen las acciones individuales realizadas y las co
 
 | Criterio Específico | Acciones Realizadas (Por Integrante - TB1) | Conclusiones Grupales |
 | :--- | :--- | :--- |
-| **Criterio 1:**<br>Diseña productos o componentes en ingeniería de software que satisfacen necesidades específicas considerando el impacto en salud pública, seguridad y bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Verona Flores, Italo Sebastian:**<br>• Participó en la identificación preliminar de los componentes básicos de la plataforma SmartStay, considerando la seguridad de la información de los usuarios y el confort en la gestión de hospedajes.<br><br>**[Apellido, Nombres del Estudiante 2]:**<br>• Colaboró en la descripción del problema de gestión hotelera evaluando el impacto económico en pequeños y medianos establecimientos.<br><br>**[Apellido, Nombres del Estudiante 3]:**<br>• Apoyó en la formulación de la propuesta de valor orientada a mejorar la experiencia y bienestar de los huéspedes.<br><br>**[Apellido, Nombres del Estudiante 4]:**<br>• Recopiló información sobre factores culturales y sociales en la interacción de usuarios y anfitriones.<br><br>**[Apellido, Nombres del Estudiante 5]:**<br>• Revisó consideraciones básicas de accesibilidad digital y protección de datos para la solución inicial. | Durante esta fase inicial (TB1), el equipo definió conceptualmente la solución SmartStay y el alcance preliminar del servicio, asegurando que los requerimientos base contemplen la seguridad de la información de los huéspedes y la accesibilidad del usuario. |
-| **Criterio 2:**<br>Diseña proyectos que permiten la implementación de soluciones en ingeniería de software considerando el impacto en salud pública, seguridad, bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Verona Flores, Italo Sebastian:**<br>• Apoyó en la estructuración de los objetivos iniciales del proyecto SmartStay y en la identificación de los stakeholders clave.<br><br>**[Apellido, Nombres del Estudiante 2]:**<br>• Participó en la delimitación de los antecedentes y el contexto del sector hotelero mediante la técnica 5W2H.<br><br>**[Apellido, Nombres del Estudiante 3]:**<br>• Colaboró en la definición preliminar de los segmentos objetivo (huéspedes y administradores de hospedajes).<br><br>**[Apellido, Nombres del Estudiante 4]:**<br>• Ayudó a mapear los riesgos y restricciones tempranas del entorno donde operará la solución.<br><br>**[Apellido, Nombres del Estudiante 5]:**<br>• Contribuyó en la definición de los canales de comunicación y coordinación inicial del equipo. | En este arranque, el equipo estructuró las bases del proyecto SmartStay aplicando técnicas de análisis del problema (5W2H) y alineando la planificación inicial con las necesidades operativas de los establecimientos de hospedaje. |
-| **Criterio 3:**<br>Diseña y ejecuta los procesos relacionados al desarrollo y mantenimiento de la solución de software en ingeniería considerando el impacto en salud pública, seguridad, bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Verona Flores, Italo Sebastian:**<br>• Colaboró en la configuración inicial del repositorio colaborativo en GitHub y en la adopción de las pautas de commits acordadas.<br><br>**[Apellido, Nombres del Estudiante 2]:**<br>• Participó en la organización de la documentación del informe en formato Markdown respetando la estructura exigida.<br><br>**[Apellido, Nombres del Estudiante 3]:**<br>• Apoyó en la configuración del tablero de seguimiento de tareas en Trello para la distribución de actividades.<br><br>**[Apellido, Nombres del Estudiante 4]:**<br>• Ayudó a definir los acuerdos de equipo (*Working Agreements*) para el trabajo colaborativo en las iteraciones.<br><br>**[Apellido, Nombres del Estudiante 5]:**<br>• Estableció los canales sincrónicos y asincrónicos para coordinar las reuniones semanales de seguimiento. | Se implementaron los procesos de trabajo colaborativo base (control de versiones en GitHub, tablero ágil en Trello y canales de comunicación), garantizando orden, transparencia y trazabilidad en la documentación de esta primera entrega. |
+| **Criterio 1:**<br>Diseña productos o componentes en ingeniería de software que satisfacen necesidades específicas considerando el impacto en salud pública, seguridad y bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Verona Flores, Italo Sebastian:**<br>• Participó en la identificación preliminar de los componentes básicos de la plataforma SmartStay, considerando la seguridad de la información de los usuarios y el confort en la gestión de hospedajes.<br><br>**Su Caletti Eddo**<br>• Colaboró en la descripción del problema de gestión hotelera evaluando el impacto económico en pequeños y medianos establecimientos y las descripcion de nuestro startup .<br><br>**Oskar Rodrigo  Sosa Soto**<br>• Apoyó en la formulación de la propuesta de valor orientada a mejorar la experiencia y bienestar de los huéspedes.<br><br>**Ever Giusephi  Carlos Lavado**<br>• Recopiló información sobre factores culturales y sociales en la interacción de usuarios y anfitriones.<br><br>**Augusto Sebastian Montes Maza**<br>• Revisó consideraciones básicas de accesibilidad digital y protección de datos para la solución inicial. | Durante esta fase inicial (TB1), el equipo definió conceptualmente la solución SmartStay y el alcance preliminar del servicio, asegurando que los requerimientos base contemplen la seguridad de la información de los huéspedes y la accesibilidad del usuario. |
+| **Criterio 2:**<br>Diseña proyectos que permiten la implementación de soluciones en ingeniería de software considerando el impacto en salud pública, seguridad, bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Verona Flores, Italo Sebastian:**<br>• Apoyó en la estructuración de los objetivos iniciales del proyecto SmartStay y en la identificación de los stakeholders clave.<br><br>**Su Caletti Eddo:**<br>• Participó en la delimitación de los antecedentes y el contexto del sector hotelero mediante la técnica 5W2H.<br><br>**Oskar Rodrigo  Sosa Soto:**<br>• Colaboró en la definición preliminar de los segmentos objetivo (huéspedes y administradores de hospedajes).<br><br>**Ever Giusephi  Carlos Lavado:**<br>• Ayudó a mapear los riesgos y restricciones tempranas del entorno donde operará la solución.<br><br>**Augusto Sebastian Montes Maza:**<br>• Contribuyó en la definición de los canales de comunicación y coordinación inicial del equipo. | En este arranque, el equipo estructuró las bases del proyecto SmartStay aplicando técnicas de análisis del problema (5W2H) y alineando la planificación inicial con las necesidades operativas de los establecimientos de hospedaje. |
+| **Criterio 3:**<br>Diseña y ejecuta los procesos relacionados al desarrollo y mantenimiento de la solución de software en ingeniería considerando el impacto en salud pública, seguridad, bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Verona Flores, Italo Sebastian:**<br>• Colaboró en la configuración inicial del repositorio colaborativo en GitHub y en la adopción de las pautas de commits acordadas.<br><br>**Su Caletti Eddo :**<br>• Participó en la organización de la documentación del informe en formato Markdown respetando la estructura exigida.<br><br>**Oskar Rodrigo  Sosa Soto:**<br>• Apoyó en la configuración del tablero de seguimiento de tareas en Trello para la distribución de actividades.<br><br>**Ever Giusephi  Carlos Lavado:**<br>• Ayudó a definir los acuerdos de equipo (*Working Agreements*) para el trabajo colaborativo en las iteraciones.<br><br>**Augusto Sebastian Montes Maza:**<br>• Estableció los canales sincrónicos y asincrónicos para coordinar las reuniones semanales de seguimiento. | Se implementaron los procesos de trabajo colaborativo base (control de versiones en GitHub, tablero ágil en Trello y canales de comunicación), garantizando orden, transparencia y trazabilidad en la documentación de esta primera entrega. |
 
 <div style="page-break-after: always;"></div>
 
@@ -108,15 +108,31 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 ---
 
-### 2. [Apellidos y Nombres del Estudiante 2]
+### 2. Su Caletti Eddo
+* **Objetivo SMART 1 (Técnico / Especialización):**
+  * *Específico (S):* Fortalecer mis competencias en desarrollo backend mediante el aprendizaje de Spring Boot y Java avanzado, y consolidar este conocimiento obteniendo la certificación internacional **Oracle Certified Professional: Java SE Developer**.
+  * *Medible (M):* Desarrollar 2 proyectos académicos integrales con arquitectura REST API e integración a bases de datos relacionales, y aprobar el examen de certificación con una puntuación superior al 70%.
+  * *Alcanzable (A):* Dedicar 6 horas semanales al estudio autodidacta, resolución de ejercicios prácticos en plataformas especializadas y la construcción progresiva del portafolio durante los próximos ciclos académicos.
+  * *Relevante (R):* Garantiza el dominio de un estándar industrial altamente demandado en el desarrollo de software empresarial, respaldando formalmente mis habilidades técnicas antes de egresar.
+  * *Temporal (T):* Completar la ruta de aprendizaje y obtener la certificación en un plazo máximo de 18 meses (al finalizar el 7.º ciclo).
+
+* **Objetivo SMART 2 (Liderazgo / Desarrollo Profesional):**
+  * *Específico (S):* Desarrollar habilidades de gestión de equipos y metodologías ágiles desempeñando el rol de *Scrum Master* o líder técnico en al menos dos proyectos académicos grupales de la carrera.
+  * *Medible (M):* Implementar ceremonias ágiles (Sprint Planning, Daily Stand-ups, Retrospectivas) y mantener una tasa de cumplimiento de historias de usuario del 90% en los sprints planificados.
+  * *Alcanzable (A):* Estudiar los marcos de trabajo Scrum y Kanban mediante recursos de Scrum.org y aplicar las herramientas de gestión (Jira/Trello) asignadas en los cursos de la especialidad.
+  * *Relevante (R):* Desarrolla competencias transversales de liderazgo, comunicación y gestión de proyectos, fundamentales para la coordinación eficiente en equipos de desarrollo de software.
+  * *Temporal (T):* Cumplir con la meta durante los próximos 12 meses (entre el 5.º y 6.º ciclo académico).
+---
+
+### 3. Oskar Rodrigo  Sosa Soto
 * **Objetivo SMART 1:**
-  * *S, M, A, R, T:* [Insertar formulación SMART centrada en especialización técnica, arquitectura, ciberseguridad o ciencia de datos].
+  * *S, M, A, R, T:* [Insertar formulación SMART].
 * **Objetivo SMART 2:**
-  * *S, M, A, R, T:* [Insertar formulación SMART centrada en liderazgo de equipos o certificaciones internacionales].
+  * *S, M, A, R, T:* [Insertar formulación SMART].
 
 ---
 
-### 3. [Apellidos y Nombres del Estudiante 3]
+### 4. Ever Giusephi  Carlos Lavado
 * **Objetivo SMART 1:**
   * *S, M, A, R, T:* [Insertar formulación SMART].
 * **Objetivo SMART 2:**
@@ -124,27 +140,20 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 ---
 
-### 4. [Apellidos y Nombres del Estudiante 4]
-* **Objetivo SMART 1:**
+### 5. Augusto Sebastian Montes Maza
+* **Objetivo SMART 1:** 
   * *S, M, A, R, T:* [Insertar formulación SMART].
 * **Objetivo SMART 2:**
   * *S, M, A, R, T:* [Insertar formulación SMART].
 
----
-
-### 5. [Apellidos y Nombres del Estudiante 5]
-* **Objetivo SMART 1:**
-  * *S, M, A, R, T:* [Insertar formulación SMART].
-* **Objetivo SMART 2:**
-  * *S, M, A, R, T:* [Insertar formulación SMART].
 
 <div style="page-break-after: always;"></div>
 
 # Capítulo I: Introducción
 
-## 1.1. Startup Profile
+## 3.1. Startup Profile
 
-### 1.1.1. Descripción de la Startup
+### 3.1.1. Descripción de la Startup
 
 * **Nombre de la Startup:** Sisifo  
 * **Misión:** Impulsar la transformación digital del sector hotelero boutique mediante soluciones de software ágiles e intuitivas que centralizan y automatizan la gestión del personal operativo, eliminando fricciones logísticas y garantizando un servicio de hospitalidad accesible y de alta calidad.  
@@ -157,7 +166,7 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 ---
 
-### 1.1.2. Perfiles de Integrantes del Equipo
+### 3.1.2. Perfiles de Integrantes del Equipo
 
 #### Integrante 1: Su Caletti eddo 
 * **Fotografía:**  
@@ -172,9 +181,9 @@ Estudiante del cuarto ciclo de Ingeniería de Software en la Universidad Peruana
 
 ---
 
-#### Integrante 2: [Apellidos y Nombres]
+#### Oskar Rodrigo   Sosa Soto
 * **Fotografía:** `![Foto](url-o-ruta)`
-* **Código de Estudiante:** U[Insertar Código]
+* **Código de Estudiante:** U202212214
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:** [Experiencia del integrante...]
 * **Principales Habilidades que Aporta al Equipo:**  
@@ -183,9 +192,9 @@ Estudiante del cuarto ciclo de Ingeniería de Software en la Universidad Peruana
 
 ---
 
-#### Integrante 3: [Apellidos y Nombres]
+#### Integrante 3: Italo Sebastian Verona Flores
 * **Fotografía:** `![Foto](url-o-ruta)`
-* **Código de Estudiante:** U[Insertar Código]
+* **Código de Estudiante:** U20221E617
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:** [Experiencia del integrante...]
 * **Principales Habilidades que Aporta al Equipo:**  
@@ -194,9 +203,9 @@ Estudiante del cuarto ciclo de Ingeniería de Software en la Universidad Peruana
 
 ---
 
-#### Integrante 4: [Apellidos y Nombres]
+####  Ever Giusephi Carlos Lavado
 * **Fotografía:** `![Foto](url-o-ruta)`
-* **Código de Estudiante:** U[Insertar Código]
+* **Código de Estudiante:** U202224867
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:** [Experiencia del integrante...]
 * **Principales Habilidades que Aporta al Equipo:**  
@@ -205,9 +214,9 @@ Estudiante del cuarto ciclo de Ingeniería de Software en la Universidad Peruana
 
 ---
 
-#### Integrante 5: [Apellidos y Nombres]
+#### Augusto Sebastian  Montes Maza
 * **Fotografía:** `![Foto](url-o-ruta)`
-* **Código de Estudiante:** U[Insertar Código]
+* **Código de Estudiante:** U202218645
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:** [Experiencia del integrante...]
 * **Principales Habilidades que Aporta al Equipo:**  
