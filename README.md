@@ -28,7 +28,7 @@
 | Código de Estudiante | Apellidos y Nombres | Carrera |
 | :--- | :--- | :--- |
 | U20221E617 | Verona Flores Italo Sebastian | Ingeniería de Software |
-| U[Insertar Código] | [Apellido Paterno, Apellido Materno, Nombres] | Ingeniería de Software |
+| U20221A390 | Su Caletti Eddo | Ingeniería de Software |
 | U[Insertar Código] | [Apellido Paterno, Apellido Materno, Nombres] | Ingeniería de Software |
 | U[Insertar Código] | [Apellido Paterno, Apellido Materno, Nombres] | Ingeniería de Software |
 | U[Insertar Código] | [Apellido Paterno, Apellido Materno, Nombres] | Ingeniería de Software |
@@ -142,32 +142,33 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 # Capítulo I: Introducción
 
-## 3.1. Startup Profile
+## 1.1. Startup Profile
 
-### 3.1.1. Descripción del Startup
-* **Nombre de la Startup:** [Nombre del Startup]  
-* **Misión:** [Declarar la razón de ser del startup, destacando la resolución de problemas mediante tecnología e innovación inclusiva].  
-* **Visión:** [Declarar a dónde aspira llegar el emprendimiento en los próximos 3 a 5 años en el mercado objetivo].  
-* **Valores y Cultura de Trabajo:**
-  * *Transparencia:* Comunicación abierta y visibilidad total en las tareas mediante tableros y ceremonias ágiles.
-  * *Adaptabilidad:* Capacidad iterativa ante cambios de contexto o requerimientos de los usuarios.
-  * *Excelencia Técnica:* Compromiso con la calidad de código, pruebas y arquitectura escalable.
-  * *Colaboración e Inclusión:* Fomento del trabajo multidisciplinario y respeto a las perspectivas de cada miembro.
+### 1.1.1. Descripción de la Startup
+
+* **Nombre de la Startup:** Sisifo  
+* **Misión:** Impulsar la transformación digital del sector hotelero boutique mediante soluciones de software ágiles e intuitivas que centralizan y automatizan la gestión del personal operativo, eliminando fricciones logísticas y garantizando un servicio de hospitalidad accesible y de alta calidad.  
+* **Visión:** Consolidarse en los próximos 3 a 5 años como el sistema estándar de optimización operativa para hoteles independientes a nivel regional e internacional, siendo reconocidos por convertir la complejidad logística en flujos de trabajo transparentes, eficientes y altamente escalables.  
+* **Valores y Cultura de Trabajo:**  
+  * *Transparencia:* Comunicación abierta y visibilidad total en las tareas mediante tableros de seguimiento y ceremonias ágiles (Scrum/Kanban), asegurando la trazabilidad de los avances.  
+  * *Adaptabilidad:* Capacidad iterativa ante cambios de contexto o requerimientos de los usuarios finales, refinando continuamente la solución **RapiFast**.  
+  * *Excelencia Técnica:* Compromiso con la calidad del código, prácticas de prueba y una arquitectura de software limpia y escalable.  
+  * *Colaboración e Inclusión:* Fomento del trabajo multidisciplinario, aprovechando la diversidad de perfiles técnicos del equipo y respetando las perspectivas de cada integrante.
 
 ---
 
-### 3.1.2. Perfiles de Integrantes del Equipo
+### 1.1.2. Perfiles de Integrantes del Equipo
 
-#### Integrante 1: [Apellidos y Nombres]
+#### Integrante 1: Su Caletti eddo 
 * **Fotografía:**  
-  *(Obligatoria: Insertar imagen formal o profesional con enlace relativo o tag Markdown `![Foto](url-o-ruta)`)*
-* **Código de Estudiante:** U[Insertar Código]
+ ![Foto de Eddo Su Caletti](./assets/FotoEddo.jpeg)
+* **Código de Estudiante:** U20221A390
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:**  
-  Estudiante del décimo ciclo de Ingeniería de Software con experiencia en diseño de patrones arquitectónicos, desarrollo Backend con Spring Boot y Node.js, y gestión de bases de datos relacionales y NoSQL.
+Estudiante del cuarto ciclo de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Posee bases sólidas en programación orientada a objetos, diseño de algoritmos y modelado de bases de datos relacionales. Cuenta con experiencia en proyectos académicos aplicando buenas prácticas de desarrollo web, control de versiones y estructuración de documentación técnica de software.
 * **Principales Habilidades que Aporta al Equipo:**  
-  * *Conocimientos Técnicos:* Arquitectura de microservicios, GitFlow, Docker, CI/CD, Java, TypeScript.  
-  * *Habilidades Blandas:* Liderazgo servicial, resolución proactiva de impedimentos, comunicación asertiva y negociación ágil.
+  * *Conocimientos Técnicos:* Programación Orientada a Objetos (C++ / Java), diseño de bases de datos SQL, control de versiones con Git y GitHub  y documentación técnica.
+  * *Habilidades Blandas:* Ejecución práctica y orientada a resultados, resolución lógica de problemas, alta capacidad de aprendizaje e integración en equipo, responsabilidad y comunicación clara.
 
 ---
 
