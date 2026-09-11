@@ -1,6 +1,6 @@
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
-<img src="assets/UPC-Logo.png" width="120"><br><br>
+<div align="center"><img src="assets/UPC-Logo.png" width="120"><br><br></div>
 
 ## FACULTAD DE INGENIERÍA
 ### CARRERA DE INGENIERÍA DE SOFTWARE
