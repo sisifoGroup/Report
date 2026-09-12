@@ -255,14 +255,14 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 #### Integrante 5: Augusto Sebastian Montes Maza
 * **Fotografía:**  
-  `![Foto](url-o-ruta)`
+  <img src="./assets/AugustoSebastian_5x5.jpg" width="180" alt="Foto de Augusto Sebastian Montes Maza">
 * **Código de Estudiante:** U202218645
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:**  
-  [Experiencia del integrante...]
+  Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), con experiencia académica en el desarrollo de aplicaciones web, APIs REST y sistemas backend utilizando tecnologías como C#, .NET, Java, PHP y SQL Server. Ha participado en proyectos de software aplicando programación orientada a objetos, diseño de bases de datos, arquitectura de microservicios, metodologías ágiles y control de versiones con Git y GitHub. Asimismo, cuenta con experiencia en atención y comunicación con público estadounidense, fortaleciendo sus habilidades de adaptación y comunicación intercultural.
 * **Principales Habilidades que Aporta al Equipo:**  
-  * *Conocimientos Técnicos:* [Tecnologías, frameworks...]
-  * *Habilidades Blandas:* [Organización, comunicación intercultural...]
+  * *Conocimientos Técnicos:* Desarrollo backend, C#, .NET, Java, PHP, APIs REST, SQL Server, diseño de bases de datos, arquitectura de microservicios, Swagger, Git, GitHub y documentación técnica.
+  * *Habilidades Blandas:* Pensamiento analítico, resolución de problemas, responsabilidad, organización, comunicación efectiva, trabajo colaborativo, adaptabilidad y comunicación intercultural.
 
 ---
 
