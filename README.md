@@ -191,10 +191,11 @@ Estudiante del cuarto ciclo de Ingeniería de Software en la Universidad Peruana
 * **Fotografía:** `![Foto](url-o-ruta)`
 * **Código de Estudiante:** U202212214
 * **Carrera:** Ingeniería de Software
-* **Breve Descripción de Experiencia:** [Experiencia del integrante...]
+* **Breve Descripción de Experiencia:**  
+  I am a Software Engineering student at Universidad Peruana de Ciencias Aplicadas (UPC) focused on building useful, reliable and maintainable digital products. My experience combines full-stack development, mobile applications, IoT solutions and software quality assurance. I have participated in academic, personal and real-world projects covering frontend interfaces, backend services, databases, authentication, testing, documentation and collaborative delivery with Git and Scrum. I enjoy understanding a product from two complementary perspectives: how to build it correctly and how to verify that it works correctly.
 * **Principales Habilidades que Aporta al Equipo:**  
-  * *Conocimientos Técnicos:* [Tecnologías, frameworks...]  
-  * *Habilidades Blandas:* [Trabajo en equipo, resiliencia...]
+  * *Conocimientos Técnicos:* Desarrollo full-stack (frontend y backend), aplicaciones móviles, soluciones IoT, bases de datos y autenticación, aseguramiento de calidad de software (QA/testing) y control de versiones con Git.  
+  * *Habilidades Blandas:* Pensamiento analítico para construir y verificar soluciones desde ambas perspectivas, colaboración efectiva en equipos ágiles (Scrum) y comunicación clara en la documentación técnica.
 
 ---
 
