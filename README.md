@@ -188,7 +188,7 @@ Estudiante del cuarto ciclo de Ingeniería de Software en la Universidad Peruana
 ---
 
 #### Oskar Rodrigo   Sosa Soto
-* **Fotografía:** `![Foto](url-o-ruta)`
+* **Fotografía:** ![Foto Oskar Rodrigo Sosa Soto](./assets/foto_oskar.jpg)
 * **Código de Estudiante:** U202212214
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:**  
