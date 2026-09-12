@@ -131,10 +131,19 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 ---
 
 ### 3. Oskar Rodrigo  Sosa Soto
-* **Objetivo SMART 1:**
-  * *S, M, A, R, T:* [Insertar formulación SMART].
-* **Objetivo SMART 2:**
-  * *S, M, A, R, T:* [Insertar formulación SMART].
+* **Objetivo SMART 1 (Técnico / Especialización):**
+  * *Específico (S):* Profundizar mis competencias en desarrollo full-stack y aseguramiento de calidad de software (QA), obteniendo una certificación internacional en testing (por ejemplo, ISTQB Foundation Level) que respalde formalmente mi capacidad de construir y verificar soluciones.
+  * *Medible (M):* Completar al menos 3 proyectos integrales (web, móvil o IoT) que incluyan una suite de pruebas automatizadas con cobertura mayor al 70%, y aprobar el examen de certificación ISTQB.
+  * *Alcanzable (A):* Dedicar 6 horas semanales al estudio de frameworks de testing (unitario, integración y end-to-end) y a la práctica de control de calidad sobre mis propios proyectos full-stack durante los próximos ciclos académicos.
+  * *Relevante (R):* Consolida mi perfil dual de desarrollador y verificador, un enfoque muy valorado en la industria para reducir errores en producción y mejorar la confiabilidad de los productos que construyo.
+  * *Temporal (T):* Obtener la certificación y completar el portafolio de proyectos en un plazo máximo de 18 meses (al finalizar el 7.º ciclo).
+
+* **Objetivo SMART 2 (Desarrollo Profesional / Especialización en IoT):**
+  * *Específico (S):* Especializarme en el desarrollo de soluciones IoT integradas a aplicaciones móviles y backends escalables, liderando o participando activamente en un proyecto real que conecte dispositivos físicos con una plataforma digital.
+  * *Medible (M):* Diseñar e implementar al menos 1 proyecto IoT funcional de extremo a extremo (sensor/dispositivo, backend y app móvil) y presentarlo como parte de mi portafolio profesional.
+  * *Alcanzable (A):* Aplicar los conocimientos adquiridos en cursos de la carrera y recursos autodidactas sobre microcontroladores, protocolos de comunicación (MQTT/HTTP) y desarrollo móvil, dedicando tiempo constante durante los ciclos restantes.
+  * *Relevante (R):* Amplía mi rango de acción como ingeniero de software hacia productos híbridos hardware-software, aumentando mi empleabilidad en sectores con alta demanda de soluciones conectadas.
+  * *Temporal (T):* Culminar el proyecto IoT integral en un plazo de 2 años, antes de finalizar la carrera universitaria.
 
 ---
 
@@ -176,7 +185,7 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 #### Integrante 1: Su Caletti eddo 
 * **Fotografía:**  
- ![Foto de Eddo Su Caletti](./assets/FotoEddo.jpeg)
+ <img src="./assets/FotoEddo.jpeg" width="180" alt="Foto de Eddo Su Caletti">
 * **Código de Estudiante:** U20221A390
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:**  
@@ -188,7 +197,8 @@ Estudiante del cuarto ciclo de Ingeniería de Software en la Universidad Peruana
 ---
 
 #### Oskar Rodrigo   Sosa Soto
-* **Fotografía:** ![Foto Oskar Rodrigo Sosa Soto](./assets/foto_oskar.jpg)
+* **Fotografía:**  
+ <img src="./assets/foto_oskar.jpg" width="180" alt="Foto Oskar Rodrigo Sosa Soto">
 * **Código de Estudiante:** U202212214
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:**  
