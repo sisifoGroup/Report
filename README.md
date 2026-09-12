@@ -183,61 +183,67 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 ### 3.1.2. Perfiles de Integrantes del Equipo
 
-#### Integrante 1: Su Caletti eddo 
+#### Integrante 1: Su Caletti Eddo
 * **Fotografía:**  
- <img src="./assets/FotoEddo.jpeg" width="180" alt="Foto de Eddo Su Caletti">
+  <img src="./assets/FotoEddo.jpeg" width="180" alt="Foto de Eddo Su Caletti">
 * **Código de Estudiante:** U20221A390
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:**  
-Estudiante del cuarto ciclo de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Posee bases sólidas en programación orientada a objetos, diseño de algoritmos y modelado de bases de datos relacionales. Cuenta con experiencia en proyectos académicos aplicando buenas prácticas de desarrollo web, control de versiones y estructuración de documentación técnica de software.
+  Estudiante del cuarto ciclo de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). Posee bases sólidas en programación orientada a objetos, diseño de algoritmos y modelado de bases de datos relacionales. Cuenta con experiencia en proyectos académicos aplicando buenas prácticas de desarrollo web, control de versiones y estructuración de documentación técnica de software.
 * **Principales Habilidades que Aporta al Equipo:**  
-  * *Conocimientos Técnicos:* Programación Orientada a Objetos (C++ / Java), diseño de bases de datos SQL, control de versiones con Git y GitHub  y documentación técnica.
+  * *Conocimientos Técnicos:* Programación Orientada a Objetos (C++ / Java), diseño de bases de datos SQL, control de versiones con Git y GitHub, y documentación técnica.
   * *Habilidades Blandas:* Ejecución práctica y orientada a resultados, resolución lógica de problemas, alta capacidad de aprendizaje e integración en equipo, responsabilidad y comunicación clara.
 
 ---
 
-#### Oskar Rodrigo   Sosa Soto
+#### Integrante 2: Oskar Rodrigo Sosa Soto
 * **Fotografía:**  
- <img src="./assets/foto_oskar.jpg" width="180" alt="Foto Oskar Rodrigo Sosa Soto">
+  <img src="./assets/foto_oskar.jpg" width="180" alt="Foto de Oskar Rodrigo Sosa Soto">
 * **Código de Estudiante:** U202212214
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:**  
   I am a Software Engineering student at Universidad Peruana de Ciencias Aplicadas (UPC) focused on building useful, reliable and maintainable digital products. My experience combines full-stack development, mobile applications, IoT solutions and software quality assurance. I have participated in academic, personal and real-world projects covering frontend interfaces, backend services, databases, authentication, testing, documentation and collaborative delivery with Git and Scrum. I enjoy understanding a product from two complementary perspectives: how to build it correctly and how to verify that it works correctly.
 * **Principales Habilidades que Aporta al Equipo:**  
-  * *Conocimientos Técnicos:* Desarrollo full-stack (frontend y backend), aplicaciones móviles, soluciones IoT, bases de datos y autenticación, aseguramiento de calidad de software (QA/testing) y control de versiones con Git.  
+  * *Conocimientos Técnicos:* Desarrollo full-stack (frontend y backend), aplicaciones móviles, soluciones IoT, bases de datos y autenticación, aseguramiento de calidad de software (QA/testing), y control de versiones con Git.
   * *Habilidades Blandas:* Pensamiento analítico para construir y verificar soluciones desde ambas perspectivas, colaboración efectiva en equipos ágiles (Scrum) y comunicación clara en la documentación técnica.
 
 ---
 
 #### Integrante 3: Italo Sebastian Verona Flores
-* **Fotografía:** `![Foto](url-o-ruta)`
+* **Fotografía:**  
+  `![Foto](url-o-ruta)`
 * **Código de Estudiante:** U20221E617
 * **Carrera:** Ingeniería de Software
-* **Breve Descripción de Experiencia:** [Experiencia del integrante...]
+* **Breve Descripción de Experiencia:**  
+  [Experiencia del integrante...]
 * **Principales Habilidades que Aporta al Equipo:**  
-  * *Conocimientos Técnicos:* [Tecnologías, frameworks...]  
+  * *Conocimientos Técnicos:* [Tecnologías, frameworks...]
   * *Habilidades Blandas:* [Pensamiento analítico, gestión del tiempo...]
 
 ---
 
-####  Ever Giusephi Carlos Lavado
-* **Fotografía:** `![Foto](url-o-ruta)`
+#### Integrante 4: Ever Giusephi Carlos Lavado
+* **Fotografía:**  
+  `![Foto](url-o-ruta)`
 * **Código de Estudiante:** U202224867
 * **Carrera:** Ingeniería de Software
-* **Breve Descripción de Experiencia:** [Experiencia del integrante...]
+* **Breve Descripción de Experiencia:**  
+  [Experiencia del integrante...]
 * **Principales Habilidades que Aporta al Equipo:**  
-  * *Conocimientos Técnicos:* [Tecnologías, frameworks...]  
+  * *Conocimientos Técnicos:* [Tecnologías, frameworks...]
   * *Habilidades Blandas:* [Creatividad, adaptabilidad...]
 
 ---
 
-#### Augusto Sebastian  Montes Maza
-* **Fotografía:** `![Foto](url-o-ruta)`
+#### Integrante 5: Augusto Sebastian Montes Maza
+* **Fotografía:**  
+  `![Foto](url-o-ruta)`
 * **Código de Estudiante:** U202218645
 * **Carrera:** Ingeniería de Software
-* **Breve Descripción de Experiencia:** [Experiencia del integrante...]
+* **Breve Descripción de Experiencia:**  
+  [Experiencia del integrante...]
 * **Principales Habilidades que Aporta al Equipo:**  
-  * *Conocimientos Técnicos:* [Tecnologías, frameworks...]  
+  * *Conocimientos Técnicos:* [Tecnologías, frameworks...]
   * *Habilidades Blandas:* [Organización, comunicación intercultural...]
 
 ---
