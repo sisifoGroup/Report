@@ -149,9 +149,18 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 ### 4. Ever Giusephi  Carlos Lavado
 * **Objetivo SMART 1:**
-  * *S, M, A, R, T:* [Insertar formulación SMART].
+  * S (Specific): Mejorar mis conocimientos y habilidades prácticas en desarrollo de aplicaciones web.
+  * M (Measurable): Completar al menos 2 proyectos funcionales aplicando tecnologías y buenas prácticas de desarrollo.
+  * A (Achievable): Dedicar al menos 4 horas semanales al aprendizaje y desarrollo práctico.
+  * R (Relevant): Fortalecer mis competencias técnicas necesarias para mi formación como ingeniero de software.
+  * T (Time-bound): Alcanzarlo al finalizar el presente ciclo académico.
+
 * **Objetivo SMART 2:**
-  * *S, M, A, R, T:* [Insertar formulación SMART].
+  * S (Specific): Mejorar la planificación y organización de mis actividades académicas y proyectos.
+  * M (Measurable): Cumplir al menos con el 90 % de mis tareas y entregables antes de sus fechas límite.
+  * A (Achievable): Utilizar semanalmente herramientas de planificación y establecer prioridades para cada actividad.
+  * R (Relevant): Mejorar mi productividad y cumplimiento de responsabilidades dentro de los equipos de trabajo.
+  * T (Time-bound): Mantener este nivel de cumplimiento durante todo el presente ciclo académico.
 
 ---
 
@@ -224,14 +233,14 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 #### Integrante 4: Ever Giusephi Carlos Lavado
 * **Fotografía:**  
-  `![Foto](url-o-ruta)`
+  <img src="./assets/giusephi-carlos.png" width="180" alt="Foto de Giusephi Carlos">
 * **Código de Estudiante:** U202224867
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:**  
-  [Experiencia del integrante...]
+  Estudiante de Ingeniería de Software con experiencia académica en el desarrollo de aplicaciones web, gestión de proyectos de software y trabajo colaborativo mediante metodologías ágiles. Familiarizado con el desarrollo frontend, control de versiones y documentación de proyectos.
 * **Principales Habilidades que Aporta al Equipo:**  
-  * *Conocimientos Técnicos:* [Tecnologías, frameworks...]
-  * *Habilidades Blandas:* [Creatividad, adaptabilidad...]
+  * *Conocimientos Técnicos:* Desarrollo web, Vue.js, JavaScript, HTML, CSS, Git, GitHub, bases de datos y documentación técnica.
+  * *Habilidades Blandas:* Organización, responsabilidad, trabajo en equipo, comunicación efectiva, adaptabilidad y resolución de problemas.
 
 ---
 
