@@ -66,9 +66,15 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
      * 3.1.1. [Descripción del Startup](#311-descripción-del-startup)
      * 3.1.2. [Perfiles de Integrantes del Equipo](#312-perfiles-de-integrantes-del-equipo)
    * 3.2. [Solution Profile](#32-solution-profile)
-     * 3.2.1. [Antecedentes y Problemática (Técnica 5W2H)](#321-antecedentes-y-problemática-técnica-5w2h)
-     * 3.2.2. [Propuesta de Valor](#322-propuesta-de-valor)
-     * 3.2.3. [Segmentos Objetivo](#323-segmentos-objetivo)
+     * 3.2.1. [Nombre del Producto](#321-nombre-del-producto)
+     * 3.2.2. [Antecedentes y Problemática (Técnica 5W2H)](#322-antecedentes-y-problemática-técnica-5w2h)
+     * 3.2.3. [Lean UX Process](#323-lean-ux-process)
+       * 3.2.3.1. [Lean UX Problem Statement](#3231-lean-ux-problem-statement)
+       * 3.2.3.2. [Lean UX Assumptions](#3232-lean-ux-assumptions)
+       * 3.2.3.3. [Lean UX Hypothesis](#3233-lean-ux-hypothesis)
+       * 3.2.3.4. [Lean UX Canvas](#3234-lean-ux-canvas)
+     * 3.2.4. [Propuesta de Valor](#324-propuesta-de-valor)
+     * 3.2.5. [Segmentos Objetivo](#325-segmentos-objetivo)
 
 <div style="page-break-after: always;"></div>
 
@@ -227,41 +233,159 @@ Estudiante del cuarto ciclo de Ingeniería de Software en la Universidad Peruana
 
 ## 3.2. Solution Profile
 
-### 3.2.1. Antecedentes y Problemática (Técnica 5W2H)
+### 3.2.1. Nombre del Producto
 
-Para estructurar la problemática de manera rigurosa, se aplica el análisis mediante la técnica **5W2H**:
+**SmartStay**
 
-* **What? (¿Qué problema ocurre?):**  
-  [Describir de forma precisa la deficiencia, cuello de botella, ineficiencia o carencia identificada en el sector].
-* **Who? (¿Quiénes se ven afectados?):**  
-  [Identificar claramente a los usuarios, trabajadores, clientes o entidades que sufren las consecuencias del problema].
-* **Where? (¿Dónde ocurre el problema?):**  
-  [Delimitar el contexto geográfico, entorno empresarial, canales físicos o digitales donde se manifiesta la problemática].
-* **When? (¿Cuándo o con qué frecuencia ocurre?):**  
-  [Establecer la temporalidad, frecuencia o momentos críticos del ciclo en que se produce el problema].
-* **Why? (¿Por qué ocurre el problema?):**  
-  [Analizar las causas raíces del problema, como falta de integración digital, procesos manuales obsoletos o desinformación].
-* **How? (¿Cómo se manifiesta o cómo se gestiona actualmente?):**  
-  [Explicar los mecanismos ineficientes o paliativos que se utilizan actualmente para intentar resolver la situación].
-* **How Much? (¿Cuánto cuesta o qué impacto cuantitativo genera?):**  
-  [Cuantificar las pérdidas en tiempo, dinero, productividad, tasa de abandono, costos de oportunidad o insatisfacción de los afectados].
-
-#### Impacto del Problema:
-* **Económico:** [Detalle de pérdidas económicas directas e indirectas].
-* **Operativo:** [Cuellos de botella, reprocesos y horas-hombre desperdiciadas].
-* **Social y Bienestar:** [Estrés en los involucrados, insatisfacción del cliente o barreras de acceso].
-
-#### Stakeholders Identificados:
-* **Afectados Directos:** [Usuarios finales, clientes primarios].
-* **Afectados Indirectos:** [Supervisores, proveedores, personal administrativo].
-* **Beneficiarios de la Solución:** [Empresa, clientes, entidades regulatorias].
-
-#### Oportunidad de Negocio / Solución:
-[Detallar cómo la solución digital transformará el problema en una ventaja competitiva mediante automatización, analítica o conexión ágil de servicios].
+SmartStay es una plataforma de gestión operativa inteligente diseñada específicamente para el sector hotelero boutique. El producto se define como un sistema centralizado que optimiza la coordinación de tareas críticas mediante una arquitectura robusta y escalable, permitiendo al Staff Operativo gestionar solicitudes, estados de habitación y mantenimiento con alta disponibilidad y eficiencia en tiempo real.
 
 ---
 
-### 3.2.2. Propuesta de Valor
+### 3.2.2. Antecedentes y Problemática (Técnica 5W2H)
+
+Para fundamentar el diseño de la arquitectura de SmartStay, se aplica la técnica de las **5W2H**. Este análisis permite identificar los *Architectural Drivers* (Atributos de Calidad) necesarios para resolver las deficiencias del sistema actual.
+
+* **Who? (¿Quiénes?):**  
+  El problema impacta directamente al Staff Operativo (término que integra tanto a los administradores como al personal de limpieza, mantenimiento y recepción) de hoteles boutique. Asimismo, afecta a los huéspedes, quienes demandan una experiencia personalizada y autónoma que la infraestructura actual no puede soportar de manera eficiente.
+* **What? (¿Qué?):**  
+  El problema central es la carencia de automatización y digitalización en la gestión hotelera integral. Desde una perspectiva de arquitectura, existe una falta de interoperabilidad y procesamiento en tiempo real de los datos, lo que resulta en una gestión de inventarios y servicios manual y propensa a errores.
+* **Where? (¿Dónde?):**  
+  La problemática es omnipresente en el ecosistema hotelero: desde los módulos administrativos y de recepción hasta las áreas de servicio y las habitaciones. La falta de un sistema centralizado impide que el Staff Operativo tenga visibilidad total de las operaciones en todas las áreas físicas del establecimiento.
+* **When? (¿Cuándo?):**  
+  Ocurre de forma ininterrumpida (24/7). Sin embargo, se vuelve crítica durante los picos de check-in/check-out y temporadas de alta ocupación, donde los sistemas tradicionales fallan al intentar escalar ante múltiples solicitudes simultáneas de servicios por parte de los huéspedes.
+* **Why? (¿Por qué?):**  
+  El origen técnico radica en la dependencia de arquitecturas monolíticas o sistemas aislados que no permiten la integración de nuevas tecnologías. La falta de un diseño basado en Domain-Driven Design (DDD) ha generado una lógica de negocio acoplada que impide la actualización independiente de módulos y la implementación de soluciones IoT para el monitoreo en tiempo real.
+* **How? (¿Cómo?):**  
+  El Staff Operativo debe realizar tareas manuales redundantes, como verificar disponibilidad física de habitaciones o coordinar servicios vía radio o papel. Sin una arquitectura de microservicios orientada a eventos, la sincronización entre el pedido de un huésped y la ejecución de la tarea por parte del personal es lenta y carece de trazabilidad.
+* **How Much? (¿Cuánto?):**  
+  Estas ineficiencias arquitectónicas se traducen en una pérdida de productividad estimada entre el 15% y 20%. Además, genera un incremento significativo en costos operativos (energía y suministros) y una degradación en la satisfacción del cliente, lo que impacta negativamente en la reputación digital y el valor del negocio a largo plazo.
+
+---
+
+### 3.2.3. Lean UX Process
+
+#### 3.2.3.1. Lean UX Problem Statement
+
+**Problem Statement: Fragmentación del Servicio y Experiencia del Huésped**
+
+El actual servicio de gestión hotelera en el segmento boutique presenta una fragmentación operativa que impide el cumplimiento de los estándares de hospitalidad modernos. Hemos observado que tanto el Staff Operativo (administradores y personal de campo) como los huéspedes enfrentan un factor crítico: la gestión manual y analógica genera cuellos de botella informáticos, errores de disponibilidad y una incapacidad técnica para ofrecer personalización en tiempo real.
+
+Para los huéspedes, la falta de canales digitales autónomos se traduce en tiempos de espera excesivos para trámites básicos como el check-in/check-out y una dependencia total del personal para solicitar servicios de habitación o reportar incidencias. Esta desconexión tecnológica degrada la percepción de confort y modernidad que el hotel busca proyectar.
+
+Desde el punto de vista arquitectónico, los sistemas actuales no permiten una sincronización distribuida. Esto obliga al personal a trabajar a ciegas y al huésped a permanecer pasivo, careciendo ambos de una plataforma centralizada con capacidades de respuesta inmediata y monitoreo proactivo.
+
+> ¿Cómo podríamos diseñar una arquitectura digital que automatice la gestión operativa para el Staff Operativo y, simultáneamente, empodere al huésped con herramientas de autoservicio, reduciendo errores y elevando la calidad de la experiencia personalizada?
+
+**Features**
+* Gestión Centralizada de Habitaciones: Visualización en tiempo real del inventario y actualización de estados (disponible, ocupada, limpieza, mantenimiento) para el control administrativo.
+* Asignación y Registro Digital: Automatización de la asignación de habitaciones según disponibilidad y gestión de procesos de check-in/check-out digitales.
+* Módulo de Housekeeping (Limpieza): Programación dinámica de tareas de limpieza con registro de avance por parte del personal operativo y notificaciones de estado.
+* Coordinación de Mantenimiento: Sistema de tickets para el registro, asignación y seguimiento de incidencias reportadas por el personal o los huéspedes.
+* Dashboard de Staff Operativo (Administradores): Panel de control analítico para la gestión de recursos, personal y supervisión general de la operación hotelera.
+* Portal de Autoservicio para Huéspedes: Interfaz digital para solicitar servicios (amenities, asistencia), consultar estados de cuenta y personalizar su estancia.
+* Sistema de Notificaciones Event-Driven: Alertas inmediatas para el personal (limpieza/mantenimiento) y notificaciones de servicio para los huéspedes mediante una arquitectura de eventos.
+* Seguridad y Gestión de Roles: Control de acceso granular para diferenciar funciones entre administradores, personal operativo y huéspedes, asegurando la integridad de los datos.
+
+**Business Outcomes**
+* *Objetivo (O):* Mejorar la eficiencia operativa del establecimiento hotelero en un ciclo inicial de 4 meses.
+* *Key Results (KR):*
+  * Reducir en un 15% el tiempo promedio de procesamiento de check-in y check-out mediante la automatización de procesos.
+  * Disminuir en un 10% los costos operativos derivados de errores en procesos manuales y redundancia de tareas.
+  * Alcanzar un 80% de adopción activa del sistema por parte del Staff Operativo en la gestión de sus actividades diarias.
+
+**User Outcomes**
+* *Objetivo (O):* Brindar una experiencia de gestión ágil, transparente y autónoma tanto para huéspedes como para el personal.
+* *Key Results (KR):*
+  * Lograr que los huéspedes completen su registro digital de manera autónoma en menos de 3 minutos.
+  * Obtener una calificación de satisfacción de usuario (NPS) de al menos 8/10 respecto a la nueva experiencia digital.
+  * Asegurar que el 70% de los usuarios recurrentes utilicen las funciones de autoservicio sin requerir asistencia presencial del personal.
+
+---
+
+#### 3.2.3.2. Lean UX Assumptions
+
+**Business Assumptions**
+* **Creo que mis clientes necesitan:** Una solución centralizada para la gestión hotelera que elimine la dependencia de procesos manuales, optimice la comunicación interna y mejore la experiencia del huésped a través de la automatización de servicios.
+* **Estas necesidades se pueden resolver con:** Una plataforma de gestión operativa que integre la supervisión administrativa, la ejecución de tareas de campo y la interacción directa del huésped en un único ecosistema digital de respuesta inmediata.
+* **Mis clientes iniciales son (o serán):** Hoteles boutique y de mediana escala en zonas turísticas de Lima, que buscan diferenciarse mediante la modernización de su servicio y la eficiencia de su personal.
+* **El valor #1 que un cliente quiere de mi servicio es:** La visibilidad total y en tiempo real de la operación hotelera, permitiendo una toma de decisiones ágil y una reducción drástica de errores en la atención al cliente.
+* **El cliente también puede obtener estos beneficios adicionales:**
+  * Optimización en el uso de insumos y recursos operativos.
+  * Reducción de tiempos de espera en procesos de recepción y servicios.
+  * Mejora en la reputación digital basada en la satisfacción del huésped.
+  * Trazabilidad completa del desempeño del personal.
+* **Voy a adquirir la mayoría de mis clientes a través de:** Venta directa consultiva, alianzas con gremios hoteleros locales y demostraciones de impacto en la eficiencia operativa.
+* **Haré dinero a través de:** Un modelo de suscripción basado en el volumen de habitaciones gestionadas y niveles de servicio contratados.
+* **Mi competencia principal en el mercado será:** Sistemas de gestión hotelera tradicionales que carecen de módulos de interacción directa con el huésped y herramientas de coordinación en tiempo real para el personal de campo.
+* **Los venceremos debido a:** Nuestra capacidad de unificar la gestión administrativa y operativa con la experiencia del usuario final (huésped) en una sola interfaz fluida y sin fricciones.
+* **Mi mayor riesgo de producto es:** La resistencia al cambio por parte de los establecimientos con procesos muy arraigados a lo análogo y la percepción de complejidad en la adopción de nuevas herramientas.
+* **Resolveremos esto a través de:**
+  * Una interfaz extremadamente intuitiva que no requiera capacitación técnica avanzada.
+  * Implementaciones modulares que permitan al hotel adoptar la solución de forma progresiva.
+  * Acompañamiento estratégico durante el despliegue inicial.
+* **¿Qué otras suposiciones tenemos que, si se prueba que es falso, causará que nuestro negocio/proyecto no funcione?**
+  * El Staff Operativo está dispuesto a reemplazar las comunicaciones por radio o papel por herramientas digitales.
+  * Los huéspedes valoran la autonomía digital por encima de la interacción humana tradicional en hoteles boutique.
+  * La infraestructura de conectividad de los hoteles es estable para soportar operaciones en tiempo real.
+
+**User Assumptions**
+* **¿Quién es el usuario?**  
+  El Staff Operativo (que incluye a los administradores responsables de la supervisión y al personal de recepción, limpieza y mantenimiento) y los Huéspedes que buscan una estancia moderna y eficiente.
+* **¿Dónde encaja nuestro producto en su trabajo o vida?**  
+  Para el Staff Operativo, es la herramienta central de trabajo que organiza su jornada y facilita la comunicación. Para los Huéspedes, es el canal principal para gestionar su estancia y solicitudes sin intermediarios innecesarios.
+* **¿Qué problemas tiene nuestro producto y cómo se puede resolver?**  
+  El principal desafío es la fragmentación de la información. Se resuelve consolidando estados de habitaciones, requerimientos de mantenimiento y pedidos de huéspedes en un flujo de datos sincronizado y accesible según el rol del usuario.
+* **¿Cuándo y cómo es usado nuestro producto?**  
+  Se usa de manera continua durante toda la jornada operativa: desde la planificación de limpieza matutina, la gestión de ingresos y salidas al mediodía, hasta la atención de solicitudes especiales durante la noche.
+* **¿Qué características son importantes?**
+  * Actualización de estados en tiempo real.
+  * Sistema de gestión de tickets y tareas asignadas.
+  * Interfaz de autoservicio para el huésped.
+  * Panel de indicadores para la toma de decisiones administrativa.
+* **¿Cómo debe verse nuestro producto y cómo debe comportarse?**  
+  Debe ser ágil y confiable. La interfaz debe priorizar la claridad sobre el adorno, asegurando que un administrador pueda identificar cuellos de botella de un vistazo y que el personal de limpieza pueda actualizar su progreso con un solo toque.
+
+---
+
+#### 3.2.3.3. Lean UX Hypothesis
+
+**Hypothesis 1: Digital Check-in/Check-out Efficiency**  
+We believe that implementing an automated digital registration and departure flow for Guests and Staff Operativo will reduce the average processing time for these operations by 15%.  
+We'll know this is true when we see that guests complete their digital registration in less than 3 minutes and at least 70% of them use the digital system autonomously without requiring physical assistance.
+
+**Hypothesis 2: Operational Staff Platform Adoption**  
+We believe that providing a centralized management platform for the Staff Operativo (including administrators and field personnel) will achieve at least 80% adoption of the system for daily task coordination.  
+We'll know this is true when we see consistent daily usage of the platform for room status updates and a 10% reduction in manual operational costs after four months of implementation.
+
+**Hypothesis 3: Real-Time Operational Coordination**  
+We believe that enabling real-time synchronization of room statuses and maintenance requests for the Staff Operativo will significantly decrease coordination errors and internal response times.  
+We'll know this is true when we see an internal staff satisfaction score (NPS) of at least 8/10 and a 20% improvement in the speed of task completion compared to traditional manual methods.
+
+**Hypothesis 4: Smart Resource Optimization**  
+We believe that automating the monitoring of room environments and energy consumption for Hotel Administrators (within the Staff Operativo) will optimize the establishment's overall resource usage.  
+We'll know this is true when we see a 20% reduction in monthly utility expenses and the generation of automated consumption reports that allow for proactive resource control.
+
+**Hypothesis 5: Guest Experience Personalization**  
+We believe that empowering Guests with direct digital control over their room environment and service scheduling will increase their overall satisfaction and the consumption of additional amenities.  
+We'll know this is true when we see a 25% increase in satisfaction ratings in post-stay surveys and a 15% growth in room service and optional amenity orders.
+
+**Hypothesis 6: Pilot Program Validation**  
+We believe that offering a scalable and modular implementation model for boutique hotels in Lima will generate the necessary interest to validate our business model.  
+We'll know this is true when we see the participation of at least three hotels in our initial pilot program with signed collaboration agreements for post-development testing.
+
+**Hypothesis 7: Strategic Competitive Advantage**  
+We believe that integrating operational management with smart automation features for both Staff Operativo and Guests will provide a superior value proposition compared to traditional, siloed legacy systems.  
+We'll know this is true when we see that pilot hotels report improved operational visibility and express a clear preference for our solution over legacy alternatives or manual processes.
+
+---
+
+#### 3.2.3.4. Lean UX Canvas
+
+![Lean UX Canvas](./assets/LEAN-UX-CANVAS.png)
+
+---
+
+### 3.2.4. Propuesta de Valor
 
 La propuesta de valor representa el conjunto de beneficios tangibles e intangibles que nuestra solución ofrece a los clientes y usuarios para resolver los puntos de dolor detectados:
 
@@ -280,7 +404,7 @@ La propuesta de valor representa el conjunto de beneficios tangibles e intangibl
 
 ---
 
-### 3.2.3. Segmentos Objetivo
+### 3.2.5. Segmentos Objetivo
 
 A continuación se definen los segmentos de clientes asociados al dominio del problema, sustentados con características demográficas, psicográficas y datos estadísticos pertinentes:
 
