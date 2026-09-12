@@ -165,10 +165,19 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 ---
 
 ### 5. Augusto Sebastian Montes Maza
-* **Objetivo SMART 1:** 
-  * *S, M, A, R, T:* [Insertar formulación SMART].
-* **Objetivo SMART 2:**
-  * *S, M, A, R, T:* [Insertar formulación SMART].
+* **Objetivo SMART 1 (Técnico / Especialización):**
+  * *Específico (S):* Especializarme en el desarrollo backend y la arquitectura de aplicaciones escalables, fortaleciendo mis conocimientos en .NET, Java, APIs REST, bases de datos y tecnologías cloud.
+  * *Medible (M):* Desarrollar al menos 3 proyectos backend funcionales, implementando autenticación, conexión con bases de datos, documentación mediante Swagger y despliegue en la nube. Además, completar una certificación relacionada con desarrollo o arquitectura cloud.
+  * *Alcanzable (A):* Dedicar 6 horas semanales al estudio autodidacta, la realización de cursos especializados y la construcción progresiva de un portafolio técnico utilizando proyectos académicos y personales.
+  * *Relevante (R):* Permitirá consolidar mis competencias como ingeniero de software y mejorar mi preparación para asumir oportunidades laborales en desarrollo backend, integración de sistemas y arquitectura cloud.
+  * *Temporal (T):* Completar los proyectos y obtener la certificación en un plazo máximo de 18 meses, antes de culminar la carrera universitaria.
+
+* **Objetivo SMART 2 (Desarrollo Profesional / Empleabilidad):**
+  * *Específico (S):* Incorporarme al mercado laboral como ingeniero de software, participando en proyectos profesionales donde pueda aplicar mis conocimientos de desarrollo, bases de datos, metodologías ágiles y trabajo en equipo.
+  * *Medible (M):* Conseguir una posición de practicante o desarrollador junior, participar en al menos 2 proyectos profesionales y mantener un portafolio actualizado con mínimo 5 proyectos documentados en GitHub.
+  * *Alcanzable (A):* Mejorar continuamente mi currículum, perfil de LinkedIn y habilidades técnicas, además de prepararme para entrevistas mediante ejercicios de programación y postulaciones constantes a oportunidades laborales.
+  * *Relevante (R):* Facilitará mi transición de la etapa universitaria al ámbito profesional, permitiéndome adquirir experiencia real, ampliar mi red de contactos y desarrollar una trayectoria sólida en ingeniería de software.
+  * *Temporal (T):* Obtener la primera oportunidad laboral relacionada con mi carrera durante los 12 meses posteriores a mi graduación y consolidar mi experiencia profesional en un plazo máximo de 3 años.
 
 
 <div style="page-break-after: always;"></div>
