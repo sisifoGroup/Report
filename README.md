@@ -143,7 +143,7 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
   * *Medible (M):* Diseñar e implementar al menos 1 proyecto IoT funcional de extremo a extremo (sensor/dispositivo, backend y app móvil) y presentarlo como parte de mi portafolio profesional.
   * *Alcanzable (A):* Aplicar los conocimientos adquiridos en cursos de la carrera y recursos autodidactas sobre microcontroladores, protocolos de comunicación (MQTT/HTTP) y desarrollo móvil, dedicando tiempo constante durante los ciclos restantes.
   * *Relevante (R):* Amplía mi rango de acción como ingeniero de software hacia productos híbridos hardware-software, aumentando mi empleabilidad en sectores con alta demanda de soluciones conectadas.
-  * *Temporal (T):* Culminar el proyecto IoT integral en un plazo de 2 años, antes de finalizar la carrera universitaria.
+  * *Temporal (T):* Culminar el proyecto IoT integral en un plazo de 2 años, antes de finalizar la  carrera universitaria.
 
 ---
 
@@ -458,3 +458,17 @@ A continuación se definen los segmentos de clientes asociados al dominio del pr
   [Incluir datos estadísticos sobre la cantidad de pymes en el sector o niveles de digitalización reportados por el Ministerio de la Producción o Cámaras de Comercio].
 
 ---
+
+# Bibliografia
+
+* Evans, E. (2003). Domain-driven design: Tackling complexity in the heart of software. Addison-Wesley.
+
+* Gothelf, J., & Seiden, J. (2021). Lean UX: Designing great products with agile teams (3rd ed.). O’Reilly Media.
+
+* Osterwalder, A., Pigneur, Y., Bernarda, G., & Smith, A. (2014). Value proposition design: How to create products and services customers want. John Wiley & Sons.
+
+* Project Management Institute. (2017). Agile practice guide. Project Management Institute.
+
+* Richardson, C. (2018). Microservices patterns: With examples in Java. Manning Publications.
+
+* Schwaber, K., & Sutherland, J. (2020). The Scrum guide: The definitive guide to Scrum: The rules of the game. Scrum.org.
