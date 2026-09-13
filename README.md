@@ -233,10 +233,10 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 * **Código de Estudiante:** U20221E617
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:**  
-  [Experiencia del integrante...]
+  Participación en proyectos académicos de desarrollo de software, desempeñando funciones de desarrollo Frontend y participando en el diseño e implementación de soluciones web y móviles. Experiencia trabajando con metodologías ágiles y equipos multidisciplinarios.
 * **Principales Habilidades que Aporta al Equipo:**  
-  * *Conocimientos Técnicos:* [Tecnologías, frameworks...]
-  * *Habilidades Blandas:* [Pensamiento analítico, gestión del tiempo...]
+  * **Conocimientos Técnicos:** C#, Java, JavaScript, TypeScript, Dart, Angular, Vue.js, Flutter, HTML5, CSS3, MySQL, SQL Server, MongoDB, Git y GitHub.
+  * **Habilidades Blandas:** Pensamiento analítico, resolución de problemas, aprendizaje autónomo, trabajo en equipo, comunicación y gestión del tiempo.
 
 ---
 
