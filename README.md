@@ -52,8 +52,8 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
 | **1.0.2** | 11/09/2026 | Oskar Rodrigo  Sosa Soto | Documentación de los perfiles individuales de los integrantes y roles preliminares. |
 | **1.0.3** | 11/09/2026 | Ever Giusephi Carlos Lavado  | Formulación del Solution Profile: aplicación de técnica 5W2H y análisis del problema. |
 | **1.0.4** | 11/09/2026 | Augusto Sebastian   Montes Maza| Definición de la Propuesta de Valor y caracterización de Segmentos Objetivo. |
-| **1.1.0** | 11/09/2026 | [Nombre y Apellidos de Integrante] | Consolidación de los Objetivos SMART de los integrantes y tabla de Student Outcome. |
-| **1.2.0** | 11/09/2026 | [Nombre y Apellidos de Integrante] | Revisión final de estilo APA 7, validación cruzada y compilación para la entrega TB1. |
+| **1.1.0** | 11/09/2026 | Verona Flores Italo Sebastian | Consolidación de los Objetivos SMART de los integrantes y tabla de Student Outcome. |
+| **1.2.0** | 11/09/2026 | Verona Flores Italo Sebastian | Revisión final de estilo APA 7, validación cruzada y compilación para la entrega TB1. |
 
 <div style="page-break-after: always;"></div>
 
