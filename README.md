@@ -425,17 +425,25 @@ We'll know this is true when we see that pilot hotels report improved operationa
 La propuesta de valor representa el conjunto de beneficios tangibles e intangibles que nuestra solución ofrece a los clientes y usuarios para resolver los puntos de dolor detectados:
 
 * **Descripción del Problema a Resolver:**  
-  [Síntesis concisa del dolor del cliente extraído del 5W2H].
+  La gestión operativa de hoteles pequeños y boutique en Lima Metropolitana se encuentra altamente fragmentada debido a la dependencia de bitácoras físicas, registros manuales y canales de mensajería informal para coordinar la recepción, limpieza (*housekeeping*) y mantenimiento. Esta falta de sincronización en tiempo real produce retrasos en la rotación de habitaciones, errores en el estado de disponibilidad y una merma de entre el 15% y 20% en la productividad del personal. En paralelo, los huéspedes experimentan fricciones y tiempos de espera innecesarios al carecer de canales digitales autónomos para gestionar su llegada, salida y requerimientos durante la estancia.
+
 * **Posibles Usuarios:**  
-  [Identificación de los perfiles de usuario que interactuarán directamente con el producto].
+  * *Staff Operativo:* Personal de recepción, supervisores de limpieza (*housekeeping*), técnicos de mantenimiento y coordinadores de servicios.
+  * *Administradores y Gerentes de Hotel:* Responsables de supervisar la productividad, asignación de recursos y métricas de desempeño del establecimiento.
+  * *Huéspedes (Usuarios Finales):* Viajeros nacionales (de negocios y turismo urbano) y turistas internacionales que priorizan la autonomía, la inmediatez y el autoservicio digital durante su hospedaje.
+
 * **Objetivos Esperados por parte del Startup:**  
-  1. Captar [X%] del segmento objetivo durante el primer año de lanzamiento.
-  2. Reducir en un [Y%] el tiempo promedio de ejecución del proceso clave para el usuario.
-  3. Validar el ajuste producto-mercado (*Product-Market Fit*) mediante iteraciones ágiles basadas en feedback real.
+  1. Captar el 12% del segmento objetivo de hoteles boutique y pequeños en Lima Metropolitana durante el primer año de lanzamiento comercial.
+  2. Reducir en un 45% el tiempo promedio de coordinación interna y actualización del estado de habitaciones entre recepción, limpieza y mantenimiento.
+  3. Validar el ajuste producto-mercado (*Product-Market Fit*) mediante iteraciones ágiles basadas en Lean UX, alcanzando un índice de satisfacción del cliente (*CSAT*) superior al 85% y una tasa de retención mensual (*churn* menor al 5%) en establecimientos afiliados.
+
 * **Beneficios a Obtener por parte de los Usuarios (Value Proposition Canvas / Lean UX):**
-  * *Creadores de Alegrías (Gain Creators):* Interfaz intuitiva, respuesta en tiempo real, trazabilidad y soporte proactivo.
-  * *Aliviadores de Frustraciones (Pain Relievers):* Eliminación de trámites físicos, reducción drástica de tiempos de espera y centralización de datos en la nube.
-  * *Productos y Servicios:* Aplicación web/móvil responsiva construida con microservicios escalables y arquitectura segura.
+  * *Creadores de Alegrías (Gain Creators):* Actualización en tiempo real del estado de cada habitación con trazabilidad operativa clara; interfaz intuitiva diseñada para minimizar la curva de aprendizaje del personal; experiencia de autoservicio para el huésped (check-in/check-out ágil y control de servicios desde su smartphone); y generación automática de reportes de desempeño para la administración.
+  * *Aliviadores de Frustraciones (Pain Relievers):* Eliminación total de bitácoras en papel y comunicación verbal desorganizada; erradicación de discrepancias sobre la disponibilidad real de habitaciones; reducción drástica de tiempos de espera en el mostrador de recepción; y centralización de los flujos de trabajo en una infraestructura segura y sincronizada en la nube.
+  * *Productos y Servicios:* Plataforma integral de gestión hotelera y experiencia del huésped conformada por:
+    * Aplicación móvil nativa en Android para la asignación, ejecución y monitoreo de tareas del staff operativo.
+    * Aplicación móvil multiplataforma (Flutter) orientada al huésped para autoservicio, solicitudes e interacción con comodidades del hotel.
+    * Panel web administrativo centralizado, respaldado por una arquitectura modular de microservicios en la nube escalable y segura.
 
 ---
 
@@ -443,29 +451,33 @@ La propuesta de valor representa el conjunto de beneficios tangibles e intangibl
 
 A continuación se definen los segmentos de clientes asociados al dominio del problema, sustentados con características demográficas, psicográficas y datos estadísticos pertinentes:
 
-#### Segmento 1: [Nombre del Segmento Principal, ej. Jóvenes Profesionales / Clientes Finales]
+#### Segmento 1: Staff Operativo de Hoteles Boutique y Pequeños en Lima
+* **Criterios Demográficos / Profesionales:**
+  * *Roles Incluidos:* Personal de recepción, supervisores de limpieza (housekeeping), técnicos de mantenimiento y coordinadores de servicios.
+  * *Edad:* Entre 25 y 45 años.
+  * *Nivel de Instrucción:* Técnico o universitario en turismo, hotelería, mantenimiento industrial o administración.
+  * *Ubicación Geográfica:* Lima Metropolitana, Perú.
+* **Criterios Psicográficos y Conductuales:**
+  * Usuarios habituales de smartphones con sistema operativo Android; familiarizados con herramientas de mensajería y gestión de tareas básicas.
+  * Experimentan alta fricción operativa debido a la dependencia de bitácoras físicas y comunicación verbal para actualizar el estado de las habitaciones.
+  * Afectados por la fragmentación de información y la sobrecarga administrativa al coordinar entre áreas, buscando inmediatez y centralización en tiempo real.
+* **Información Estadística de Sustento:**  
+  * En Lima Metropolitana existen más de 300 hoteles pequeños y boutique (de 20 a 100 habitaciones) que operan con procesos manuales en áreas de servicios y mantenimiento.
+  * La ineficiencia operativa en este segmento representa pérdidas de entre el 15% y 20% en la productividad del personal debido a fallos en la coordinación interna.
+
+#### Segmento 2: Huéspedes de Hoteles (Usuarios Finales)
 * **Criterios Demográficos:**
-  * *Edad:* [Rango de edad, ej. 22 a 40 años].
-  * *Nivel Socioeconómico (NSE):* [Ej. A, B, C].
-  * *Ubicación Geográfica:* [Ej. Lima Metropolitana y principales ciudades urbanas del Perú].
-  * *Nivel de Instrucción:* [Superior técnico / universitario en curso o concluido].
+  * *Edad:* Entre 25 y 50 años (predominancia de Millennials y Generación X).
+  * *Nivel Socioeconómico (NSE):* Medio-alto a alto (NSE A y B).
+  * *Procedencia:* Viajeros nacionales (60%, enfocados en viajes de negocios o experiencias urbanas) y turistas internacionales (40%, procedentes de EE. UU., Europa y Latinoamérica).
 * **Criterios Psicográficos y Conductuales:**
-  * Usuarios altamente habituados al uso de smartphones y banca móvil.
-  * Valoran la inmediatez, la transparencia y la simplicidad en trámites digitales.
+  * Perfil *digital-first*: emplean su smartphone personal como herramienta única para gestionar toda la experiencia de viaje.
+  * Demanda de autonomía: alta disposición al autoservicio digital (check-in/check-out sin contacto y gestión de requerimientos a la habitación).
+  * Interés en tecnologías IoT: valoran el control de ambientes (iluminación, climatización) desde el móvil, asociándolo a confort y exclusividad.
+  * Altas expectativas de conectividad, requiriendo redes Wi-Fi de alta velocidad y canales de soporte directo e inmediato.
 * **Información Estadística de Sustento:**  
-  [Incluir datos verídicos con fuentes tipo INEI, OSIPTEL o CAPECE; por ejemplo: penetración del comercio electrónico en el segmento objetivo, horas semanales de uso de apps móviles, etc.].
-
-#### Segmento 2: [Nombre del Segmento Secundario, ej. Pequeñas y Medianas Empresas (Mypes) / Administradores]
-* **Criterios Demográficos / Firmográficos:**
-  * *Tipo de Organización:* Micro y pequeñas empresas legalmente constituidas.
-  * *Sector Económico:* [Ej. Comercio minorista, servicios profesionales, salud, logística].
-  * *Tamaño del Negocio:* Equipos de 5 a 30 colaboradores.
-* **Criterios Psicográficos y Conductuales:**
-  * Buscan optimizar costos operativos y modernizar sus canales de atención al cliente.
-  * Cuentan con presupuestos limitados para desarrollo de software a medida y requieren soluciones SaaS ágiles.
-* **Información Estadística de Sustento:**  
-  [Incluir datos estadísticos sobre la cantidad de pymes en el sector o niveles de digitalización reportados por el Ministerio de la Producción o Cámaras de Comercio].
-
+  * El 68% de los huéspedes dentro de este perfil selecciona su hospedaje considerando la reputación digital del establecimiento y la disponibilidad de facilidades tecnológicas durante su estancia.
+    
 ---
 
 # Bibliografia
