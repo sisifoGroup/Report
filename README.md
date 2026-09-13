@@ -229,7 +229,7 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 #### Integrante 3: Italo Sebastian Verona Flores
 * **Fotografía:**  
-  `![Foto](url-o-ruta)`
+  <img src="./assets/italo-verona.jpg" width="180" alt="Foto de Italo Verona">
 * **Código de Estudiante:** U20221E617
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:**  
