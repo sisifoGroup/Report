@@ -7,21 +7,16 @@
 ## FACULTAD DE INGENIERÍA
 ### CARRERA DE INGENIERÍA DE SOFTWARE
 
----
-
 **CURSO:** 1ASI0722 - Agile Project Management  
 **CICLO:** 2026-20  
 **SECCIÓN:** 9286  
 **PROFESOR:** Rouillon Sixto César Elías  
 
----
 
 # INFORME DE TRABAJO FINAL: ENTREGA TB1
 
 ### **Nombre de la Startup:** Sisifo
 ### **Nombre del Producto:** SmartStay
-
----
 
 ### **Relación de Integrantes:**
 
@@ -33,7 +28,6 @@
 | U202224867 | Ever Giusephi  Carlos Lavado| Ingeniería de Software |
 | U202218645| Augusto Sebastian  Montes Maza | Ingeniería de Software |
 
----
 **Mes y Año:** Septiembre, 2026  
 **Repositorio GitHub:** [Organización](https://github.com/sisifoGroup)
 
