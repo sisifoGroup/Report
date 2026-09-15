@@ -12,7 +12,6 @@
 **SECCIÓN:** 9286  
 **PROFESOR:** Rouillon Sixto César Elías  
 
-
 # INFORME DE TRABAJO FINAL: ENTREGA TB1
 
 ### **Nombre de la Startup:** Sisifo
@@ -29,7 +28,7 @@
 | U202218645| Augusto Sebastian  Montes Maza | Ingeniería de Software |
 
 **Mes y Año:** Septiembre, 2026  
-**Repositorio GitHub:** [Organización](https://github.com/sisifoGroup)
+**Repositorio GitHub:** [Organización de Sisifo](https://github.com/sisifoGroup)
 
 </div>
 
