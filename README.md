@@ -543,6 +543,27 @@ Con el propósito de validar los supuestos del modelo Lean UX y contrastar las f
 
 Con el propósito de validar los supuestos del modelo Lean UX y contrastar las fricciones operativas actuales con los requerimientos técnicos del sistema, se llevaron a cabo entrevistas semiestructuradas enfocadas en flujos críticos de gestión y experiencia del usuario (UX).
 
+### 4.2.1 Diseño de Entrevistas con Enfoque Operativo y Arquitectónico
+
+**Entrevista – Segmento 1: Administradores y Staff Operativo de Hoteles Boutique**
+1. ¿De qué manera manejan actualmente la sincronización de tareas críticas (como limpieza de habitaciones o reportes de mantenimiento) entre el personal de campo y la recepción?
+2. ¿Qué herramientas o canales informales (como WhatsApp, llamadas de radio o libretas físicas) utilizan cuando ocurren imprevistos o cambios de última hora en las reservas?
+3. ¿Cómo impacta en los costos operativos y en el tiempo del personal la falta de un inventario de habitaciones sincronizado en tiempo real?
+4. Ante picos de ocupación o alta rotación de huéspedes, ¿cuál es el mayor cuello de botella administrativo que experimenta su equipo?
+5. ¿Qué nivel de resistencia al cambio tecnológico percibe por parte del personal operativo al implementar nuevas herramientas digitales de gestión?
+6. ¿Qué métricas o indicadores de desempeño (KPIs) le gustaría visualizar en tiempo real para optimizar la toma de decisiones gerenciales?
+7. ¿Qué tan crítica es para su establecimiento la seguridad de la información y la gestión de permisos por roles (administrador, recepción, limpieza) frente a accesos no autorizados?
+8. Si implementáramos una plataforma centralizada basada en microservicios que garantice alta disponibilidad (24/7) sin caídas del sistema, ¿qué expectativas tendría respecto a su interoperabilidad con sistemas de pago o cerraduras inteligentes?
+
+**Entrevista – Segmento 2: Huéspedes de Hoteles Boutique**
+1. Al llegar a un hotel después de un viaje largo, ¿qué tan frustrante resulta el proceso tradicional de registro en mostrador y qué esperaría de un check-in móvil autónomo?
+2. ¿Qué tan dispuesto/a estaría a utilizar una aplicación web o móvil propia del hotel para solicitar servicios de habitación (room service, amenities) sin necesidad de llamar a recepción?
+3. ¿Qué importancia le concede a la posibilidad de gestionar de forma digital o automatizada aspectos del confort de su habitación (como iluminación o climatización) desde su smartphone?
+4. ¿Cómo califica los canales digitales actuales de comunicación con el hotel cuando necesita resolver una incidencia o solicitar información durante su estancia?
+5. ¿De qué manera influye la existencia de una reputación digital sólida y procesos sin fricción en su decisión de volver a elegir un hotel boutique?
+6. Si un hotel automatiza completamente los procesos de ingreso y salida, ¿siente que se pierde la calidez del servicio humano o prefiere la total independencia y rapidez?
+7. ¿Qué recomendaciones daría para asegurar que una aplicación de autoservicio para huéspedes sea verdaderamente intuitiva y fácil de usar desde el primer minuto?
+
 
 
 # Bibliografia
