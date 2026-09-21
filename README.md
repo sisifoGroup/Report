@@ -521,7 +521,21 @@ El mercado de soluciones para gestión hotelera en Lima y a nivel nacional prese
 
 ---
 
+Para posicionar a SmartStay como la solución líder en el mercado de hoteles boutique, el equipo ha definido estrategias basadas en la modernización arquitectónica y tácticas técnicas que aseguren la escalabilidad y eficiencia del producto frente a estos competidores de la industria:
 
+* **Estrategias:**
+  * **Refactorización hacia Microservicios:** A diferencia de los competidores con sistemas monolíticos rígidos, SmartStay adopta una arquitectura de microservicios que permite el despliegue independiente de módulos críticos como *Housekeeping* o *Check-in*, asegurando que una falla en uno no detenga toda la operación hotelera.
+  * **Alineación con el Dominio (DDD):** Implementar *Domain-Driven Design* para garantizar que la lógica de software refleje fielmente los procesos complejos del Staff Operativo, eliminando la ambigüedad y reduciendo errores en la gestión de servicios.
+  * **Arquitectura Cloud Native y Alta Disponibilidad:** Utilizar servicios de nube (AWS/Azure/GCP) para garantizar que la plataforma esté disponible 24/7, permitiendo a los hoteles boutique escalar sus recursos de forma elástica según la temporada turística.
+  * **Diferenciación por Interoperabilidad:** Diseñar un API RESTful robusto y documentado con OpenAPI/Swagger, facilitando la integración rápida con otros sistemas (como cerraduras electrónicas o pasarelas de pago) donde otros competidores presentan fricciones.
+
+* **Tácticas:**
+  * **Identificación de Bounded Contexts:** Aplicar técnicas de análisis para separar las responsabilidades del sistema, asegurando que el equipo pueda trabajar de forma autónoma en diferentes microservicios.
+  * **Implementación de GitFlow:** Mantener un flujo de trabajo organizado en GitHub que permita integraciones continuas y lanzamientos de versiones sin errores en el entorno de producción.
+  * **Documentación con C4 Model:** Utilizar diagramas de contexto, contenedores y componentes para que cualquier nuevo integrante o stakeholder entienda la estructura del sistema rápidamente.
+  * **Desarrollo Iterativo (Sprints):** Ejecutar ciclos de desarrollo ágiles para validar hipótesis de Lean UX y ajustar la arquitectura según el feedback real del Staff Operativo.
+  * **Uso de Tecnologías Modernas:** Adoptar lenguajes y frameworks (como C#, Java o TypeScript) que soporten patrones de diseño avanzados y faciliten la mantenibilidad a largo plazo.
+  * **Pruebas de Aceptación con BDD:** Escribir archivos `.feature` en lenguaje Gherkin para asegurar que cada funcionalidad desarrollada cumpla estrictamente con las necesidades del usuario final.
 
 # Bibliografia
 
