@@ -537,6 +537,14 @@ Para posicionar a SmartStay como la solución líder en el mercado de hoteles bo
   * **Uso de Tecnologías Modernas:** Adoptar lenguajes y frameworks (como C#, Java o TypeScript) que soporten patrones de diseño avanzados y faciliten la mantenibilidad a largo plazo.
   * **Pruebas de Aceptación con BDD:** Escribir archivos `.feature` en lenguaje Gherkin para asegurar que cada funcionalidad desarrollada cumpla estrictamente con las necesidades del usuario final.
 
+## 4.2 Entrevistas
+
+Con el propósito de validar los supuestos del modelo Lean UX y contrastar las fricciones operativas actuales con los requerimientos técnicos del sistema, se llevaron a cabo entrevistas semiestructuradas enfocadas en flujos críticos de gestión y experiencia del usuario (UX).## 4.2 Entrevistas
+
+Con el propósito de validar los supuestos del modelo Lean UX y contrastar las fricciones operativas actuales con los requerimientos técnicos del sistema, se llevaron a cabo entrevistas semiestructuradas enfocadas en flujos críticos de gestión y experiencia del usuario (UX).
+
+
+
 # Bibliografia
 
 * Evans, E. (2003). Domain-driven design: Tackling complexity in the heart of software. Addison-Wesley.
