@@ -474,7 +474,7 @@ A continuación se definen los segmentos de clientes asociados al dominio del pr
 ---
 # Capítulo II: Requirements & Analysis
 
-## 2.1 Competidores
+## 4.1 Competidores
 
 El mercado de soluciones para gestión hotelera en Lima y a nivel nacional presenta diversos actores que ofrecen herramientas digitales especializadas. Se han identificado **3 competidores principales** del segmento de sistemas de gestión de propiedades (PMS) en la nube para contrastar con la propuesta de valor de **SmartStay**.
 
