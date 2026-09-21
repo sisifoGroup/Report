@@ -480,6 +480,47 @@ El mercado de soluciones para gestión hotelera en Lima y a nivel nacional prese
 
 ### Competitive Analysis Landscape
 
+| ¿Por qué llevar a cabo este análisis? | El objetivo es identificar las brechas tecnológicas en la oferta actual de gestión hotelera para diferenciar a SmartStay mediante una arquitectura orientada a microservicios, enfoque especializado en la coordinación del Staff Operativo y automatización en tiempo real para hoteles boutique en LATAM. |
+| :--- | :--- |
+
+| Competidor nombre y logo | Startup SmartStay | Cloudbeds | Little Hotelier | Mews |
+| :--- | :--- | :--- | :--- | :--- |
+| **Logo / Identidad** | *[SmartStay]* | <img src="./assets/Cloudbeds.jpg" width="100" alt="Cloudbeds"> | <img src="./assets/Little Hotelier.avif" width="100" alt="Little Hotelier"> | <img src="./assets/Mews.webp" width="100" alt="Mews"> |
+| **Perfil Overview** | Plataforma integral de gestión operativa para hoteles boutique, con enfoque central en la coordinación del Staff Operativo y la autonomía del huésped. | Plataforma PMS todo en uno orientada a hoteles independientes, hostales y grupos medianos, con fuerte presencia en automatización de distribución (Channel Manager). | Software PMS y Channel Manager diseñado específicamente para pequeños alojamientos, hostales y B&Bs que buscan simplicidad administrativa. | PMS innovador en la nube, altamente automatizado, enfocado en la experiencia del huésped (guest journey) y conectividad abierta (Open API). |
+| **Ventaja competitiva** *(¿Qué valor ofrece a los clientes?)* | Optimización del Staff Operativo mediante arquitectura reactiva, gestión de tareas en tiempo real y personalización de la experiencia del huésped. | Ecosistema masivo de integraciones (*App Marketplace*) y conectividad con cientos de canales de reserva globales (OTA sync). | Curva de aprendizaje sumamente rápida, interfaz intuitiva y un precio accesible para pequeños administradores sin experiencia técnica. | Automatización avanzada de pagos, experiencia 100% digital sin fricciones (*kioscos y check-in móvil*) y arquitectura abierta para desarrolladores. |
+
+---
+
+### Perfil de Marketing
+
+| Atributo | Startup SmartStay | Cloudbeds | Little Hotelier | Mews |
+| :--- | :--- | :--- | :--- | :--- |
+| **Mercado objetivo** | Hoteles boutique y medianos en LATAM que buscan modernizar su operación interna y la experiencia del huésped. | Hoteles independientes de escala mediana, hostales y propiedades múltiples a nivel global. | Pequeños alojamientos, B&Bs y hostales independientes (1 a 30 habitaciones). | Hoteles boutique modernos, hostales de diseño y cadenas innovadoras orientadas al viajero digital. |
+| **Estrategias de marketing** | Marketing de contenidos sobre eficiencia operativa, digitalización del staff y alianzas con gremios hoteleros locales. | Inbound marketing global, pauta digital avanzada, webinars educativos y presencia en ferias internacionales de turismo. | Campañas digitales directas (SEM/SEO), demostraciones guiadas y programas de referidos sencillos. | Posicionamiento de liderazgo en innovación tecnológica, marketing de experiencias y casos de éxito de automatización radical. |
+
+---
+
+### Perfil de Producto
+
+| Atributo | Startup SmartStay | Cloudbeds | Little Hotelier | Mews |
+| :--- | :--- | :--- | :--- | :--- |
+| **Productos & Servicios** | Gestión de habitaciones, Housekeeping, Mantenimiento, Dashboard analítico y Portal de Autoservicio para Huéspedes. | PMS en la nube, Channel Manager, Motor de Reservas (Booking Engine), Cloudbeds Payments y Marketplace de aplicaciones. | PMS básico, Channel Manager integrado, Motor de Reservas y aplicación móvil simplificada para gestión diaria. | Mews PMS, Mews Payments, Mews POS, Mews Multiproperty y una tienda de integraciones robusta (*Mews Marketplace*). |
+| **Precios & Costos** | Modelo SaaS por suscripción mensual basado en el volumen de habitaciones gestionadas. | Suscripción modular escalable según el tamaño de la propiedad y características contratadas. | Tarifa plana mensual fija y transparente por niveles según la cantidad de habitaciones. | Modelo SaaS basado en porcentaje de transacciones o tarifa por habitación ocupada al mes (basado en uso). |
+| **Canales de distribución (Web y/o Móvil)** | Plataforma Web (Cloud) y Aplicación Móvil nativa optimizada para el personal de campo. | Aplicación Web (Cloud) y aplicaciones complementarias para dispositivos móviles. | Aplicación Web (Cloud) optimizada y app móvil de gestión de reservas (*Little Hotelier Pocket*). | Plataforma Web 100% Cloud (Cloud-native) con interfaces adaptadas para tablets, móviles y escritorios. |
+
+---
+
+### Análisis SWOT (FODA Cruzado)
+
+| Componente | Startup SmartStay | Cloudbeds | Little Hotelier | Mews |
+| :--- | :--- | :--- | :--- | :--- |
+| **Fortalezas** | • Enfoque especializado en nicho desatendido (Staff Operativo).<br>• Arquitectura moderna de microservicios y tiempo real. | • Amplia red de distribución de canales (OTAs).<br>• Ecosistema de integraciones maduro. | • Simplicidad de uso y rapidez en la configuración inicial.<br>• Excelente soporte para pequeños hostales. | • Alta innovación y automatización de pagos.<br>• Experiencia de usuario disruptiva y moderna. |
+| **Debilidades** | • Startup nueva sin reputación consolidada previamente en el mercado local. | • Curva de aprendizaje compleja debido a la gran cantidad de módulos disponibles. | • Funcionalidades limitadas para hoteles con flujos operativos y de mantenimiento complejos. | • Costos más elevados que pueden resultar prohibitivos para pequeños hoteles independientes en LATAM. |
+| **Oportunidades** | • Creciente demanda de digitalización post-pandemia en hoteles boutique de Lima y regiones.<br>• Espacio para soluciones enfocadas en la productividad interna del staff. | • Expansión hacia nichos de hoteles boutique de lujo mediante adquisiciones tecnológicas. | • Crecimiento del turismo descentralizado y formalización de pequeños hospedajes. | • Adopción acelerada de tecnologías sin contacto (*contactless*) y pagos digitales en el sector hotelero. |
+| **Amenazas** | • Entrada agresiva de competidores globales consolidados en el mercado local.<br>• Resistencia al cambio tecnológico en establecimientos tradicionales. | • Saturación del mercado de PMS genéricos para medianas empresas.<br>• Cambios en las políticas de APIs de las principales OTAs. | • Aparición de startups locales con soluciones más económicas y adaptadas a la regulación regional. | • Consolidación de grandes suites hoteleras que repliquen funciones de automatización nativa. |
+
+---
+
 
 
 # Bibliografia
