@@ -181,7 +181,7 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 ### 3.1.1. Descripción de la Startup
 
-* **Nombre de la Startup:** Sisifo  
+* **Nombre de la Startup:** SmartStay  
 * **Misión:** Impulsar la transformación digital del sector hotelero boutique mediante soluciones de software ágiles e intuitivas que centralizan y automatizan la gestión del personal operativo, eliminando fricciones logísticas y garantizando un servicio de hospitalidad accesible y de alta calidad.  
 * **Visión:** Consolidarse en los próximos 3 a 5 años como el sistema estándar de optimización operativa para hoteles independientes a nivel regional e internacional, siendo reconocidos por convertir la complejidad logística en flujos de trabajo transparentes, eficientes y altamente escalables.  
 * **Valores y Cultura de Trabajo:**  
@@ -472,6 +472,15 @@ A continuación se definen los segmentos de clientes asociados al dominio del pr
   * El 68% de los huéspedes dentro de este perfil selecciona su hospedaje considerando la reputación digital del establecimiento y la disponibilidad de facilidades tecnológicas durante su estancia.
     
 ---
+# Capítulo II: Requirements & Analysis
+
+## 2.1 Competidores
+
+El mercado de soluciones para gestión hotelera en Lima y a nivel nacional presenta diversos actores que ofrecen herramientas digitales especializadas. Se han identificado **3 competidores principales** del segmento de sistemas de gestión de propiedades (PMS) en la nube para contrastar con la propuesta de valor de **SmartStay**.
+
+### Competitive Analysis Landscape
+
+
 
 # Bibliografia
 
