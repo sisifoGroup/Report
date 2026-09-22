@@ -35,10 +35,9 @@ jobs:
           failed = False
           md_files_found = 0
 
-          print("🔍 Starting integrity validation for Markdown references...")
+          print("Starting integrity validation for Markdown references...")
 
           for root, dirs, files in os.walk("."):
-              # Skip hidden dirs like .git and virtual environments
               if any(part.startswith(".") and part != "." for part in root.split(os.sep)):
                   continue
 
@@ -49,38 +48,34 @@ jobs:
                       with open(md_path, "r", encoding="utf-8") as f:
                           content = f.read()
 
-                      # Match Markdown links and images: [text](path) or ![alt](path)
                       md_links = re.findall(r'!?\[.*?\]\(([^)]+)\)', content)
-                      # Match HTML img tags: <img ... src="path" ...>
                       html_imgs = re.findall(r'<img[^>]+src=["\']([^"\']+)["\']', content, re.IGNORECASE)
 
                       all_refs = md_links + html_imgs
-                      print(f"\n📄 Checking {md_path} ({len(all_refs)} references found)...")
+                      print(f"\nChecking {md_path} ({len(all_refs)} references found)...")
 
                       for ref in all_refs:
                           cleaned_ref = ref.strip().split("#")[0].split("?")[0]
                           if not cleaned_ref:
                               continue
-                          # Ignore external links and anchors
                           if cleaned_ref.startswith(("http://", "https://", "mailto:", "ftp://")):
                               continue
 
-                          # Resolve relative path from the current markdown file's directory
                           resolved_path = os.path.normpath(os.path.join(root, cleaned_ref))
                           if not os.path.exists(resolved_path):
-                              print(f"  ❌ Broken reference: '{ref}' -> Target not found at '{resolved_path}'")
+                              print(f"  Broken reference: '{ref}' -> Target not found at '{resolved_path}'")
                               failed = True
                           else:
-                              print(f"  ✅ Verified: '{ref}'")
+                              print(f"  Verified: '{ref}'")
 
           if md_files_found == 0:
-              print("⚠️ Warning: No Markdown files found to validate.")
+              print("Warning: No Markdown files found to validate.")
 
           if failed:
-              print("\n❌ Integrity check failed: One or more referenced files are missing.")
+              print("\nIntegrity check failed: One or more referenced files are missing.")
               sys.exit(1)
 
-          print("\n✨ All Markdown assets and relative links verified successfully!")
+          print("\nAll Markdown assets and relative links verified successfully!")
           EOF
 
       - name: Setup Node.js
@@ -92,12 +87,12 @@ jobs:
         run: |
           npm install -g md-to-pdf
 
-     - name: Compile Report to PDF
+      - name: Compile Report to PDF
         run: |
           mkdir -p dist
           npx md-to-pdf --launch-options '{"args": ["--no-sandbox", "--disable-setuid-sandbox"]}' --pdf-options '{"format": "A4", "margin": {"top": "20mm", "bottom": "20mm", "left": "15mm", "right": "15mm"}, "printBackground": true}' README.md
           mv README.pdf dist/SmartStay-Report.pdf
-          
+
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
         with:
