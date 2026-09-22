@@ -2,7 +2,7 @@
 
 # UNIVERSIDAD PERUANA DE CIENCIAS APLICADAS
 
-<img src="assets/UPC-Logo.png" width="120"><br><br>
+<img src="assets/chapter-1/upc-logo.png" width="120"><br><br>
 
 ## FACULTAD DE INGENIERÍA
 ### CARRERA DE INGENIERÍA DE SOFTWARE
@@ -196,7 +196,7 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 #### Integrante 1: Su Caletti Eddo
 * **Fotografía:**  
-  <img src="./assets/FotoEddo.jpeg" width="180" alt="Foto de Eddo Su Caletti">
+  <img src="./assets/chapter-1/foto-eddo.jpeg" width="180" alt="Foto de Eddo Su Caletti">
 * **Código de Estudiante:** U20221A390
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:**  
@@ -209,7 +209,7 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 #### Integrante 2: Oskar Rodrigo Sosa Soto
 * **Fotografía:**  
-  <img src="./assets/foto_oskar.jpg" width="180" alt="Foto de Oskar Rodrigo Sosa Soto">
+  <img src="./assets/chapter-1/foto-oskar.jpg" width="180" alt="Foto de Oskar Rodrigo Sosa Soto">
 * **Código de Estudiante:** U202212214
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:**  
@@ -222,7 +222,7 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 #### Integrante 3: Italo Sebastian Verona Flores
 * **Fotografía:**  
-  <img src="./assets/italo-verona.jpg" width="180" alt="Foto de Italo Verona">
+  <img src="./assets/chapter-1/italo-verona.jpg" width="180" alt="Foto de Italo Verona">
 * **Código de Estudiante:** U20221E617
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:**  
@@ -235,7 +235,7 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 #### Integrante 4: Ever Giusephi Carlos Lavado
 * **Fotografía:**  
-  <img src="./assets/giusephi-carlos.png" width="180" alt="Foto de Giusephi Carlos">
+  <img src="./assets/chapter-1/giusephi-carlos.png" width="180" alt="Foto de Giusephi Carlos">
 * **Código de Estudiante:** U202224867
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:**  
@@ -248,7 +248,7 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 #### Integrante 5: Augusto Sebastian Montes Maza
 * **Fotografía:**  
-  <img src="./assets/AugustoSebastian_5x5.jpg" width="180" alt="Foto de Augusto Sebastian Montes Maza">
+  <img src="./assets/chapter-1/augusto-sebastian.jpg" width="180" alt="Foto de Augusto Sebastian Montes Maza">
 * **Código de Estudiante:** U202218645
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:**  
@@ -409,7 +409,7 @@ We'll know this is true when we see that pilot hotels report improved operationa
 
 #### 3.2.3.4. Lean UX Canvas
 
-![Lean UX Canvas](./assets/LEAN-UX-CANVAS.png)
+![Lean UX Canvas](./assets/chapter-1/lean-ux-canvas.png)
 
 ---
 
