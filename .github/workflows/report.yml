@@ -26,7 +26,6 @@ jobs:
           fetch-depth: 0
 
       - name: Validate Markdown Relative Links & Assets
-        name: Validate Integrity
         run: |
           python3 - << 'EOF'
           import os
