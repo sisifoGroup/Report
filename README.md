@@ -12,7 +12,7 @@
 **SECCIÓN:** 9286  
 **PROFESOR:** Rouillon Sixto César Elías  
 
-# INFORME DE TRABAJO FINAL: ENTREGA TB1
+# INFORME DE TRABAJO FINAL: ENTREGAS TB1 & TB2
 
 ### **Nombre de la Startup:** Sisifo
 ### **Nombre del Producto:** SmartStay
@@ -41,12 +41,18 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
 | Versión | Fecha | Autor | Descripción de Modificación |
 | :---: | :---: | :--- | :--- |
 | **1.0.0** | 11/09/2026 | Verona Flores Italo Sebastian | Creación de la estructura base del informe, carátula e integración del registro de versiones. |
-| **1.0.1** | 11/09/2026 |  Su Caletti Eddo  | Me encargue de la parte de statup profile de los puntos descripción de la Startup y perfiles de Integrantes del Equipo. |
-| **1.0.2** | 11/09/2026 | Oskar Rodrigo  Sosa Soto | Documentación de los perfiles individuales de los integrantes y roles preliminares. |
-| **1.0.3** | 11/09/2026 | Ever Giusephi Carlos Lavado  | Formulación del Solution Profile: aplicación de técnica 5W2H y análisis del problema. |
-| **1.0.4** | 11/09/2026 | Augusto Sebastian   Montes Maza| Definición de la Propuesta de Valor y caracterización de Segmentos Objetivo. |
+| **1.0.1** | 11/09/2026 | Su Caletti Eddo | Elaboración del Startup Profile: descripción de la Startup y perfiles de Integrantes del Equipo. |
+| **1.0.2** | 11/09/2026 | Oskar Rodrigo Sosa Soto | Documentación de los perfiles individuales de los integrantes y roles preliminares. |
+| **1.0.3** | 11/09/2026 | Ever Giusephi Carlos Lavado | Formulación del Solution Profile: aplicación de técnica 5W2H y análisis del problema. |
+| **1.0.4** | 11/09/2026 | Augusto Sebastian Montes Maza | Definición de la Propuesta de Valor y caracterización de Segmentos Objetivo. |
 | **1.1.0** | 11/09/2026 | Verona Flores Italo Sebastian | Consolidación de los Objetivos SMART de los integrantes y tabla de Student Outcome. |
 | **1.2.0** | 11/09/2026 | Verona Flores Italo Sebastian | Revisión final de estilo APA 7, validación cruzada y compilación para la entrega TB1. |
+| **2.0.0** | 22/09/2026 | Verona Flores Italo Sebastian | Creación de la estructura base del Capítulo II: Gestión de Áreas de Conocimiento Agile e integración del Project Charter para TB2 (Semana 5). |
+| **2.0.1** | 22/09/2026 | Su Caletti Eddo | Redacción de las Necesidades del Negocio, Justificación Comercial y Relación del Proyecto con la Necesidad Comercial. |
+| **2.0.2** | 22/09/2026 | Oskar Rodrigo Sosa Soto | Elaboración de la Descripción del Proyecto (arquitectura macro) y catálogo de Características del Producto/Servicio. |
+| **2.0.3** | 22/09/2026 | Ever Giusephi Carlos Lavado | Formulación de la Matriz de Eventos de Riesgo, Supuestos Críticos y Restricciones del Proyecto. |
+| **2.0.4** | 22/09/2026 | Augusto Sebastian Montes Maza | Definición del esquema de Gobernanza, Autoridad Iniciadora, facultades del Project Manager y Matriz de Aprobaciones. |
+| **2.1.0** | 22/09/2026 | Verona Flores Italo Sebastian | Consolidación integral del Project Charter, actualización de la Tabla de Contenidos y validación de estándares ágiles para TB2. |
 
 <div style="page-break-after: always;"></div>
 
@@ -68,6 +74,22 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
        * 3.2.3.4. [Lean UX Canvas](#3234-lean-ux-canvas)
      * 3.2.4. [Propuesta de Valor](#324-propuesta-de-valor)
      * 3.2.5. [Segmentos Objetivo](#325-segmentos-objetivo)
+4. [Capítulo II: Gestión de Áreas de Conocimiento Agile](#capítulo-ii-gestión-de-áreas-de-conocimiento-agile)
+   * 4.1. [Agile Project Integration Management: Project Charter](#41-agile-project-integration-management-project-charter)
+     * 4.1.1. [Resumen Ejecutivo](#411-resumen-ejecutivo)
+     * 4.1.2. [Nombre del Proyecto](#412-nombre-del-proyecto)
+     * 4.1.3. [Autoridades](#413-autoridades)
+     * 4.1.4. [Autoridad Iniciadora](#414-autoridad-iniciadora)
+     * 4.1.5. [Project Manager](#415-project-manager)
+     * 4.1.6. [Necesidades del Negocio](#416-necesidades-del-negocio)
+     * 4.1.7. [Descripción del Proyecto](#417-descripción-del-proyecto)
+     * 4.1.8. [Características del Producto/Servicio](#418-características-del-productoservicio)
+     * 4.1.9. [Relación del Proyecto con la Necesidad Comercial](#419-relación-del-proyecto-con-la-necesidad-comercial)
+     * 4.1.10. [Supuestos](#4110-supuestos)
+     * 4.1.11. [Restricciones](#4111-restricciones)
+     * 4.1.12. [Eventos de Riesgo](#4112-eventos-de-riesgo)
+     * 4.1.13. [Aprobaciones](#4113-aprobaciones)
+5. [Bibliografía](#bibliografia)
 
 <div style="page-break-after: always;"></div>
 
@@ -472,97 +494,272 @@ A continuación se definen los segmentos de clientes asociados al dominio del pr
   * El 68% de los huéspedes dentro de este perfil selecciona su hospedaje considerando la reputación digital del establecimiento y la disponibilidad de facilidades tecnológicas durante su estancia.
     
 ---
-# Capítulo II: Requirements & Analysis
 
-## 4.1 Competidores
+# Capítulo II: Gestión de Áreas de Conocimiento Agile
 
-El mercado de soluciones para gestión hotelera en Lima y a nivel nacional presenta diversos actores que ofrecen herramientas digitales especializadas. Se han identificado **3 competidores principales** del segmento de sistemas de gestión de propiedades (PMS) en la nube para contrastar con la propuesta de valor de **SmartStay**.
+## 4.1. Agile Project Integration Management: Project Charter
 
-### Competitive Analysis Landscape
-
-| ¿Por qué llevar a cabo este análisis? | El objetivo es identificar las brechas tecnológicas en la oferta actual de gestión hotelera para diferenciar a SmartStay mediante una arquitectura orientada a microservicios, enfoque especializado en la coordinación del Staff Operativo y automatización en tiempo real para hoteles boutique en LATAM. |
-| :--- | :--- |
-
-| Competidor nombre y logo | Startup SmartStay | Cloudbeds | Little Hotelier | Mews |
-| :--- | :--- | :--- | :--- | :--- |
-| **Logo / Identidad** | *[SmartStay]* | <img src="./assets/Cloudbeds.jpg" width="100" alt="Cloudbeds"> | <img src="./assets/Little Hotelier.avif" width="100" alt="Little Hotelier"> | <img src="./assets/Mews.webp" width="100" alt="Mews"> |
-| **Perfil Overview** | Plataforma integral de gestión operativa para hoteles boutique, con enfoque central en la coordinación del Staff Operativo y la autonomía del huésped. | Plataforma PMS todo en uno orientada a hoteles independientes, hostales y grupos medianos, con fuerte presencia en automatización de distribución (Channel Manager). | Software PMS y Channel Manager diseñado específicamente para pequeños alojamientos, hostales y B&Bs que buscan simplicidad administrativa. | PMS innovador en la nube, altamente automatizado, enfocado en la experiencia del huésped (guest journey) y conectividad abierta (Open API). |
-| **Ventaja competitiva** *(¿Qué valor ofrece a los clientes?)* | Optimización del Staff Operativo mediante arquitectura reactiva, gestión de tareas en tiempo real y personalización de la experiencia del huésped. | Ecosistema masivo de integraciones (*App Marketplace*) y conectividad con cientos de canales de reserva globales (OTA sync). | Curva de aprendizaje sumamente rápida, interfaz intuitiva y un precio accesible para pequeños administradores sin experiencia técnica. | Automatización avanzada de pagos, experiencia 100% digital sin fricciones (*kioscos y check-in móvil*) y arquitectura abierta para desarrolladores. |
+El **Project Charter** (Acta de Constitución del Proyecto) constituye el documento fundacional formal que autoriza oficialmente el inicio del proyecto **SmartStay** dentro del marco de trabajo ágil de la startup **Sísifo**, otorgando al equipo de ingeniería y al Project Manager la autoridad para planificar, comprometer recursos y ejecutar los Sprints sucesivos.
 
 ---
 
-### Perfil de Marketing
+### 4.1.1. Resumen Ejecutivo
 
-| Atributo | Startup SmartStay | Cloudbeds | Little Hotelier | Mews |
-| :--- | :--- | :--- | :--- | :--- |
-| **Mercado objetivo** | Hoteles boutique y medianos en LATAM que buscan modernizar su operación interna y la experiencia del huésped. | Hoteles independientes de escala mediana, hostales y propiedades múltiples a nivel global. | Pequeños alojamientos, B&Bs y hostales independientes (1 a 30 habitaciones). | Hoteles boutique modernos, hostales de diseño y cadenas innovadoras orientadas al viajero digital. |
-| **Estrategias de marketing** | Marketing de contenidos sobre eficiencia operativa, digitalización del staff y alianzas con gremios hoteleros locales. | Inbound marketing global, pauta digital avanzada, webinars educativos y presencia en ferias internacionales de turismo. | Campañas digitales directas (SEM/SEO), demostraciones guiadas y programas de referidos sencillos. | Posicionamiento de liderazgo en innovación tecnológica, marketing de experiencias y casos de éxito de automatización radical. |
+El sector de la hospitalidad en Lima y Latinoamérica, con especial énfasis en hoteles boutique y de mediana escala (20 a 100 habitaciones), enfrenta un desafío crítico de competitividad originado por la fragmentación operativa, la alta dependencia de bitácoras en papel y la carencia de plataformas tecnológicas integradas. Esta realidad se traduce en tiempos de espera excesivos durante el check-in y check-out, discrepancias en el estado del inventario de habitaciones, demoras en las labores de limpieza (*housekeeping*) y una ausencia generalizada de datos consolidados para la toma de decisiones gerenciales.
 
----
+**SmartStay** nace como una solución digital integral *cloud-native* diseñada por la startup **Sísifo** para transformar y modernizar la gestión hotelera independiente. La plataforma unifica en un único ecosistema colaborativo:
+1. Un **Panel Web Administrativo** de alta disponibilidad para la administración y recepción hotelera, permitiendo la asignación dinámica de habitaciones, control de personal de campo y visualización de analítica operativa en tiempo real (RevPAR, ADR, ocupación promedio).
+2. Un **Módulo Operativo de Campo** para el personal de limpieza y mantenimiento, optimizado para dispositivos móviles, que reemplaza la comunicación por radio y papel por tableros Kanban de tareas sincronizadas al instante.
+3. Una **Aplicación Móvil para Huéspedes** multiplataforma que empodera al usuario final con herramientas de autoservicio (*self-service*), incluyendo check-in/out digital express, llaves de acceso, solicitudes de servicios y visualización de cuenta en tiempo real.
 
-### Perfil de Producto
-
-| Atributo | Startup SmartStay | Cloudbeds | Little Hotelier | Mews |
-| :--- | :--- | :--- | :--- | :--- |
-| **Productos & Servicios** | Gestión de habitaciones, Housekeeping, Mantenimiento, Dashboard analítico y Portal de Autoservicio para Huéspedes. | PMS en la nube, Channel Manager, Motor de Reservas (Booking Engine), Cloudbeds Payments y Marketplace de aplicaciones. | PMS básico, Channel Manager integrado, Motor de Reservas y aplicación móvil simplificada para gestión diaria. | Mews PMS, Mews Payments, Mews POS, Mews Multiproperty y una tienda de integraciones robusta (*Mews Marketplace*). |
-| **Precios & Costos** | Modelo SaaS por suscripción mensual basado en el volumen de habitaciones gestionadas. | Suscripción modular escalable según el tamaño de la propiedad y características contratadas. | Tarifa plana mensual fija y transparente por niveles según la cantidad de habitaciones. | Modelo SaaS basado en porcentaje de transacciones o tarifa por habitación ocupada al mes (basado en uso). |
-| **Canales de distribución (Web y/o Móvil)** | Plataforma Web (Cloud) y Aplicación Móvil nativa optimizada para el personal de campo. | Aplicación Web (Cloud) y aplicaciones complementarias para dispositivos móviles. | Aplicación Web (Cloud) optimizada y app móvil de gestión de reservas (*Little Hotelier Pocket*). | Plataforma Web 100% Cloud (Cloud-native) con interfaces adaptadas para tablets, móviles y escritorios. |
+Desarrollada bajo marcos ágiles (Scrum/Kanban) y soportada por una arquitectura desacoplada de microservicios, SmartStay tiene como propósito fundamental reducir los costos operativos hoteleros entre un 12% y 15%, elevar el RevPAR en un 10% y mejorar sustancialmente el índice de satisfacción neta del huésped (NPS > 50).
 
 ---
 
-### Análisis SWOT (FODA Cruzado)
+### 4.1.2. Nombre del Proyecto
 
-| Componente | Startup SmartStay | Cloudbeds | Little Hotelier | Mews |
-| :--- | :--- | :--- | :--- | :--- |
-| **Fortalezas** | • Enfoque especializado en nicho desatendido (Staff Operativo).<br>• Arquitectura moderna de microservicios y tiempo real. | • Amplia red de distribución de canales (OTAs).<br>• Ecosistema de integraciones maduro. | • Simplicidad de uso y rapidez en la configuración inicial.<br>• Excelente soporte para pequeños hostales. | • Alta innovación y automatización de pagos.<br>• Experiencia de usuario disruptiva y moderna. |
-| **Debilidades** | • Startup nueva sin reputación consolidada previamente en el mercado local. | • Curva de aprendizaje compleja debido a la gran cantidad de módulos disponibles. | • Funcionalidades limitadas para hoteles con flujos operativos y de mantenimiento complejos. | • Costos más elevados que pueden resultar prohibitivos para pequeños hoteles independientes en LATAM. |
-| **Oportunidades** | • Creciente demanda de digitalización post-pandemia en hoteles boutique de Lima y regiones.<br>• Espacio para soluciones enfocadas en la productividad interna del staff. | • Expansión hacia nichos de hoteles boutique de lujo mediante adquisiciones tecnológicas. | • Crecimiento del turismo descentralizado y formalización de pequeños hospedajes. | • Adopción acelerada de tecnologías sin contacto (*contactless*) y pagos digitales en el sector hotelero. |
-| **Amenazas** | • Entrada agresiva de competidores globales consolidados en el mercado local.<br>• Resistencia al cambio tecnológico en establecimientos tradicionales. | • Saturación del mercado de PMS genéricos para medianas empresas.<br>• Cambios en las políticas de APIs de las principales OTAs. | • Aparición de startups locales con soluciones más económicas y adaptadas a la regulación regional. | • Consolidación de grandes suites hoteleras que repliquen funciones de automatización nativa. |
+* **Nombre Oficial del Proyecto:** *SmartStay: Intelligent Hospitality Operations & Guest Experience Platform*
+* **Nombre Comercial / Abreviado:** **SmartStay**
+* **Código Interno de Proyecto:** `PRJ-SMARTSTAY-2026-TB2`
+* **Entidad Ejecutora:** Startup Sísifo (`sisifoGroup`)
+* **Línea de Negocio / Producto:** Soluciones SaaS de Gestión y Automatización Hotelera (Hospitality Tech)
 
 ---
 
-Para posicionar a SmartStay como la solución líder en el mercado de hoteles boutique, el equipo ha definido estrategias basadas en la modernización arquitectónica y tácticas técnicas que aseguren la escalabilidad y eficiencia del producto frente a estos competidores de la industria:
+### 4.1.3. Autoridades
 
-* **Estrategias:**
-  * **Refactorización hacia Microservicios:** A diferencia de los competidores con sistemas monolíticos rígidos, SmartStay adopta una arquitectura de microservicios que permite el despliegue independiente de módulos críticos como *Housekeeping* o *Check-in*, asegurando que una falla en uno no detenga toda la operación hotelera.
-  * **Alineación con el Dominio (DDD):** Implementar *Domain-Driven Design* para garantizar que la lógica de software refleje fielmente los procesos complejos del Staff Operativo, eliminando la ambigüedad y reduciendo errores en la gestión de servicios.
-  * **Arquitectura Cloud Native y Alta Disponibilidad:** Utilizar servicios de nube (AWS/Azure/GCP) para garantizar que la plataforma esté disponible 24/7, permitiendo a los hoteles boutique escalar sus recursos de forma elástica según la temporada turística.
-  * **Diferenciación por Interoperabilidad:** Diseñar un API RESTful robusto y documentado con OpenAPI/Swagger, facilitando la integración rápida con otros sistemas (como cerraduras electrónicas o pasarelas de pago) donde otros competidores presentan fricciones.
+La estructura de gobernanza, supervisión y toma de decisiones del proyecto SmartStay se organiza bajo la siguiente matriz de roles y responsabilidades clave:
 
-* **Tácticas:**
-  * **Identificación de Bounded Contexts:** Aplicar técnicas de análisis para separar las responsabilidades del sistema, asegurando que el equipo pueda trabajar de forma autónoma en diferentes microservicios.
-  * **Implementación de GitFlow:** Mantener un flujo de trabajo organizado en GitHub que permita integraciones continuas y lanzamientos de versiones sin errores en el entorno de producción.
-  * **Documentación con C4 Model:** Utilizar diagramas de contexto, contenedores y componentes para que cualquier nuevo integrante o stakeholder entienda la estructura del sistema rápidamente.
-  * **Desarrollo Iterativo (Sprints):** Ejecutar ciclos de desarrollo ágiles para validar hipótesis de Lean UX y ajustar la arquitectura según el feedback real del Staff Operativo.
-  * **Uso de Tecnologías Modernas:** Adoptar lenguajes y frameworks (como C#, Java o TypeScript) que soporten patrones de diseño avanzados y faciliten la mantenibilidad a largo plazo.
-  * **Pruebas de Aceptación con BDD:** Escribir archivos `.feature` en lenguaje Gherkin para asegurar que cada funcionalidad desarrollada cumpla estrictamente con las necesidades del usuario final.
+| Rol de Gobernanza | Responsable / Cargo | Área / Entidad | Principales Facultades y Responsabilidades |
+| :--- | :--- | :--- | :--- |
+| **Product Sponsor / Academic Lead** | Rouillon Sixto César Elías | Dirección Académica UPC / Sponsor de Proyecto | Supervisión de alineamiento metodológico ágil, validación de hitos académicos (TB1, TB2, TP, TF) y aprobación final de entregables. |
+| **Agile Project Manager / Scrum Master** | Verona Flores, Italo Sebastian | Startup Sísifo | Facilitación de ceremonias ágiles, gestión del flujo de valor, remoción de impedimentos técnicos/operativos y control del cumplimiento de la DoD/DoR. |
+| **Product Owner & Business Lead** | Su Caletti, Eddo | Startup Sísifo | Maximización del valor del producto, priorización continua del Product Backlog, refinamiento de historias de usuario y aceptación de incrementos. |
+| **Software Architect & Technical Lead** | Sosa Soto, Oskar Rodrigo | Startup Sísifo | Definición de la arquitectura de software (DDD, microservicios, API RESTful), aseguramiento de calidad técnica, revisión de Pull Requests y estándares de código. |
+| **QA & DevOps Engineer** | Carlos Lavado, Ever Giusephi | Startup Sísifo | Diseño y ejecución de estrategias de prueba (BDD/TDD), automatización de pipelines de CI/CD en GitHub Actions y verificación de integridad de despliegues. |
+| **Business Analyst & Domain Specialist** | Montes Maza, Augusto Sebastian | Startup Sísifo | Modelado del dominio hotelero, especificación de requerimientos de negocio, análisis de métricas operativas y relación con stakeholders externos. |
+| **Comité Asesor de Usuarios (Stakeholders)** | Administradores y Huéspedes de Hoteles Boutique Aliados | Sector Hotelero Independiente (Lima) | Validación de supuestos Lean UX, retroalimentación temprana en sesiones de Sprint Review y participación en pruebas de usabilidad. |
 
-## 4.2 Entrevistas
+---
 
-Con el propósito de validar los supuestos del modelo Lean UX y contrastar las fricciones operativas actuales con los requerimientos técnicos del sistema, se llevaron a cabo entrevistas semiestructuradas enfocadas en flujos críticos de gestión y experiencia del usuario (UX).## 4.2 Entrevistas
+### 4.1.4. Autoridad Iniciadora
 
-Con el propósito de validar los supuestos del modelo Lean UX y contrastar las fricciones operativas actuales con los requerimientos técnicos del sistema, se llevaron a cabo entrevistas semiestructuradas enfocadas en flujos críticos de gestión y experiencia del usuario (UX).
+La autoridad iniciadora formal del proyecto corresponde de manera conjunta a la **Junta Directiva de la Startup Sísifo (Sísifo Startup Board)** y al **Product Sponsor**:
 
-### 4.2.1 Diseño de Entrevistas con Enfoque Operativo y Arquitectónico
+* **Entidad Patrocinadora:** Startup Sísifo (`sisifoGroup`) en convenio con la cátedra de *Agile Project Management* de la Universidad Peruana de Ciencias Aplicadas (UPC).
+* **Mandato Formal:** Autorizar el desembolso de recursos iniciales, licenciamiento de herramientas colaborativas (GitHub Enterprise/Student Developer Pack, tableros Trello/Jira, infraestructura cloud en capa gratuita/créditos para startups) y el inicio de las actividades de desarrollo del equipo de ingeniería a partir de Septiembre de 2026.
+* **Facultades Específicas:**
+  * Aprobar o rechazar cambios estructurales de visión de producto propuestos por el Product Owner.
+  * Validar el paso entre fases del ciclo de vida del proyecto tras la demostración de incrementos funcionales de software en los Sprint Reviews.
+  * Suspender o reorientar el proyecto ante desviaciones presupuestales, técnicas o normativas no mitigables.
 
-**Entrevista – Segmento 1: Administradores y Staff Operativo de Hoteles Boutique**
-1. ¿De qué manera manejan actualmente la sincronización de tareas críticas (como limpieza de habitaciones o reportes de mantenimiento) entre el personal de campo y la recepción?
-2. ¿Qué herramientas o canales informales (como WhatsApp, llamadas de radio o libretas físicas) utilizan cuando ocurren imprevistos o cambios de última hora en las reservas?
-3. ¿Cómo impacta en los costos operativos y en el tiempo del personal la falta de un inventario de habitaciones sincronizado en tiempo real?
-4. Ante picos de ocupación o alta rotación de huéspedes, ¿cuál es el mayor cuello de botella administrativo que experimenta su equipo?
-5. ¿Qué nivel de resistencia al cambio tecnológico percibe por parte del personal operativo al implementar nuevas herramientas digitales de gestión?
-6. ¿Qué métricas o indicadores de desempeño (KPIs) le gustaría visualizar en tiempo real para optimizar la toma de decisiones gerenciales?
-7. ¿Qué tan crítica es para su establecimiento la seguridad de la información y la gestión de permisos por roles (administrador, recepción, limpieza) frente a accesos no autorizados?
-8. Si implementáramos una plataforma centralizada basada en microservicios que garantice alta disponibilidad (24/7) sin caídas del sistema, ¿qué expectativas tendría respecto a su interoperabilidad con sistemas de pago o cerraduras inteligentes?
+---
 
-**Entrevista – Segmento 2: Huéspedes de Hoteles Boutique**
-1. Al llegar a un hotel después de un viaje largo, ¿qué tan frustrante resulta el proceso tradicional de registro en mostrador y qué esperaría de un check-in móvil autónomo?
-2. ¿Qué tan dispuesto/a estaría a utilizar una aplicación web o móvil propia del hotel para solicitar servicios de habitación (room service, amenities) sin necesidad de llamar a recepción?
-3. ¿Qué importancia le concede a la posibilidad de gestionar de forma digital o automatizada aspectos del confort de su habitación (como iluminación o climatización) desde su smartphone?
-4. ¿Cómo califica los canales digitales actuales de comunicación con el hotel cuando necesita resolver una incidencia o solicitar información durante su estancia?
-5. ¿De qué manera influye la existencia de una reputación digital sólida y procesos sin fricción en su decisión de volver a elegir un hotel boutique?
-6. Si un hotel automatiza completamente los procesos de ingreso y salida, ¿siente que se pierde la calidez del servicio humano o prefiere la total independencia y rapidez?
-7. ¿Qué recomendaciones daría para asegurar que una aplicación de autoservicio para huéspedes sea verdaderamente intuitiva y fácil de usar desde el primer minuto?
+### 4.1.5. Project Manager
+
+Se ratifica formalmente la designación de **Italo Sebastian Verona Flores** como **Agile Project Manager / Scrum Master** del proyecto SmartStay, estableciendo los siguientes parámetros de autoridad y responsabilidad:
+
+* **Nivel de Autoridad:**
+  * Autoridad metodológica total sobre la adopción y disciplina del marco Scrum y prácticas Kanban en el equipo de desarrollo.
+  * Capacidad de decisión sobre la asignación operativa de capacidad (*team velocity*) y distribución de ítems del Sprint Backlog durante las sesiones de Sprint Planning.
+  * Autoridad para detener despliegues o rechazar entregables que no satisfagan estrictamente la *Definition of Done* (DoD) acordada.
+* **Responsabilidades Operativas y de Gestión:**
+  * Facilitar rigurosamente las ceremonias ágiles: Sprint Planning, Daily Stand-ups (15 min), Sprint Review, Sprint Retrospective y sesiones periódicas de Backlog Refinement.
+  * Identificar, registrar y remover de manera proactiva cualquier impedimento, cuello de botella o dependencia técnica que amenace la velocidad del equipo.
+  * Mantener la radiación de información transparente mediante métricas ágiles actualizadas (Sprint Burndown Charts, Cumulative Flow Diagrams, Lead Time y Cycle Time).
+  * Proteger al equipo de desarrollo de interrupciones externas o adiciones de alcance no canalizadas a través del Product Owner.
+
+---
+
+### 4.1.6. Necesidades del Negocio
+
+El desarrollo de SmartStay responde a necesidades comerciales y operativas urgentes en el sector hotelero independiente:
+
+1. **Eliminación de la Ineficiencia Operativa Basada en Papel:** Los hoteles boutique operan habitualmente mediante libretas físicas, pizarras y llamadas por radio para coordinar el aseo y mantenimiento de cuartos. Esto produce demoras de hasta 45 minutos en la notificación de habitaciones limpias, retrasando la entrega de llaves y generando habitaciones desocupadas no comercializables.
+2. **Reducción Radical de Tiempos de Espera en Recepción:** El proceso manual tradicional de registro en mostrador toma entre 10 y 15 minutos por huésped, ocasionando saturación en horas pico y afectando negativamente la primera impresión del cliente.
+3. **Sincronización Centralizada de Canales e Inventario:** La falta de una base de datos centralizada y reactiva genera descoordinación entre los canales directos y la administración del hotel, elevando el riesgo de sobreventa (*overbooking*) y discrepancias de tarifas.
+4. **Carencia de Analítica de Negocio en Tiempo Real:** La gerencia carece de paneles consolidados con métricas hoteleras internacionales (ADR, RevPAR, tasa de rotación de habitaciones, tiempo de respuesta a incidencias), imposibilitando la toma de decisiones ágil para optimizar precios y recursos del personal.
+5. **Impacto Económico Negativo:** Se estima que la desorganización operativa manual genera una fuga de rentabilidad neta de entre 15% y 20% anual en costos laborales redundantes, suministros mal gestionados y pérdida de huéspedes por insatisfacción.
+
+---
+
+### 4.1.7. Descripción del Proyecto
+
+El proyecto **SmartStay** comprende el diseño, construcción, prueba y despliegue continuo de una plataforma tecnológica modular bajo un enfoque ágil e iterativo (entregas quincenales por Sprints). 
+
+#### Arquitectura Macro de la Solución
+La solución se estructura bajo los principios de *Clean Architecture* y *Domain-Driven Design* (DDD), compuesta por tres capas principales:
+
+```
++-------------------------------------------------------------------------+
+|                           CLIENTES / FRONTEND                           |
+|  +-----------------------------------+  +----------------------------+  |
+|  | Panel Web Administrativo (React) |  | App Móvil Huésped (Flutter)|  |
+|  | - Gestión de Habitaciones         |  | - Check-in Express         |  |
+|  | - Tablero Kanban Housekeeping     |  | - Solicitud de Servicios   |  |
+|  | - Dashboard Analítico (RevPAR)    |  | - Llave / Acceso Digital   |  |
+|  +-----------------------------------+  +----------------------------+  |
++-------------------------------------------------------------------------+
+                                    |
+                            [ API Gateway / REST ]
+                                    |
++-------------------------------------------------------------------------+
+|                        BACKEND & MICROSERVICIOS                         |
+|  +----------------+  +---------------+  +---------------+  +---------+  |
+|  | Auth & Security|  | Room & Booking|  | Housekeeping &|  | Payment |  |
+|  | (JWT / RBAC)   |  | Management    |  | Maintenance   |  | Gateway |  |
+|  +----------------+  +---------------+  +---------------+  +---------+  |
++-------------------------------------------------------------------------+
+                                    |
++-------------------------------------------------------------------------+
+|                     INFRAESTRUCTURA & CI/CD (Cloud)                     |
+|  - PostgreSQL / MongoDB Multi-tenant      - Docker Container Registry   |
+|  - GitHub Actions CI/CD (Integrity, PDF Report & Automated Releases)    |
++-------------------------------------------------------------------------+
+```
+
+* **Backend y API RESTful:** Microservicios desacoplados para autenticación y roles, gestión de habitaciones, motor de reservas, coordinación de tareas de mantenimiento/limpieza y pasarela de facturación.
+* **Panel Web Administrativo:** Aplicación SPA (*Single Page Application*) moderna, intuitiva y reactiva, diseñada para administradores y personal de recepción.
+* **Aplicación Móvil para Huéspedes:** Aplicación multiplataforma en Flutter optimizada para rendimiento y experiencia de usuario fluida, permitiendo operaciones autónomas de autogestión.
+* **Flujo DevOps y Automatización:** Pipeline continuo en GitHub Actions con validación de enlaces y documentación Markdown, compilación automatizada a PDF y versionado de releases etiquetados.
+
+---
+
+### 4.1.8. Características del Producto/Servicio
+
+El catálogo de funcionalidades del sistema se categoriza en los siguientes módulos operacionales:
+
+```mermaid
+mindmap
+  root((SmartStay))
+    Seguridad y Accesos
+      Autenticacion JWT
+      Roles Granulares RBAC
+      Auditoria de Actividad
+    Gestion de Habitaciones
+      Inventario en Tiempo Real
+      Estados Dinamicos
+      Gestion Tarifaria
+    Motor de Reservas
+      Calendario Interactivo
+      Confirmacion Inmediata
+      Politicas de Cancelacion
+    Experiencia Huesped
+      Check-in Express Digital
+      Check-out Autonomo
+      Solicitudes Room Service
+    Operaciones de Campo
+      Tablero Housekeeping
+      Tickets Mantenimiento
+      Alertas Push Inmediatas
+    Analitica y Reportes
+      Calculo RevPAR y ADR
+      Tiempos de Ciclo Limpieza
+      Exportacion de Reportes
+```
+
+1. **Módulo de Seguridad y Control de Acceso (RBAC):**
+   * Autenticación segura mediante tokens JWT cifrados.
+   * Gestión granular de roles: Administrador General, Recepcionista, Supervisor de Housekeeping, Operario de Limpieza, Técnico de Mantenimiento y Huésped.
+   * Registro y auditoría de eventos críticos del sistema.
+
+2. **Módulo de Inventario y Gestión de Habitaciones:**
+   * Visualización matricial del estado de habitaciones (Disponible, Ocupada, En Limpieza, Mantenimiento Requerido, Fuera de Servicio).
+   * Asignación automática o asistida de habitaciones según preferencias del huésped.
+   * Configuración de tipos de habitación, amenidades y políticas de tarifas.
+
+3. **Motor de Reservas y Gestión de Tarifas:**
+   * Motor de reservas centralizado con actualización instantánea de disponibilidad para evitar sobreventa.
+   * Soporte de tarifas por temporada y descuentos promocionales.
+   * Confirmación automatizada vía correo electrónico o notificación móvil.
+
+4. **Check-in y Check-out Digital Express (Self-Service):**
+   * Pre-check-in desde la aplicación móvil con validación digital de identidad y firma de acuerdos.
+   * Check-out autónomo con revisión digital del balance de cuenta y facturación electrónica.
+
+5. **Módulo Operativo de Housekeeping y Mantenimiento:**
+   * Tableros tipo Kanban para la asignación y seguimiento dinámico de tareas de limpieza por piso y operario.
+   * Registro y priorización de órdenes de mantenimiento con registro fotográfico de incidencias.
+   * Notificaciones reactivas instantáneas al cambiar el estado de una habitación a "Limpia y Disponible".
+
+6. **Portal de Autoservicio y Experiencia del Huésped:**
+   * Solicitud de amenidades adicionales, servicio a la habitación y peticiones especiales desde el smartphone.
+   * Canal de comunicación directo con recepción para consultas o asistencia.
+
+7. **Dashboard Analítico e Inteligencia de Negocios:**
+   * Cálculo y visualización en tiempo real de indicadores clave: **RevPAR** (*Revenue Per Available Room*), **ADR** (*Average Daily Rate*), tasa de ocupación diaria/mensual y tiempos promedio de limpieza.
+   * Exportación de reportes ejecutivos en PDF y formatos tabulares.
+
+---
+
+### 4.1.9. Relación del Proyecto con la Necesidad Comercial
+
+El proyecto SmartStay se alinea de manera directa y cuantificable con los objetivos estratégicos de rentabilidad, eficiencia operativa y fidelización de clientes de los establecimientos hoteleros:
+
+| Necesidad Comercial del Hotel | Solución Implementada en SmartStay | Métrica / KPI de Éxito |
+| :--- | :--- | :--- |
+| **Altos costos en coordinación manual y papel** | Digitalización total de órdenes de trabajo y comunicación reactiva en tiempo real. | Reducción de costos operativos directos en un **12% a 15%** en los primeros 6 meses. |
+| **Cuellos de botella y esperas en recepción** | Flujo de Check-in y Check-out Express 100% digital desde la app móvil. | Reducción del tiempo promedio de registro de **12 min a < 3 min** (reducción del 75%). |
+| **Habitaciones retenidas por demoras en limpieza** | Tablero Kanban móvil con actualización automática de estado al completar la tarea. | Disminución del tiempo de rotación (*room turnover*) de habitaciones en un **35%**. |
+| **Ingresos subóptimos por habitación disponible** | Dashboard analítico en tiempo real con monitoreo de ocupación y tarifas. | Incremento proyectado del **RevPAR en un 10%** mediante mejor control tarifario. |
+| **Calificaciones bajas por fricciones de servicio** | Autoservicio móvil, atención rápida de pedidos y trazabilidad de incidencias. | Índice de satisfacción de usuario (**CSAT > 85%**) y Net Promoter Score (**NPS > 50**). |
+
+---
+
+### 4.1.10. Supuestos
+
+Durante la formulación y planificación del proyecto se han establecido las siguientes premisas que se asumen como verdaderas:
+
+1. **Disponibilidad de Infraestructura Cloud:** Los proveedores de nube (AWS/Azure/GCP) mantendrán una disponibilidad de servicio de al menos 99.9% para alojar las bases de datos y microservicios sin costos prohibitivos para el entorno académico y de pruebas.
+2. **Conectividad en Hoteles:** Los hoteles boutique participantes en los programas piloto disponen de redes Wi-Fi comerciales estables con ancho de banda suficiente para que el personal de campo opere dispositivos móviles en todas las instalaciones.
+3. **Disposición a la Capacitación del Personal:** El personal operativo de limpieza y recepción cuenta con dispositivos móviles compatibles (Android 10+ / iOS 14+) y tiene la disposición de participar en sesiones breves de inducción para la adopción de la herramienta.
+4. **Adopción del Huésped Digital:** El perfil de viajeros objetivo (turistas y ejecutivos de generaciones Millennial y Gen X) muestra alta preferencia por el uso de aplicaciones de autoservicio para evitar filas presenciales.
+5. **Estabilidad del Marco Normativo y APIs:** Las APIs de integración con pasarelas de pago y servicios externos mantendrán contratos de interfaz estables y compatibles con la normativa fiscal y de protección de datos.
+
+---
+
+### 4.1.11. Restricciones
+
+El desarrollo de SmartStay está acotado por las siguientes restricciones y límites mandatorios:
+
+* **Restricción de Tiempo (Cronograma Académico):** El proyecto debe completarse en un plazo estricto de **15 semanas académicas**, distribuido en Sprints quincenales, cumpliendo con los hitos obligatorios: TB1 (Semana 3), TB2 (Semana 5), TP - Trabajo Parcial (Semana 8) y TF - Trabajo Final (Semana 15).
+* **Restricción Presupuestaria:** El desarrollo se ejecuta con financiamiento semilla propio de la startup y aprovechamiento de capas gratuitas de servicios tecnológicos (*GitHub Student Developer Pack*, Firebase Free Tier, contenedores de prueba locales).
+* **Restricción Tecnológica y de Arquitectura:**
+  * Uso obligatorio de patrones de arquitectura limpia (*Clean Architecture*), principios SOLID y desarrollo guiado por el dominio (*Domain-Driven Design*).
+  * Documentación rigurosa de APIs bajo el estándar OpenAPI 3.0 / Swagger.
+  * Automatización mandatoria de integración continua mediante GitHub Actions con validación estricta de rutas de archivos.
+* **Restricción Normativa y de Seguridad:** Cumplimiento de la **Ley Peruana de Protección de Datos Personales (Ley N° 29733)** y adopción de los lineamientos de seguridad para aplicaciones web y móviles de **OWASP Top 10**.
+
+---
+
+### 4.1.12. Eventos de Riesgo
+
+Se ha identificado una matriz preliminar de riesgos que podrían amenazar el cumplimiento de los objetivos del proyecto, junto con su nivel de criticidad y estrategia de mitigación:
+
+| Código | Evento de Riesgo | Prob. | Imp. | Severidad | Estrategia de Mitigación y Contingencia |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| **RSK-01** | **Resistencia al cambio del personal operativo:** Rechazo de trabajadores de limpieza a utilizar la aplicación móvil prefiriendo métodos verbales. | Media | Alto | **Alta** | Diseñar interfaces UX extremadamente simplificadas con botones grandes y soporte de iconografía visual; ejecutar talleres de co-diseño con el personal en fases tempranas. |
+| **RSK-02** | **Fallas o intermitencias de conectividad Wi-Fi en hoteles:** Zonas ciegas en pasillos o sótanos que impidan la sincronización en vivo. | Media | Alto | **Alta** | Implementar arquitectura *Offline-First* en la app móvil con almacenamiento local seguro (SQLite / IndexedDB) y sincronización automática al recuperar señal. |
+| **RSK-03** | **Desviación y corrupción del alcance (*Scope Creep*):** Inclusión descontrolada de requerimientos no prioritarios durante los Sprints. | Alta | Alto | **Crítica** | Aplicar priorización estricta mediante técnica MoSCoW en cada Sprint Planning; congelar el Sprint Backlog una vez iniciado cada ciclo bajo supervisión del Scrum Master. |
+| **RSK-04** | **Retrasos en la integración con pasarelas de pago de terceros:** Incompatibilidad técnica o demoras en la aprobación de credenciales de prueba. | Media | Medio | **Moderada** | Aplicar el patrón arquitectónico *Adapter/Ports and Adapters*, permitiendo el uso de servicios simulados (*mock services*) en fases de desarrollo y prueba sin bloquear el flujo. |
+| **RSK-05** | **Fallas en la integración de componentes de equipo:** Incompatibilidades entre el frontend web, la app móvil y la API backend al momento del despliegue. | Media | Medio | **Moderada** | Mantener contratos de API estrictos (*API-First*), ejecutar pruebas automatizadas de integración en el pipeline de CI/CD y requerir pull requests revisados por pares. |
+
+---
+
+### 4.1.13. Aprobaciones
+
+Con la suscripción del presente documento, los roles clave de gobernanza y liderazgo del proyecto declaran formalmente su conformidad con el contenido del **Project Charter**, aprobando el inicio oficial de la fase de planificación del alcance, diseño de historias de usuario y ejecución de los Sprints de desarrollo:
+
+| Rol de Aprobación | Nombre y Apellidos | Fecha de Firma | Estado | Declaración de Conformidad |
+| :--- | :--- | :---: | :---: | :--- |
+| **Product Sponsor / Academic Lead** | Rouillon Sixto César Elías | 22/09/2026 | **Aprobado** | Conforme con la alineación metodológica ágil y los objetivos formativos del hito TB2. |
+| **Agile Project Manager / Scrum Master** | Verona Flores, Italo Sebastian | 22/09/2026 | **Aprobado** | Asume la responsabilidad de facilitación ágil, remoción de impedimentos y cumplimiento del cronograma. |
+| **Product Owner & Business Lead** | Su Caletti, Eddo | 22/09/2026 | **Aprobado** | Valida que las necesidades del negocio y la visión de producto quedan fielmente reflejadas en el alcance inicial. |
+| **Software Architect & Tech Lead** | Sosa Soto, Oskar Rodrigo | 22/09/2026 | **Aprobado** | Certifica la viabilidad técnica, robustez arquitectónica y estándares de calidad para los microservicios. |
+| **QA & DevOps Lead** | Carlos Lavado, Ever Giusephi | 22/09/2026 | **Aprobado** | Garantiza la disponibilidad de los pipelines de CI/CD, entornos de prueba y mecanismos de control de calidad. |
+| **Domain Analyst & Requirements** | Montes Maza, Augusto Sebastian | 22/09/2026 | **Aprobado** | Confirma la consistencia de los perfiles de usuario, supuestos Lean UX y valor para los segmentos hoteleros. |
+
+<div style="page-break-after: always;"></div>
 
 
 
