@@ -505,24 +505,26 @@ El **Project Charter** (Acta de Constitución del Proyecto) constituye el docume
 
 ### 4.1.1. Resumen Ejecutivo
 
-El sector de la hospitalidad en Lima y Latinoamérica, con especial énfasis en hoteles boutique y de mediana escala (20 a 100 habitaciones), enfrenta un desafío crítico de competitividad originado por la fragmentación operativa, la alta dependencia de bitácoras en papel y la carencia de plataformas tecnológicas integradas. Esta realidad se traduce en tiempos de espera excesivos durante el check-in y check-out, discrepancias en el estado del inventario de habitaciones, demoras en las labores de limpieza (*housekeeping*) y una ausencia generalizada de datos consolidados para la toma de decisiones gerenciales.
+El proyecto **Sísifo** surge como una solución tecnológica integral orientada a resolver la brecha de digitalización y las ineficiencias en la gestión operativa y de reservas del sector hotelero independiente (hoteles boutique y de mediana escala de entre 20 y 100 habitaciones). El diagnóstico del sector en Lima y Latinoamérica evidencia un desafío crítico de competitividad originado por la fragmentación operativa y la dependencia de bitácoras manuales o herramientas aisladas. Esta falta de integración se traduce en errores de disponibilidad (*overbooking*), demoras en el flujo de recepción y atención al cliente, descoordinación en las labores de servicio y una limitada visibilidad sobre los estados de facturación y métricas clave del negocio.
 
-**SmartStay** nace como una solución digital integral *cloud-native* diseñada por la startup **Sísifo** para transformar y modernizar la gestión hotelera independiente. La plataforma unifica en un único ecosistema colaborativo:
-1. Un **Panel Web Administrativo** de alta disponibilidad para la administración y recepción hotelera, permitiendo la asignación dinámica de habitaciones, control de personal de campo y visualización de analítica operativa en tiempo real (RevPAR, ADR, ocupación promedio).
-2. Un **Módulo Operativo de Campo** para el personal de limpieza y mantenimiento, optimizado para dispositivos móviles, que reemplaza la comunicación por radio y papel por tableros Kanban de tareas sincronizadas al instante.
-3. Una **Aplicación Móvil para Huéspedes** multiplataforma que empodera al usuario final con herramientas de autoservicio (*self-service*), incluyendo check-in/out digital express, llaves de acceso, solicitudes de servicios y visualización de cuenta en tiempo real.
+Para transformar la gestión operativa de estos establecimientos, Sísifo se concibe como **SmartStay**, una solución web centralizada soportada por una **arquitectura monolítica organizada por capas**. Esta estructura técnica garantiza alta cohesión, consistencia de datos, simplicidad de despliegue y un mantenimiento ágil a través de la siguiente distribución:
 
-Desarrollada bajo marcos ágiles (Scrum/Kanban) y soportada por una arquitectura desacoplada de microservicios, SmartStay tiene como propósito fundamental reducir los costos operativos hoteleros entre un 12% y 15%, elevar el RevPAR en un 10% y mejorar sustancialmente el índice de satisfacción neta del huésped (NPS > 50).
+1. **Capa de Presentación (Frontend Web):** Interfaz desarrollada mediante *single-page applications* (SPA) con marcos de trabajo modernos (como Angular o Vue.js). Esta capa ofrece un Panel Web Administrativo unificado e intuitivo diseñado con vistas adaptativas según el rol de usuario:
+   * **Para el huésped:** Permite la consulta interactiva de inventario en tiempo real, registro de datos de ingreso (*check-in/out* digital express) y autogestión de reservas.
+   * **Para el personal administrativo y de recepción:** Proporciona un entorno centralizado para la asignación dinámica de habitaciones, control operativo de limpieza/mantenimiento mediante tableros de tareas sincronizados, y la visualización de analítica gerencial (indicadores clave como RevPAR, ADR y ocupación promedio).
+
+2. **Capa de Lógica de Negocio (Backend):** Núcleo del sistema encargado de procesar y orquestar las reglas del dominio de la aplicación. Gestiona el motor de reservas en tiempo real, las reglas de facturación y cobros, los permisos de control de acceso basados en roles (RBAC) y la sincronización del catálogo e inventario de habitaciones.
+
+3. **Capa de Acceso a Datos (Persistencia):** Responsable de administrar el mapeo objeto-relacional (ORM), ejecutar las transacciones y asegurar la persistencia con la base de datos relacional del sistema, garantizando la integridad referencial y el aislamiento de las operaciones concurrentes de reserva y facturación.
+
+Gracias a este enfoque técnico centralizado y por capas, SmartStay elimina la dispersión de datos y optimiza los flujos de trabajo operativos sin elevar la complejidad de la infraestructura. La plataforma busca reducir los costos operativos hoteleros entre un 12% y un 15%, incrementar el rendimiento financiero del negocio (elevando el RevPAR hasta en un 10%) y mejorar sustancialmente el índice de satisfacción del huésped.
 
 ---
 
 ### 4.1.2. Nombre del Proyecto
 
 * **Nombre Oficial del Proyecto:** *SmartStay: Intelligent Hospitality Operations & Guest Experience Platform*
-* **Nombre Comercial / Abreviado:** **SmartStay**
-* **Código Interno de Proyecto:** `PRJ-SMARTSTAY-2026-TB2`
-* **Entidad Ejecutora:** Startup Sísifo (`sisifoGroup`)
-* **Línea de Negocio / Producto:** Soluciones SaaS de Gestión y Automatización Hotelera (Hospitality Tech)
+* **Startup:** Sísifo (`sisifoGroup`)
 
 ---
 
