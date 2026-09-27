@@ -53,6 +53,7 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
 | **2.0.3** | 22/09/2026 | Ever Giusephi Carlos Lavado | Formulación de la Matriz de Eventos de Riesgo, Supuestos Críticos y Restricciones del Proyecto. |
 | **2.0.4** | 22/09/2026 | Augusto Sebastian Montes Maza | Definición del esquema de Gobernanza, Autoridad Iniciadora, facultades del Project Manager y Matriz de Aprobaciones. |
 | **2.1.0** | 22/09/2026 | Verona Flores Italo Sebastian | Consolidación integral del Project Charter, actualización de la Tabla de Contenidos y validación de estándares ágiles para TB2. |
+| **2.1.1** | 27/09/2026 | Oskar Rodrigo Sosa Soto | Revisión de la Descripción del Proyecto y Características del Producto/Servicio: estandarización de la numeración de subsecciones (4.1.7.1) y ajuste de redacción. |
 
 <div style="page-break-after: always;"></div>
 
@@ -897,9 +898,9 @@ Como consecuencia de esta desorganización estructural, los establecimientos ind
 
 ### 4.1.7. Descripción del Proyecto
 
-El proyecto **SmartStay** comprende el diseño, construcción, prueba y despliegue continuo de una plataforma tecnológica modular bajo un enfoque ágil e iterativo (entregas quincenales por Sprints). 
+El proyecto **SmartStay** comprende el diseño, construcción, prueba y despliegue continuo de una plataforma tecnológica modular bajo un enfoque ágil e iterativo, mediante Sprints quincenales.
 
-#### Arquitectura Macro de la Solución
+#### 4.1.7.1. Arquitectura Macro de la Solución
 La solución se estructura bajo los principios de *Clean Architecture* y *Domain-Driven Design* (DDD), compuesta por tres capas principales:
 
 ```
