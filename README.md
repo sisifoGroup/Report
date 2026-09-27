@@ -715,6 +715,13 @@ Para el desarrollo, despliegue y validación exitosa de **SmartStay**, se establ
 4. **Estabilidad del Dominio y Requerimientos:** Se asume que los flujos principales definidos mediante el proceso Lean UX y el modelado orientado al dominio (DDD) se mantendrán estables, permitiendo iteraciones ágiles sin modificaciones estructurales drásticas en los componentes críticos.
 
 ---
+### 4.1.11 Restricciones
+
+La implementación y el ciclo de desarrollo de **SmartStay** se encuentran condicionados por las siguientes restricciones técnicas, operativas y de tiempo:
+1. **Restricciones del Ciclo Académico y Plazos:** El proyecto debe desarrollarse, validarse e implementarse de manera evolutiva cumpliendo estrictamente con los plazos establecidos por el curso de *Agile Project Management* y sus entregas periódicas, contemplando los periodos de evaluación correspondientes al examen parcial.
+2. **Restricciones Tecnológicas y de Arquitectura:** El sistema debe construirse empleando arquitecturas basadas en microservicios, APIs RESTful documentadas y contenedores, limitándose a los lenguajes y tecnologías acordados por el equipo (como C#, Java o TypeScript) para asegurar mantenibilidad.
+3. **Restricciones de Presupuesto e Infraestructura Cloud:** Durante esta etapa inicial, los entornos de pruebas y despliegue deben optimizarse utilizando capas gratuitas o créditos limitados de proveedores de nube (AWS/Azure/GCP), evitando costos fijos elevados.
+4. **Restricciones de Seguridad y Privacidad:** La plataforma debe cumplir con los estándares básicos de protección de datos de los usuarios (huéspedes y personal), restringiendo el acceso mediante controles granulares por roles y asegurando la integridad transaccional.
 
 ---
 
