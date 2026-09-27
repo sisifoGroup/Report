@@ -696,43 +696,16 @@ mindmap
 
 ---
 
-### 4.1.9. Relación del Proyecto con la Necesidad Comercial
+### 4.1.9 Relación del Proyecto con la Necesidad Comercial
 
-El proyecto SmartStay se alinea de manera directa y cuantificable con los objetivos estratégicos de rentabilidad, eficiencia operativa y fidelización de clientes de los establecimientos hoteleros:
+El proyecto **SmartStay** responde de manera directa a la necesidad comercial de digitalizar, centralizar y optimizar la gestión operativa de los hoteles boutique y pequeños (segmento de 15 a 60 habitaciones), un sector que actualmente sufre una merma de entre el 15% y 20% en su productividad debido a la fragmentación de procesos, el uso de bitácoras físicas y canales de comunicación informales.
 
-| Necesidad Comercial del Hotel | Solución Implementada en SmartStay | Métrica / KPI de Éxito |
-| :--- | :--- | :--- |
-| **Altos costos en coordinación manual y papel** | Digitalización total de órdenes de trabajo y comunicación reactiva en tiempo real. | Reducción de costos operativos directos en un **12% a 15%** en los primeros 6 meses. |
-| **Cuellos de botella y esperas en recepción** | Flujo de Check-in y Check-out Express 100% digital desde la app móvil. | Reducción del tiempo promedio de registro de **12 min a < 3 min** (reducción del 75%). |
-| **Habitaciones retenidas por demoras en limpieza** | Tablero Kanban móvil con actualización automática de estado al completar la tarea. | Disminución del tiempo de rotación (*room turnover*) de habitaciones en un **35%**. |
-| **Ingresos subóptimos por habitación disponible** | Dashboard analítico en tiempo real con monitoreo de ocupación y tarifas. | Incremento proyectado del **RevPAR en un 10%** mediante mejor control tarifario. |
-| **Calificaciones bajas por fricciones de servicio** | Autoservicio móvil, atención rápida de pedidos y trazabilidad de incidencias. | Índice de satisfacción de usuario (**CSAT > 85%**) y Net Promoter Score (**NPS > 50**). |
+Desde una perspectiva técnica y de negocio, la solución se vincula con los objetivos comerciales a través de los siguientes ejes:
+* **Optimización de Costos Operativos:** La automatización en la actualización de estados de habitaciones (*housekeeping*) y la asignación digital de tareas reducen los tiempos muertos del personal de campo y los errores en la gestión de inventario.
+* **Elevación de la Experiencia del Cliente (*Guest Experience*):** El portal de autoservicio para huéspedes satisface las demandas de inmediatez y autonomía digital (check-in/check-out sin filas y solicitudes directas desde el smartphone), incrementando la satisfacción y las calificaciones en reseñas online.
+* **Escalabilidad y Flexibilidad Comercial:** La arquitectura modular basada en microservicios permite a los administradores hoteleros expandir sus operaciones sin fricciones tecnológicas, asegurando alta disponibilidad (24/7) y facilitando futuras integraciones con pasarelas de pago y canales de reserva de terceros (OTAs).
 
 ---
-
-### 4.1.10. Supuestos
-
-Durante la formulación y planificación del proyecto se han establecido las siguientes premisas que se asumen como verdaderas:
-
-1. **Disponibilidad de Infraestructura Cloud:** Los proveedores de nube (AWS/Azure/GCP) mantendrán una disponibilidad de servicio de al menos 99.9% para alojar las bases de datos y microservicios sin costos prohibitivos para el entorno académico y de pruebas.
-2. **Conectividad en Hoteles:** Los hoteles boutique participantes en los programas piloto disponen de redes Wi-Fi comerciales estables con ancho de banda suficiente para que el personal de campo opere dispositivos móviles en todas las instalaciones.
-3. **Disposición a la Capacitación del Personal:** El personal operativo de limpieza y recepción cuenta con dispositivos móviles compatibles (Android 10+ / iOS 14+) y tiene la disposición de participar en sesiones breves de inducción para la adopción de la herramienta.
-4. **Adopción del Huésped Digital:** El perfil de viajeros objetivo (turistas y ejecutivos de generaciones Millennial y Gen X) muestra alta preferencia por el uso de aplicaciones de autoservicio para evitar filas presenciales.
-5. **Estabilidad del Marco Normativo y APIs:** Las APIs de integración con pasarelas de pago y servicios externos mantendrán contratos de interfaz estables y compatibles con la normativa fiscal y de protección de datos.
-
----
-
-### 4.1.11. Restricciones
-
-El desarrollo de SmartStay está acotado por las siguientes restricciones y límites mandatorios:
-
-* **Restricción de Tiempo (Cronograma Académico):** El proyecto debe completarse en un plazo estricto de **15 semanas académicas**, distribuido en Sprints quincenales, cumpliendo con los hitos obligatorios: TB1 (Semana 3), TB2 (Semana 5), TP - Trabajo Parcial (Semana 8) y TF - Trabajo Final (Semana 15).
-* **Restricción Presupuestaria:** El desarrollo se ejecuta con financiamiento semilla propio de la startup y aprovechamiento de capas gratuitas de servicios tecnológicos (*GitHub Student Developer Pack*, Firebase Free Tier, contenedores de prueba locales).
-* **Restricción Tecnológica y de Arquitectura:**
-  * Uso obligatorio de patrones de arquitectura limpia (*Clean Architecture*), principios SOLID y desarrollo guiado por el dominio (*Domain-Driven Design*).
-  * Documentación rigurosa de APIs bajo el estándar OpenAPI 3.0 / Swagger.
-  * Automatización mandatoria de integración continua mediante GitHub Actions con validación estricta de rutas de archivos.
-* **Restricción Normativa y de Seguridad:** Cumplimiento de la **Ley Peruana de Protección de Datos Personales (Ley N° 29733)** y adopción de los lineamientos de seguridad para aplicaciones web y móviles de **OWASP Top 10**.
 
 ---
 
