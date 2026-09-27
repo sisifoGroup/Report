@@ -734,17 +734,150 @@ La autoridad iniciadora revisará el mandato cuando se produzcan cambios relevan
 
 ### 4.1.5. Project Manager
 
-Se ratifica formalmente la designación de **Italo Sebastian Verona Flores** como **Agile Project Manager / Scrum Master** del proyecto SmartStay, estableciendo los siguientes parámetros de autoridad y responsabilidad:
+La estructura de trabajo de SmartStay contempla a **Italo Sebastian Verona Flores**, código **U20221E617**, como **Project Manager**, cuya designación se formalizará en el acuerdo de aprobación del Project Charter.
 
-* **Nivel de Autoridad:**
-  * Autoridad metodológica total sobre la adopción y disciplina del marco Scrum y prácticas Kanban en el equipo de desarrollo.
-  * Capacidad de decisión sobre la asignación operativa de capacidad (*team velocity*) y distribución de ítems del Sprint Backlog durante las sesiones de Sprint Planning.
-  * Autoridad para detener despliegues o rechazar entregables que no satisfagan estrictamente la *Definition of Done* (DoD) acordada.
-* **Responsabilidades Operativas y de Gestión:**
-  * Facilitar rigurosamente las ceremonias ágiles: Sprint Planning, Daily Stand-ups (15 min), Sprint Review, Sprint Retrospective y sesiones periódicas de Backlog Refinement.
-  * Identificar, registrar y remover de manera proactiva cualquier impedimento, cuello de botella o dependencia técnica que amenace la velocidad del equipo.
-  * Mantener la radiación de información transparente mediante métricas ágiles actualizadas (Sprint Burndown Charts, Cumulative Flow Diagrams, Lead Time y Cycle Time).
-  * Proteger al equipo de desarrollo de interrupciones externas o adiciones de alcance no canalizadas a través del Product Owner.
+El Project Manager coordinará la planificación, el seguimiento de compromisos y la integración de los entregables. Su responsabilidad será mantener una visión compartida del estado del proyecto y facilitar la atención de las dificultades que afecten su desarrollo.
+
+La coordinación se realizará junto con el Product Owner y los responsables de análisis, arquitectura y calidad, respetando las decisiones que corresponden a cada función.
+
+#### 4.1.5.1. Propósito y alcance del rol
+
+El Project Manager deberá asegurar que el trabajo se organice alrededor de objetivos claros y compatibles con los recursos disponibles. Para ello, mantendrá visibilidad sobre:
+
+- Las prioridades del producto.
+- Los compromisos de cada iteración.
+- La disponibilidad de los integrantes.
+- Las dependencias entre actividades.
+- Los riesgos e impedimentos.
+- Las condiciones de calidad.
+- La preparación de los entregables académicos.
+
+Cada integrante será responsable del trabajo que asuma y de comunicar oportunamente las dificultades que puedan afectar su cumplimiento.
+
+Cuando el Project Manager desempeñe también funciones de facilitación de Scrum, promoverá la colaboración, la inspección de resultados y la mejora de la forma de trabajo. La coordinación del proyecto y la facilitación del marco se ejercerán respetando la autonomía del equipo para organizar su ejecución.
+
+#### 4.1.5.2. Facultades y límites de autoridad
+
+| Ámbito | Facultades del Project Manager | Límite de actuación |
+| :--- | :--- | :--- |
+| **Planificación** | Coordinar actividades, dependencias y fechas internas. | Las estimaciones y compromisos se acordarán con quienes ejecutan el trabajo. |
+| **Seguimiento** | Solicitar actualizaciones y evidencias de avance. | Los indicadores se utilizarán para mejorar la planificación y resolver dificultades. |
+| **Organización** | Facilitar acuerdos de distribución y redistribución del trabajo. | Los cambios considerarán la capacidad y participación de los integrantes afectados. |
+| **Alcance** | Identificar desviaciones y coordinar su evaluación. | La priorización del Product Backlog corresponde al Product Owner. |
+| **Calidad** | Solicitar revisiones y dar seguimiento a observaciones. | La verificación técnica y funcional será compartida por el equipo. |
+| **Recursos** | Identificar necesidades y proponer alternativas. | Los gastos requieren conformidad de quienes asumirán el compromiso. |
+| **Comunicación académica** | Consolidar consultas y comunicar el estado del proyecto. | No puede modificar fechas oficiales ni criterios de evaluación. |
+| **Impedimentos** | Coordinar su resolución y escalarlos cuando corresponda. | Las decisiones que excedan la autoridad interna se remitirán a la instancia competente. |
+
+El Project Manager verificará que los resultados presentados como terminados cumplan los criterios acordados. Las aprobaciones académicas y funcionales deberán quedar registradas por sus responsables.
+
+#### 4.1.5.3. Planificación y control del alcance
+
+El Project Manager coordinará la elaboración y actualización del plan de trabajo mediante las siguientes actividades:
+
+1. Identificar los entregables del curso y sus criterios de evaluación.
+2. Relacionar cada entregable con las actividades necesarias para producirlo.
+3. Revisar las prioridades con el Product Owner.
+4. Identificar dependencias entre análisis, diseño, desarrollo, pruebas y documentación.
+5. Contrastar los compromisos con la disponibilidad de los integrantes.
+6. Reservar tiempo para integración, revisión y correcciones.
+7. Registrar los acuerdos y verificar su consistencia con el informe.
+
+En SmartStay se evaluará especialmente el esfuerzo asociado a cada capacidad del producto. La gestión de habitaciones, las tareas operativas y las solicitudes del huésped deberán mantener una relación clara con los objetivos de la etapa académica.
+
+Las integraciones externas, los pagos, los dispositivos IoT y otras funcionalidades complementarias requerirán una evaluación de valor, esfuerzo y dependencias antes de incorporarse al trabajo comprometido.
+
+El Project Manager coordinará la definición de la arquitectura con el responsable técnico. Una vez acordada, se actualizarán el resumen ejecutivo, la descripción de la solución y las restricciones para mantener una misma definición del sistema.
+
+#### 4.1.5.4. Coordinación de las iteraciones
+
+La duración y los objetivos de las iteraciones se acordarán considerando el calendario académico y la capacidad del equipo.
+
+| Actividad | Finalidad | Participación del Project Manager |
+| :--- | :--- | :--- |
+| **Planificación de la iteración** | Definir un objetivo y seleccionar trabajo viable. | Facilitar la revisión de prioridades, capacidad y dependencias. |
+| **Coordinación del trabajo** | Identificar avances, dificultades y ajustes. | Apoyar la resolución de bloqueos y mantener visibilidad del estado general. |
+| **Revisión de resultados** | Examinar lo producido y recoger retroalimentación. | Coordinar la presentación de evidencias y registrar acciones posteriores. |
+| **Retrospectiva** | Revisar la forma de trabajo y acordar mejoras. | Facilitar una conversación centrada en problemas concretos y acciones realizables. |
+| **Refinamiento** | Aclarar necesidades y preparar elementos del backlog. | Coordinar espacios con el Product Owner y los integrantes involucrados. |
+
+Cuando se utilice Scrum, el Daily Scrum será un espacio de los desarrolladores para inspeccionar el avance hacia el objetivo del Sprint y adaptar su plan. El Project Manager apoyará la atención de los impedimentos identificados.
+
+El trabajo podrá ajustarse durante una iteración conforme se obtenga nueva información. Los cambios se revisarán con el Product Owner y el equipo, considerando sus efectos sobre el objetivo, la capacidad y la calidad.
+
+#### 4.1.5.5. Gestión de riesgos e impedimentos
+
+El Project Manager coordinará un registro que incluya la descripción de cada riesgo o impedimento, su impacto, responsable, respuesta y estado.
+
+| Situación | Acción de gestión |
+| :--- | :--- |
+| **Menor disponibilidad durante el examen parcial** | Revisar anticipadamente la capacidad y ajustar los compromisos internos. |
+| **Aumento del alcance** | Evaluar el valor y esfuerzo de nuevas solicitudes antes de incorporarlas a la iteración. |
+| **Dependencias técnicas sin resolver** | Coordinar acuerdos de interfaces, accesos y criterios de integración. |
+| **Dificultad para contactar usuarios** | Reorganizar las actividades de validación y precisar las limitaciones de los resultados. |
+| **Retrasos en revisiones** | Identificar pendientes y acordar responsables y fechas de atención. |
+| **Desalineación entre documentación e implementación** | Coordinar la actualización de los artefactos afectados. |
+| **Defectos que impiden la demostración** | Priorizar su análisis y corrección con los responsables técnicos y de calidad. |
+
+Los problemas se atenderán según su efecto sobre el objetivo de la iteración y los entregables próximos. Cuando se requiera escalar una situación, se comunicarán sus consecuencias y las alternativas evaluadas.
+
+Cada acción de respuesta deberá contar con un responsable y una fecha de seguimiento. El cierre de un impedimento se registrará cuando se haya resuelto su efecto sobre el trabajo.
+
+#### 4.1.5.6. Seguimiento y comunicación
+
+El seguimiento permitirá identificar qué se completó, qué permanece pendiente, qué dificultades existen y qué decisiones se necesitan.
+
+| Aspecto | Información de seguimiento | Utilidad |
+| :--- | :--- | :--- |
+| **Avance** | Resultados completados, pendientes y bloqueados. | Detectar desviaciones y necesidades de apoyo. |
+| **Objetivo de la iteración** | Contribución de los resultados al propósito acordado. | Mantener el trabajo orientado a resultados. |
+| **Calidad** | Criterios pendientes, defectos y observaciones. | Organizar correcciones antes de la entrega. |
+| **Capacidad** | Disponibilidad y carga de trabajo. | Ajustar los compromisos de manera oportuna. |
+| **Validación** | Retroalimentación y supuestos por comprobar. | Orientar decisiones de producto. |
+| **Preparación académica** | Integración y revisión de los entregables. | Reducir omisiones e inconsistencias. |
+
+Las métricas se calcularán a partir de los registros del tablero. El tiempo de ciclo, el trabajo en curso y los elementos bloqueados podrán utilizarse para mejorar la planificación cuando exista información suficiente.
+
+Las decisiones relevantes se conservarán en el repositorio, el tablero o el registro de acuerdos. Las comunicaciones de estado incluirán las acciones necesarias para atender los pendientes.
+
+#### 4.1.5.7. Calidad y cierre del trabajo
+
+El Project Manager dará seguimiento a los criterios de cierre acordados por el equipo.
+
+Para los entregables documentales se verificará:
+
+- Coherencia con el problema, los usuarios y el alcance de SmartStay.
+- Consistencia entre las secciones del informe.
+- Claridad de las responsabilidades y decisiones.
+- Sustento de las afirmaciones que requieran evidencia.
+- Revisión por otro integrante.
+- Atención de observaciones antes de consolidar la versión.
+
+Para los componentes de software se verificará:
+
+- Cumplimiento de los criterios de aceptación.
+- Revisión e integración del trabajo.
+- Ejecución de las pruebas acordadas.
+- Resolución de defectos que impidan su uso previsto.
+- Disponibilidad de evidencia para la demostración.
+- Actualización de la documentación necesaria.
+
+La calidad será una responsabilidad compartida. El Project Manager coordinará su seguimiento y comunicará los pendientes que puedan afectar una entrega.
+
+#### 4.1.5.8. Continuidad y revisión del rol
+
+Ante una ausencia temporal, el equipo acordará quién asumirá las actividades de coordinación. La transferencia incluirá el estado de los entregables, los compromisos próximos, los riesgos y las decisiones pendientes.
+
+La continuidad de la designación se revisará considerando:
+
+- Claridad y oportunidad de la comunicación.
+- Seguimiento de los acuerdos.
+- Atención de impedimentos.
+- Integración de los aportes del equipo.
+- Respeto por las responsabilidades de los demás roles.
+- Capacidad para anticipar dificultades y facilitar mejoras.
+
+Cualquier cambio de responsable se registrará con su fecha efectiva y las actividades transferidas. La actualización se reflejará en el Project Charter y en la sección de aprobaciones.
 
 ---
 
