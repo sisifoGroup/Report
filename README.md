@@ -706,6 +706,15 @@ Desde una perspectiva técnica y de negocio, la solución se vincula con los obj
 * **Escalabilidad y Flexibilidad Comercial:** La arquitectura modular basada en microservicios permite a los administradores hoteleros expandir sus operaciones sin fricciones tecnológicas, asegurando alta disponibilidad (24/7) y facilitando futuras integraciones con pasarelas de pago y canales de reserva de terceros (OTAs).
 
 ---
+### 4.1.10 Supuestos
+
+Para el desarrollo, despliegue y validación exitosa de **SmartStay**, se establecen los siguientes supuestos fundamentales:
+1. **Infraestructura de Conectividad:** Se asume que los hoteles boutique objetivo disponen de una infraestructura de red e Internet estable (Wi-Fi de alta velocidad) que permite el consumo fluido de servicios en la nube y la sincronización de datos en tiempo real.
+2. **Adopción Tecnológica del Personal:** Se parte del supuesto de que el Staff Operativo (recepcionistas, personal de limpieza y mantenimiento) cuenta o puede adquirir con facilidad las competencias básicas para el manejo de dispositivos móviles y paneles web intuitivos.
+3. **Disponibilidad y Compromiso del Equipo:** Los integrantes del equipo de desarrollo de la startup **Sisifo** mantendrán la disponibilidad horaria acordada y la colaboración activa durante el ciclo de vida del proyecto, garantizando el cumplimiento de los Sprints y entregables.
+4. **Estabilidad del Dominio y Requerimientos:** Se asume que los flujos principales definidos mediante el proceso Lean UX y el modelado orientado al dominio (DDD) se mantendrán estables, permitiendo iteraciones ágiles sin modificaciones estructurales drásticas en los componentes críticos.
+
+---
 
 ---
 
