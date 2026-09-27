@@ -943,32 +943,36 @@ La solución se estructura bajo los principios de *Clean Architecture* y *Domain
 El catálogo de funcionalidades del sistema se categoriza en los siguientes módulos operacionales:
 
 ```mermaid
-mindmap
-  root((SmartStay))
-    Seguridad y Accesos
-      Autenticacion JWT
-      Roles Granulares RBAC
-      Auditoria de Actividad
-    Gestion de Habitaciones
-      Inventario en Tiempo Real
-      Estados Dinamicos
-      Gestion Tarifaria
-    Motor de Reservas
-      Calendario Interactivo
-      Confirmacion Inmediata
-      Politicas de Cancelacion
-    Experiencia Huesped
-      Check-in Express Digital
-      Check-out Autonomo
-      Solicitudes Room Service
-    Operaciones de Campo
-      Tablero Housekeeping
-      Tickets Mantenimiento
-      Alertas Push Inmediatas
-    Analitica y Reportes
-      Calculo RevPAR y ADR
-      Tiempos de Ciclo Limpieza
-      Exportacion de Reportes
+graph TD
+    A[SmartStay] --> B[Seguridad y Accesos]
+    B --> B1[Autenticación JWT]
+    B --> B2[Roles Granulares RBAC]
+    B --> B3[Auditoría de Actividad]
+
+    A --> C[Gestión de Habitaciones]
+    C --> C1[Inventario en Tiempo Real]
+    C --> C2[Estados Dinámicos]
+    C --> C3[Gestión Tarifaria]
+
+    A --> D[Motor de Reservas]
+    D --> D1[Calendario Interactivo]
+    D --> D2[Confirmación Inmediata]
+    D --> D3[Políticas de Cancelación]
+
+    A --> E[Experiencia Huésped]
+    E --> E1[Check-in Express Digital]
+    E --> E2[Check-out Autónomo]
+    E --> E3[Solicitudes Room Service]
+
+    A --> F[Operaciones de Campo]
+    F --> F1[Tablero Housekeeping]
+    F --> F2[Tickets Mantenimiento]
+    F --> F3[Alertas Push Inmediatas]
+
+    A --> G[Analítica y Reportes]
+    G --> G1[Cálculo RevPAR y ADR]
+    G --> G2[Tiempos de Ciclo Limpieza]
+    G --> G3[Exportación de Reportes]
 ```
 
 1. **Módulo de Seguridad y Control de Acceso (RBAC):**
