@@ -632,14 +632,103 @@ Las reuniones que impliquen decisiones relevantes deberán concluir con acuerdos
 
 ### 4.1.4. Autoridad Iniciadora
 
-La autoridad iniciadora formal del proyecto corresponde de manera conjunta a la **Junta Directiva de la Startup Sísifo (Sísifo Startup Board)** y al **Product Sponsor**:
+La autoridad iniciadora de **SmartStay** corresponde al **equipo promotor Sísifo**, integrado por los cinco miembros del proyecto. Esta instancia tiene la responsabilidad de establecer la orientación inicial del trabajo, acordar el alcance y organizar los recursos necesarios para desarrollar la solución dentro del curso de **Agile Project Management**.
 
-* **Entidad Patrocinadora:** Startup Sísifo (`sisifoGroup`) en convenio con la cátedra de *Agile Project Management* de la Universidad Peruana de Ciencias Aplicadas (UPC).
-* **Mandato Formal:** Autorizar el desembolso de recursos iniciales, licenciamiento de herramientas colaborativas (GitHub Enterprise/Student Developer Pack, tableros Trello/Jira, infraestructura cloud en capa gratuita/créditos para startups) y el inicio de las actividades de desarrollo del equipo de ingeniería a partir de Septiembre de 2026.
-* **Facultades Específicas:**
-  * Aprobar o rechazar cambios estructurales de visión de producto propuestos por el Product Owner.
-  * Validar el paso entre fases del ciclo de vida del proyecto tras la demostración de incrementos funcionales de software en los Sprint Reviews.
-  * Suspender o reorientar el proyecto ante desviaciones presupuestales, técnicas o normativas no mitigables.
+La orientación y evaluación académica corresponden al docente **Rouillon Sixto César Elías**. Sus indicaciones permiten alinear los entregables con los objetivos del curso y orientar la aplicación de las prácticas de gestión ágil.
+
+Las decisiones internas del proyecto se formalizarán mediante acuerdos del equipo y se registrarán en el Project Charter y sus actualizaciones.
+
+#### 4.1.4.1. Fundamento de la iniciativa
+
+SmartStay se orienta a atender las dificultades de coordinación entre recepción, limpieza, mantenimiento y administración de hoteles boutique y pequeños de Lima Metropolitana.
+
+La propuesta parte de la necesidad de mantener información compartida sobre las habitaciones, las tareas operativas y las solicitudes de los huéspedes. La separación de estos registros puede dificultar la identificación de pendientes, responsables y condiciones de disponibilidad.
+
+El equipo Sísifo plantea una solución que permita:
+
+- Centralizar la consulta y actualización de los estados de las habitaciones.
+- Organizar la asignación y el seguimiento de tareas de limpieza y mantenimiento.
+- Registrar solicitudes e incidencias con responsables y estados de atención.
+- Facilitar la comunicación entre el huésped y las áreas del establecimiento.
+- Proporcionar información para la supervisión administrativa.
+
+La autoridad iniciadora velará por que el alcance conserve esta relación con el problema. Las funcionalidades adicionales se evaluarán según su utilidad, esfuerzo y viabilidad.
+
+Los porcentajes de mejora, ahorro y adopción se utilizarán como metas de evaluación. Su cumplimiento se determinará mediante mediciones y actividades de validación.
+
+#### 4.1.4.2. Mandato inicial del proyecto
+
+El mandato inicial comprende la organización y ejecución de las actividades necesarias para definir, desarrollar y evaluar SmartStay.
+
+| Ámbito | Mandato | Resultado esperado |
+| :--- | :--- | :--- |
+| **Definición del problema** | Precisar las dificultades de los usuarios y los procesos que se busca mejorar. | Necesidades relacionadas con los segmentos objetivo. |
+| **Alcance** | Establecer los resultados viables con los recursos disponibles. | Alcance inicial, exclusiones y prioridades. |
+| **Organización** | Distribuir responsabilidades y establecer mecanismos de coordinación. | Roles y acuerdos de trabajo. |
+| **Planificación** | Organizar actividades según los entregables y la capacidad del equipo. | Plan compatible con el calendario académico. |
+| **Desarrollo** | Elaborar los componentes y artefactos necesarios para demostrar la solución. | Resultados verificables y coherentes con el alcance. |
+| **Validación** | Recoger retroalimentación y revisar los supuestos del producto. | Hallazgos y decisiones de mejora. |
+| **Seguimiento** | Mantener información sobre avances, riesgos y compromisos. | Evidencias y acuerdos trazables. |
+
+El mandato se ejecutará de manera progresiva. Cada iteración deberá contribuir a un objetivo concreto y generar resultados que puedan revisarse antes de asumir nuevos compromisos.
+
+#### 4.1.4.3. Facultades de la autoridad iniciadora
+
+Corresponde al equipo promotor Sísifo:
+
+1. **Acordar la orientación del proyecto:** mantener la relación entre el problema hotelero, los usuarios y la propuesta de valor.
+2. **Ratificar las responsabilidades:** formalizar la distribución de funciones y la designación del Project Manager.
+3. **Aprobar el alcance inicial:** delimitar los compromisos de desarrollo y las capacidades que quedan fuera de la etapa académica.
+4. **Revisar cambios sustanciales:** evaluar modificaciones que afecten objetivos, recursos, arquitectura o entregables.
+5. **Acordar el uso de recursos:** determinar qué herramientas y servicios pueden utilizarse y quién asumirá los costos, cuando existan.
+6. **Reorientar actividades:** ajustar el trabajo cuando la validación revele necesidades diferentes o limitaciones técnicas.
+7. **Evaluar la continuidad de compromisos:** revisar actividades que dejen de ser viables y acordar alternativas.
+8. **Coordinar consultas académicas:** canalizar al docente las decisiones que requieran interpretar condiciones del curso.
+
+Los acuerdos internos no modifican las fechas oficiales ni los criterios de evaluación. Cualquier ajuste de estas condiciones deberá tramitarse mediante los canales académicos correspondientes.
+
+#### 4.1.4.4. Recursos y condiciones de ejecución
+
+La planificación se apoyará en los recursos disponibles para el equipo, considerando su acceso, continuidad y costo.
+
+| Recurso | Criterio de gestión |
+| :--- | :--- |
+| **Tiempo de los integrantes** | Estimar la disponibilidad por iteración y considerar otras responsabilidades académicas. |
+| **Equipos y conectividad** | Verificar que permitan ejecutar las actividades asignadas. |
+| **Repositorio GitHub** | Mantener versiones, revisiones y evidencia de los cambios. |
+| **Tablero de trabajo** | Registrar actividades, responsables, dependencias y avances. |
+| **Herramientas de desarrollo y diseño** | Seleccionar alternativas compatibles con las necesidades y competencias del equipo. |
+| **Entornos de prueba y demostración** | Definir su configuración, acceso y mantenimiento. |
+| **Participantes de validación** | Coordinar su participación según disponibilidad y objetivos de investigación. |
+
+Antes de incorporar un servicio de pago, se revisarán su finalidad, costo, duración y alternativas. El uso de créditos o planes gratuitos deberá considerar sus límites y condiciones.
+
+Las colaboraciones con establecimientos hoteleros se gestionarán de manera específica. Su participación, alcance y condiciones se documentarán cuando se concreten.
+
+#### 4.1.4.5. Articulación con el calendario académico
+
+El desarrollo de SmartStay se organizará según las fechas y condiciones oficiales del curso. La planificación incluirá tiempo para preparar los entregables, integrar los aportes, revisar el contenido y atender observaciones.
+
+El curso contempla un **examen parcial**, por lo que su preparación se considerará al estimar la capacidad del equipo. En las iteraciones cercanas a esta evaluación se revisará la carga de trabajo y se priorizarán las actividades necesarias para mantener la continuidad del proyecto.
+
+El cronograma no incorporará prácticas calificadas (PC). Las fechas del examen parcial y de las entregas se registrarán de acuerdo con las indicaciones oficiales.
+
+El equipo establecerá fechas internas de revisión previas a cada presentación para detectar omisiones y resolver problemas de integración. Las actividades del proyecto asociadas al examen parcial se programarán según la consigna correspondiente.
+
+#### 4.1.4.6. Formalización y revisión de acuerdos
+
+La aprobación interna del Project Charter deberá identificar:
+
+- La versión revisada.
+- La fecha del acuerdo.
+- Los integrantes participantes.
+- El alcance y las responsabilidades aceptadas.
+- Las observaciones que deban atenderse.
+- Las condiciones pendientes y sus responsables.
+
+La sección de aprobaciones reflejará el estado de cada conformidad. Los acuerdos posteriores deberán indicar su motivo y sus efectos sobre la planificación.
+
+La autoridad iniciadora revisará el mandato cuando se produzcan cambios relevantes en la disponibilidad del equipo, el alcance funcional, las condiciones académicas o la viabilidad técnica.
 
 ---
 
