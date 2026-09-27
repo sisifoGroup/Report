@@ -530,17 +530,84 @@ Gracias a este enfoque técnico centralizado y por capas, SmartStay elimina la d
 
 ### 4.1.3. Autoridades
 
-La estructura de gobernanza, supervisión y toma de decisiones del proyecto SmartStay se organiza bajo la siguiente matriz de roles y responsabilidades clave:
+La gobernanza del proyecto **SmartStay**, desarrollado por el equipo **Sísifo** en el curso de **Agile Project Management**, establece las responsabilidades, facultades y mecanismos de coordinación necesarios para orientar el trabajo hacia los objetivos del producto y los compromisos académicos.
 
-| Rol de Gobernanza | Responsable / Cargo | Área / Entidad | Principales Facultades y Responsabilidades |
+Esta estructura busca asegurar que las decisiones respondan a las necesidades de los segmentos identificados: el personal operativo de hoteles boutique y pequeños, los administradores de los establecimientos y los huéspedes. Asimismo, permite gestionar el alcance de manera progresiva, mantener la trazabilidad de los acuerdos y utilizar de forma responsable el tiempo y los recursos disponibles.
+
+Se diferencian tres ámbitos de autoridad:
+
+- **Académico:** comprende los lineamientos del curso, los criterios de evaluación, la revisión de entregables y las observaciones del docente.
+- **Producto:** comprende la definición del valor esperado, la priorización de necesidades y la delimitación de las funcionalidades de SmartStay.
+- **Ejecución:** comprende la organización colaborativa del trabajo, las decisiones técnicas, la verificación de calidad y el seguimiento de riesgos e impedimentos.
+
+La distribución presentada a continuación constituye una propuesta de organización basada en los responsables identificados en el informe. Su incorporación al Project Charter deberá acompañarse de la ratificación del equipo y del registro de las conformidades correspondientes. La sola inclusión de un nombre en este apartado no representa una firma ni una aprobación formal.
+
+#### 4.1.3.1. Estructura de autoridades y responsabilidades
+
+| Rol | Responsable propuesto o identificado | Responsabilidades principales | Límites de autoridad |
 | :--- | :--- | :--- | :--- |
-| **Product Sponsor / Academic Lead** | Rouillon Sixto César Elías | Dirección Académica UPC / Sponsor de Proyecto | Supervisión de alineamiento metodológico ágil, validación de hitos académicos (TB1, TB2, TP, TF) y aprobación final de entregables. |
-| **Agile Project Manager / Scrum Master** | Verona Flores, Italo Sebastian | Startup Sísifo | Facilitación de ceremonias ágiles, gestión del flujo de valor, remoción de impedimentos técnicos/operativos y control del cumplimiento de la DoD/DoR. |
-| **Product Owner & Business Lead** | Su Caletti, Eddo | Startup Sísifo | Maximización del valor del producto, priorización continua del Product Backlog, refinamiento de historias de usuario y aceptación de incrementos. |
-| **Software Architect & Technical Lead** | Sosa Soto, Oskar Rodrigo | Startup Sísifo | Definición de la arquitectura de software (DDD, microservicios, API RESTful), aseguramiento de calidad técnica, revisión de Pull Requests y estándares de código. |
-| **QA & DevOps Engineer** | Carlos Lavado, Ever Giusephi | Startup Sísifo | Diseño y ejecución de estrategias de prueba (BDD/TDD), automatización de pipelines de CI/CD en GitHub Actions y verificación de integridad de despliegues. |
-| **Business Analyst & Domain Specialist** | Montes Maza, Augusto Sebastian | Startup Sísifo | Modelado del dominio hotelero, especificación de requerimientos de negocio, análisis de métricas operativas y relación con stakeholders externos. |
-| **Comité Asesor de Usuarios (Stakeholders)** | Administradores y Huéspedes de Hoteles Boutique Aliados | Sector Hotelero Independiente (Lima) | Validación de supuestos Lean UX, retroalimentación temprana en sesiones de Sprint Review y participación en pruebas de usabilidad. |
+| **Autoridad académica del curso** | Rouillon Sixto César Elías, docente identificado en la carátula | Comunicar los lineamientos académicos, evaluar los entregables, formular observaciones y orientar la aplicación de los contenidos del curso. | Su participación académica no implica financiamiento, representación comercial de Sísifo ni autorización para contratar servicios en nombre de la UPC. |
+| **Project Manager y facilitador ágil** | Italo Sebastian Verona Flores | Coordinar la planificación, integrar los avances, dar seguimiento a los compromisos, facilitar la resolución de impedimentos y comunicar el estado del proyecto. Si asume adicionalmente funciones de Scrum Master, facilitar la comprensión y aplicación del marco de trabajo. | No sustituye al Product Owner en la priorización del producto ni decide unilateralmente las estimaciones y la distribución del trabajo técnico. |
+| **Product Owner** | Eddo Su Caletti | Mantener la visión de SmartStay, ordenar el Product Backlog y orientar las decisiones hacia el valor para el personal operativo, administradores y huéspedes. | No compromete por sí solo fechas, capacidad técnica, gastos ni funcionalidades adicionales sin evaluar su impacto con el equipo. |
+| **Responsable de arquitectura y coordinación técnica** | Oskar Rodrigo Sosa Soto | Coordinar la evaluación de alternativas de arquitectura, interfaces, persistencia e integración; promover decisiones técnicas coherentes y revisiones entre pares. | No puede ampliar el alcance funcional ni incorporar tecnologías que comprometan los plazos o recursos sin una evaluación conjunta. |
+| **Responsable de calidad e integración** | Ever Giusephi Carlos Lavado | Coordinar los criterios de verificación, el registro de defectos y la preparación de evidencias de calidad. Organizar las prácticas de integración y automatización que resulten viables. | Su función no concentra toda la responsabilidad de calidad: cada integrante debe verificar su trabajo y participar en la revisión de los resultados. |
+| **Responsable de análisis de negocio y requerimientos** | Augusto Sebastian Montes Maza | Analizar los procesos hoteleros, documentar necesidades, refinar historias de usuario y mantener la relación entre problemas, requisitos, criterios de aceptación y evidencias de validación. | No incorpora compromisos funcionales al alcance sin coordinación con el Product Owner ni presenta hipótesis como resultados comprobados. |
+| **Equipo de trabajo Sísifo** | Los cinco integrantes del proyecto | Estimar, organizar y ejecutar el trabajo; producir documentación y componentes; revisar resultados; identificar riesgos y participar en la mejora continua. | Sus acuerdos internos deben respetar los requisitos académicos y no pueden atribuir autorizaciones a terceros. |
+| **Usuarios y participantes de validación** | Representantes de los segmentos objetivo que acepten participar | Explicar sus procesos, evaluar propuestas y proporcionar retroalimentación sobre utilidad, claridad y facilidad de uso. | Su participación es consultiva. No supone la existencia de hoteles aliados, contratos o un comité formal mientras no se cuente con evidencia de ello. |
+
+Los responsables de arquitectura, calidad y análisis desempeñan funciones de coordinación dentro del equipo. Estas funciones no constituyen departamentos independientes ni impiden que los integrantes colaboren en diferentes actividades.
+
+#### 4.1.3.2. Criterios para la toma de decisiones
+
+Las decisiones del proyecto se guiarán por los siguientes criterios:
+
+1. **Valor para los usuarios:** priorizar los problemas de coordinación entre recepción, limpieza y mantenimiento, la visibilidad de los estados de las habitaciones y la atención de solicitudes de los huéspedes.
+2. **Viabilidad académica y técnica:** ajustar los compromisos al tiempo disponible, las competencias del equipo y los requisitos efectivamente establecidos por el curso.
+3. **Evidencia disponible:** distinguir los hallazgos obtenidos mediante investigación o validación de las hipótesis, estimaciones y expectativas de negocio.
+4. **Calidad verificable:** definir condiciones de aceptación antes de considerar completo un resultado.
+5. **Trazabilidad:** registrar los acuerdos que modifiquen alcance, prioridades, responsabilidades, arquitectura o fechas internas.
+6. **Adaptación:** revisar las decisiones cuando aparezcan nuevos hallazgos, restricciones o dificultades, documentando el motivo del cambio.
+
+Para SmartStay, estos criterios implican evaluar cada funcionalidad según su contribución al problema principal. Las integraciones de pagos, dispositivos IoT, automatización de ambientes u otras capacidades complementarias deberán contar con justificación, viabilidad y priorización antes de convertirse en compromisos de implementación.
+
+#### 4.1.3.3. Distribución de facultades de decisión
+
+| Tipo de decisión | Responsable de conducirla | Participación requerida | Evidencia esperada |
+| :--- | :--- | :--- | :--- |
+| Interpretación de requisitos y criterios de evaluación del curso | Docente, mediante los canales académicos establecidos | Project Manager y equipo cuando corresponda | Consigna, rúbrica, comunicación u observación académica. |
+| Priorización del Product Backlog | Product Owner | Responsable de requerimientos y equipo; usuarios cuando estén disponibles | Backlog actualizado y justificación de prioridades. |
+| Selección del trabajo viable para una iteración | Integrantes que ejecutarán el trabajo, en coordinación con el Product Owner | Project Manager como facilitador | Objetivo de la iteración, previsión de capacidad y trabajo seleccionado. |
+| Definición o modificación de la arquitectura | Equipo técnico, coordinado por el responsable de arquitectura | Product Owner y Project Manager cuando exista impacto en valor, alcance o fechas | Registro de alternativas, decisión y consecuencias. |
+| Verificación de calidad | Equipo, con coordinación del responsable de calidad | Autor y revisor del trabajo; Product Owner para la conformidad funcional | Resultados de revisión, pruebas y defectos pendientes. |
+| Ajustes internos de organización | Equipo, con coordinación del Project Manager | Integrantes afectados | Tablero y acuerdos actualizados. |
+| Cambios sustanciales de alcance | Equipo Sísifo, con propuesta del Product Owner | Project Manager y responsables técnicos; consulta al docente si afecta requisitos académicos | Evaluación de impacto y acuerdo registrado. |
+| Uso de recursos que generen costos | Integrantes que asumirían el gasto, mediante acuerdo explícito | Equipo y responsable de evaluar la necesidad | Costo, finalidad, responsable y conformidad previa. |
+| Evaluación académica del entregable | Docente del curso | Equipo como responsable de presentar el trabajo | Calificación y retroalimentación académica. |
+
+La conformidad funcional, la verificación técnica y la evaluación académica corresponden a ámbitos diferentes. Un resultado revisado internamente todavía puede requerir correcciones académicas; de igual manera, una presentación académica no demuestra por sí sola que una funcionalidad esté lista para operar en un hotel.
+
+#### 4.1.3.4. Gestión de desacuerdos y escalamiento
+
+Cuando exista un desacuerdo, se seguirá el siguiente procedimiento:
+
+1. **Describir el problema:** precisar la decisión pendiente, sus causas y los elementos afectados.
+2. **Revisar la evidencia:** consultar requisitos, criterios de aceptación, capacidad disponible y restricciones.
+3. **Proponer alternativas:** analizar sus efectos sobre valor, esfuerzo, calidad, dependencias y plazos.
+4. **Resolver en el ámbito correspondiente:** canalizar las prioridades al Product Owner, las decisiones de implementación al equipo técnico y las dudas académicas al docente.
+5. **Registrar el acuerdo:** identificar la decisión, su responsable, las acciones derivadas y la fecha de revisión si corresponde.
+
+El Project Manager facilitará este procedimiento y dará seguimiento a su resolución. Los asuntos que excedan la autoridad interna, como la interpretación de una consigna o la modificación de una fecha oficial, se consultarán al docente mediante los canales establecidos.
+
+#### 4.1.3.5. Comunicación y trazabilidad
+
+Se propone utilizar los medios de trabajo mencionados en el informe:
+
+- **GitHub:** conservar versiones del informe y de los componentes del proyecto, registrar cambios y mantener evidencia de revisión.
+- **Trello:** visualizar actividades, responsables, dependencias, bloqueos y estado de avance.
+- **Reuniones de coordinación:** revisar resultados, resolver impedimentos y ajustar los compromisos.
+- **Canales académicos oficiales:** consultar requisitos del curso, fechas y observaciones del docente.
+
+Las decisiones relevantes deberán trasladarse al repositorio, tablero o registro de acuerdos correspondiente. Un mensaje informal no será suficiente evidencia de aprobación cuando la decisión afecte el alcance, un gasto o un compromiso importante.
 
 ---
 
