@@ -730,14 +730,12 @@ El cronograma macro se articula rigurosamente con los hitos y entregables de eva
 
 | Iteración / Periodo | Semanas Académicas | Foco de Trabajo Ágil | Entregable / Hito Oficial Asociado | Fecha Compromiso |
 | :---: | :---: | :--- | :--- | :---: |
-| **Sprint 1** | Semanas 1 y 2 | Formulación del problema hotelero, perfil de la startup Sísifo, técnica 5W2H, Lean UX Canvas y objetivos SMART individuales. | **Hito TB1 (Evaluación TB1):** Startup & Solution Profile, Lean UX y Objetivos SMART. | Semana 3 (Septiembre 2026) |
-| **Sprint 2** | Semanas 3 y 4 | Formulación integral del Project Charter, definición de gobernanza, presupuesto de alto nivel, mitigación de riesgos y arquitectura monolítica por capas. | **Hito TB2 (Evaluación TB2):** Project Charter completo formalizado y validado. | Semana 5 (Septiembre 2026) |
-| **Sprint 3** | Semanas 5 y 6 | Modelado de dominio (DDD), descomposición de épicas e historias de usuario con criterios de aceptación, wireframes y prototipado UI/UX. | **Hito TP1 (Examen Parcial):** Avance de historias de usuario, prototipos y arquitectura consolidada. | Semana 7 (Octubre 2026) |
-| **Sprint 4** | Semanas 8 y 9 | Construcción del núcleo transaccional: servicios de Room Management y Booking Engine, persistencia relacional en PostgreSQL y pruebas unitarias. | **Hito TB3 / TB4 (Evaluación TB3 & TB4):** Primer incremento de software desplegado con pruebas funcionales. | Semana 10 (Noviembre 2026) |
-| **Sprint 5** | Semanas 11 y 12 | Implementación del módulo de Housekeeping (Kanban operativo), portal web responsivo para huéspedes e integración continua de componentes. | **Hito TB5 (Evaluación TB5):** Segundo incremento funcional con tableros operativos y métricas de calidad. | Semana 12 (Noviembre 2026) |
-| **Sprint 6** | Semanas 13 y 14 | Desarrollo del dashboard analítico (RevPAR / ADR), auditoría de seguridad RBAC, pruebas de rendimiento, carga y estabilización pre-entrega. | **Hito TF1 (Evaluación Final):** Solución integral SmartStay completada, informe final y lecciones aprendidas. | Semana 15 (Diciembre 2026) |
-
-El equipo no contempla prácticas calificadas (PC), enfocando toda su capacidad en el cumplimiento de los Sprints y en las fechas de integración previa a cada presentación académica formal.
+| **Sprint 1** | Semanas 1 y 2 | Formulación del problema hotelero, perfil de la startup Sísifo, técnica 5W2H, Lean UX Canvas y objetivos SMART individuales. | **Hito :** Startup & Solution Profile, Lean UX y Objetivos SMART. | Semana 3 (Septiembre 2026) |
+| **Sprint 2** | Semanas 3 y 4 | Formulación integral del Project Charter, definición de gobernanza, presupuesto de alto nivel, mitigación de riesgos y arquitectura monolítica por capas. | **Hito :** Project Charter completo formalizado y validado. | Semana 5 (Septiembre 2026) |
+| **Sprint 3** | Semanas 5 y 6 | Modelado de dominio (DDD), descomposición de épicas e historias de usuario con criterios de aceptación, wireframes y prototipado UI/UX. | **Hito :** Avance de historias de usuario, prototipos y arquitectura consolidada. | Semana 7 (Octubre 2026) |
+| **Sprint 4** | Semanas 8 y 9 | Construcción del núcleo transaccional: servicios de Room Management y Booking Engine, persistencia relacional en PostgreSQL y pruebas unitarias. | **Hito :** Primer incremento de software desplegado con pruebas funcionales. | Semana 10 (Noviembre 2026) |
+| **Sprint 5** | Semanas 11 y 12 | Implementación del módulo de Housekeeping (Kanban operativo), portal web responsivo para huéspedes e integración continua de componentes. | **Hito :** Segundo incremento funcional con tableros operativos y métricas de calidad. | Semana 12 (Noviembre 2026) |
+| **Sprint 6** | Semanas 13 y 14 | Desarrollo del dashboard analítico (RevPAR / ADR), auditoría de seguridad RBAC, pruebas de rendimiento, carga y estabilización pre-entrega. | **Hito :** Solución integral SmartStay completada, informe final y lecciones aprendidas. | Semana 15 (Diciembre 2026) |
 
 #### 4.1.4.6. Formalización y revisión de acuerdos
 
@@ -758,7 +756,7 @@ La autoridad iniciadora revisará el mandato cuando se produzcan cambios relevan
 
 ### 4.1.5. Project Manager
 
-La estructura de trabajo de SmartStay contempla a **Italo Sebastian Verona Flores**, código **U20221E617**, como **Project Manager**, cuya designación se formalizará en el acuerdo de aprobación del Project Charter.
+La estructura de trabajo de SmartStay contempla a **Italo Sebastian Verona Flores**, como **Project Manager**, cuya designación se formalizará en el acuerdo de aprobación del Project Charter.
 
 El Project Manager coordinará la planificación, el seguimiento de compromisos y la integración de los entregables. Su responsabilidad será mantener una visión compartida del estado del proyecto y facilitar la atención de las dificultades que afecten su desarrollo.
 
