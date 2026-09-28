@@ -54,6 +54,7 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
 | **2.0.4** | 22/09/2026 | Augusto Sebastian Montes Maza | Definición del esquema de Gobernanza, Autoridad Iniciadora, facultades del Project Manager y Matriz de Aprobaciones. |
 | **2.1.0** | 22/09/2026 | Verona Flores Italo Sebastian | Consolidación integral del Project Charter, actualización de la Tabla de Contenidos y validación de estándares ágiles para TB2. |
 | **2.1.1** | 27/09/2026 | Oskar Rodrigo Sosa Soto | Revisión de la Descripción del Proyecto y Características del Producto/Servicio: estandarización de la numeración de subsecciones (4.1.7.1) y ajuste de redacción. |
+| **2.2.0** | 28/09/2026 | Verona Flores Italo Sebastian | Unificación integral de la Arquitectura Monolítica por Capas (DDD + PostgreSQL), robustecimiento del Project Charter (Triángulo Invertido PMI-ACP, Presupuesto High-Level, Cronograma de 6 Sprints y Entorno Híbrido/Remoto) y estandarización de contenido. |
 
 <div style="page-break-after: always;"></div>
 
@@ -96,16 +97,16 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
 
 # Student Outcome
 
-### ABET - EAC - Student Outcome 2:
+**ABET - EAC - Student Outcome 2:**
 > *La capacidad de aplicar el diseño de ingeniería para producir soluciones que satisfagan necesidades específicas con consideración de salud pública, seguridad y bienestar, así como factores globales, culturales, sociales, ambientales y económicos.*
 
-En la siguiente tabla se describen las acciones individuales realizadas y las conclusiones grupales correspondientes a la entrega **TB1**:
+En la siguiente tabla se describen las acciones individuales realizadas y las conclusiones grupales correspondientes a las entregas **TB1 y TB2**:
 
-| Criterio Específico | Acciones Realizadas (Por Integrante - TB1) | Conclusiones Grupales |
+| Criterio Específico | Acciones Realizadas por Integrante (TB1 & TB2) | Conclusiones Grupales |
 | :--- | :--- | :--- |
-| **Criterio 1:**<br>Diseña productos o componentes en ingeniería de software que satisfacen necesidades específicas considerando el impacto en salud pública, seguridad y bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Verona Flores, Italo Sebastian:**<br>• Participó en la identificación preliminar de los componentes básicos de la plataforma SmartStay, considerando la seguridad de la información de los usuarios y el confort en la gestión de hospedajes.<br><br>**Su Caletti Eddo**<br>• Colaboró en la descripción del problema de gestión hotelera evaluando el impacto económico en pequeños y medianos establecimientos y las descripcion de nuestro startup. <br> **TB2** <br>• Colabore en la parte de 4.1.9, 4.1.10 y 4.1.11 (Relación del Proyecto con la Necesidad Comercial, Supuestos y Restricciones) de nuestro trabajo <br><br>**Oskar Rodrigo  Sosa Soto**<br>• Apoyó en la formulación de la propuesta de valor orientada a mejorar la experiencia y bienestar de los huéspedes.<br><br>**Ever Giusephi  Carlos Lavado**<br>• Recopiló información sobre factores culturales y sociales en la interacción de usuarios y anfitriones.<br><br>**Augusto Sebastian Montes Maza**<br>• Revisó consideraciones básicas de accesibilidad digital y protección de datos para la solución inicial. | Durante esta fase inicial (TB1), el equipo definió conceptualmente la solución SmartStay y el alcance preliminar del servicio, asegurando que los requerimientos base contemplen la seguridad de la información de los huéspedes y la accesibilidad del usuario. |
-| **Criterio 2:**<br>Diseña proyectos que permiten la implementación de soluciones en ingeniería de software considerando el impacto en salud pública, seguridad, bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Verona Flores, Italo Sebastian:**<br>• Apoyó en la estructuración de los objetivos iniciales del proyecto SmartStay y en la identificación de los stakeholders clave.<br><br>**Su Caletti Eddo:**<br>• Participó en la delimitación de los antecedentes y el contexto del sector hotelero mediante la técnica 5W2H.<br> **TB2** <br>• Participacion en la elaboracion de la segunda entrega con 4.1.9, 4.1.10 y 4.1.11 en esta parte de la seccion dada con todo lo pedido. <br><br>**Oskar Rodrigo  Sosa Soto:**<br>• Colaboró en la definición preliminar de los segmentos objetivo (huéspedes y administradores de hospedajes).<br><br>**Ever Giusephi  Carlos Lavado:**<br>• Ayudó a mapear los riesgos y restricciones tempranas del entorno donde operará la solución.<br><br>**Augusto Sebastian Montes Maza:**<br>• Contribuyó en la definición de los canales de comunicación y coordinación inicial del equipo. | En este arranque, el equipo estructuró las bases del proyecto SmartStay aplicando técnicas de análisis del problema (5W2H) y alineando la planificación inicial con las necesidades operativas de los establecimientos de hospedaje. |
-| **Criterio 3:**<br>Diseña y ejecuta los procesos relacionados al desarrollo y mantenimiento de la solución de software en ingeniería considerando el impacto en salud pública, seguridad, bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Verona Flores, Italo Sebastian:**<br>• Colaboró en la configuración inicial del repositorio colaborativo en GitHub y en la adopción de las pautas de commits acordadas.<br><br>**Su Caletti Eddo :**<br>• Participó en la organización de la documentación del informe en formato Markdown respetando la estructura exigida. <br> **TB2** <br>•Participe en la organisacion y reparticion de cada parte de los integrantes del grupo junto con la elaboracion del mismo. <br><br>**Oskar Rodrigo  Sosa Soto:**<br>• Apoyó en la configuración del tablero de seguimiento de tareas en Trello para la distribución de actividades.<br><br>**Ever Giusephi  Carlos Lavado:**<br>• Ayudó a definir los acuerdos de equipo (*Working Agreements*) para el trabajo colaborativo en las iteraciones.<br><br>**Augusto Sebastian Montes Maza:**<br>• Estableció los canales sincrónicos y asincrónicos para coordinar las reuniones semanales de seguimiento. | Se implementaron los procesos de trabajo colaborativo base (control de versiones en GitHub, tablero ágil en Trello y canales de comunicación), garantizando orden, transparencia y trazabilidad en la documentación de esta primera entrega. |
+| **Criterio 1:**<br>Diseña productos o componentes en ingeniería de software que satisfacen necesidades específicas considerando el impacto en salud pública, seguridad y bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Italo Sebastian Verona Flores:**<br>• *TB1:* Participó en la identificación preliminar de los componentes básicos de la plataforma SmartStay, considerando la seguridad de la información de los usuarios y el confort en la gestión de hospedajes.<br>• *TB2:* Formuló el alcance de la capa de presentación SPA y definió las políticas de control de acceso (RBAC) para resguardar la privacidad y seguridad de los datos de huéspedes y administradores.<br><br>**Su Caletti Eddo:**<br>• *TB1:* Colaboró en la descripción del problema de gestión hotelera evaluando el impacto económico en pequeños y medianos establecimientos y la descripción de la startup.<br>• *TB2:* Investigó y redactó las Necesidades del Negocio con sustento bibliográfico indexado (APA 7), evaluando el impacto económico de la digitalización en la rentabilidad de las Mipymes hoteleras.<br><br>**Oskar Rodrigo Sosa Soto:**<br>• *TB1:* Apoyó en la formulación de la propuesta de valor orientada a mejorar la experiencia y bienestar de los huéspedes.<br>• *TB2:* Diseñó el catálogo detallado de características del producto/servicio, priorizando la ergonomía de los flujos de recepción y housekeeping para reducir la sobrecarga laboral del personal operativo.<br><br>**Ever Giusephi Carlos Lavado:**<br>• *TB1:* Recopiló información sobre factores culturales y sociales en la interacción de usuarios y anfitriones.<br>• *TB2:* Estructuró la matriz de supuestos críticos y restricciones operativas, analizando el impacto de la brecha digital y la estabilidad de infraestructura en establecimientos independientes.<br><br>**Augusto Sebastian Montes Maza:**<br>• *TB1:* Revisó consideraciones básicas de accesibilidad digital y protección de datos para la solución inicial.<br>• *TB2:* Delimitó los módulos de la capa de negocio asegurando trazabilidad en la gestión de solicitudes para garantizar bienestar y respuesta oportuna ante contingencias de los huéspedes. | **Conclusiones TB1:**<br>Durante esta fase inicial, el equipo definió conceptualmente la solución SmartStay y el alcance preliminar del servicio, asegurando que los requerimientos base contemplen la seguridad de la información de los huéspedes y la accesibilidad del usuario.<br><br>**Conclusiones TB2:**<br>En esta entrega, el equipo consolidó la definición del producto dentro del Project Charter, garantizando que el diseño arquitectónico monolítico por capas y las políticas de acceso satisfagan estándares éticos, de protección de datos personales y de optimización económica y operativa para el sector hotelero independiente. |
+| **Criterio 2:**<br>Diseña proyectos que permiten la implementación de soluciones en ingeniería de software considerando el impacto en salud pública, seguridad, bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Italo Sebastian Verona Flores:**<br>• *TB1:* Apoyó en la estructuración de los objetivos iniciales del proyecto SmartStay y en la identificación de los stakeholders clave.<br>• *TB2:* Estableció el timebox macro del proyecto (6 Sprints quincenales alineados a las 15 semanas del ciclo) y modeló la estructura de gobernanza y facultades de decisión del equipo.<br><br>**Su Caletti Eddo:**<br>• *TB1:* Participó en la delimitación de los antecedentes y el contexto del sector hotelero mediante la técnica 5W2H.<br>• *TB2:* Redactó la justificación comercial y la relación del proyecto con la necesidad del mercado, alineando los objetivos del software con la sostenibilidad financiera del negocio hotelero.<br><br>**Oskar Rodrigo Sosa Soto:**<br>• *TB1:* Colaboró en la definición preliminar de los segmentos objetivo (huéspedes y administradores de hospedajes).<br>• *TB2:* Diseñó la arquitectura macro monolítica modular (Domain-Driven Design), garantizando una estructura técnica mantenible y viable bajo restricciones académicas y cloud.<br><br>**Ever Giusephi Carlos Lavado:**<br>• *TB1:* Ayudó a mapear los riesgos y restricciones tempranas del entorno donde operará la solución.<br>• *TB2:* Elaboró la matriz formal de eventos de riesgo (RSK-01 a RSK-07) con análisis de probabilidad, impacto y estrategias de mitigación y contingencia operativa.<br><br>**Augusto Sebastian Montes Maza:**<br>• *TB1:* Contribuyó en la definición de los canales de comunicación y coordinación inicial del equipo.<br>• *TB2:* Formalizó el esquema de autoridad iniciadora, la matriz de aprobaciones y los criterios de gestión de cambios para salvaguardar la viabilidad del proyecto frente a variaciones de alcance. | **Conclusiones TB1:**<br>En este arranque, el equipo estructuró las bases del proyecto SmartStay aplicando técnicas de análisis del problema (5W2H) y alineando la planificación inicial con las necesidades operativas de los establecimientos de hospedaje.<br><br>**Conclusiones TB2:**<br>El equipo fundamentó el Agile Project Charter como acta fundacional viva, formalizando el compromiso de los roles (PO, PM, Devs), el presupuesto simulado ($13,836 USD) y los planes de mitigación de riesgos ante factores de adopción tecnológica y variaciones de alcance. |
+| **Criterio 3:**<br>Diseña y ejecuta los procesos relacionados al desarrollo y mantenimiento de la solución de software en ingeniería considerando el impacto en salud pública, seguridad, bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Italo Sebastian Verona Flores:**<br>• *TB1:* Colaboró en la configuración inicial del repositorio colaborativo en GitHub y en la adopción de las pautas de commits acordadas.<br>• *TB2:* Coordinó la integración del Project Charter bajo GitFlow, validó la trazabilidad de versiones en Markdown y lideró la ejecución de ceremonias de sincronización del Sprint 2.<br><br>**Su Caletti Eddo:**<br>• *TB1:* Participó en la organización de la documentación del informe en formato Markdown respetando la estructura exigida.<br>• *TB2:* Asumió formalmente la responsabilidad de Product Owner, priorizando la incorporación de necesidades funcionales en el Charter sin comprometer el timebox estricto.<br><br>**Oskar Rodrigo Sosa Soto:**<br>• *TB1:* Apoyó en la configuración del tablero de seguimiento de tareas en Trello para la distribución de actividades.<br>• *TB2:* Lideró la estandarización técnica del documento, unificando la convención de numeración decimal (4.1.7.1) y verificando la compatibilidad de los contratos de datos en PostgreSQL.<br><br>**Ever Giusephi Carlos Lavado:**<br>• *TB1:* Ayudó a definir los acuerdos de equipo (Working Agreements) para el trabajo colaborativo en las iteraciones.<br>• *TB2:* Integró los criterios de calidad y verificación pre-entrega en el repositorio, asegurando revisiones cruzadas de documentación frente al código antes de compilar.<br><br>**Augusto Sebastian Montes Maza:**<br>• *TB1:* Estableció los canales sincrónicos y asincrónicos para coordinar las reuniones semanales de seguimiento.<br>• *TB2:* Formalizó el protocolo de resolución de desacuerdos, escalamiento y comunicación virtual co-localizada (Discord, Meet y Trello) para el seguimiento continuo del trabajo. | **Conclusiones TB1:**<br>Se implementaron los procesos de trabajo colaborativo base (control de versiones en GitHub, tablero ágil en Trello y canales de comunicación), garantizando orden, transparencia y trazabilidad en la documentación de esta primera entrega.<br><br>**Conclusiones TB2:**<br>Se consolidaron las prácticas ágiles de ingeniería mediante la adopción de convenciones de commits, revisiones por pares, automatización de validaciones pre-entrega (scripts de comprobación de calidad) y co-localización virtual, garantizando un flujo de entrega continua y sostenible. |
 
 <div style="page-break-after: always;"></div>
 
@@ -204,12 +205,12 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 ### 3.1.1. Descripción de la Startup
 
-* **Nombre de la Startup:** SmartStay  
+* **Nombre de la Startup:** Sísifo  
 * **Misión:** Impulsar la transformación digital del sector hotelero boutique mediante soluciones de software ágiles e intuitivas que centralizan y automatizan la gestión del personal operativo, eliminando fricciones logísticas y garantizando un servicio de hospitalidad accesible y de alta calidad.  
 * **Visión:** Consolidarse en los próximos 3 a 5 años como el sistema estándar de optimización operativa para hoteles independientes a nivel regional e internacional, siendo reconocidos por convertir la complejidad logística en flujos de trabajo transparentes, eficientes y altamente escalables.  
 * **Valores y Cultura de Trabajo:**  
   * *Transparencia:* Comunicación abierta y visibilidad total en las tareas mediante tableros de seguimiento y ceremonias ágiles (Scrum/Kanban), asegurando la trazabilidad de los avances.  
-  * *Adaptabilidad:* Capacidad iterativa ante cambios de contexto o requerimientos de los usuarios finales, refinando continuamente la solución **RapiFast**.  
+  * *Adaptabilidad:* Capacidad iterativa ante cambios de contexto o requerimientos de los usuarios finales, refinando continuamente la solución **SmartStay**.  
   * *Excelencia Técnica:* Compromiso con la calidad del código, prácticas de prueba y una arquitectura de software limpia y escalable.  
   * *Colaboración e Inclusión:* Fomento del trabajo multidisciplinario, aprovechando la diversidad de perfiles técnicos del equipo y respetando las perspectivas de cada integrante.
 
@@ -236,7 +237,7 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 * **Código de Estudiante:** U202212214
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:**  
-  I am a Software Engineering student at Universidad Peruana de Ciencias Aplicadas (UPC) focused on building useful, reliable and maintainable digital products. My experience combines full-stack development, mobile applications, IoT solutions and software quality assurance. I have participated in academic, personal and real-world projects covering frontend interfaces, backend services, databases, authentication, testing, documentation and collaborative delivery with Git and Scrum. I enjoy understanding a product from two complementary perspectives: how to build it correctly and how to verify that it works correctly.
+  Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), enfocado en la construcción de productos digitales útiles, confiables y mantenibles. Su experiencia combina desarrollo full-stack, aplicaciones móviles, soluciones IoT y aseguramiento de la calidad de software (QA). Ha participado en proyectos académicos, personales y aplicados al entorno real, abarcando interfaces frontend, servicios backend, bases de datos, autenticación, pruebas automatizadas, documentación técnica y entrega colaborativa bajo marcos de trabajo ágiles con Git y Scrum. Posee un enfoque integral que combina la construcción técnica rigurosa de soluciones con la verificación metódica de su correcto funcionamiento.
 * **Principales Habilidades que Aporta al Equipo:**  
   * *Conocimientos Técnicos:* Desarrollo full-stack (frontend y backend), aplicaciones móviles, soluciones IoT, bases de datos y autenticación, aseguramiento de calidad de software (QA/testing), y control de versiones con Git.
   * *Habilidades Blandas:* Pensamiento analítico para construir y verificar soluciones desde ambas perspectivas, colaboración efectiva en equipos ágiles (Scrum) y comunicación clara en la documentación técnica.
@@ -275,9 +276,9 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 * **Código de Estudiante:** U202218645
 * **Carrera:** Ingeniería de Software
 * **Breve Descripción de Experiencia:**  
-  Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), con experiencia académica en el desarrollo de aplicaciones web, APIs REST y sistemas backend utilizando tecnologías como C#, .NET, Java, PHP y SQL Server. Ha participado en proyectos de software aplicando programación orientada a objetos, diseño de bases de datos, arquitectura de microservicios, metodologías ágiles y control de versiones con Git y GitHub. Asimismo, cuenta con experiencia en atención y comunicación con público estadounidense, fortaleciendo sus habilidades de adaptación y comunicación intercultural.
+  Estudiante de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), con experiencia académica en el desarrollo de aplicaciones web, APIs REST y sistemas backend utilizando tecnologías como C#, .NET, Java, PHP y SQL Server. Ha participado en proyectos de software aplicando programación orientada a objetos, diseño de bases de datos, arquitectura de software modular y por capas, metodologías ágiles y control de versiones con Git y GitHub. Asimismo, cuenta con experiencia en atención y comunicación con público estadounidense, fortaleciendo sus habilidades de adaptación y comunicación intercultural.
 * **Principales Habilidades que Aporta al Equipo:**  
-  * *Conocimientos Técnicos:* Desarrollo backend, C#, .NET, Java, PHP, APIs REST, SQL Server, diseño de bases de datos, arquitectura de microservicios, Swagger, Git, GitHub y documentación técnica.
+  * *Conocimientos Técnicos:* Desarrollo backend, C#, .NET, Java, PHP, APIs REST, SQL Server, diseño de bases de datos, arquitectura de software modular, Swagger, Git, GitHub y documentación técnica.
   * *Habilidades Blandas:* Pensamiento analítico, resolución de problemas, responsabilidad, organización, comunicación efectiva, trabajo colaborativo, adaptabilidad y comunicación intercultural.
 
 ---
@@ -305,9 +306,9 @@ Para fundamentar el diseño de la arquitectura de SmartStay, se aplica la técni
 * **When? (¿Cuándo?):**  
   Ocurre de forma ininterrumpida (24/7). Sin embargo, se vuelve crítica durante los picos de check-in/check-out y temporadas de alta ocupación, donde los sistemas tradicionales fallan al intentar escalar ante múltiples solicitudes simultáneas de servicios por parte de los huéspedes.
 * **Why? (¿Por qué?):**  
-  El origen técnico radica en la dependencia de arquitecturas monolíticas o sistemas aislados que no permiten la integración de nuevas tecnologías. La falta de un diseño basado en Domain-Driven Design (DDD) ha generado una lógica de negocio acoplada que impide la actualización independiente de módulos y la implementación de soluciones IoT para el monitoreo en tiempo real.
+  El origen técnico radica en la dependencia de sistemas legados aislados y soluciones desestructuradas que no implementan una clara separación de responsabilidades. La falta de un diseño guiado por el dominio (Domain-Driven Design - DDD) ha generado una lógica de negocio acoplada que impide la actualización ágil de los módulos y la integración de nuevos servicios.
 * **How? (¿Cómo?):**  
-  El Staff Operativo debe realizar tareas manuales redundantes, como verificar disponibilidad física de habitaciones o coordinar servicios vía radio o papel. Sin una arquitectura de microservicios orientada a eventos, la sincronización entre el pedido de un huésped y la ejecución de la tarea por parte del personal es lenta y carece de trazabilidad.
+  El Staff Operativo debe realizar tareas manuales redundantes, como verificar disponibilidad física de habitaciones o coordinar servicios vía radio o papel. Sin una plataforma centralizada y reactiva con sincronización en tiempo real, la comunicación entre el pedido de un huésped y la ejecución de la tarea por parte del personal es lenta y carece de trazabilidad.
 * **How Much? (¿Cuánto?):**  
   Estas ineficiencias arquitectónicas se traducen en una pérdida de productividad estimada entre el 15% y 20%. Además, genera un incremento significativo en costos operativos (energía y suministros) y una degradación en la satisfacción del cliente, lo que impacta negativamente en la reputación digital y el valor del negocio a largo plazo.
 
@@ -459,7 +460,7 @@ La propuesta de valor representa el conjunto de beneficios tangibles e intangibl
   * *Productos y Servicios:* Plataforma integral de gestión hotelera y experiencia del huésped conformada por:
     * Aplicación móvil nativa en Android para la asignación, ejecución y monitoreo de tareas del staff operativo.
     * Aplicación móvil multiplataforma (Flutter) orientada al huésped para autoservicio, solicitudes e interacción con comodidades del hotel.
-    * Panel web administrativo centralizado, respaldado por una arquitectura modular de microservicios en la nube escalable y segura.
+    * Panel web administrativo centralizado, respaldado por una arquitectura monolítica modular por capas en la nube, escalable y segura.
 
 ---
 
@@ -502,23 +503,21 @@ A continuación se definen los segmentos de clientes asociados al dominio del pr
 
 El **Project Charter** (Acta de Constitución del Proyecto) constituye el documento fundacional formal que autoriza oficialmente el inicio del proyecto **SmartStay** dentro del marco de trabajo ágil de la startup **Sísifo**, otorgando al equipo de ingeniería y al Project Manager la autoridad para planificar, comprometer recursos y ejecutar los Sprints sucesivos.
 
+Alineado con las directrices del PMI-ACP (*Agile Certified Practitioner*) y los estándares del PMBOK para proyectos adaptativos, SmartStay se rige bajo el principio del **Triángulo Invertido de la Gestión Ágil (Agile Iron Triangle)**: a diferencia del modelo predictivo tradicional en cascada donde el alcance es fijo y el tiempo/costo varían, en nuestro proyecto el **Tiempo y el Costo son fijos** (con un *timebox* estricto de 15 semanas académicas distribuidas en 6 Sprints quincenales y un presupuesto simulado optimizado), mientras que el **Alcance es flexible y gestionado continuamente por valor** mediante la priorización iterativa del Product Backlog.
+
 ---
 
 ### 4.1.1. Resumen Ejecutivo
 
 El proyecto **Sísifo** surge como una solución tecnológica integral orientada a resolver la brecha de digitalización y las ineficiencias en la gestión operativa y de reservas del sector hotelero independiente (hoteles boutique y de mediana escala de entre 20 y 100 habitaciones). El diagnóstico del sector en Lima y Latinoamérica evidencia un desafío crítico de competitividad originado por la fragmentación operativa y la dependencia de bitácoras manuales o herramientas aisladas. Esta falta de integración se traduce en errores de disponibilidad (*overbooking*), demoras en el flujo de recepción y atención al cliente, descoordinación en las labores de servicio y una limitada visibilidad sobre los estados de facturación y métricas clave del negocio.
 
-Para transformar la gestión operativa de estos establecimientos, Sísifo se concibe como **SmartStay**, una solución web centralizada soportada por una **arquitectura monolítica organizada por capas**. Esta estructura técnica garantiza alta cohesión, consistencia de datos, simplicidad de despliegue y un mantenimiento ágil a través de la siguiente distribución:
+Para transformar la gestión operativa de estos establecimientos, Sísifo concibe **SmartStay** bajo una **Arquitectura Monolítica por Capas (Layered Monolithic Architecture)** basada en principios de Domain-Driven Design (DDD) modular. Esta estructura técnica garantiza alta cohesión, consistencia inmediata de datos, simplicidad de despliegue y un mantenimiento ágil a través de la siguiente distribución formal de responsabilidades:
 
-1. **Capa de Presentación (Frontend Web):** Interfaz desarrollada mediante *single-page applications* (SPA) con marcos de trabajo modernos (como Angular o Vue.js). Esta capa ofrece un Panel Web Administrativo unificado e intuitivo diseñado con vistas adaptativas según el rol de usuario:
-   * **Para el huésped:** Permite la consulta interactiva de inventario en tiempo real, registro de datos de ingreso (*check-in/out* digital express) y autogestión de reservas.
-   * **Para el personal administrativo y de recepción:** Proporciona un entorno centralizado para la asignación dinámica de habitaciones, control operativo de limpieza/mantenimiento mediante tableros de tareas sincronizados, y la visualización de analítica gerencial (indicadores clave como RevPAR, ADR y ocupación promedio).
+1. **Capa de Presentación:** SPA Web (*Single Page Application* con framework moderno y responsivo como React, Angular o Vue.js) diseñada para el personal administrativo, el staff operativo (recepción, housekeeping y mantenimiento) y un portal web de autogestión de huéspedes para check-in/out digital express, solicitudes de servicios y consultas en tiempo real.
+2. **Capa de Aplicación y Lógica de Negocio:** Servicios de aplicación y dominio centralizado donde residen y se orquestan las reglas de negocio del sistema, organizadas modularmente en subdominios cohesivos (*Room Management*, *Housekeeping*, *Booking Engine*, y *Security & RBAC*), garantizando validaciones consistentes, lógica de dominio pura y control granular de acceso.
+3. **Capa de Persistencia y Datos:** Base de datos relacional unificada (**PostgreSQL**) con control transaccional ACID, mapeo objeto-relacional (ORM) e integridad referencial estricta, asegurando la atomicidad y el aislamiento de operaciones concurrentes críticas de reservas, inventario de habitaciones y facturación.
 
-2. **Capa de Lógica de Negocio (Backend):** Núcleo del sistema encargado de procesar y orquestar las reglas del dominio de la aplicación. Gestiona el motor de reservas en tiempo real, las reglas de facturación y cobros, los permisos de control de acceso basados en roles (RBAC) y la sincronización del catálogo e inventario de habitaciones.
-
-3. **Capa de Acceso a Datos (Persistencia):** Responsable de administrar el mapeo objeto-relacional (ORM), ejecutar las transacciones y asegurar la persistencia con la base de datos relacional del sistema, garantizando la integridad referencial y el aislamiento de las operaciones concurrentes de reserva y facturación.
-
-Gracias a este enfoque técnico centralizado y por capas, SmartStay elimina la dispersión de datos y optimiza los flujos de trabajo operativos sin elevar la complejidad de la infraestructura. La plataforma busca reducir los costos operativos hoteleros entre un 12% y un 15%, incrementar el rendimiento financiero del negocio (elevando el RevPAR hasta en un 10%) y mejorar sustancialmente el índice de satisfacción del huésped.
+Gracias a este enfoque técnico monolítico por capas y modular, SmartStay elimina la dispersión de datos, suprime la latencia innecesaria de red y optimiza los flujos de trabajo operativos sin incurrir en la sobrecarga de infraestructuras distribuidas. La plataforma busca reducir los costos operativos hoteleros entre un 12% y un 15%, incrementar el rendimiento financiero del negocio (elevando el RevPAR hasta en un 10%) y mejorar sustancialmente el índice de satisfacción del huésped.
 
 ---
 
@@ -620,14 +619,16 @@ El registro de la decisión incluirá el motivo, los responsables y las acciones
 
 #### 4.1.3.6. Comunicación y trazabilidad
 
-La coordinación se apoyará en los siguientes medios:
+La coordinación del equipo se fundamenta en una **modalidad de trabajo híbrida y remota**, adoptando el concepto de **co-localización virtual (*Virtual Colocation*)** enfatizado en las buenas prácticas de PMI-ACP para mantener alta cohesión, fluidez en la comunicación y respuesta inmediata:
 
-- **GitHub:** conservar versiones del informe y del software, registrar cambios y mantener evidencia de revisión.
-- **Trello:** visualizar actividades, responsables, dependencias y bloqueos.
-- **Reuniones de coordinación:** revisar resultados, resolver dificultades y ajustar compromisos.
-- **Canales académicos oficiales:** consultar consignas, fechas, criterios de evaluación y observaciones del docente.
+- **Canales Síncronos (Interacción en Tiempo Real):**
+  - **Discord & Google Meet:** Salas de videoconferencia dedicadas para ceremonias ágiles (Daily Standups, Sprint Planning, Sprint Review y Retrospectivas), resolución interactiva de dudas y sesiones colaborativas de *pair-programming* y resolución de impedimentos.
+- **Canales Asíncronos (Trazabilidad y Flujo de Trabajo):**
+  - **GitHub Organization ([sisifoGroup](https://github.com/sisifoGroup)):** Control de versiones del código fuente y del informe en Markdown, revisión de código (*Pull Requests* y *Code Reviews*), trazabilidad de incidencias (*Issue Tracking*) y automatización continua mediante GitHub Actions.
+  - **Trello:** Tablero Kanban para la visibilidad visual del flujo de tareas, control del trabajo en curso (*WIP Limits*), gestión de dependencias y registro explícito de bloqueos.
+  - **Canales Académicos Oficiales:** Consulta de consignas, rúbricas de evaluación, fechas oficiales y retroalimentación directa del docente.
 
-Las reuniones que impliquen decisiones relevantes deberán concluir con acuerdos, responsables y fechas de atención. Estos acuerdos se trasladarán al repositorio, tablero o registro correspondiente.
+Las reuniones que impliquen decisiones relevantes concluirán con acuerdos formales, responsables asignados y fechas compromiso de atención, los cuales se reflejarán de manera inmediata en el repositorio o en el tablero de trabajo.
 
 ---
 
@@ -664,10 +665,10 @@ El mandato inicial comprende la organización y ejecución de las actividades ne
 | Ámbito | Mandato | Resultado esperado |
 | :--- | :--- | :--- |
 | **Definición del problema** | Precisar las dificultades de los usuarios y los procesos que se busca mejorar. | Necesidades relacionadas con los segmentos objetivo. |
-| **Alcance** | Establecer los resultados viables con los recursos disponibles. | Alcance inicial, exclusiones y prioridades. |
+| **Alcance** | Establecer los resultados viables con los recursos disponibles bajo triángulo invertido. | Alcance flexible gestionado por valor a través del Product Backlog. |
 | **Organización** | Distribuir responsabilidades y establecer mecanismos de coordinación. | Roles y acuerdos de trabajo. |
 | **Planificación** | Organizar actividades según los entregables y la capacidad del equipo. | Plan compatible con el calendario académico. |
-| **Desarrollo** | Elaborar los componentes y artefactos necesarios para demostrar la solución. | Resultados verificables y coherentes con el alcance. |
+| **Desarrollo** | Elaborar los componentes y artefactos necesarios para demostrar la solución. | Resultados verificables y coherentes con la arquitectura monolítica por capas. |
 | **Validación** | Recoger retroalimentación y revisar los supuestos del producto. | Hallazgos y decisiones de mejora. |
 | **Seguimiento** | Mantener información sobre avances, riesgos y compromisos. | Evidencias y acuerdos trazables. |
 
@@ -688,33 +689,55 @@ Corresponde al equipo promotor Sísifo:
 
 Los acuerdos internos no modifican las fechas oficiales ni los criterios de evaluación. Cualquier ajuste de estas condiciones deberá tramitarse mediante los canales académicos correspondientes.
 
-#### 4.1.4.4. Recursos y condiciones de ejecución
+#### 4.1.4.4. Recursos y Presupuesto Preliminar (High-Level Budget)
 
-La planificación se apoyará en los recursos disponibles para el equipo, considerando su acceso, continuidad y costo.
+La viabilidad financiera y operativa de SmartStay se sustenta en una estimación preliminar de recursos que equilibra la optimización de costos en infraestructura cloud con la valorización del esfuerzo humano de ingeniería. Dado el carácter académico-profesional de la startup Sísifo, los costos directos se cubren mediante créditos gratuitos y herramientas de tier para desarrolladores, mientras que se proyecta el costo comercial simulado para fines de evaluación gerencial y presupuestaria (PMBOK / PMI-ACP):
 
-| Recurso | Criterio de gestión |
-| :--- | :--- |
-| **Tiempo de los integrantes** | Estimar la disponibilidad por iteración y considerar otras responsabilidades académicas. |
-| **Equipos y conectividad** | Verificar que permitan ejecutar las actividades asignadas. |
-| **Repositorio GitHub** | Mantener versiones, revisiones y evidencia de los cambios. |
-| **Tablero de trabajo** | Registrar actividades, responsables, dependencias y avances. |
-| **Herramientas de desarrollo y diseño** | Seleccionar alternativas compatibles con las necesidades y competencias del equipo. |
-| **Entornos de prueba y demostración** | Definir su configuración, acceso y mantenimiento. |
-| **Participantes de validación** | Coordinar su participación según disponibilidad y objetivos de investigación. |
+##### A. Infraestructura Cloud Simulada (AWS / Azure)
+* **Cómputo Backend & SPA Web:** Instancia de contenedor / App Service en AWS/Azure para hospedar la SPA Web y la API REST monolítica (tier básico optimizado): ~$20.00 USD/mes.
+* **Base de Datos Relacional Unificada:** Instancia administrada de PostgreSQL (ej. AWS RDS db.t4g.micro o Azure Database for PostgreSQL flexible server): ~$25.00 USD/mes.
+* **Almacenamiento de Assets y Redundancia:** Bucket S3 / Azure Blob Storage para fotografías, evidencias de mantenimiento y reportes: ~$5.00 USD/mes.
+* **Subtotal Infraestructura Cloud:** ~$50.00 USD/mes (estimado en $175.00 USD acumulados para las 15 semanas del proyecto, absorbidos mediante créditos educativos de AWS Educate / Azure for Students).
 
-Antes de incorporar un servicio de pago, se revisarán su finalidad, costo, duración y alternativas. El uso de créditos o planes gratuitos deberá considerar sus límites y condiciones.
+##### B. Licenciamiento de Herramientas de Productividad y Gestión
+* **GitHub Organization & GitHub Actions:** Repositorio privado y pipeline CI/CD de compilación y pruebas (GitHub Student Developer Pack / Open Source Tier): Costo comercial valorizado en $21.00 USD/mes ($0.00 USD costo real incurrido).
+* **Trello / Jira Cloud:** Tableros visuales de gestión ágil (Free / Standard Tier para equipos pequeños): Costo comercial valorizado en $25.00 USD/mes ($0.00 USD costo real incurrido).
+* **Herramientas de Comunicación (Discord / Google Meet):** Salas virtuales y videoconferencias: $0.00 USD.
+* **Subtotal Herramientas:** Proyectado en $46.00 USD/mes ($0.00 USD costo real desembolsado).
 
-Las colaboraciones con establecimientos hoteleros se gestionarán de manera específica. Su participación, alcance y condiciones se documentarán cuando se concreten.
+##### C. Valorización del Esfuerzo del Equipo de Desarrollo (Human Resources)
+* **Composición:** Equipo de 5 ingenieros de software multidisciplinarios.
+* **Cadencia:** 6 Sprints quincenales (12 semanas de desarrollo e iteración activa).
+* **Dedicación Estimada:** 15 horas de ingeniería semanales por integrante = 30 horas/persona por Sprint quincenal = 150 horas de desarrollo por Sprint para el equipo completo.
+* **Esfuerzo Total Acumulado:** 900 horas-hombre a lo largo de los 6 Sprints del semestre 2026-20.
+* **Tarifa Referencial de Mercado (Junior Developer / Practicante):** $15.00 USD/hora.
+* **Valorización del Esfuerzo de Ingeniería:** 900 horas × $15.00 USD/h = **$13,500.00 USD** (aportados en valor técnico por el equipo promotor Sísifo).
 
-#### 4.1.4.5. Articulación con el calendario académico
+##### D. Resumen Consolidado del Presupuesto de Alto Nivel
 
-El desarrollo de SmartStay se organizará según las fechas y condiciones oficiales del curso. La planificación incluirá tiempo para preparar los entregables, integrar los aportes, revisar el contenido y atender observaciones.
+| Rubro Presupuestal | Detalle / Componente | Costo Real Desembolsado | Costo Comercial Simulado |
+| :--- | :--- | :---: | :---: |
+| **Infraestructura Cloud** | Cómputo SPA/API, PostgreSQL administrado y Storage (3.5 meses) | $0.00 (Créditos Cloud) | $175.00 USD |
+| **Herramientas & Licencias** | GitHub Teams, Trello/Jira, Discord, Google Meet | $0.00 (Planes Académicos) | $161.00 USD |
+| **Capital Humano (Esfuerzo)** | 5 Desarrolladores (900 horas totales / 6 Sprints quincenales) | $0.00 (Equipo Promotor) | $13,500.00 USD |
+| **TOTAL CONSOLIDADO** | **Inversión y Esfuerzo Total del Proyecto SmartStay** | **$0.00 USD** | **$13,836.00 USD** |
 
-El curso contempla un **examen parcial**, por lo que su preparación se considerará al estimar la capacidad del equipo. En las iteraciones cercanas a esta evaluación se revisará la carga de trabajo y se priorizarán las actividades necesarias para mantener la continuidad del proyecto.
+#### 4.1.4.5. Timebox, Cronograma Macro y Articulación con el Calendario Académico
 
-El cronograma no incorporará prácticas calificadas (PC). Las fechas del examen parcial y de las entregas se registrarán de acuerdo con las indicaciones oficiales.
+El ciclo de desarrollo de SmartStay se estructura bajo un **enfoque de timeboxing estricto (PMI-ACP)** con fecha de inicio formal en **Septiembre de 2026** y fecha de cierre comprometida en la **Semana 15 (Diciembre de 2026)**, cubriendo un total de **6 Sprints quincenales (2 semanas por Sprint)**.
 
-El equipo establecerá fechas internas de revisión previas a cada presentación para detectar omisiones y resolver problemas de integración. Las actividades del proyecto asociadas al examen parcial se programarán según la consigna correspondiente.
+El cronograma macro se articula rigurosamente con los hitos y entregables de evaluación oficial del curso de *Agile Project Management*:
+
+| Iteración / Periodo | Semanas Académicas | Foco de Trabajo Ágil | Entregable / Hito Oficial Asociado | Fecha Compromiso |
+| :---: | :---: | :--- | :--- | :---: |
+| **Sprint 1** | Semanas 1 y 2 | Formulación del problema hotelero, perfil de la startup Sísifo, técnica 5W2H, Lean UX Canvas y objetivos SMART individuales. | **Hito TB1 (Evaluación TB1):** Startup & Solution Profile, Lean UX y Objetivos SMART. | Semana 3 (Septiembre 2026) |
+| **Sprint 2** | Semanas 3 y 4 | Formulación integral del Project Charter, definición de gobernanza, presupuesto de alto nivel, mitigación de riesgos y arquitectura monolítica por capas. | **Hito TB2 (Evaluación TB2):** Project Charter completo formalizado y validado. | Semana 5 (Septiembre 2026) |
+| **Sprint 3** | Semanas 5 y 6 | Modelado de dominio (DDD), descomposición de épicas e historias de usuario con criterios de aceptación, wireframes y prototipado UI/UX. | **Hito TP1 (Examen Parcial):** Avance de historias de usuario, prototipos y arquitectura consolidada. | Semana 7 (Octubre 2026) |
+| **Sprint 4** | Semanas 8 y 9 | Construcción del núcleo transaccional: servicios de Room Management y Booking Engine, persistencia relacional en PostgreSQL y pruebas unitarias. | **Hito TB3 / TB4 (Evaluación TB3 & TB4):** Primer incremento de software desplegado con pruebas funcionales. | Semana 10 (Noviembre 2026) |
+| **Sprint 5** | Semanas 11 y 12 | Implementación del módulo de Housekeeping (Kanban operativo), portal web responsivo para huéspedes e integración continua de componentes. | **Hito TB5 (Evaluación TB5):** Segundo incremento funcional con tableros operativos y métricas de calidad. | Semana 12 (Noviembre 2026) |
+| **Sprint 6** | Semanas 13 y 14 | Desarrollo del dashboard analítico (RevPAR / ADR), auditoría de seguridad RBAC, pruebas de rendimiento, carga y estabilización pre-entrega. | **Hito TF1 (Evaluación Final):** Solución integral SmartStay completada, informe final y lecciones aprendidas. | Semana 15 (Diciembre 2026) |
+
+El equipo no contempla prácticas calificadas (PC), enfocando toda su capacidad en el cumplimiento de los Sprints y en las fechas de integración previa a cada presentación académica formal.
 
 #### 4.1.4.6. Formalización y revisión de acuerdos
 
@@ -901,40 +924,54 @@ Como consecuencia de esta desorganización estructural, los establecimientos ind
 El proyecto **SmartStay** comprende el diseño, construcción, prueba y despliegue continuo de una plataforma tecnológica modular bajo un enfoque ágil e iterativo, mediante Sprints quincenales.
 
 #### 4.1.7.1. Arquitectura Macro de la Solución
-La solución se estructura bajo los principios de *Clean Architecture* y *Domain-Driven Design* (DDD), compuesta por tres capas principales:
+La solución adopta formalmente una **Arquitectura Monolítica por Capas (Layered Monolithic Architecture)** basada en principios de *Domain-Driven Design* (DDD) modular y *Clean Architecture*. Esta arquitectura consolida la lógica de negocio en una sola unidad de despliegue altamente cohesiva y estructurada en tres capas estrictamente desacopladas:
 
 ```
 +-------------------------------------------------------------------------+
-|                           CLIENTES / FRONTEND                           |
+|                 CAPA DE PRESENTACIÓN (FRONTEND / SPA)                   |
 |  +-----------------------------------+  +----------------------------+  |
-|  | Panel Web Administrativo (React) |  | App Móvil Huésped (Flutter)|  |
-|  | - Gestión de Habitaciones         |  | - Check-in Express         |  |
+|  | SPA Web Administrativa & Staff    |  | Portal Web Autogestión     |  |
+|  | (Panel Responsivo / React)        |  | Huéspedes (SPA Responsive) |  |
+|  | - Gestión de Habitaciones         |  | - Check-in / Out Digital   |  |
 |  | - Tablero Kanban Housekeeping     |  | - Solicitud de Servicios   |  |
-|  | - Dashboard Analítico (RevPAR)    |  | - Llave / Acceso Digital   |  |
+|  | - Dashboard Analítico (RevPAR)    |  | - Consulta y Reservas      |  |
 |  +-----------------------------------+  +----------------------------+  |
 +-------------------------------------------------------------------------+
                                     |
-                            [ API Gateway / REST ]
+                       [ Contrato RESTful / HTTPS ]
                                     |
 +-------------------------------------------------------------------------+
-|                        BACKEND & MICROSERVICIOS                         |
+|     CAPA DE APLICACIÓN Y LÓGICA DE NEGOCIO (MONOLITO MODULAR DDD)       |
 |  +----------------+  +---------------+  +---------------+  +---------+  |
-|  | Auth & Security|  | Room & Booking|  | Housekeeping &|  | Payment |  |
-|  | (JWT / RBAC)   |  | Management    |  | Maintenance   |  | Gateway |  |
+|  | Security &     |  | Room          |  | Housekeeping &|  | Booking |  |
+|  | RBAC Module    |  | Management    |  | Maintenance   |  | Engine  |  |
 |  +----------------+  +---------------+  +---------------+  +---------+  |
+|  - Orquestación de Casos de Uso y Servicios de Dominio Centralizados    |
+|  - Reglas de Negocio, Validaciones de Estado y Políticas Transaccionales|
+|  - Módulo Transversal de Autenticación JWT y Auditoría Operativa        |
 +-------------------------------------------------------------------------+
                                     |
+                    [ Capa de Persistencia / ORM ]
+                                    |
 +-------------------------------------------------------------------------+
-|                     INFRAESTRUCTURA & CI/CD (Cloud)                     |
-|  - PostgreSQL / MongoDB Multi-tenant      - Docker Container Registry   |
-|  - GitHub Actions CI/CD (Integrity, PDF Report & Automated Releases)    |
+|            CAPA DE PERSISTENCIA Y DATOS (POSTGRESQL UNIFICADO)          |
+|  - Base de Datos Relacional Unificada (PostgreSQL) con Soporte ACID     |
+|  - Mapeo Objeto-Relacional (ORM) e Integridad Referencial Estricta      |
+|  - Transaccionalidad Atómica y Consistencia Inmediata                   |
+|  - Pipeline CI/CD en GitHub Actions para Verificación y Despliegue Cloud|
 +-------------------------------------------------------------------------+
 ```
 
-* **Backend y API RESTful:** Microservicios desacoplados para autenticación y roles, gestión de habitaciones, motor de reservas, coordinación de tareas de mantenimiento/limpieza y pasarela de facturación.
-* **Panel Web Administrativo:** Aplicación SPA (*Single Page Application*) moderna, intuitiva y reactiva, diseñada para administradores y personal de recepción.
-* **Aplicación Móvil para Huéspedes:** Aplicación multiplataforma en Flutter optimizada para rendimiento y experiencia de usuario fluida, permitiendo operaciones autónomas de autogestión.
-* **Flujo DevOps y Automatización:** Pipeline continuo en GitHub Actions con validación de enlaces y documentación Markdown, compilación automatizada a PDF y versionado de releases etiquetados.
+La arquitectura formalmente descrita se compone de:
+
+* **Capa de Presentación:** SPA Web (*Single Page Application* con framework moderno y responsivo) diseñada para el personal administrativo, el staff operativo (recepción, supervisión de limpieza y mantenimiento) y el portal de autogestión para huéspedes accesible de manera responsiva desde cualquier dispositivo móvil o de escritorio sin requerir instalaciones nativas pesadas.
+* **Capa de Aplicación y Lógica de Negocio:** Servicios de aplicación y dominio centralizado donde residen todas las reglas de negocio organizadas en módulos de dominio cohesivos:
+  * *Room Management:* Administración de tipos de habitación, inventario físico y actualización de estados en tiempo real.
+  * *Housekeeping & Maintenance:* Asignación de cuartos, tableros Kanban de limpieza y gestión de tickets de mantenimiento.
+  * *Booking Engine:* Motor transaccional de reservas, tarificación dinámica y políticas de estancia.
+  * *Security & RBAC:* Autenticación basada en tokens JWT y control de acceso por roles granulares con auditoría de operaciones.
+* **Capa de Persistencia y Datos:** Base de datos relacional unificada (**PostgreSQL**) con control transaccional ACID, mapeo objeto-relacional (ORM) e integridad referencial estricta, asegurando la atomicidad en la reserva de habitaciones y la consistencia inmediata de los datos operativos.
+* **Flujo DevOps y Automatización:** Pipeline continuo en GitHub Actions con validación de código, pruebas automatizadas, verificación de enlaces y formato del informe en Markdown, compilación automatizada a PDF y versionado de releases etiquetados.
 
 ---
 
@@ -1016,7 +1053,7 @@ El proyecto **SmartStay** responde de manera directa a la necesidad comercial de
 Desde una perspectiva técnica y de negocio, la solución se vincula con los objetivos comerciales a través de los siguientes ejes:
 * **Optimización de Costos Operativos:** La automatización en la actualización de estados de habitaciones (*housekeeping*) y la asignación digital de tareas reducen los tiempos muertos del personal de campo y los errores en la gestión de inventario.
 * **Elevación de la Experiencia del Cliente (*Guest Experience*):** El portal de autoservicio para huéspedes satisface las demandas de inmediatez y autonomía digital (check-in/check-out sin filas y solicitudes directas desde el smartphone), incrementando la satisfacción y las calificaciones en reseñas online.
-* **Escalabilidad y Flexibilidad Comercial:** La arquitectura modular basada en microservicios permite a los administradores hoteleros expandir sus operaciones sin fricciones tecnológicas, asegurando alta disponibilidad (24/7) y facilitando futuras integraciones con pasarelas de pago y canales de reserva de terceros (OTAs).
+* **Escalabilidad y Flexibilidad Comercial:** La arquitectura monolítica por capas estructurada bajo principios de Domain-Driven Design (DDD) modular permite a los administradores hoteleros expandir sus operaciones sin fricciones tecnológicas, asegurando alta disponibilidad (24/7), óptima mantenibilidad y facilitando futuras integraciones con pasarelas de pago y canales de reserva de terceros (OTAs).
 
 ---
 ### 4.1.10 Supuestos
@@ -1024,7 +1061,7 @@ Desde una perspectiva técnica y de negocio, la solución se vincula con los obj
 Para el desarrollo, despliegue y validación exitosa de **SmartStay**, se establecen los siguientes supuestos fundamentales:
 1. **Infraestructura de Conectividad:** Se asume que los hoteles boutique objetivo disponen de una infraestructura de red e Internet estable (Wi-Fi de alta velocidad) que permite el consumo fluido de servicios en la nube y la sincronización de datos en tiempo real.
 2. **Adopción Tecnológica del Personal:** Se parte del supuesto de que el Staff Operativo (recepcionistas, personal de limpieza y mantenimiento) cuenta o puede adquirir con facilidad las competencias básicas para el manejo de dispositivos móviles y paneles web intuitivos.
-3. **Disponibilidad y Compromiso del Equipo:** Los integrantes del equipo de desarrollo de la startup **Sisifo** mantendrán la disponibilidad horaria acordada y la colaboración activa durante el ciclo de vida del proyecto, garantizando el cumplimiento de los Sprints y entregables.
+3. **Disponibilidad y Compromiso del Equipo:** Los integrantes del equipo de desarrollo de la startup **Sísifo** mantendrán la disponibilidad horaria acordada y la colaboración activa durante el ciclo de vida del proyecto, garantizando el cumplimiento de los Sprints y entregables.
 4. **Estabilidad del Dominio y Requerimientos:** Se asume que los flujos principales definidos mediante el proceso Lean UX y el modelado orientado al dominio (DDD) se mantendrán estables, permitiendo iteraciones ágiles sin modificaciones estructurales drásticas en los componentes críticos.
 
 ---
@@ -1032,7 +1069,7 @@ Para el desarrollo, despliegue y validación exitosa de **SmartStay**, se establ
 
 La implementación y el ciclo de desarrollo de **SmartStay** se encuentran condicionados por las siguientes restricciones técnicas, operativas y de tiempo:
 1. **Restricciones del Ciclo Académico y Plazos:** El proyecto debe desarrollarse, validarse e implementarse de manera evolutiva cumpliendo estrictamente con los plazos establecidos por el curso de *Agile Project Management* y sus entregas periódicas, contemplando los periodos de evaluación correspondientes al examen parcial.
-2. **Restricciones Tecnológicas y de Arquitectura:** El sistema debe construirse empleando arquitecturas basadas en microservicios, APIs RESTful documentadas y contenedores, limitándose a los lenguajes y tecnologías acordados por el equipo (como C#, Java o TypeScript) para asegurar mantenibilidad.
+2. **Restricciones Tecnológicas y de Arquitectura:** El sistema debe construirse adoptando rigurosamente una **Arquitectura Monolítica por Capas (Layered Monolithic Architecture)** basada en principios de Domain-Driven Design (DDD) modular. Se expondrán APIs RESTful documentadas hacia la SPA Web y se centralizará la lógica de negocio y persistencia en una base de datos relacional PostgreSQL con control transaccional ACID y ORM, limitándose a los lenguajes y tecnologías acordados por el equipo (como C#, Java o TypeScript) para asegurar alta mantenibilidad, consistencia inmediata y simplicidad operativa.
 3. **Restricciones de Presupuesto e Infraestructura Cloud:** Durante esta etapa inicial, los entornos de pruebas y despliegue deben optimizarse utilizando capas gratuitas o créditos limitados de proveedores de nube (AWS/Azure/GCP), evitando costos fijos elevados.
 4. **Restricciones de Seguridad y Privacidad:** La plataforma debe cumplir con los estándares básicos de protección de datos de los usuarios (huéspedes y personal), restringiendo el acceso mediante controles granulares por roles y asegurando la integridad transaccional.
 
@@ -1074,13 +1111,13 @@ Identificamos los siguientes eventos de riesgo que podrían afectar el cumplimie
 
 * Evans, E. (2003). Domain-driven design: Tackling complexity in the heart of software. Addison-Wesley.
 
+* Fowler, M. (2002). Patterns of enterprise application architecture. Addison-Wesley Professional.
+
 * Gothelf, J., & Seiden, J. (2021). Lean UX: Designing great products with agile teams (3rd ed.). O’Reilly Media.
 
 * Osterwalder, A., Pigneur, Y., Bernarda, G., & Smith, A. (2014). Value proposition design: How to create products and services customers want. John Wiley & Sons.
 
 * Project Management Institute. (2017). Agile practice guide. Project Management Institute.
-
-* Richardson, C. (2018). Microservices patterns: With examples in Java. Manning Publications.
 
 * Schwaber, K., & Sutherland, J. (2020). The Scrum guide: The definitive guide to Scrum: The rules of the game. Scrum.org.
 
