@@ -55,6 +55,7 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
 | **2.1.0** | 22/09/2026 | Verona Flores Italo Sebastian | Consolidación integral del Project Charter, actualización de la Tabla de Contenidos y validación de estándares ágiles para TB2. |
 | **2.1.1** | 27/09/2026 | Oskar Rodrigo Sosa Soto | Revisión de la Descripción del Proyecto y Características del Producto/Servicio: estandarización de la numeración de subsecciones (4.1.7.1) y ajuste de redacción. |
 | **2.2.0** | 28/09/2026 | Verona Flores Italo Sebastian | Unificación integral de la Arquitectura Monolítica por Capas (DDD + PostgreSQL), robustecimiento del Project Charter (Triángulo Invertido PMI-ACP, Presupuesto High-Level, Cronograma de 6 Sprints y Entorno Híbrido/Remoto) y estandarización de contenido. |
+| **2.2.1** | 08/10/2026 | Oskar Rodrigo Sosa Soto | Incorporación de la sección 4.2. Agile Project Scope Management: Product Backlog priorizado (épicas e historias de usuario) y Sprint Backlog del Sprint 3. |
 
 <div style="page-break-after: always;"></div>
 
@@ -91,6 +92,9 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
      * 4.1.11. [Restricciones](#4111-restricciones)
      * 4.1.12. [Eventos de Riesgo](#4112-eventos-de-riesgo)
      * 4.1.13. [Aprobaciones](#4113-aprobaciones)
+   * 4.2. [Agile Project Scope Management](#42-agile-project-scope-management)
+     * 4.2.1. [Product Backlog](#421-product-backlog)
+     * 4.2.2. [Sprint Backlog](#422-sprint-backlog)
 5. [Bibliografía](#bibliografia)
 
 <div style="page-break-after: always;"></div>
@@ -1023,10 +1027,10 @@ graph TD
 3. **Motor de Reservas y Gestión de Tarifas:**
    * Motor de reservas centralizado con actualización instantánea de disponibilidad para evitar sobreventa.
    * Soporte de tarifas por temporada y descuentos promocionales.
-   * Confirmación automatizada vía correo electrónico o notificación móvil.
+   * Confirmación automatizada vía correo electrónico o notificación push.
 
 4. **Check-in y Check-out Digital Express (Self-Service):**
-   * Pre-check-in desde la aplicación móvil con validación digital de identidad y firma de acuerdos.
+   * Pre-check-in desde el portal web responsivo de autogestión, con validación digital de identidad y firma de acuerdos.
    * Check-out autónomo con revisión digital del balance de cuenta y facturación electrónica.
 
 5. **Módulo Operativo de Housekeeping y Mantenimiento:**
@@ -1100,6 +1104,47 @@ Identificamos los siguientes eventos de riesgo que podrían afectar el cumplimie
 | **Responsable de calidad e integración** | Ever Giusephi Carlos Lavado | TB2 | 22/09/2026 | **Conforme internamente** | Acepta la coordinación de criterios de verificación, pruebas, registro de defectos e integración de componentes. |
 | **Responsable de análisis de negocio y requerimientos** | Augusto Sebastian Montes Maza | TB2 | 22/09/2026 | **Conforme internamente** | Acepta el análisis de procesos hoteleros, refinamiento de requerimientos y trazabilidad entre necesidades, historias y criterios de aceptación. |
 
+---
+
+## 4.2. Agile Project Scope Management
+
+La gestión del alcance de **SmartStay** se ejecuta bajo el principio ágil descrito en el Project Charter: el alcance no se fija por completo al inicio, sino que se refina y prioriza de manera continua en función del valor entregado a los usuarios (Staff Operativo, administradores y huéspedes). El **Product Backlog** concentra y ordena por prioridad la totalidad de épicas e historias de usuario derivadas del catálogo de funcionalidades (sección 4.1.8), mientras que el **Sprint Backlog** detalla el subconjunto de trabajo comprometido para la iteración en curso.
+
+### 4.2.1. Product Backlog
+
+El Product Owner (Eddo Su Caletti) mantiene y ordena el Product Backlog según el valor que cada elemento aporta a los usuarios y a los objetivos del negocio, utilizando una priorización de tipo **MoSCoW** (Must have, Should have, Could have, Won't have this time) y una estimación relativa en *Story Points* (escala Fibonacci) validada con el equipo técnico.
+
+| ID | Épica | Historia de Usuario | Prioridad | Story Points |
+| :--- | :--- | :--- | :---: | :---: |
+| **EP-01** | Seguridad y Control de Acceso (RBAC) | Como **administrador**, quiero iniciar sesión con autenticación JWT y roles granulares, para que cada perfil (recepción, housekeeping, mantenimiento, huésped) acceda únicamente a las funciones que le corresponden. | Must | 5 |
+| **EP-02** | Gestión de Habitaciones | Como **recepcionista**, quiero visualizar el estado de cada habitación en tiempo real (disponible, ocupada, en limpieza, mantenimiento), para asignar cuartos sin depender de bitácoras físicas. | Must | 8 |
+| **EP-03** | Motor de Reservas y Tarifas | Como **recepcionista**, quiero registrar una reserva con actualización instantánea de disponibilidad, para evitar la sobreventa (*overbooking*) de habitaciones. | Must | 8 |
+| **EP-04** | Check-in / Check-out Digital Express | Como **huésped**, quiero completar mi check-in desde el portal web responsivo antes de llegar al hotel, para reducir el tiempo de espera en recepción. | Should | 5 |
+| **EP-05** | Housekeeping y Mantenimiento | Como **operario de limpieza**, quiero ver mis tareas asignadas en un tablero Kanban y actualizar su estado, para que recepción sepa en tiempo real qué habitaciones están disponibles. | Must | 8 |
+| **EP-06** | Portal de Autoservicio del Huésped | Como **huésped**, quiero solicitar amenities o servicio a la habitación desde mi smartphone, para no depender de llamar o acercarme a recepción. | Should | 5 |
+| **EP-07** | Dashboard Analítico e Inteligencia de Negocios | Como **administrador**, quiero visualizar indicadores como RevPAR y ADR en un panel centralizado, para tomar decisiones de precios y operación con datos actualizados. | Could | 8 |
+
+La priorización anterior se revisará al inicio de cada Sprint durante la ceremonia de *Sprint Planning*, considerando el avance real del equipo, los hallazgos de validación con usuarios y las restricciones académicas vigentes (sección 4.1.11).
+
+### 4.2.2. Sprint Backlog
+
+De acuerdo con el cronograma de 6 Sprints quincenales (sección 4.1.4.5), el equipo se encuentra cerrando el **Sprint 2** (Semanas 3 y 4, Project Charter) e iniciando la planificación del **Sprint 3** (Semanas 5 y 6), cuyo objetivo es el modelado del dominio (DDD) y la descomposición de las épicas priorizadas en historias de usuario con criterios de aceptación, wireframes y prototipado UI/UX.
+
+**Objetivo del Sprint 3:** Contar con las historias de usuario de EP-01, EP-02 y EP-03 refinadas, con criterios de aceptación validados y wireframes iniciales de los flujos críticos (login, gestión de habitaciones y reservas).
+
+| Historia de Usuario (Backlog Item) | Tarea | Responsable | Estimación (h) | Estado |
+| :--- | :--- | :--- | :---: | :---: |
+| EP-01: Autenticación JWT y roles | Modelar entidades de dominio (Usuario, Rol, Permiso) bajo DDD. | Oskar Rodrigo Sosa Soto | 10 | Por hacer |
+| EP-01: Autenticación JWT y roles | Definir criterios de aceptación y casos de prueba de autenticación. | Ever Giusephi Carlos Lavado | 6 | Por hacer |
+| EP-02: Estado de habitaciones en tiempo real | Modelar el agregado *Room* y sus estados válidos (DDD). | Oskar Rodrigo Sosa Soto | 10 | Por hacer |
+| EP-02: Estado de habitaciones en tiempo real | Elaborar wireframes del panel de gestión de habitaciones. | Augusto Sebastian Montes Maza | 8 | Por hacer |
+| EP-03: Registro de reservas sin sobreventa | Redactar historias de usuario y criterios de aceptación del motor de reservas. | Augusto Sebastian Montes Maza | 8 | Por hacer |
+| EP-03: Registro de reservas sin sobreventa | Validar reglas de negocio de disponibilidad con el Product Owner. | Su Caletti Eddo | 6 | Por hacer |
+| Transversal | Dar seguimiento al tablero de Sprint en Trello y facilitar la Daily Scrum. | Italo Sebastian Verona Flores | 6 | Por hacer |
+
+El avance de estas tareas se visualizará en el tablero Trello del equipo y se revisará en la ceremonia de *Sprint Review* al cierre del Sprint 3, actualizando el Product Backlog según los resultados obtenidos.
+
+---
 
 <div style="page-break-after: always;"></div>
 
