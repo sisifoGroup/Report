@@ -84,6 +84,7 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
      * 1.2.7. [Entrevistas](#127-entrevistas)
        * 1.2.7.1. [Diseño de Entrevistas con Enfoque Operativo y Arquitectónico](#1271-diseño-de-entrevistas-con-enfoque-operativo-y-arquitectónico)
        * 1.2.7.2. [Registro de Entrevistas Realizadas y Evidencias](#1272-registro-de-entrevistas-realizadas-y-evidencias)
+       * 1.2.7.3. [Análisis de Entrevistas](#1273-análisis-de-entrevistas)
 2. [Capítulo II: Gestión de Áreas de Conocimiento Agile](#capítulo-ii-gestión-de-áreas-de-conocimiento-agile)
    * 2.1. [Agile Project Integration Management: Project Charter](#21-agile-project-integration-management-project-charter)
      * 2.1.1. [Resumen Ejecutivo](#211-resumen-ejecutivo)
@@ -645,6 +646,25 @@ A continuación se documentan las entrevistas ejecutadas y los enlaces de respal
   * **Perfil:** Turista internacional y usuario recurrente de alojamientos boutique.
   * **Principales Hallazgos:** Sugirió priorizar la estabilidad de la conectividad (redes Wi-Fi de alta velocidad) y recalcó que la digitalización debe ser un soporte rápido, sin desplazar por completo la asistencia humana oportuna.
   * **Evidencia (Audio):** [Enlace de Entrevista - Juan Salcedo](https://tinyurl.com/3mv3ytt5)
+
+---
+
+#### 1.2.7.3. Análisis de Entrevistas
+
+A partir de las 4 entrevistas semiestructuradas (2 por segmento), se identificaron patrones recurrentes que validan los supuestos del Lean UX Canvas (sección 1.2.3.2) y sustentan la priorización del Product Backlog (sección 2.2.1):
+
+| Hallazgo Recurrente | Entrevistados que lo Validan | Épica / Módulo Relacionado |
+| :--- | :---: | :--- |
+| La falta de trazabilidad en la comunicación interna (canales informales, reportes manuales) genera demoras operativas y errores de disponibilidad. | Harold Elías, Sebastián Beingolea (2/2 Staff Operativo) | EP-02: Gestión de Habitaciones; EP-05: Housekeeping y Mantenimiento |
+| Los huéspedes valoran fuertemente un check-in digital autónomo que evite esperas en recepción. | Víctor Meneses, Juan Salcedo (2/2 Huéspedes) | EP-04: Check-in / Check-out Digital Express |
+| La digitalización no debe eliminar por completo el soporte humano; debe complementarlo, no reemplazarlo. | Juan Salcedo (1/2 Huéspedes) | EP-06: Portal de Autoservicio del Huésped (canal de comunicación directo con recepción) |
+| La estabilidad de la conectividad (Wi-Fi) es una condición habilitante para que la autogestión digital funcione. | Juan Salcedo (1/2 Huéspedes) | Restricción técnica (sección 2.1.11) |
+
+**Conclusiones del análisis:**
+
+* **Segmento Staff Operativo (100% de validación):** ambos entrevistados coincidieron en que la ausencia de un sistema centralizado de trazabilidad es la causa raíz de los cuellos de botella operativos, confirmando la prioridad **Must** asignada a las historias de inventario de habitaciones (HU-02.1/HU-02.2) y housekeeping (HU-05.1/HU-05.2) en el Product Backlog.
+* **Segmento Huéspedes (100% de validación en autonomía digital):** ambos entrevistados validaron el valor del check-in/check-out digital, lo que respalda la prioridad **Should** de EP-04. Sin embargo, el hallazgo de Juan Salcedo introduce un matiz importante: la plataforma debe conservar un canal de asistencia humana accesible, por lo que el Portal de Autoservicio (EP-06) mantiene el "Canal de comunicación directo con recepción" como parte de su alcance (sección 2.1.8).
+* Estos hallazgos se incorporan como evidencia cualitativa que sustenta el "Who" y el "Why" de la técnica 5W2H (sección 1.2.2).
 
 ---
 
