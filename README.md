@@ -5,14 +5,14 @@
 <img src="assets/chapter-1/upc-logo.png" width="120"><br><br>
 
 ## FACULTAD DE INGENIERÍA
-### CARRERA DE INGENIERÍA DE SOFTWARE
+### CARRERA DE INGENIERÍA DE SOFTWARE/
 
 **CURSO:** 1ASI0722 - Agile Project Management  
 **CICLO:** 2026-20  
 **SECCIÓN:** 9286  
 **PROFESOR:** Rouillon Sixto César Elías  
 
-# INFORME DE TRABAJO FINAL: ENTREGAS TB1 & TB2
+# INFORME DE TRABAJO FINAL: ENTREGA TP1
 
 ### **Nombre de la Startup:** Sisifo
 ### **Nombre del Producto:** SmartStay
@@ -21,13 +21,13 @@
 
 | Código de Estudiante | Apellidos y Nombres | Carrera |
 | :--- | :--- | :--- |
-| U20221E617 | Verona Flores Italo Sebastian | Ingeniería de Software |
-| U20221A390 | Su Caletti Eddo | Ingeniería de Software |
-| U202212214 | Oskar Rodrigo  Sosa Soto | Ingeniería de Software |
-| U202224867 | Ever Giusephi  Carlos Lavado| Ingeniería de Software |
-| U202218645| Augusto Sebastian  Montes Maza | Ingeniería de Software |
+| U20221E617 | Verona Flores, Italo Sebastian | Ingeniería de Software |
+| U20221A390 | Su Caletti, Eddo | Ingeniería de Software |
+| U202212214 | Sosa Soto, Oskar Rodrigo | Ingeniería de Software |
+| U202224867 | Carlos Lavado, Ever Giusephi | Ingeniería de Software |
+| U202218645 | Montes Maza, Augusto Sebastian | Ingeniería de Software |
 
-**Mes y Año:** Septiembre, 2026  
+**Mes y Año:** Octubre, 2026  
 **Repositorio GitHub:** [Organización de Sisifo](https://github.com/sisifoGroup)
 
 </div>
@@ -41,14 +41,14 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
 | Versión | Fecha | Autor | Descripción de Modificación |
 | :---: | :---: | :--- | :--- |
 | **1.0.0** | 11/09/2026 | Verona Flores Italo Sebastian | Creación de la estructura base del informe, carátula e integración del registro de versiones. |
-| **1.0.1** | 11/09/2026 | Su Caletti Eddo | Elaboración del Startup Profile: descripción de la Startup y perfiles de Integrantes del Equipo. |
+| **1.0.1** | 11/09/2026 | Eddo Su Caletti | Elaboración del Startup Profile: descripción de la Startup y perfiles de Integrantes del Equipo. |
 | **1.0.2** | 11/09/2026 | Oskar Rodrigo Sosa Soto | Documentación de los perfiles individuales de los integrantes y roles preliminares. |
 | **1.0.3** | 11/09/2026 | Ever Giusephi Carlos Lavado | Formulación del Solution Profile: aplicación de técnica 5W2H y análisis del problema. |
 | **1.0.4** | 11/09/2026 | Augusto Sebastian Montes Maza | Definición de la Propuesta de Valor y caracterización de Segmentos Objetivo. |
 | **1.1.0** | 11/09/2026 | Verona Flores Italo Sebastian | Consolidación de los Objetivos SMART de los integrantes y tabla de Student Outcome. |
 | **1.2.0** | 11/09/2026 | Verona Flores Italo Sebastian | Revisión final de estilo APA 7, validación cruzada y compilación para la entrega TB1. |
 | **2.0.0** | 22/09/2026 | Verona Flores Italo Sebastian | Creación de la estructura base del Capítulo II: Gestión de Áreas de Conocimiento Agile e integración del Project Charter para TB2 (Semana 5). |
-| **2.0.1** | 22/09/2026 | Su Caletti Eddo | Redacción de las Necesidades del Negocio, Justificación Comercial y Relación del Proyecto con la Necesidad Comercial. |
+| **2.0.1** | 22/09/2026 | Eddo Su Caletti | Redacción de las Necesidades del Negocio, Justificación Comercial y Relación del Proyecto con la Necesidad Comercial. |
 | **2.0.2** | 22/09/2026 | Oskar Rodrigo Sosa Soto | Elaboración de la Descripción del Proyecto (arquitectura macro) y catálogo de Características del Producto/Servicio. |
 | **2.0.3** | 22/09/2026 | Ever Giusephi Carlos Lavado | Formulación de la Matriz de Eventos de Riesgo, Supuestos Críticos y Restricciones del Proyecto. |
 | **2.0.4** | 22/09/2026 | Augusto Sebastian Montes Maza | Definición del esquema de Gobernanza, Autoridad Iniciadora, facultades del Project Manager y Matriz de Aprobaciones. |
@@ -56,6 +56,7 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
 | **2.1.1** | 27/09/2026 | Oskar Rodrigo Sosa Soto | Revisión de la Descripción del Proyecto y Características del Producto/Servicio: estandarización de la numeración de subsecciones (4.1.7.1) y ajuste de redacción. |
 | **2.2.0** | 28/09/2026 | Verona Flores Italo Sebastian | Unificación integral de la Arquitectura Monolítica por Capas (DDD + PostgreSQL), robustecimiento del Project Charter (Triángulo Invertido PMI-ACP, Presupuesto High-Level, Cronograma de 6 Sprints y Entorno Híbrido/Remoto) y estandarización de contenido. |
 | **2.2.1** | 08/10/2026 | Oskar Rodrigo Sosa Soto | Incorporación de la sección 4.2. Agile Project Scope Management: Product Backlog priorizado (épicas e historias de usuario) y Sprint Backlog del Sprint 3. |
+| **2.3.0** | 10/10/2026 | Verona Flores Italo Sebastian | Consolidación de entrega TP1 (Semana 7): actualización de aportes individuales y grupales al Student Outcome para TP1, alineación de la propuesta de valor con la arquitectura monolítica web (SPA Administrativa y Portal de Autogestión responsivo), incorporación de criterios de aceptación BDD (Gherkin) en EP-01 a EP-07, cierre del Sprint 3 y actualización de matriz de aprobaciones. |
 
 <div style="page-break-after: always;"></div>
 
@@ -104,13 +105,13 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
 **ABET - EAC - Student Outcome 2:**
 > *La capacidad de aplicar el diseño de ingeniería para producir soluciones que satisfagan necesidades específicas con consideración de salud pública, seguridad y bienestar, así como factores globales, culturales, sociales, ambientales y económicos.*
 
-En la siguiente tabla se describen las acciones individuales realizadas y las conclusiones grupales correspondientes a las entregas **TB1 y TB2**:
+En la siguiente tabla se describen las acciones individuales realizadas y las conclusiones grupales correspondientes a las entregas **TB1, TB2 y TP1 (Semana 7)**:
 
-| Criterio Específico | Acciones Realizadas por Integrante (TB1 & TB2) | Conclusiones Grupales |
+| Criterio Específico | Acciones Realizadas por Integrante (TB1, TB2 & TP1) | Conclusiones Grupales |
 | :--- | :--- | :--- |
-| **Criterio 1:**<br>Diseña productos o componentes en ingeniería de software que satisfacen necesidades específicas considerando el impacto en salud pública, seguridad y bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Italo Sebastian Verona Flores:**<br>• *TB1:* Participó en la identificación preliminar de los componentes básicos de la plataforma SmartStay, considerando la seguridad de la información de los usuarios y el confort en la gestión de hospedajes.<br>• *TB2:* Formuló el alcance de la capa de presentación SPA y definió las políticas de control de acceso (RBAC) para resguardar la privacidad y seguridad de los datos de huéspedes y administradores.<br><br>**Su Caletti Eddo:**<br>• *TB1:* Colaboró en la descripción del problema de gestión hotelera evaluando el impacto económico en pequeños y medianos establecimientos y la descripción de la startup.<br>• *TB2:* Investigó y redactó las Necesidades del Negocio con sustento bibliográfico indexado (APA 7), evaluando el impacto económico de la digitalización en la rentabilidad de las Mipymes hoteleras.<br><br>**Oskar Rodrigo Sosa Soto:**<br>• *TB1:* Apoyó en la formulación de la propuesta de valor orientada a mejorar la experiencia y bienestar de los huéspedes.<br>• *TB2:* Diseñó el catálogo detallado de características del producto/servicio, priorizando la ergonomía de los flujos de recepción y housekeeping para reducir la sobrecarga laboral del personal operativo.<br><br>**Ever Giusephi Carlos Lavado:**<br>• *TB1:* Recopiló información sobre factores culturales y sociales en la interacción de usuarios y anfitriones.<br>• *TB2:* Estructuró la matriz de supuestos críticos y restricciones operativas, analizando el impacto de la brecha digital y la estabilidad de infraestructura en establecimientos independientes.<br><br>**Augusto Sebastian Montes Maza:**<br>• *TB1:* Revisó consideraciones básicas de accesibilidad digital y protección de datos para la solución inicial.<br>• *TB2:* Delimitó los módulos de la capa de negocio asegurando trazabilidad en la gestión de solicitudes para garantizar bienestar y respuesta oportuna ante contingencias de los huéspedes. | **Conclusiones TB1:**<br>Durante esta fase inicial, el equipo definió conceptualmente la solución SmartStay y el alcance preliminar del servicio, asegurando que los requerimientos base contemplen la seguridad de la información de los huéspedes y la accesibilidad del usuario.<br><br>**Conclusiones TB2:**<br>En esta entrega, el equipo consolidó la definición del producto dentro del Project Charter, garantizando que el diseño arquitectónico monolítico por capas y las políticas de acceso satisfagan estándares éticos, de protección de datos personales y de optimización económica y operativa para el sector hotelero independiente. |
-| **Criterio 2:**<br>Diseña proyectos que permiten la implementación de soluciones en ingeniería de software considerando el impacto en salud pública, seguridad, bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Italo Sebastian Verona Flores:**<br>• *TB1:* Apoyó en la estructuración de los objetivos iniciales del proyecto SmartStay y en la identificación de los stakeholders clave.<br>• *TB2:* Estableció el timebox macro del proyecto (6 Sprints quincenales alineados a las 15 semanas del ciclo) y modeló la estructura de gobernanza y facultades de decisión del equipo.<br><br>**Su Caletti Eddo:**<br>• *TB1:* Participó en la delimitación de los antecedentes y el contexto del sector hotelero mediante la técnica 5W2H.<br>• *TB2:* Redactó la justificación comercial y la relación del proyecto con la necesidad del mercado, alineando los objetivos del software con la sostenibilidad financiera del negocio hotelero.<br><br>**Oskar Rodrigo Sosa Soto:**<br>• *TB1:* Colaboró en la definición preliminar de los segmentos objetivo (huéspedes y administradores de hospedajes).<br>• *TB2:* Diseñó la arquitectura macro monolítica modular (Domain-Driven Design), garantizando una estructura técnica mantenible y viable bajo restricciones académicas y cloud.<br><br>**Ever Giusephi Carlos Lavado:**<br>• *TB1:* Ayudó a mapear los riesgos y restricciones tempranas del entorno donde operará la solución.<br>• *TB2:* Elaboró la matriz formal de eventos de riesgo (RSK-01 a RSK-07) con análisis de probabilidad, impacto y estrategias de mitigación y contingencia operativa.<br><br>**Augusto Sebastian Montes Maza:**<br>• *TB1:* Contribuyó en la definición de los canales de comunicación y coordinación inicial del equipo.<br>• *TB2:* Formalizó el esquema de autoridad iniciadora, la matriz de aprobaciones y los criterios de gestión de cambios para salvaguardar la viabilidad del proyecto frente a variaciones de alcance. | **Conclusiones TB1:**<br>En este arranque, el equipo estructuró las bases del proyecto SmartStay aplicando técnicas de análisis del problema (5W2H) y alineando la planificación inicial con las necesidades operativas de los establecimientos de hospedaje.<br><br>**Conclusiones TB2:**<br>El equipo fundamentó el Agile Project Charter como acta fundacional viva, formalizando el compromiso de los roles (PO, PM, Devs), el presupuesto simulado ($13,836 USD) y los planes de mitigación de riesgos ante factores de adopción tecnológica y variaciones de alcance. |
-| **Criterio 3:**<br>Diseña y ejecuta los procesos relacionados al desarrollo y mantenimiento de la solución de software en ingeniería considerando el impacto en salud pública, seguridad, bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Italo Sebastian Verona Flores:**<br>• *TB1:* Colaboró en la configuración inicial del repositorio colaborativo en GitHub y en la adopción de las pautas de commits acordadas.<br>• *TB2:* Coordinó la integración del Project Charter bajo GitFlow, validó la trazabilidad de versiones en Markdown y lideró la ejecución de ceremonias de sincronización del Sprint 2.<br><br>**Su Caletti Eddo:**<br>• *TB1:* Participó en la organización de la documentación del informe en formato Markdown respetando la estructura exigida.<br>• *TB2:* Asumió formalmente la responsabilidad de Product Owner, priorizando la incorporación de necesidades funcionales en el Charter sin comprometer el timebox estricto.<br><br>**Oskar Rodrigo Sosa Soto:**<br>• *TB1:* Apoyó en la configuración del tablero de seguimiento de tareas en Trello para la distribución de actividades.<br>• *TB2:* Lideró la estandarización técnica del documento, unificando la convención de numeración decimal (4.1.7.1) y verificando la compatibilidad de los contratos de datos en PostgreSQL.<br><br>**Ever Giusephi Carlos Lavado:**<br>• *TB1:* Ayudó a definir los acuerdos de equipo (Working Agreements) para el trabajo colaborativo en las iteraciones.<br>• *TB2:* Integró los criterios de calidad y verificación pre-entrega en el repositorio, asegurando revisiones cruzadas de documentación frente al código antes de compilar.<br><br>**Augusto Sebastian Montes Maza:**<br>• *TB1:* Estableció los canales sincrónicos y asincrónicos para coordinar las reuniones semanales de seguimiento.<br>• *TB2:* Formalizó el protocolo de resolución de desacuerdos, escalamiento y comunicación virtual co-localizada (Discord, Meet y Trello) para el seguimiento continuo del trabajo. | **Conclusiones TB1:**<br>Se implementaron los procesos de trabajo colaborativo base (control de versiones en GitHub, tablero ágil en Trello y canales de comunicación), garantizando orden, transparencia y trazabilidad en la documentación de esta primera entrega.<br><br>**Conclusiones TB2:**<br>Se consolidaron las prácticas ágiles de ingeniería mediante la adopción de convenciones de commits, revisiones por pares, automatización de validaciones pre-entrega (scripts de comprobación de calidad) y co-localización virtual, garantizando un flujo de entrega continua y sostenible. |
+| **Criterio 1:**<br>Diseña productos o componentes en ingeniería de software que satisfacen necesidades específicas considerando el impacto en salud pública, seguridad y bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Italo Sebastian Verona Flores:**<br>• *TB1:* Participó en la identificación preliminar de los componentes básicos de la plataforma SmartStay, considerando la seguridad de la información de los usuarios y el confort en la gestión de hospedajes.<br>• *TB2:* Formuló el alcance de la capa de presentación SPA y definió las políticas de control de acceso (RBAC) para resguardar la privacidad y seguridad de los datos de huéspedes y administradores.<br>• *TP1:* Lideró la articulación técnica entre la SPA Web Administrativa y el Portal Web de Autogestión responsivo, verificando que los contratos de API y modelos de datos contemplen la privacidad de la información y la experiencia de usuario bajo directivas de accesibilidad web (WCAG).<br><br>**Eddo Su Caletti:**<br>• *TB1:* Colaboró en la descripción del problema de gestión hotelera evaluando el impacto económico en pequeños y medianos establecimientos y la descripción de la startup.<br>• *TB2:* Investigó y redactó las Necesidades del Negocio con sustento bibliográfico indexado (APA 7), evaluando el impacto económico de la digitalización en la rentabilidad de las Mipymes hoteleras.<br>• *TP1:* Priorizó las historias de usuario de los módulos de autogestión y reservas evaluando la viabilidad económica y operativa de descartar aplicaciones nativas en favor de interfaces web adaptativas sin fricciones para huéspedes y operarios.<br><br>**Oskar Rodrigo Sosa Soto:**<br>• *TB1:* Apoyó en la formulación de la propuesta de valor orientada a mejorar la experiencia y bienestar de los huéspedes.<br>• *TB2:* Diseñó el catálogo detallado de características del producto/servicio, priorizando la ergonomía de los flujos de recepción y housekeeping para reducir la sobrecarga laboral del personal operativo.<br>• *TP1:* Modeló las entidades y agregados del dominio DDD para Room Management y Booking Engine, garantizando que el diseño arquitectónico monolítico por capas soporte consistencia inmediata de inventarios sin sobrecostes computacionales.<br><br>**Ever Giusephi Carlos Lavado:**<br>• *TB1:* Recopiló información sobre factores culturales y sociales en la interacción de usuarios y anfitriones.<br>• *TB2:* Estructuró la matriz de supuestos críticos y restricciones operativas, analizando el impacto de la brecha digital y la estabilidad de infraestructura en establecimientos independientes.<br>• *TP1:* Diseñó y documentó la matriz de criterios de aceptación BDD (Gherkin) para los módulos de autenticación y gestión de habitaciones, asegurando que los flujos contemplen escenarios de contingencia y resguardo de datos sensibles.<br><br>**Augusto Sebastian Montes Maza:**<br>• *TB1:* Revisó consideraciones básicas de accesibilidad digital y protección de datos para la solución inicial.<br>• *TB2:* Delimitó los módulos de la capa de negocio asegurando trazabilidad en la gestión de solicitudes para garantizar bienestar y respuesta oportuna ante contingencias de los huéspedes.<br>• *TP1:* Refinó los wireframes y prototipos UI/UX del Portal Web de Autogestión responsivo en Figma, optimizando los flujos de pre-check-in y solicitudes para huéspedes con enfoque ergonómico e inclusivo. | **Conclusiones TB1:**<br>Durante esta fase inicial, el equipo definió conceptualmente la solución SmartStay y el alcance preliminar del servicio, asegurando que los requerimientos base contemplen la seguridad de la información de los huéspedes y la accesibilidad del usuario.<br><br>**Conclusiones TB2:**<br>En esta entrega, el equipo consolidó la definición del producto dentro del Project Charter, garantizando que el diseño arquitectónico monolítico por capas y las políticas de acceso satisfagan estándares éticos, de protección de datos personales y de optimización económica y operativa para el sector hotelero independiente.<br><br>**Conclusiones TP1:**<br>Para el hito del Trabajo Parcial, el equipo consolidó una solución de software orientada a la web con un enfoque ético, accesible y económicamente sostenible para hoteles independientes, unificando la SPA Administrativa y el Portal de Autogestión responsivo bajo una arquitectura monolítica por capas limpia y escalable. |
+| **Criterio 2:**<br>Diseña proyectos que permiten la implementación de soluciones en ingeniería de software considerando el impacto en salud pública, seguridad, bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Italo Sebastian Verona Flores:**<br>• *TB1:* Apoyó en la estructuración de los objetivos iniciales del proyecto SmartStay y en la identificación de los stakeholders clave.<br>• *TB2:* Estableció el timebox macro del proyecto (6 Sprints quincenales alineados a las 15 semanas del ciclo) y modeló la estructura de gobernanza y facultades de decisión del equipo.<br>• *TP1:* Monitoreó la ejecución del Sprint 3 bajo el Triángulo Invertido de PMI-ACP, asegurando el cumplimiento estricto del timebox de 15 semanas y facilitando la sincronización quincenal del equipo.<br><br>**Eddo Su Caletti:**<br>• *TB1:* Participó en la delimitación de los antecedentes y el contexto del sector hotelero mediante la técnica 5W2H.<br>• *TB2:* Redactó la justificación comercial y la relación del proyecto con la necesidad del mercado, alineando los objetivos del software con la sostenibilidad financiera del negocio hotelero.<br>• *TP1:* Refinó el Product Backlog bajo la técnica MoSCoW, validando la descomposición de épicas EP-01 a EP-07 en historias con valor de negocio comprobable y balance de esfuerzo técnico.<br><br>**Oskar Rodrigo Sosa Soto:**<br>• *TB1:* Colaboró en la definición preliminar de los segmentos objetivo (huéspedes y administradores de hospedajes).<br>• *TB2:* Diseñó la arquitectura macro monolítica modular (Domain-Driven Design), garantizando una estructura técnica mantenible y viable bajo restricciones académicas y cloud.<br>• *TP1:* Condujo la estimación relativa en Story Points para los ítems del Product Backlog y definió los contratos de interfaces RESTful para la integración de la SPA y el portal responsivo con el backend.<br><br>**Ever Giusephi Carlos Lavado:**<br>• *TB1:* Ayudó a mapear los riesgos y restricciones tempranas del entorno donde operará la solución.<br>• *TB2:* Elaboró la matriz formal de eventos de riesgo (RSK-01 a RSK-07) con análisis de probabilidad, impacto y estrategias de mitigación y contingencia operativa.<br>• *TP1:* Actualizó la matriz de riesgos operacionales (RSK-01 a RSK-07), incorporando planes de mitigación ante fluctuaciones en la disponibilidad académica durante la semana de evaluaciones parciales.<br><br>**Augusto Sebastian Montes Maza:**<br>• *TB1:* Contribuyó en la definición de los canales de comunicación y coordinación inicial del equipo.<br>• *TB2:* Formalizó el esquema de autoridad iniciadora, la matriz de aprobaciones y los criterios de gestión de cambios para salvaguardar la viabilidad del proyecto frente a variaciones de alcance.<br>• *TP1:* Formalizó la trazabilidad de requerimientos entre las necesidades del negocio hotelero, los objetivos SMART y las historias de usuario del Product Backlog para el hito TP1. | **Conclusiones TB1:**<br>En este arranque, el equipo estructuró las bases del proyecto SmartStay aplicando técnicas de análisis del problema (5W2H) y alineando la planificación inicial con las necesidades operativas de los establecimientos de hospedaje.<br><br>**Conclusiones TB2:**<br>El equipo fundamentó el Agile Project Charter como acta fundacional viva, formalizando el compromiso de los roles (PO, PM, Devs), el presupuesto simulado ($13,836 USD) y los planes de mitigación de riesgos ante factores de adopción tecnológica y variaciones de alcance.<br><br>**Conclusiones TP1:**<br>El equipo consolidó la gobernanza ágil y la gestión del alcance del proyecto, cerrando satisfactoriamente el Sprint 3 mediante la especificación rigurosa del Product Backlog, la mitigación proactiva de riesgos de evaluación parcial y la alineación estricta al presupuesto y calendario académico. |
+| **Criterio 3:**<br>Diseña y ejecuta los procesos relacionados al desarrollo y mantenimiento de la solución de software en ingeniería considerando el impacto en salud pública, seguridad, bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Italo Sebastian Verona Flores:**<br>• *TB1:* Colaboró en la configuración inicial del repositorio colaborativo en GitHub y en la adopción de las pautas de commits acordadas.<br>• *TB2:* Coordinó la integración del Project Charter bajo GitFlow, validó la trazabilidad de versiones en Markdown y lideró la ejecución de ceremonias de sincronización del Sprint 2.<br>• *TP1:* Coordinó el cierre del Sprint 3 en GitHub y Trello, asegurando la consistencia documental del informe en Markdown y validando la integración del control de versiones bajo GitFlow.<br><br>**Eddo Su Caletti:**<br>• *TB1:* Participó en la organización de la documentación del informe en formato Markdown respetando la estructura exigida.<br>• *TB2:* Asumió formalmente la responsabilidad de Product Owner, priorizando la incorporación de necesidades funcionales en el Charter sin comprometer el timebox estricto.<br>• *TP1:* Gestionó la revisión del Sprint Backlog (Sprint 3) asegurando que el 100% de tareas comprometidas alcancen el estado "Hecho" (Done) conforme a la Definición de Hecho (DoD).<br><br>**Oskar Rodrigo Sosa Soto:**<br>• *TB1:* Apoyó en la configuración del tablero de seguimiento de tareas en Trello para la distribución de actividades.<br>• *TB2:* Lideró la estandarización técnica del documento, unificando la convención de numeración decimal (4.1.7.1) y verificando la compatibilidad de los contratos de datos en PostgreSQL.<br>• *TP1:* Implementó y verificó las pautas de estilo APA 7 y estándares de documentación técnica en el repositorio, asegurando la trazabilidad de commits y referencias bibliográficas indexadas.<br><br>**Ever Giusephi Carlos Lavado:**<br>• *TB1:* Ayudó a definir los acuerdos de equipo (Working Agreements) para el trabajo colaborativo en las iteraciones.<br>• *TB2:* Integró los criterios de calidad y verificación pre-entrega en el repositorio, asegurando revisiones cruzadas de documentación frente al código antes de compilar.<br>• *TP1:* Supervisó los flujos Kanban en Trello y validó los criterios de aceptación BDD (Given-When-Then) en las historias de usuario para garantizar su verificabilidad mediante pruebas futuras.<br><br>**Augusto Sebastian Montes Maza:**<br>• *TB1:* Estableció los canales sincrónicos y asincrónicos para coordinar las reuniones semanales de seguimiento.<br>• *TB2:* Formalizó el protocolo de resolución de desacuerdos, escalamiento y comunicación virtual co-localizada (Discord, Meet y Trello) para el seguimiento continuo del trabajo.<br>• *TP1:* Consolidó la suite de prototipos de alta fidelidad en Figma y organizó el paquete de evidencias complementarias (.zip) y diapositivas de sustentación exigidas por la rúbrica del curso. | **Conclusiones TB1:**<br>Se implementaron los procesos de trabajo colaborativo base (control de versiones en GitHub, tablero ágil en Trello y canales de comunicación), garantizando orden, transparencia y trazabilidad en la documentación de esta primera entrega.<br><br>**Conclusiones TB2:**<br>Se consolidaron las prácticas ágiles de ingeniería mediante la adopción de convenciones de commits, revisiones por pares, automatización de validaciones pre-entrega (scripts de comprobación de calidad) y co-localización virtual, garantizando un flujo de entrega continua y sostenible.<br><br>**Conclusiones TP1:**<br>El equipo afianzó los procesos ágiles de ingeniería mediante la ejecución transparente del Sprint 3, la documentación exhaustiva en Markdown versionado en GitHub, la formulación de criterios BDD verificables y la generación de artefactos complementarios con rigor profesional. |
 
 <div style="page-break-after: always;"></div>
 
@@ -135,7 +136,7 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 ---
 
-### 2. Su Caletti Eddo
+### 2. Eddo Su Caletti
 * **Objetivo SMART 1 (Técnico / Especialización):**
   * *Específico (S):* Fortalecer mis competencias en desarrollo backend mediante el aprendizaje de Spring Boot y Java avanzado, y consolidar este conocimiento obteniendo la certificación internacional **Oracle Certified Professional: Java SE Developer**.
   * *Medible (M):* Desarrollar 2 proyectos académicos integrales con arquitectura REST API e integración a bases de datos relacionales, y aprobar el examen de certificación con una puntuación superior al 70%.
@@ -151,7 +152,7 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
   * *Temporal (T):* Cumplir con la meta durante los próximos 12 meses (entre el 5.º y 6.º ciclo académico).
 ---
 
-### 3. Oskar Rodrigo  Sosa Soto
+### 3. Oskar Rodrigo Sosa Soto
 * **Objetivo SMART 1 (Técnico / Especialización):**
   * *Específico (S):* Profundizar mis competencias en desarrollo full-stack y aseguramiento de calidad de software (QA), obteniendo una certificación internacional en testing (por ejemplo, ISTQB Foundation Level) que respalde formalmente mi capacidad de construir y verificar soluciones.
   * *Medible (M):* Completar al menos 3 proyectos integrales (web, móvil o IoT) que incluyan una suite de pruebas automatizadas con cobertura mayor al 70%, y aprobar el examen de certificación ISTQB.
@@ -168,7 +169,7 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 ---
 
-### 4. Ever Giusephi  Carlos Lavado
+### 4. Ever Giusephi Carlos Lavado
 * **Objetivo SMART 1:**
   * S (Specific): Mejorar mis conocimientos y habilidades prácticas en desarrollo de aplicaciones web.
   * M (Measurable): Completar al menos 2 proyectos funcionales aplicando tecnologías y buenas prácticas de desarrollo.
@@ -222,7 +223,7 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 ### 3.1.2. Perfiles de Integrantes del Equipo
 
-#### Integrante 1: Su Caletti Eddo
+#### Integrante 1: Eddo Su Caletti
 * **Fotografía:**  
   <img src="./assets/chapter-1/foto-eddo.jpeg" width="180" alt="Foto de Eddo Su Caletti">
 * **Código de Estudiante:** U20221A390
@@ -461,10 +462,10 @@ La propuesta de valor representa el conjunto de beneficios tangibles e intangibl
 * **Beneficios a Obtener por parte de los Usuarios (Value Proposition Canvas / Lean UX):**
   * *Creadores de Alegrías (Gain Creators):* Actualización en tiempo real del estado de cada habitación con trazabilidad operativa clara; interfaz intuitiva diseñada para minimizar la curva de aprendizaje del personal; experiencia de autoservicio para el huésped (check-in/check-out ágil y control de servicios desde su smartphone); y generación automática de reportes de desempeño para la administración.
   * *Aliviadores de Frustraciones (Pain Relievers):* Eliminación total de bitácoras en papel y comunicación verbal desorganizada; erradicación de discrepancias sobre la disponibilidad real de habitaciones; reducción drástica de tiempos de espera en el mostrador de recepción; y centralización de los flujos de trabajo en una infraestructura segura y sincronizada en la nube.
-  * *Productos y Servicios:* Plataforma integral de gestión hotelera y experiencia del huésped conformada por:
-    * Aplicación móvil nativa en Android para la asignación, ejecución y monitoreo de tareas del staff operativo.
-    * Aplicación móvil multiplataforma (Flutter) orientada al huésped para autoservicio, solicitudes e interacción con comodidades del hotel.
-    * Panel web administrativo centralizado, respaldado por una arquitectura monolítica modular por capas en la nube, escalable y segura.
+  * *Productos y Servicios:* Plataforma integral de gestión hotelera y experiencia del huésped sustentada en una **Arquitectura Monolítica por Capas orientada a la web**, compuesta por:
+    * **SPA Web Administrativa (Single Page Application):** Diseñada para la gerencia y el staff operativo (recepción, housekeeping y mantenimiento), proporcionando una interfaz fluida e interactiva para la asignación y monitoreo de tareas en tiempo real, gestión de inventario y visualización de indicadores operativos sin recargas de página.
+    * **Portal Web de Autogestión Responsivo:** Diseñado para huéspedes y clientes, con diseño web adaptable (*responsive web design*) optimizado para su ejecución en navegadores de smartphones, tablets y equipos de escritorio, permitiendo la realización autónoma de pre-check-in, check-out express, solicitud de servicios y pagos sin necesidad de descargar ni instalar aplicaciones nativas.
+    * **Backend Monolítico Modular y Persistencia Relacional:** Servidor central estructurado bajo principios de Domain-Driven Design (DDD) modular con base de datos relacional PostgreSQL, garantizando consistencia inmediata de inventarios y tarifas, alta mantenibilidad y simplicidad operativa.
 
 ---
 
@@ -734,12 +735,12 @@ El cronograma macro se articula rigurosamente con los hitos y entregables de eva
 
 | Iteración / Periodo | Semanas Académicas | Foco de Trabajo Ágil | Entregable / Hito Oficial Asociado | Fecha Compromiso |
 | :---: | :---: | :--- | :--- | :---: |
-| **Sprint 1** | Semanas 1 y 2 | Formulación del problema hotelero, perfil de la startup Sísifo, técnica 5W2H, Lean UX Canvas y objetivos SMART individuales. | **Hito :** Startup & Solution Profile, Lean UX y Objetivos SMART. | Semana 3 (Septiembre 2026) |
-| **Sprint 2** | Semanas 3 y 4 | Formulación integral del Project Charter, definición de gobernanza, presupuesto de alto nivel, mitigación de riesgos y arquitectura monolítica por capas. | **Hito :** Project Charter completo formalizado y validado. | Semana 5 (Septiembre 2026) |
-| **Sprint 3** | Semanas 5 y 6 | Modelado de dominio (DDD), descomposición de épicas e historias de usuario con criterios de aceptación, wireframes y prototipado UI/UX. | **Hito :** Avance de historias de usuario, prototipos y arquitectura consolidada. | Semana 7 (Octubre 2026) |
-| **Sprint 4** | Semanas 8 y 9 | Construcción del núcleo transaccional: servicios de Room Management y Booking Engine, persistencia relacional en PostgreSQL y pruebas unitarias. | **Hito :** Primer incremento de software desplegado con pruebas funcionales. | Semana 10 (Noviembre 2026) |
-| **Sprint 5** | Semanas 11 y 12 | Implementación del módulo de Housekeeping (Kanban operativo), portal web responsivo para huéspedes e integración continua de componentes. | **Hito :** Segundo incremento funcional con tableros operativos y métricas de calidad. | Semana 12 (Noviembre 2026) |
-| **Sprint 6** | Semanas 13 y 14 | Desarrollo del dashboard analítico (RevPAR / ADR), auditoría de seguridad RBAC, pruebas de rendimiento, carga y estabilización pre-entrega. | **Hito :** Solución integral SmartStay completada, informe final y lecciones aprendidas. | Semana 15 (Diciembre 2026) |
+| **Sprint 1** | Semanas 1 y 2 | Formulación del problema hotelero, perfil de la startup Sísifo, técnica 5W2H, Lean UX Canvas y objetivos SMART individuales. | **Hito TB1:** Startup & Solution Profile, Lean UX y Objetivos SMART. | Semana 3 (Septiembre 2026) |
+| **Sprint 2** | Semanas 3 y 4 | Formulación integral del Project Charter, definición de gobernanza, presupuesto de alto nivel, mitigación de riesgos y arquitectura monolítica por capas. | **Hito TB2:** Project Charter completo formalizado y validado. | Semana 5 (Septiembre 2026) |
+| **Sprint 3** | Semanas 5 y 6 | Modelado de dominio (DDD), descomposición de épicas e historias de usuario con criterios de aceptación, wireframes y prototipado UI/UX. | **Hito TP1:** Avance de historias de usuario, prototipos y arquitectura consolidada (Trabajo Parcial). | Semana 7 (Octubre 2026) |
+| **Sprint 4** | Semanas 8 y 9 | Construcción del núcleo transaccional: servicios de Room Management y Booking Engine, persistencia relacional en PostgreSQL y pruebas unitarias. | **Hito TB3 (Avance):** Primer incremento de software desplegado con pruebas funcionales. | Semana 10 (Noviembre 2026) |
+| **Sprint 5** | Semanas 11 y 12 | Implementación del módulo de Housekeeping (Kanban operativo), portal web responsivo para huéspedes e integración continua de componentes. | **Hito TB3 (Final):** Segundo incremento funcional con tableros operativos y métricas de calidad. | Semana 12 (Noviembre 2026) |
+| **Sprint 6** | Semanas 13 y 14 | Desarrollo del dashboard analítico (RevPAR / ADR), auditoría de seguridad RBAC, pruebas de rendimiento, carga y estabilización pre-entrega. | **Hito TF:** Solución integral SmartStay completada, informe final y lecciones aprendidas (Trabajo Final). | Semana 15 (Diciembre 2026) |
 
 #### 4.1.4.6. Formalización y revisión de acuerdos
 
@@ -1097,12 +1098,12 @@ Identificamos los siguientes eventos de riesgo que podrían afectar el cumplimie
 
 | Rol de Aprobación | Responsable | Versión Revisada | Fecha | Estado | Alcance de la Conformidad |
 | :--- | :--- | :---: | :---: | :---: | :--- |
-| **Autoridad académica del curso** | Rouillon Sixto César Elías | TB2 | — | **Pendiente de confirmación** | Revisión y evaluación académica del entregable conforme a los criterios y requisitos del curso. |
-| **Project Manager y facilitador ágil** | Italo Sebastian Verona Flores | TB2 | 22/09/2026 | **Conforme internamente** | Acepta la coordinación de la planificación, seguimiento de compromisos, integración de entregables y atención de impedimentos. |
-| **Product Owner** | Eddo Su Caletti | TB2 | 22/09/2026 | **Conforme internamente** | Acepta la responsabilidad sobre la visión del producto, priorización del Product Backlog y orientación hacia el valor para los usuarios. |
-| **Responsable de arquitectura y coordinación técnica** | Oskar Rodrigo Sosa Soto | TB2 | 22/09/2026 | **Conforme internamente** | Acepta la coordinación de decisiones de arquitectura, interfaces, persistencia e integración técnica. |
-| **Responsable de calidad e integración** | Ever Giusephi Carlos Lavado | TB2 | 22/09/2026 | **Conforme internamente** | Acepta la coordinación de criterios de verificación, pruebas, registro de defectos e integración de componentes. |
-| **Responsable de análisis de negocio y requerimientos** | Augusto Sebastian Montes Maza | TB2 | 22/09/2026 | **Conforme internamente** | Acepta el análisis de procesos hoteleros, refinamiento de requerimientos y trazabilidad entre necesidades, historias y criterios de aceptación. |
+| **Autoridad académica del curso** | Rouillon Sixto César Elías | TP1 | — | **Pendiente de confirmación** | Revisión y evaluación académica del entregable conforme a los criterios y requisitos del curso. |
+| **Project Manager y facilitador ágil** | Italo Sebastian Verona Flores | TP1 | 10/10/2026 | **Conforme internamente** | Acepta la coordinación de la planificación, seguimiento de compromisos, integración de entregables y atención de impedimentos. |
+| **Product Owner** | Eddo Su Caletti | TP1 | 10/10/2026 | **Conforme internamente** | Acepta la responsabilidad sobre la visión del producto, priorización del Product Backlog y orientación hacia el valor para los usuarios. |
+| **Responsable de arquitectura y coordinación técnica** | Oskar Rodrigo Sosa Soto | TP1 | 10/10/2026 | **Conforme internamente** | Acepta la coordinación de decisiones de arquitectura, interfaces, persistencia e integración técnica. |
+| **Responsable de calidad e integración** | Ever Giusephi Carlos Lavado | TP1 | 10/10/2026 | **Conforme internamente** | Acepta la coordinación de criterios de verificación, pruebas, registro de defectos e integración de componentes. |
+| **Responsable de análisis de negocio y requerimientos** | Augusto Sebastian Montes Maza | TP1 | 10/10/2026 | **Conforme internamente** | Acepta el análisis de procesos hoteleros, refinamiento de requerimientos y trazabilidad entre necesidades, historias y criterios de aceptación. |
 
 ---
 
@@ -1116,33 +1117,119 @@ El Product Owner (Eddo Su Caletti) mantiene y ordena el Product Backlog según e
 
 | ID | Épica | Historia de Usuario | Prioridad | Story Points |
 | :--- | :--- | :--- | :---: | :---: |
-| **EP-01** | Seguridad y Control de Acceso (RBAC) | Como **administrador**, quiero iniciar sesión con autenticación JWT y roles granulares, para que cada perfil (recepción, housekeeping, mantenimiento, huésped) acceda únicamente a las funciones que le corresponden. | Must | 5 |
+| **EP-01** | Seguridad y Control de Acceso (RBAC) | Como **administrador**, quiero iniciar sesión con autenticación JWT y roles granulares, para que cada perfil (recepción, housekeeping, mantenimiento, huésped) acceda únicamente a las funciones que le corresponden en la SPA Web y el portal de autogestión. | Must | 5 |
 | **EP-02** | Gestión de Habitaciones | Como **recepcionista**, quiero visualizar el estado de cada habitación en tiempo real (disponible, ocupada, en limpieza, mantenimiento), para asignar cuartos sin depender de bitácoras físicas. | Must | 8 |
 | **EP-03** | Motor de Reservas y Tarifas | Como **recepcionista**, quiero registrar una reserva con actualización instantánea de disponibilidad, para evitar la sobreventa (*overbooking*) de habitaciones. | Must | 8 |
-| **EP-04** | Check-in / Check-out Digital Express | Como **huésped**, quiero completar mi check-in desde el portal web responsivo antes de llegar al hotel, para reducir el tiempo de espera en recepción. | Should | 5 |
-| **EP-05** | Housekeeping y Mantenimiento | Como **operario de limpieza**, quiero ver mis tareas asignadas en un tablero Kanban y actualizar su estado, para que recepción sepa en tiempo real qué habitaciones están disponibles. | Must | 8 |
-| **EP-06** | Portal de Autoservicio del Huésped | Como **huésped**, quiero solicitar amenities o servicio a la habitación desde mi smartphone, para no depender de llamar o acercarme a recepción. | Should | 5 |
-| **EP-07** | Dashboard Analítico e Inteligencia de Negocios | Como **administrador**, quiero visualizar indicadores como RevPAR y ADR en un panel centralizado, para tomar decisiones de precios y operación con datos actualizados. | Could | 8 |
+| **EP-04** | Check-in / Check-out Digital Express | Como **huésped**, quiero completar mi check-in y check-out autónomo desde el Portal Web de Autogestión responsivo, para reducir tiempos de espera en la recepción del hotel. | Should | 5 |
+| **EP-05** | Housekeeping y Mantenimiento | Como **operario de limpieza o técnico**, quiero ver y gestionar mis tareas asignadas en un tablero Kanban operativo y registrar incidencias, para que recepción conozca la disponibilidad real en tiempo real. | Must | 8 |
+| **EP-06** | Portal de Autoservicio del Huésped | Como **huésped**, quiero solicitar amenities o servicio a la habitación desde mi smartphone en el portal web responsivo, para no depender de llamadas o acudir presencialmente a recepción. | Should | 5 |
+| **EP-07** | Dashboard Analítico e Inteligencia de Negocios | Como **administrador**, quiero visualizar indicadores clave como RevPAR y ADR en la SPA Web Administrativa, para tomar decisiones de precios y operación con datos consolidados. | Could | 8 |
 
-La priorización anterior se revisará al inicio de cada Sprint durante la ceremonia de *Sprint Planning*, considerando el avance real del equipo, los hallazgos de validación con usuarios y las restricciones académicas vigentes (sección 4.1.11).
+#### Especificación de Criterios de Aceptación en Formato BDD (Behavior-Driven Development / Gherkin)
+
+A fin de asegurar la verificabilidad técnica, la precisión del alcance y la alineación con las rúbricas de evaluación del curso, cada una de las historias de usuario prioritarias cuenta con sus respectivos criterios de aceptación formalizados bajo la estructura formal **Escenario / Dado que (Given) / Cuando (When) / Entonces (Then)**:
+
+##### Épica EP-01: Seguridad y Control de Acceso (RBAC)
+* **Historia de Usuario:** Como **administrador**, quiero iniciar sesión con autenticación JWT y roles granulares, para que cada perfil (recepción, housekeeping, mantenimiento, huésped) acceda únicamente a las funciones que le corresponden en la SPA Web y en el portal de autogestión.
+  * **Criterio de Aceptación 1.1 (Autenticación exitosa y redirección por rol):**
+    * **Dado que** un usuario registrado ingresa un correo electrónico y una contraseña válidos en el formulario de inicio de sesión,
+    * **Cuando** presiona el botón "Iniciar Sesión",
+    * **Entonces** el sistema valida las credenciales contra la base de datos PostgreSQL, genera un token JWT firmado que encapsula su rol y lo redirige automáticamente a su interfaz correspondiente (SPA Administrativa para staff o Portal de Autogestión para huéspedes).
+  * **Criterio de Aceptación 1.2 (Credenciales incorrectas):**
+    * **Dado que** un usuario ingresa credenciales incorrectas o inexistentes,
+    * **Cuando** solicita iniciar sesión,
+    * **Entonces** el sistema rechaza la autenticación sin generar token y muestra un mensaje de alerta genérico: *"Credenciales inválidas. Compruebe su correo y contraseña"*.
+  * **Criterio de Aceptación 1.3 (Restricción de acceso a rutas no autorizadas):**
+    * **Dado que** un usuario autenticado con rol de "Operario de Housekeeping" intenta navegar directamente a una URL administrativa restringida (por ejemplo, `/admin/billing`),
+    * **Cuando** el frontend envía la solicitud HTTP al backend monolítico con dicho token,
+    * **Entonces** el backend responde con código de error HTTP `403 Forbidden` y la interfaz redirige al usuario a su panel operativo con la advertencia: *"No posee los permisos necesarios para acceder a este recurso"*.
+
+##### Épica EP-02: Gestión de Habitaciones (Room Management)
+* **Historia de Usuario:** Como **recepcionista**, quiero visualizar el estado de cada habitación en tiempo real (disponible, ocupada, en limpieza, mantenimiento), para asignar cuartos sin depender de bitácoras físicas.
+  * **Criterio de Aceptación 2.1 (Sincronización de estados en tiempo real):**
+    * **Dado que** el recepcionista tiene abierta la matriz visual de habitaciones en la SPA Web Administrativa,
+    * **Cuando** un operario actualiza el estado de una habitación a "Limpia y Disponible" desde su dispositivo,
+    * **Entonces** la matriz de habitaciones en la recepción refleja el nuevo estado en color verde en menos de 2 segundos sin requerir la recarga manual de la página web.
+  * **Criterio de Aceptación 2.2 (Asignación de habitación en check-in):**
+    * **Dado que** una habitación se encuentra verificada en estado "Disponible",
+    * **Cuando** el recepcionista la vincula a una reserva confirmada durante el check-in,
+    * **Entonces** el sistema transiciona inmediatamente el estado de la habitación a "Ocupada", bloquea su disponibilidad para otras operaciones y genera la ficha de ocupación en la base de datos.
+
+##### Épica EP-03: Motor de Reservas y Tarifas (Booking Engine)
+* **Historia de Usuario:** Como **recepcionista**, quiero registrar una reserva con actualización instantánea de disponibilidad, para evitar la sobreventa (*overbooking*) de habitaciones.
+  * **Criterio de Aceptación 3.1 (Registro de reserva exitosa):**
+    * **Dado que** existen habitaciones disponibles para el rango de fechas seleccionado y tipo de habitación solicitado,
+    * **Cuando** el recepcionista ingresa los datos del huésped, selecciona la tarifa vigente y presiona "Confirmar Reserva",
+    * **Entonces** el motor de reservas descuenta de forma atómica la disponibilidad en la base de datos, asigna un código único alfanumérico y emite la confirmación de reserva.
+  * **Criterio de Aceptación 3.2 (Prevención estricta de sobreventa):**
+    * **Dado que** queda una única habitación disponible de cierta categoría para una fecha determinada y dos operadores intentan reservarla de forma simultánea,
+    * **Cuando** la primera reserva se procesa y confirma en la transacción relacional,
+    * **Entonces** el sistema rechaza la segunda solicitud notificando: *"No hay disponibilidad suficiente para el tipo de habitación y fechas solicitadas"*, garantizando consistencia ACID.
+
+##### Épica EP-04: Check-in / Check-out Digital Express (Self-Service)
+* **Historia de Usuario:** Como **huésped**, quiero completar mi check-in y check-out autónomo desde el Portal Web de Autogestión responsivo, para reducir tiempos de espera en la recepción del hotel.
+  * **Criterio de Aceptación 4.1 (Pre-check-in digital antes del arribo):**
+    * **Dado que** un huésped con reserva confirmada accede al Portal Web de Autogestión desde el navegador de su smartphone o computadora,
+    * **Cuando** ingresa su código de reserva, valida su información de identidad y acepta el reglamento del hotel,
+    * **Entonces** el sistema registra el estado "Pre-Check-in Completado" y genera un pase digital de registro para una rápida entrega de accesos al llegar al establecimiento.
+  * **Criterio de Aceptación 4.2 (Check-out express autónomo):**
+    * **Dado que** el huésped se encuentra en su fecha de salida y accede a la sección "Check-out Express" en el portal web responsivo,
+    * **Cuando** revisa el balance de consumos adicionales, confirma el saldo y presiona "Cerrar Estadía",
+    * **Entonces** el sistema procesa el cierre, despacha el estado de la habitación a "En Limpieza Requerida" para el equipo de housekeeping y envía la factura electrónica al correo del huésped.
+
+##### Épica EP-05: Housekeeping y Mantenimiento Operativo
+* **Historia de Usuario:** Como **operario de limpieza o técnico**, quiero ver y gestionar mis tareas asignadas en un tablero Kanban operativo y registrar incidencias, para que recepción conozca la disponibilidad real en tiempo real.
+  * **Criterio de Aceptación 5.1 (Gestión de ciclo de limpieza en tablero Kanban):**
+    * **Dado que** el operario de limpieza visualiza su lista de habitaciones en la columna "Pendiente" del tablero web,
+    * **Cuando** inicia las labores de aseo y mueve la tarjeta a la columna "En Proceso",
+    * **Entonces** el sistema registra la marca de tiempo de inicio y actualiza el estado visible para supervisión a "Limpieza en Curso".
+  * **Criterio de Aceptación 5.2 (Reporte de incidencia de mantenimiento):**
+    * **Dado que** durante la inspección de la habitación el personal detecta un desperfecto físico (ej. fuga de agua o falla eléctrica),
+    * **Cuando** registra un ticket de mantenimiento detallando la avería con nivel de severidad "Crítico",
+    * **Entonces** el sistema cambia automáticamente el estado de la habitación a "Fuera de Servicio / En Mantenimiento", emite una alerta prioritaria al técnico de mantenimiento y desactiva la habitación del motor de reservas.
+
+##### Épica EP-06: Portal de Autoservicio del Huésped
+* **Historia de Usuario:** Como **huésped**, quiero solicitar amenities o servicio a la habitación desde mi smartphone en el portal web responsivo, para no depender de llamadas o acudir presencialmente a recepción.
+  * **Criterio de Aceptación 6.1 (Solicitud de requerimientos adicionales):**
+    * **Dado que** el huésped se encuentra alojado en una habitación activa y abre la sección "Solicitudes" en el Portal de Autogestión,
+    * **Cuando** selecciona un servicio o amenidad del catálogo (ej. toallas extra o servicio a la habitación) y presiona "Solicitar",
+    * **Entonces** el sistema crea una orden de servicio asignada al área operativa correspondiente y muestra al huésped una confirmación visual con tiempo estimado de atención.
+  * **Criterio de Aceptación 6.2 (Trazabilidad del estado de solicitud):**
+    * **Dado que** el personal operativo toma la solicitud del huésped y la marca como "En Camino",
+    * **Cuando** el huésped consulta su historial de pedidos en el portal web,
+    * **Entonces** visualiza en tiempo real la actualización de estado de su solicitud hasta el cierre en "Entregado".
+
+##### Épica EP-07: Dashboard Analítico e Inteligencia de Negocios
+* **Historia de Usuario:** Como **administrador**, quiero visualizar indicadores clave como RevPAR y ADR en la SPA Web Administrativa, para tomar decisiones de precios y operación con datos consolidados.
+  * **Criterio de Aceptación 7.1 (Cálculo automatizado de KPIs hoteleros):**
+    * **Dado que** el administrador accede a la vista de "Métricas y Desempeño" en la SPA Web,
+    * **Cuando** selecciona un rango de fechas mensual o semanal,
+    * **Entonces** el sistema ejecuta las consultas analíticas sobre PostgreSQL y renderiza los valores exactos de **RevPAR** (*Ingreso por Habitación Disponible*), **ADR** (*Tarifa Media Diaria*) y tasa porcentual de ocupación junto con gráficas de tendencia.
+  * **Criterio de Aceptación 7.2 (Exportación de reportes operativos):**
+    * **Dado que** las métricas han sido procesadas en pantalla,
+    * **Cuando** el usuario presiona la opción "Descargar Reporte Ejecutivo",
+    * **Entonces** el sistema compila y descarga un documento estructurado en formato PDF con la síntesis de ingresos, cuartos atendidos y promedios de ocupación del periodo.
+
+La priorización anterior se revisará de manera continua en cada ceremonia de *Sprint Planning*, considerando el avance real del equipo, los hallazgos de validación con usuarios y las restricciones académicas vigentes (sección 4.1.11).
 
 ### 4.2.2. Sprint Backlog
 
-De acuerdo con el cronograma de 6 Sprints quincenales (sección 4.1.4.5), el equipo se encuentra cerrando el **Sprint 2** (Semanas 3 y 4, Project Charter) e iniciando la planificación del **Sprint 3** (Semanas 5 y 6), cuyo objetivo es el modelado del dominio (DDD) y la descomposición de las épicas priorizadas en historias de usuario con criterios de aceptación, wireframes y prototipado UI/UX.
+Al cierre del **Trabajo Parcial (Semana 7 - TP1)**, el equipo concluyó formalmente la ejecución del **Sprint 3 (Semanas 5 y 6)**, alcanzando el 100% de los compromisos de alcance previstos para el hito del parcial (diseño de arquitectura web por capas, refinamiento BDD del Product Backlog, modelos de dominio DDD y prototipado responsive). Con ello, el equipo completó la retrospectiva del Sprint 3 e inicia la transición hacia el **Sprint 4 (Semanas 8 y 9)** orientado a la construcción del núcleo transaccional en backend y SPA Web.
 
-**Objetivo del Sprint 3:** Contar con las historias de usuario de EP-01, EP-02 y EP-03 refinadas, con criterios de aceptación validados y wireframes iniciales de los flujos críticos (login, gestión de habitaciones y reservas).
+**Objetivo del Sprint 3 (Concluido en TP1):** Desarrollar y validar los modelos de dominio (DDD) de los contextos de usuarios y habitaciones, refinamiento integral de historias de usuario (EP-01 a EP-07) con criterios de aceptación BDD (Gherkin), y construcción de wireframes y prototipos UI/UX de alta fidelidad para la SPA Web Administrativa y el Portal Web de Autogestión responsivo.
 
-| Historia de Usuario (Backlog Item) | Tarea | Responsable | Estimación (h) | Estado |
+| Historia de Usuario (Backlog Item) | Tarea de Ingeniería | Responsable | Estimación (h) | Estado al Cierre TP1 |
 | :--- | :--- | :--- | :---: | :---: |
-| EP-01: Autenticación JWT y roles | Modelar entidades de dominio (Usuario, Rol, Permiso) bajo DDD. | Oskar Rodrigo Sosa Soto | 10 | Por hacer |
-| EP-01: Autenticación JWT y roles | Definir criterios de aceptación y casos de prueba de autenticación. | Ever Giusephi Carlos Lavado | 6 | Por hacer |
-| EP-02: Estado de habitaciones en tiempo real | Modelar el agregado *Room* y sus estados válidos (DDD). | Oskar Rodrigo Sosa Soto | 10 | Por hacer |
-| EP-02: Estado de habitaciones en tiempo real | Elaborar wireframes del panel de gestión de habitaciones. | Augusto Sebastian Montes Maza | 8 | Por hacer |
-| EP-03: Registro de reservas sin sobreventa | Redactar historias de usuario y criterios de aceptación del motor de reservas. | Augusto Sebastian Montes Maza | 8 | Por hacer |
-| EP-03: Registro de reservas sin sobreventa | Validar reglas de negocio de disponibilidad con el Product Owner. | Su Caletti Eddo | 6 | Por hacer |
-| Transversal | Dar seguimiento al tablero de Sprint en Trello y facilitar la Daily Scrum. | Italo Sebastian Verona Flores | 6 | Por hacer |
+| EP-01: Autenticación JWT y roles | Modelar entidades de dominio (Usuario, Rol, Permiso) bajo principios DDD. | Oskar Rodrigo Sosa Soto | 10 | **Hecho (Done)** |
+| EP-01: Autenticación JWT y roles | Definir criterios de aceptación BDD (Gherkin) y casos de prueba de autenticación. | Ever Giusephi Carlos Lavado | 6 | **Hecho (Done)** |
+| EP-02: Estado de habitaciones en tiempo real | Modelar el agregado *Room* y sus estados válidos en el contexto de habitaciones. | Oskar Rodrigo Sosa Soto | 10 | **Hecho (Done)** |
+| EP-02: Estado de habitaciones en tiempo real | Elaborar wireframes y prototipos de alta fidelidad de la matriz de habitaciones en la SPA Web. | Augusto Sebastian Montes Maza | 8 | **Hecho (Done)** |
+| EP-03: Registro de reservas sin sobreventa | Redactar historias de usuario y criterios de aceptación BDD del motor de reservas. | Augusto Sebastian Montes Maza | 8 | **Hecho (Done)** |
+| EP-03: Registro de reservas sin sobreventa | Validar reglas de negocio de disponibilidad e invariantes de dominio con el Product Owner. | Eddo Su Caletti | 6 | **Hecho (Done)** |
+| EP-04 / EP-06: Portal de Autogestión | Diseñar prototipos responsivos para pre-check-in y solicitudes del huésped en Figma. | Augusto Sebastian Montes Maza | 8 | **Hecho (Done)** |
+| Transversal | Gestionar el tablero de Sprint en Trello, facilitar Daily Scrums y consolidar artefactos de TP1. | Italo Sebastian Verona Flores | 6 | **Hecho (Done)** |
 
-El avance de estas tareas se visualizará en el tablero Trello del equipo y se revisará en la ceremonia de *Sprint Review* al cierre del Sprint 3, actualizando el Product Backlog según los resultados obtenidos.
+El cumplimiento de estas tareas fue verificado y validado en la ceremonia de *Sprint Review* del Sprint 3 contra la Definición de Hecho (*Definition of Done - DoD*), registrándose las evidencias de diseño y criterios en el repositorio GitHub oficial y tablero Kanban del equipo.
 
 ---
 
@@ -1150,22 +1237,16 @@ El avance de estas tareas se visualizará en el tablero Trello del equipo y se r
 
 
 
-# Bibliografia
-
-* Evans, E. (2003). Domain-driven design: Tackling complexity in the heart of software. Addison-Wesley.
-
-* Fowler, M. (2002). Patterns of enterprise application architecture. Addison-Wesley Professional.
-
-* Gothelf, J., & Seiden, J. (2021). Lean UX: Designing great products with agile teams (3rd ed.). O’Reilly Media.
-
-* Osterwalder, A., Pigneur, Y., Bernarda, G., & Smith, A. (2014). Value proposition design: How to create products and services customers want. John Wiley & Sons.
-
-* Project Management Institute. (2017). Agile practice guide. Project Management Institute.
-
-* Schwaber, K., & Sutherland, J. (2020). The Scrum guide: The definitive guide to Scrum: The rules of the game. Scrum.org.
+# Bibliografía
 
 * Castillo, R. A., & Morales, J. L. (2022). *Evaluación del impacto financiero de la automatización de procesos en la rentabilidad de las Mipymes hoteleras en Lima Metropolitana* [Tesis de licenciatura, Universidad Peruana de Ciencias Aplicadas]. Repositorio Académico UPC. https://repositorioacademico.upc.edu.pe/handle/10757/658412
+* Evans, E. (2003). *Domain-driven design: Tackling complexity in the heart of software*. Addison-Wesley.
+* Fowler, M. (2002). *Patterns of enterprise application architecture*. Addison-Wesley Professional.
 * Gómez, M. E., & Tello, D. F. (2022). *Optimización de tiempos de atención en recepción y su efecto en la fidelización del huésped en hoteles boutique del Cusco* [Tesis de licenciatura, Universidad de San Martín de Porres]. Repositorio Institucional USMP. https://repositorio.usmp.edu.pe/handle/20.500.12727/9821
+* Gothelf, J., & Seiden, J. (2021). *Lean UX: Designing great products with agile teams* (3rd ed.). O’Reilly Media.
 * Mamani, C. P., & Paredes, K. R. (2020). Gestor de canales y sistemas PMS: Análisis de la sobreventa e integración tecnológica en la hotelería independiente de Arequipa. *Turismo y Patrimonio*, (15), 45–61. https://doi.org/10.24265/turpatrim.2020.n15.04
+* Osterwalder, A., Pigneur, Y., Bernarda, G., & Smith, A. (2014). *Value proposition design: How to create products and services customers want*. John Wiley & Sons.
+* Project Management Institute. (2017). *Agile practice guide*. Project Management Institute.
 * Quispe, L. M., & Huamán, V. H. (2023). *Uso de analítica de datos e indicadores de rendimiento (ADR y RevPAR) para la toma de decisiones en el sector hotelero independiente* [Tesis de maestría, Pontificia Universidad Católica del Perú]. Repositorio Digital PUCP. https://tesis.pucp.edu.pe/repositorio/handle/20.500.12404/24105
+* Schwaber, K., & Sutherland, J. (2020). *The Scrum guide: The definitive guide to Scrum: The rules of the game*. Scrum.org.
 * Vásquez, E. J., & Sandoval, P. A. (2021). *Diseño de una solución tecnológica para la gestión operativa y reducción de tiempos muertos en el área de housekeeping en hoteles de 3 estrellas* [Tesis de licenciatura, Universidad Ricardo Palma]. Repositorio Institucional URP. https://repositorio.urp.edu.pe/handle/20.500.14138/4218
