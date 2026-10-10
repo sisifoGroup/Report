@@ -83,6 +83,7 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
      * 3.2.6. [Análisis de Competidores](#326-análisis-de-competidores)
      * 3.2.7. [Entrevistas](#327-entrevistas)
        * 3.2.7.1. [Diseño de Entrevistas con Enfoque Operativo y Arquitectónico](#3271-diseño-de-entrevistas-con-enfoque-operativo-y-arquitectónico)
+       * 3.2.7.2. [Registro de Entrevistas Realizadas y Evidencias](#3272-registro-de-entrevistas-realizadas-y-evidencias)
 2. [Capítulo II: Gestión de Áreas de Conocimiento Agile](#capítulo-ii-gestión-de-áreas-de-conocimiento-agile)
    * 4.1. [Agile Project Integration Management: Project Charter](#41-agile-project-integration-management-project-charter)
      * 4.1.1. [Resumen Ejecutivo](#411-resumen-ejecutivo)
@@ -618,6 +619,32 @@ Con el propósito de validar los supuestos del modelo Lean UX y contrastar las f
 5. ¿De qué manera influye la existencia de una reputación digital sólida y procesos sin fricción en su decisión de volver a elegir un hotel boutique?
 6. Si un hotel automatiza completamente los procesos de ingreso y salida, ¿siente que se pierde la calidez del servicio humano o prefiere la total independencia y rapidez?
 7. ¿Qué recomendaciones daría para asegurar que un portal de autoservicio para huéspedes sea verdaderamente intuitivo y fácil de usar desde el primer minuto?
+
+---
+
+#### 3.2.7.2. Registro de Entrevistas Realizadas y Evidencias
+
+A continuación se documentan las entrevistas ejecutadas y los enlaces de respaldo correspondientes:
+
+* **Entrevista 1 (Segmento 1 - Administrador): Harold Elías**
+  * **Cargo:** Administrador General de Hotel Boutique
+  * **Principales Hallazgos:** Destacó la urgencia de eliminar los canales informales de comunicación interna, señalando que la falta de trazabilidad en los reportes de limpieza genera demoras operativas graves en temporada alta.
+  * **Evidencia (Video):** [Enlace de Entrevista - Harold Elías](https://drive.google.com/file/d/12lyuZ1rFmlfwf6XMRJ1KY2TvLMS-1X2F/view?usp=sharing)
+
+* **Entrevista 2 (Segmento 1 - Administrador): Sebastián Beingolea**
+  * **Cargo:** Supervisor de Operaciones y Recepción
+  * **Principales Hallazgos:** Enfatizó que los errores humanos en la actualización manual de estados de habitaciones provocan rechazos de ingresos y fricciones directas con los huéspedes al momento del check-in.
+  * **Evidencia (Video):** [Enlace de Entrevista - Sebastián Beingolea](https://drive.google.com/file/d/1tYO329oIPZzRioHkiOSQryaJTc0Mqvoe/view?usp=sharing)
+
+* **Entrevista 3 (Segmento 2 - Huésped): Víctor Meneses**
+  * **Perfil:** Viajero frecuente por negocios y turismo urbano.
+  * **Principales Hallazgos:** Validó la necesidad de contar con un flujo de check-in digital autónomo que evite esperas en el mostrador, mostrando alto interés en un portal de autoservicio móvil.
+  * **Evidencia (Video):** [Enlace de Entrevista - Víctor Meneses](https://drive.google.com/file/d/1o6CIsZgGzd-CJmENJCDW9OiAXDcQYDyi/view?usp=sharing)
+
+* **Entrevista 4 (Segmento 2 - Huésped): Juan Salcedo**
+  * **Perfil:** Turista internacional y usuario recurrente de alojamientos boutique.
+  * **Principales Hallazgos:** Sugirió priorizar la estabilidad de la conectividad (redes Wi-Fi de alta velocidad) y recalcó que la digitalización debe ser un soporte rápido, sin desplazar por completo la asistencia humana oportuna.
+  * **Evidencia (Audio):** [Enlace de Entrevista - Juan Salcedo](https://tinyurl.com/3mv3ytt5)
 
 ---
 
