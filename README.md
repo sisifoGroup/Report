@@ -53,11 +53,11 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
 | **2.0.3** | 22/09/2026 | Ever Giusephi Carlos Lavado | Formulación de la Matriz de Eventos de Riesgo, Supuestos Críticos y Restricciones del Proyecto. |
 | **2.0.4** | 22/09/2026 | Augusto Sebastian Montes Maza | Definición del esquema de Gobernanza, Autoridad Iniciadora, facultades del Project Manager y Matriz de Aprobaciones. |
 | **2.1.0** | 22/09/2026 | Verona Flores Italo Sebastian | Consolidación integral del Project Charter, actualización de la Tabla de Contenidos y validación de estándares ágiles para TB2. |
-| **2.1.1** | 27/09/2026 | Oskar Rodrigo Sosa Soto | Revisión de la Descripción del Proyecto y Características del Producto/Servicio: estandarización de la numeración de subsecciones (4.1.7.1) y ajuste de redacción. |
+| **2.1.1** | 27/09/2026 | Oskar Rodrigo Sosa Soto | Revisión de la Descripción del Proyecto y Características del Producto/Servicio: estandarización de la numeración de subsecciones (2.1.7.1) y ajuste de redacción. |
 | **2.2.0** | 28/09/2026 | Verona Flores Italo Sebastian | Unificación integral de la Arquitectura Monolítica por Capas (DDD + PostgreSQL), robustecimiento del Project Charter (Triángulo Invertido PMI-ACP, Presupuesto High-Level, Cronograma de 6 Sprints y Entorno Híbrido/Remoto) y estandarización de contenido. |
-| **2.2.1** | 08/10/2026 | Oskar Rodrigo Sosa Soto | Incorporación de la sección 4.2. Agile Project Scope Management: Product Backlog priorizado (épicas e historias de usuario) y Sprint Backlog del Sprint 3. |
+| **2.2.1** | 08/10/2026 | Oskar Rodrigo Sosa Soto | Incorporación de la sección 2.2. Agile Project Scope Management: Product Backlog priorizado (épicas e historias de usuario) y Sprint Backlog del Sprint 3. |
 | **2.3.0** | 10/10/2026 | Verona Flores Italo Sebastian | Consolidación de entrega TP1 (Semana 7): actualización de aportes individuales y grupales al Student Outcome para TP1, alineación de la propuesta de valor con la arquitectura monolítica web (SPA Administrativa y Portal de Autogestión responsivo), incorporación de criterios de aceptación BDD (Gherkin) en EP-01 a EP-07, cierre del Sprint 3 y actualización de matriz de aprobaciones. |
-| **3.0.0** | 10/10/2026 | Oskar Rodrigo Sosa Soto | Incorporación de las secciones 4.2.3 (Estrategias de Calidad y Definition of Done), 4.3 (Agile Project Schedule Management: Planificación de Sprints 4 y 5, Cronograma de Entregables) y 4.4 (Agile Project Cost Management: Estimación de Costos y Presupuesto Total del Proyecto) requeridas por el enunciado del TB3. |
+| **3.0.0** | 10/10/2026 | Oskar Rodrigo Sosa Soto | Incorporación de las secciones 2.2.3 (Estrategias de Calidad y Definition of Done), 2.3 (Agile Project Schedule Management: Planificación de Sprints 4 y 5, Cronograma de Entregables) y 2.4 (Agile Project Cost Management: Estimación de Costos y Presupuesto Total del Proyecto) requeridas por el enunciado del TB3. |
 | **3.0.1** | 10/10/2026 | Oskar Rodrigo Sosa Soto | Corrección de la carátula (errata de formato y avance de rótulo de entrega a TB3), actualización del Registro de Versiones, la Tabla de Contenidos, la matriz de Aprobaciones y el Student Outcome con los aportes individuales y grupales de la entrega TB3 (Sprints 4 y 5). |
 
 <div style="page-break-after: always;"></div>
@@ -67,47 +67,47 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
 * [Student Outcome](#student-outcome)
 * [Objetivos SMART](#objetivos-smart)
 1. [Capítulo I: Introducción](#capítulo-i-introducción)
-   * 3.1. [Startup Profile](#31-startup-profile)
-     * 3.1.1. [Descripción del Startup](#311-descripción-del-startup)
-     * 3.1.2. [Perfiles de Integrantes del Equipo](#312-perfiles-de-integrantes-del-equipo)
-   * 3.2. [Solution Profile](#32-solution-profile)
-     * 3.2.1. [Nombre del Producto](#321-nombre-del-producto)
-     * 3.2.2. [Antecedentes y Problemática (Técnica 5W2H)](#322-antecedentes-y-problemática-técnica-5w2h)
-     * 3.2.3. [Lean UX Process](#323-lean-ux-process)
-       * 3.2.3.1. [Lean UX Problem Statement](#3231-lean-ux-problem-statement)
-       * 3.2.3.2. [Lean UX Assumptions](#3232-lean-ux-assumptions)
-       * 3.2.3.3. [Lean UX Hypothesis](#3233-lean-ux-hypothesis)
-       * 3.2.3.4. [Lean UX Canvas](#3234-lean-ux-canvas)
-     * 3.2.4. [Propuesta de Valor](#324-propuesta-de-valor)
-     * 3.2.5. [Segmentos Objetivo](#325-segmentos-objetivo)
-     * 3.2.6. [Análisis de Competidores](#326-análisis-de-competidores)
-     * 3.2.7. [Entrevistas](#327-entrevistas)
-       * 3.2.7.1. [Diseño de Entrevistas con Enfoque Operativo y Arquitectónico](#3271-diseño-de-entrevistas-con-enfoque-operativo-y-arquitectónico)
-       * 3.2.7.2. [Registro de Entrevistas Realizadas y Evidencias](#3272-registro-de-entrevistas-realizadas-y-evidencias)
+   * 1.1. [Startup Profile](#11-startup-profile)
+     * 1.1.1. [Descripción del Startup](#111-descripción-del-startup)
+     * 1.1.2. [Perfiles de Integrantes del Equipo](#112-perfiles-de-integrantes-del-equipo)
+   * 1.2. [Solution Profile](#12-solution-profile)
+     * 1.2.1. [Nombre del Producto](#121-nombre-del-producto)
+     * 1.2.2. [Antecedentes y Problemática (Técnica 5W2H)](#122-antecedentes-y-problemática-técnica-5w2h)
+     * 1.2.3. [Lean UX Process](#123-lean-ux-process)
+       * 1.2.1.1. [Lean UX Problem Statement](#1231-lean-ux-problem-statement)
+       * 1.2.1.2. [Lean UX Assumptions](#1232-lean-ux-assumptions)
+       * 1.2.3.3. [Lean UX Hypothesis](#1233-lean-ux-hypothesis)
+       * 1.2.3.4. [Lean UX Canvas](#1234-lean-ux-canvas)
+     * 1.2.4. [Propuesta de Valor](#124-propuesta-de-valor)
+     * 1.2.5. [Segmentos Objetivo](#125-segmentos-objetivo)
+     * 1.2.6. [Análisis de Competidores](#126-análisis-de-competidores)
+     * 1.2.7. [Entrevistas](#127-entrevistas)
+       * 1.2.7.1. [Diseño de Entrevistas con Enfoque Operativo y Arquitectónico](#1271-diseño-de-entrevistas-con-enfoque-operativo-y-arquitectónico)
+       * 1.2.7.2. [Registro de Entrevistas Realizadas y Evidencias](#1272-registro-de-entrevistas-realizadas-y-evidencias)
 2. [Capítulo II: Gestión de Áreas de Conocimiento Agile](#capítulo-ii-gestión-de-áreas-de-conocimiento-agile)
-   * 4.1. [Agile Project Integration Management: Project Charter](#41-agile-project-integration-management-project-charter)
-     * 4.1.1. [Resumen Ejecutivo](#411-resumen-ejecutivo)
-     * 4.1.2. [Nombre del Proyecto](#412-nombre-del-proyecto)
-     * 4.1.3. [Autoridades](#413-autoridades)
-     * 4.1.4. [Autoridad Iniciadora](#414-autoridad-iniciadora)
-     * 4.1.5. [Project Manager](#415-project-manager)
-     * 4.1.6. [Necesidades del Negocio](#416-necesidades-del-negocio)
-     * 4.1.7. [Descripción del Proyecto](#417-descripción-del-proyecto)
-     * 4.1.8. [Características del Producto/Servicio](#418-características-del-productoservicio)
-     * 4.1.9. [Relación del Proyecto con la Necesidad Comercial](#419-relación-del-proyecto-con-la-necesidad-comercial)
-     * 4.1.10. [Supuestos](#4110-supuestos)
-     * 4.1.11. [Restricciones](#4111-restricciones)
-     * 4.1.12. [Eventos de Riesgo](#4112-eventos-de-riesgo)
-     * 4.1.13. [Aprobaciones](#4113-aprobaciones)
-   * 4.2. [Agile Project Scope Management](#42-agile-project-scope-management)
-     * 4.2.1. [Product Backlog](#421-product-backlog)
-     * 4.2.2. [Sprint Backlog](#422-sprint-backlog)
-     * 4.2.3. [Estrategias de Calidad y Definition of Done (DoD)](#423-estrategias-de-calidad-y-definition-of-done-dod)
-   * 4.3. [Agile Project Schedule Management](#43-agile-project-schedule-management)
-     * 4.3.1. [Planificación de Sprints](#431-planificación-de-sprints)
-     * 4.3.2. [Cronograma de Entregables](#432-cronograma-de-entregables)
-   * 4.4. [Agile Project Cost Management](#44-agile-project-cost-management)
-     * 4.4.1. [Estimación de Costos](#441-estimación-de-costos)
+   * 2.1. [Agile Project Integration Management: Project Charter](#21-agile-project-integration-management-project-charter)
+     * 2.1.1. [Resumen Ejecutivo](#211-resumen-ejecutivo)
+     * 2.1.2. [Nombre del Proyecto](#212-nombre-del-proyecto)
+     * 2.1.3. [Autoridades](#213-autoridades)
+     * 2.1.4. [Autoridad Iniciadora](#214-autoridad-iniciadora)
+     * 2.1.5. [Project Manager](#215-project-manager)
+     * 2.1.6. [Necesidades del Negocio](#216-necesidades-del-negocio)
+     * 2.1.7. [Descripción del Proyecto](#217-descripción-del-proyecto)
+     * 2.1.8. [Características del Producto/Servicio](#218-características-del-productoservicio)
+     * 2.1.9. [Relación del Proyecto con la Necesidad Comercial](#219-relación-del-proyecto-con-la-necesidad-comercial)
+     * 2.1.10. [Supuestos](#2110-supuestos)
+     * 2.1.11. [Restricciones](#2111-restricciones)
+     * 2.1.12. [Eventos de Riesgo](#2112-eventos-de-riesgo)
+     * 2.1.13. [Aprobaciones](#2113-aprobaciones)
+   * 2.2. [Agile Project Scope Management](#22-agile-project-scope-management)
+     * 2.2.1. [Product Backlog](#221-product-backlog)
+     * 2.2.2. [Sprint Backlog](#222-sprint-backlog)
+     * 2.2.3. [Estrategias de Calidad y Definition of Done (DoD)](#223-estrategias-de-calidad-y-definition-of-done-dod)
+   * 2.3. [Agile Project Schedule Management](#23-agile-project-schedule-management)
+     * 2.1.1. [Planificación de Sprints](#231-planificación-de-sprints)
+     * 2.1.2. [Cronograma de Entregables](#232-cronograma-de-entregables)
+   * 2.4. [Agile Project Cost Management](#24-agile-project-cost-management)
+     * 2.2.1. [Estimación de Costos](#241-estimación-de-costos)
 3. [Bibliografía](#bibliografia)
 
 <div style="page-break-after: always;"></div>
@@ -123,7 +123,7 @@ En la siguiente tabla se describen las acciones individuales realizadas y las co
 | :--- | :--- | :--- |
 | **Criterio 1:**<br>Diseña productos o componentes en ingeniería de software que satisfacen necesidades específicas considerando el impacto en salud pública, seguridad y bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Italo Sebastian Verona Flores:**<br>• *TB1:* Participó en la identificación preliminar de los componentes básicos de la plataforma SmartStay, considerando la seguridad de la información de los usuarios y el confort en la gestión de hospedajes.<br>• *TB2:* Formuló el alcance de la capa de presentación SPA y definió las políticas de control de acceso (RBAC) para resguardar la privacidad y seguridad de los datos de huéspedes y administradores.<br>• *TP1:* Lideró la articulación técnica entre la SPA Web Administrativa y el Portal Web de Autogestión responsivo, verificando que los contratos de API y modelos de datos contemplen la privacidad de la información y la experiencia de usuario bajo directivas de accesibilidad web (WCAG).<br>• *TB3:* Supervisó que la implementación del núcleo transaccional y el portal de autogestión (Sprints 4 y 5) preserven la accesibilidad web (WCAG) y la protección de datos personales de los huéspedes.<br><br>**Eddo Su Caletti:**<br>• *TB1:* Colaboró en la descripción del problema de gestión hotelera evaluando el impacto económico en pequeños y medianos establecimientos y la descripción de la startup.<br>• *TB2:* Investigó y redactó las Necesidades del Negocio con sustento bibliográfico indexado (APA 7), evaluando el impacto económico de la digitalización en la rentabilidad de las Mipymes hoteleras.<br>• *TP1:* Priorizó las historias de usuario de los módulos de autogestión y reservas evaluando la viabilidad económica y operativa de descartar aplicaciones nativas en favor de interfaces web adaptativas sin fricciones para huéspedes y operarios.<br>• *TB3:* Validó que las funcionalidades implementadas de reservas y autoservicio generen un impacto económico positivo y sostenible para los hoteles boutique, sin comprometer la transparencia tarifaria hacia el huésped.<br><br>**Oskar Rodrigo Sosa Soto:**<br>• *TB1:* Apoyó en la formulación de la propuesta de valor orientada a mejorar la experiencia y bienestar de los huéspedes.<br>• *TB2:* Diseñó el catálogo detallado de características del producto/servicio, priorizando la ergonomía de los flujos de recepción y housekeeping para reducir la sobrecarga laboral del personal operativo.<br>• *TP1:* Modeló las entidades y agregados del dominio DDD para Room Management y Booking Engine, garantizando que el diseño arquitectónico monolítico por capas soporte consistencia inmediata de inventarios sin sobrecostes computacionales.<br>• *TB3:* Implementó el agregado Room y el motor de reservas con control transaccional ACID, garantizando la integridad de los datos de disponibilidad y la seguridad de la información de habitaciones y huéspedes.<br><br>**Ever Giusephi Carlos Lavado:**<br>• *TB1:* Recopiló información sobre factores culturales y sociales en la interacción de usuarios y anfitriones.<br>• *TB2:* Estructuró la matriz de supuestos críticos y restricciones operativas, analizando el impacto de la brecha digital y la estabilidad de infraestructura en establecimientos independientes.<br>• *TP1:* Diseñó y documentó la matriz de criterios de aceptación BDD (Gherkin) para los módulos de autenticación y gestión de habitaciones, asegurando que los flujos contemplen escenarios de contingencia y resguardo de datos sensibles.<br>• *TB3:* Desarrolló las pruebas unitarias de los módulos de seguridad, inventario y reservas, verificando que las validaciones de negocio prevengan errores que afecten la experiencia y seguridad del huésped.<br><br>**Augusto Sebastian Montes Maza:**<br>• *TB1:* Revisó consideraciones básicas de accesibilidad digital y protección de datos para la solución inicial.<br>• *TB2:* Delimitó los módulos de la capa de negocio asegurando trazabilidad en la gestión de solicitudes para garantizar bienestar y respuesta oportuna ante contingencias de los huéspedes.<br>• *TP1:* Refinó los wireframes y prototipos UI/UX del Portal Web de Autogestión responsivo en Figma, optimizando los flujos de pre-check-in y solicitudes para huéspedes con enfoque ergonómico e inclusivo.<br>• *TB3:* Implementó el portal de autoservicio de solicitudes de amenidades, asegurando una experiencia inclusiva y accesible para huéspedes con distintos niveles de familiaridad tecnológica. | **Conclusiones TB1:**<br>Durante esta fase inicial, el equipo definió conceptualmente la solución SmartStay y el alcance preliminar del servicio, asegurando que los requerimientos base contemplen la seguridad de la información de los huéspedes y la accesibilidad del usuario.<br><br>**Conclusiones TB2:**<br>En esta entrega, el equipo consolidó la definición del producto dentro del Project Charter, garantizando que el diseño arquitectónico monolítico por capas y las políticas de acceso satisfagan estándares éticos, de protección de datos personales y de optimización económica y operativa para el sector hotelero independiente.<br><br>**Conclusiones TP1:**<br>Para el hito del Trabajo Parcial, el equipo consolidó una solución de software orientada a la web con un enfoque ético, accesible y económicamente sostenible para hoteles independientes, unificando la SPA Administrativa y el Portal de Autogestión responsivo bajo una arquitectura monolítica por capas limpia y escalable.<br><br>**Conclusiones TB3:**<br>Con la construcción del núcleo transaccional y el portal de autoservicio, el equipo verificó que la solución SmartStay preserva la seguridad de la información, la accesibilidad web y la sostenibilidad económica del negocio hotelero durante su primera etapa de implementación funcional. |
 | **Criterio 2:**<br>Diseña proyectos que permiten la implementación de soluciones en ingeniería de software considerando el impacto en salud pública, seguridad, bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Italo Sebastian Verona Flores:**<br>• *TB1:* Apoyó en la estructuración de los objetivos iniciales del proyecto SmartStay y en la identificación de los stakeholders clave.<br>• *TB2:* Estableció el timebox macro del proyecto (6 Sprints quincenales alineados a las 15 semanas del ciclo) y modeló la estructura de gobernanza y facultades de decisión del equipo.<br>• *TP1:* Monitoreó la ejecución del Sprint 3 bajo el Triángulo Invertido de PMI-ACP, asegurando el cumplimiento estricto del timebox de 15 semanas y facilitando la sincronización quincenal del equipo.<br>• *TB3:* Coordinó la ejecución de los Sprints 4 y 5 bajo el timebox acordado, dando seguimiento a la capacidad planificada de 150 horas-persona por Sprint y facilitando la resolución de impedimentos técnicos.<br><br>**Eddo Su Caletti:**<br>• *TB1:* Participó en la delimitación de los antecedentes y el contexto del sector hotelero mediante la técnica 5W2H.<br>• *TB2:* Redactó la justificación comercial y la relación del proyecto con la necesidad del mercado, alineando los objetivos del software con la sostenibilidad financiera del negocio hotelero.<br>• *TP1:* Refinó el Product Backlog bajo la técnica MoSCoW, validando la descomposición de épicas EP-01 a EP-07 en historias con valor de negocio comprobable y balance de esfuerzo técnico.<br>• *TB3:* Priorizó la incorporación de los ítems del Product Backlog en los Sprints 4 y 5 según su valor de negocio, validando los incrementos de software contra los criterios de aceptación BDD.<br><br>**Oskar Rodrigo Sosa Soto:**<br>• *TB1:* Colaboró en la definición preliminar de los segmentos objetivo (huéspedes y administradores de hospedajes).<br>• *TB2:* Diseñó la arquitectura macro monolítica modular (Domain-Driven Design), garantizando una estructura técnica mantenible y viable bajo restricciones académicas y cloud.<br>• *TP1:* Condujo la estimación relativa en Story Points para los ítems del Product Backlog y definió los contratos de interfaces RESTful para la integración de la SPA y el portal responsivo con el backend.<br>• *TB3:* Condujo la planificación técnica de los Sprints 4 y 5, estimando el esfuerzo en Story Points y definiendo la asignación de tareas de implementación del núcleo transaccional.<br><br>**Ever Giusephi Carlos Lavado:**<br>• *TB1:* Ayudó a mapear los riesgos y restricciones tempranas del entorno donde operará la solución.<br>• *TB2:* Elaboró la matriz formal de eventos de riesgo (RSK-01 a RSK-07) con análisis de probabilidad, impacto y estrategias de mitigación y contingencia operativa.<br>• *TP1:* Actualizó la matriz de riesgos operacionales (RSK-01 a RSK-07), incorporando planes de mitigación ante fluctuaciones en la disponibilidad académica durante la semana de evaluaciones parciales.<br>• *TB3:* Actualizó la matriz de riesgos (RSK-01 a RSK-07) evaluando su materialización durante la construcción del núcleo transaccional y el módulo de Housekeeping, ajustando las estrategias de mitigación vigentes.<br><br>**Augusto Sebastian Montes Maza:**<br>• *TB1:* Contribuyó en la definición de los canales de comunicación y coordinación inicial del equipo.<br>• *TB2:* Formalizó el esquema de autoridad iniciadora, la matriz de aprobaciones y los criterios de gestión de cambios para salvaguardar la viabilidad del proyecto frente a variaciones de alcance.<br>• *TP1:* Formalizó la trazabilidad de requerimientos entre las necesidades del negocio hotelero, los objetivos SMART y las historias de usuario del Product Backlog para el hito TP1.<br>• *TB3:* Elaboró la estimación de costos de ingeniería de los Sprints 4 y 5 y consolidó el presupuesto total del proyecto con la reserva de contingencia correspondiente. | **Conclusiones TB1:**<br>En este arranque, el equipo estructuró las bases del proyecto SmartStay aplicando técnicas de análisis del problema (5W2H) y alineando la planificación inicial con las necesidades operativas de los establecimientos de hospedaje.<br><br>**Conclusiones TB2:**<br>El equipo fundamentó el Agile Project Charter como acta fundacional viva, formalizando el compromiso de los roles (PO, PM, Devs), el presupuesto simulado ($13,836 USD) y los planes de mitigación de riesgos ante factores de adopción tecnológica y variaciones de alcance.<br><br>**Conclusiones TP1:**<br>El equipo consolidó la gobernanza ágil y la gestión del alcance del proyecto, cerrando satisfactoriamente el Sprint 3 mediante la especificación rigurosa del Product Backlog, la mitigación proactiva de riesgos de evaluación parcial y la alineación estricta al presupuesto y calendario académico.<br><br>**Conclusiones TB3:**<br>El equipo ejecutó la planificación formal de los Sprints 4 y 5 bajo el enfoque de Schedule y Cost Management de PMI-ACP, estableciendo un presupuesto total consolidado con reserva de contingencia y una gestión de riesgos activa durante la construcción del producto. |
-| **Criterio 3:**<br>Diseña y ejecuta los procesos relacionados al desarrollo y mantenimiento de la solución de software en ingeniería considerando el impacto en salud pública, seguridad, bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Italo Sebastian Verona Flores:**<br>• *TB1:* Colaboró en la configuración inicial del repositorio colaborativo en GitHub y en la adopción de las pautas de commits acordadas.<br>• *TB2:* Coordinó la integración del Project Charter bajo GitFlow, validó la trazabilidad de versiones en Markdown y lideró la ejecución de ceremonias de sincronización del Sprint 2.<br>• *TP1:* Coordinó el cierre del Sprint 3 en GitHub y Trello, asegurando la consistencia documental del informe en Markdown y validando la integración del control de versiones bajo GitFlow.<br>• *TB3:* Coordinó la integración continua de los componentes desarrollados en los Sprints 4 y 5, verificando la consistencia del repositorio GitHub y la trazabilidad de las ramas bajo GitFlow.<br><br>**Eddo Su Caletti:**<br>• *TB1:* Participó en la organización de la documentación del informe en formato Markdown respetando la estructura exigida.<br>• *TB2:* Asumió formalmente la responsabilidad de Product Owner, priorizando la incorporación de necesidades funcionales en el Charter sin comprometer el timebox estricto.<br>• *TP1:* Gestionó la revisión del Sprint Backlog (Sprint 3) asegurando que el 100% de tareas comprometidas alcancen el estado "Hecho" (Done) conforme a la Definición de Hecho (DoD).<br>• *TB3:* Verificó que las historias de usuario comprometidas en los Sprints 4 y 5 cumplan íntegramente la Definición de Hecho (DoD) antes de aceptarlas como incremento de producto.<br><br>**Oskar Rodrigo Sosa Soto:**<br>• *TB1:* Apoyó en la configuración del tablero de seguimiento de tareas en Trello para la distribución de actividades.<br>• *TB2:* Lideró la estandarización técnica del documento, unificando la convención de numeración decimal (4.1.7.1) y verificando la compatibilidad de los contratos de datos en PostgreSQL.<br>• *TP1:* Implementó y verificó las pautas de estilo APA 7 y estándares de documentación técnica en el repositorio, asegurando la trazabilidad de commits y referencias bibliográficas indexadas.<br>• *TB3:* Implementó el pipeline de integración continua en GitHub Actions para la ejecución automatizada de pruebas sobre los módulos de seguridad, habitaciones y reservas.<br><br>**Ever Giusephi Carlos Lavado:**<br>• *TB1:* Ayudó a definir los acuerdos de equipo (Working Agreements) para el trabajo colaborativo en las iteraciones.<br>• *TB2:* Integró los criterios de calidad y verificación pre-entrega en el repositorio, asegurando revisiones cruzadas de documentación frente al código antes de compilar.<br>• *TP1:* Supervisó los flujos Kanban en Trello y validó los criterios de aceptación BDD (Given-When-Then) en las historias de usuario para garantizar su verificabilidad mediante pruebas futuras.<br>• *TB3:* Ejecutó y documentó las pruebas unitarias e integrales de los módulos construidos, registrando los defectos detectados y verificando su resolución antes del cierre de cada Sprint.<br><br>**Augusto Sebastian Montes Maza:**<br>• *TB1:* Estableció los canales sincrónicos y asincrónicos para coordinar las reuniones semanales de seguimiento.<br>• *TB2:* Formalizó el protocolo de resolución de desacuerdos, escalamiento y comunicación virtual co-localizada (Discord, Meet y Trello) para el seguimiento continuo del trabajo.<br>• *TP1:* Consolidó la suite de prototipos de alta fidelidad en Figma y organizó el paquete de evidencias complementarias (.zip) y diapositivas de sustentación exigidas por la rúbrica del curso.<br>• *TB3:* Documentó la Definición de Hecho (DoD) y las estrategias de calidad del proyecto, consolidando el Registro de Versiones y el Student Outcome correspondientes a la entrega TB3. | **Conclusiones TB1:**<br>Se implementaron los procesos de trabajo colaborativo base (control de versiones en GitHub, tablero ágil en Trello y canales de comunicación), garantizando orden, transparencia y trazabilidad en la documentación de esta primera entrega.<br><br>**Conclusiones TB2:**<br>Se consolidaron las prácticas ágiles de ingeniería mediante la adopción de convenciones de commits, revisiones por pares, automatización de validaciones pre-entrega (scripts de comprobación de calidad) y co-localización virtual, garantizando un flujo de entrega continua y sostenible.<br><br>**Conclusiones TP1:**<br>El equipo afianzó los procesos ágiles de ingeniería mediante la ejecución transparente del Sprint 3, la documentación exhaustiva en Markdown versionado en GitHub, la formulación de criterios BDD verificables y la generación de artefactos complementarios con rigor profesional.<br><br>**Conclusiones TB3:**<br>El equipo formalizó sus estrategias de calidad y una Definición de Hecho (DoD) verificable, integrando pruebas automatizadas y revisión por pares en el flujo de trabajo de los Sprints 4 y 5, lo que garantizó procesos de desarrollo trazables y sostenibles para la entrega TB3. |
+| **Criterio 3:**<br>Diseña y ejecuta los procesos relacionados al desarrollo y mantenimiento de la solución de software en ingeniería considerando el impacto en salud pública, seguridad, bienestar, así como factores globales, culturales, sociales, ambientales y económicos. | **Italo Sebastian Verona Flores:**<br>• *TB1:* Colaboró en la configuración inicial del repositorio colaborativo en GitHub y en la adopción de las pautas de commits acordadas.<br>• *TB2:* Coordinó la integración del Project Charter bajo GitFlow, validó la trazabilidad de versiones en Markdown y lideró la ejecución de ceremonias de sincronización del Sprint 2.<br>• *TP1:* Coordinó el cierre del Sprint 3 en GitHub y Trello, asegurando la consistencia documental del informe en Markdown y validando la integración del control de versiones bajo GitFlow.<br>• *TB3:* Coordinó la integración continua de los componentes desarrollados en los Sprints 4 y 5, verificando la consistencia del repositorio GitHub y la trazabilidad de las ramas bajo GitFlow.<br><br>**Eddo Su Caletti:**<br>• *TB1:* Participó en la organización de la documentación del informe en formato Markdown respetando la estructura exigida.<br>• *TB2:* Asumió formalmente la responsabilidad de Product Owner, priorizando la incorporación de necesidades funcionales en el Charter sin comprometer el timebox estricto.<br>• *TP1:* Gestionó la revisión del Sprint Backlog (Sprint 3) asegurando que el 100% de tareas comprometidas alcancen el estado "Hecho" (Done) conforme a la Definición de Hecho (DoD).<br>• *TB3:* Verificó que las historias de usuario comprometidas en los Sprints 4 y 5 cumplan íntegramente la Definición de Hecho (DoD) antes de aceptarlas como incremento de producto.<br><br>**Oskar Rodrigo Sosa Soto:**<br>• *TB1:* Apoyó en la configuración del tablero de seguimiento de tareas en Trello para la distribución de actividades.<br>• *TB2:* Lideró la estandarización técnica del documento, unificando la convención de numeración decimal (2.1.7.1) y verificando la compatibilidad de los contratos de datos en PostgreSQL.<br>• *TP1:* Implementó y verificó las pautas de estilo APA 7 y estándares de documentación técnica en el repositorio, asegurando la trazabilidad de commits y referencias bibliográficas indexadas.<br>• *TB3:* Implementó el pipeline de integración continua en GitHub Actions para la ejecución automatizada de pruebas sobre los módulos de seguridad, habitaciones y reservas.<br><br>**Ever Giusephi Carlos Lavado:**<br>• *TB1:* Ayudó a definir los acuerdos de equipo (Working Agreements) para el trabajo colaborativo en las iteraciones.<br>• *TB2:* Integró los criterios de calidad y verificación pre-entrega en el repositorio, asegurando revisiones cruzadas de documentación frente al código antes de compilar.<br>• *TP1:* Supervisó los flujos Kanban en Trello y validó los criterios de aceptación BDD (Given-When-Then) en las historias de usuario para garantizar su verificabilidad mediante pruebas futuras.<br>• *TB3:* Ejecutó y documentó las pruebas unitarias e integrales de los módulos construidos, registrando los defectos detectados y verificando su resolución antes del cierre de cada Sprint.<br><br>**Augusto Sebastian Montes Maza:**<br>• *TB1:* Estableció los canales sincrónicos y asincrónicos para coordinar las reuniones semanales de seguimiento.<br>• *TB2:* Formalizó el protocolo de resolución de desacuerdos, escalamiento y comunicación virtual co-localizada (Discord, Meet y Trello) para el seguimiento continuo del trabajo.<br>• *TP1:* Consolidó la suite de prototipos de alta fidelidad en Figma y organizó el paquete de evidencias complementarias (.zip) y diapositivas de sustentación exigidas por la rúbrica del curso.<br>• *TB3:* Documentó la Definición de Hecho (DoD) y las estrategias de calidad del proyecto, consolidando el Registro de Versiones y el Student Outcome correspondientes a la entrega TB3. | **Conclusiones TB1:**<br>Se implementaron los procesos de trabajo colaborativo base (control de versiones en GitHub, tablero ágil en Trello y canales de comunicación), garantizando orden, transparencia y trazabilidad en la documentación de esta primera entrega.<br><br>**Conclusiones TB2:**<br>Se consolidaron las prácticas ágiles de ingeniería mediante la adopción de convenciones de commits, revisiones por pares, automatización de validaciones pre-entrega (scripts de comprobación de calidad) y co-localización virtual, garantizando un flujo de entrega continua y sostenible.<br><br>**Conclusiones TP1:**<br>El equipo afianzó los procesos ágiles de ingeniería mediante la ejecución transparente del Sprint 3, la documentación exhaustiva en Markdown versionado en GitHub, la formulación de criterios BDD verificables y la generación de artefactos complementarios con rigor profesional.<br><br>**Conclusiones TB3:**<br>El equipo formalizó sus estrategias de calidad y una Definición de Hecho (DoD) verificable, integrando pruebas automatizadas y revisión por pares en el flujo de trabajo de los Sprints 4 y 5, lo que garantizó procesos de desarrollo trazables y sostenibles para la entrega TB3. |
 
 <div style="page-break-after: always;"></div>
 
@@ -218,9 +218,9 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 # Capítulo I: Introducción
 
-## 3.1. Startup Profile
+## 1.1. Startup Profile
 
-### 3.1.1. Descripción de la Startup
+### 1.1.1. Descripción de la Startup
 
 * **Nombre de la Startup:** Sísifo  
 * **Misión:** Impulsar la transformación digital del sector hotelero boutique mediante soluciones de software ágiles e intuitivas que centralizan y automatizan la gestión del personal operativo, eliminando fricciones logísticas y garantizando un servicio de hospitalidad accesible y de alta calidad.  
@@ -233,7 +233,7 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 ---
 
-### 3.1.2. Perfiles de Integrantes del Equipo
+### 1.1.2. Perfiles de Integrantes del Equipo
 
 #### Integrante 1: Eddo Su Caletti
 * **Fotografía:**  
@@ -300,9 +300,9 @@ A continuación, cada miembro del equipo de trabajo formula un plan que incluye 
 
 ---
 
-## 3.2. Solution Profile
+## 1.2. Solution Profile
 
-### 3.2.1. Nombre del Producto
+### 1.2.1. Nombre del Producto
 
 **SmartStay**
 
@@ -310,7 +310,7 @@ SmartStay es una plataforma de gestión operativa inteligente diseñada específ
 
 ---
 
-### 3.2.2. Antecedentes y Problemática (Técnica 5W2H)
+### 1.2.2. Antecedentes y Problemática (Técnica 5W2H)
 
 Para fundamentar el diseño de la arquitectura de SmartStay, se aplica la técnica de las **5W2H**. Este análisis permite identificar los *Architectural Drivers* (Atributos de Calidad) necesarios para resolver las deficiencias del sistema actual.
 
@@ -327,7 +327,7 @@ Para fundamentar el diseño de la arquitectura de SmartStay, se aplica la técni
 * **How? (¿Cómo?):**  
   El Staff Operativo debe realizar tareas manuales redundantes, como verificar disponibilidad física de habitaciones o coordinar servicios vía radio o papel. Sin una plataforma centralizada y reactiva con sincronización en tiempo real, la comunicación entre el pedido de un huésped y la ejecución de la tarea por parte del personal es lenta y carece de trazabilidad.
 * **How Much? (¿Cuánto?):**  
-  Estas ineficiencias arquitectónicas se traducen en una pérdida de productividad estimada entre el 15% y 20% de la rentabilidad neta anual, y un retraso de hasta 45 minutos en la actualización del estado de habitaciones limpias, cifras sustentadas en estudios del sector hotelero peruano (Castillo & Morales, 2022; Vásquez & Sandoval, 2021 — ver fuentes completas en la sección 4.1.6 y en la Bibliografía). Además, genera un incremento significativo en costos operativos (energía y suministros) y una degradación en la satisfacción del cliente, lo que impacta negativamente en la reputación digital y el valor del negocio a largo plazo.
+  Estas ineficiencias arquitectónicas se traducen en una pérdida de productividad estimada entre el 15% y 20% de la rentabilidad neta anual, y un retraso de hasta 45 minutos en la actualización del estado de habitaciones limpias, cifras sustentadas en estudios del sector hotelero peruano (Castillo & Morales, 2022; Vásquez & Sandoval, 2021 — ver fuentes completas en la sección 2.1.6 y en la Bibliografía). Además, genera un incremento significativo en costos operativos (energía y suministros) y una degradación en la satisfacción del cliente, lo que impacta negativamente en la reputación digital y el valor del negocio a largo plazo.
 
 #### Impacto del Problema
 
@@ -339,17 +339,17 @@ Para fundamentar el diseño de la arquitectura de SmartStay, se aplica la técni
 
 * **Afectados Directos:** Staff Operativo (recepción, housekeeping y mantenimiento) y Administradores/Gerentes de los hoteles boutique y pequeños, quienes operan directamente con los procesos manuales deficientes.
 * **Afectados Indirectos:** Proveedores de insumos e infraestructura hotelera, agencias de viaje en línea (OTAs) afectadas por discrepancias de disponibilidad, y huéspedes potenciales que desisten de reservar por una reputación digital débil.
-* **Beneficiarios de la Solución:** Los hoteles boutique y pequeños afiliados (segmento 1, sección 3.2.5), los huéspedes (segmento 2, sección 3.2.5) y el equipo promotor Sísifo, responsable del producto SmartStay.
+* **Beneficiarios de la Solución:** Los hoteles boutique y pequeños afiliados (segmento 1, sección 1.2.5), los huéspedes (segmento 2, sección 1.2.5) y el equipo promotor Sísifo, responsable del producto SmartStay.
 
 #### Oportunidad de Negocio / Solución
 
-La digitalización integral de la gestión hotelera mediante una plataforma centralizada (SmartStay) permite transformar la fragmentación operativa actual en una ventaja competitiva: automatización en tiempo real del estado de habitaciones, un motor de reservas con control transaccional ACID que elimina la sobreventa, y un portal de autoservicio que reduce la dependencia del personal de recepción. Esta propuesta responde directamente a la brecha identificada frente a competidores (sección 3.2.6), posicionando a SmartStay como una solución especializada en la coordinación del Staff Operativo para el segmento desatendido de hoteles boutique en Lima.
+La digitalización integral de la gestión hotelera mediante una plataforma centralizada (SmartStay) permite transformar la fragmentación operativa actual en una ventaja competitiva: automatización en tiempo real del estado de habitaciones, un motor de reservas con control transaccional ACID que elimina la sobreventa, y un portal de autoservicio que reduce la dependencia del personal de recepción. Esta propuesta responde directamente a la brecha identificada frente a competidores (sección 1.2.6), posicionando a SmartStay como una solución especializada en la coordinación del Staff Operativo para el segmento desatendido de hoteles boutique en Lima.
 
 ---
 
-### 3.2.3. Lean UX Process
+### 1.2.3. Lean UX Process
 
-#### 3.2.3.1. Lean UX Problem Statement
+#### 1.2.3.1. Lean UX Problem Statement
 
 **Problem Statement: Fragmentación del Servicio y Experiencia del Huésped**
 
@@ -387,7 +387,7 @@ Desde el punto de vista arquitectónico, los sistemas actuales no permiten una s
 
 ---
 
-#### 3.2.3.2. Lean UX Assumptions
+#### 1.2.3.2. Lean UX Assumptions
 
 **Business Assumptions**
 * **Creo que mis clientes necesitan:** Una solución centralizada para la gestión hotelera que elimine la dependencia de procesos manuales, optimice la comunicación interna y mejore la experiencia del huésped a través de la automatización de servicios.
@@ -432,7 +432,7 @@ Desde el punto de vista arquitectónico, los sistemas actuales no permiten una s
 
 ---
 
-#### 3.2.3.3. Lean UX Hypothesis
+#### 1.2.3.3. Lean UX Hypothesis
 
 **Hypothesis 1: Digital Check-in/Check-out Efficiency**  
 We believe that implementing an automated digital registration and departure flow for Guests and Staff Operativo will reduce the average processing time for these operations by 15%.  
@@ -464,13 +464,13 @@ We'll know this is true when we see that pilot hotels report improved operationa
 
 ---
 
-#### 3.2.3.4. Lean UX Canvas
+#### 1.2.3.4. Lean UX Canvas
 
 ![Lean UX Canvas](./assets/chapter-1/lean-ux-canvas.png)
 
 ---
 
-### 3.2.4. Propuesta de Valor
+### 1.2.4. Propuesta de Valor
 
 La propuesta de valor representa el conjunto de beneficios tangibles e intangibles que nuestra solución ofrece a los clientes y usuarios para resolver los puntos de dolor detectados:
 
@@ -497,7 +497,7 @@ La propuesta de valor representa el conjunto de beneficios tangibles e intangibl
 
 ---
 
-### 3.2.5. Segmentos Objetivo
+### 1.2.5. Segmentos Objetivo
 
 A continuación se definen los segmentos de clientes asociados al dominio del problema, sustentados con características demográficas, psicográficas y datos estadísticos pertinentes:
 
@@ -530,7 +530,7 @@ A continuación se definen los segmentos de clientes asociados al dominio del pr
     
 ---
 
-### 3.2.6. Análisis de Competidores
+### 1.2.6. Análisis de Competidores
 
 El mercado de soluciones para gestión hotelera en Lima y a nivel nacional presenta diversos actores que ofrecen herramientas digitales especializadas. Se han identificado **3 competidores principales** del segmento de sistemas de gestión de propiedades (PMS) en la nube para contrastar con la propuesta de valor de **SmartStay**.
 
@@ -595,11 +595,11 @@ Para posicionar a SmartStay como la solución líder en el mercado de hoteles bo
 
 ---
 
-### 3.2.7. Entrevistas
+### 1.2.7. Entrevistas
 
 Con el propósito de validar los supuestos del modelo Lean UX y contrastar las fricciones operativas actuales con los requerimientos técnicos del sistema, se llevaron a cabo entrevistas semiestructuradas enfocadas en flujos críticos de gestión y experiencia del usuario (UX).
 
-#### 3.2.7.1. Diseño de Entrevistas con Enfoque Operativo y Arquitectónico
+#### 1.2.7.1. Diseño de Entrevistas con Enfoque Operativo y Arquitectónico
 
 **Entrevista – Segmento 1: Administradores y Staff Operativo de Hoteles Boutique**
 1. ¿De qué manera manejan actualmente la sincronización de tareas críticas (como limpieza de habitaciones o reportes de mantenimiento) entre el personal de campo y la recepción?
@@ -622,7 +622,7 @@ Con el propósito de validar los supuestos del modelo Lean UX y contrastar las f
 
 ---
 
-#### 3.2.7.2. Registro de Entrevistas Realizadas y Evidencias
+#### 1.2.7.2. Registro de Entrevistas Realizadas y Evidencias
 
 A continuación se documentan las entrevistas ejecutadas y los enlaces de respaldo correspondientes:
 
@@ -650,7 +650,7 @@ A continuación se documentan las entrevistas ejecutadas y los enlaces de respal
 
 # Capítulo II: Gestión de Áreas de Conocimiento Agile
 
-## 4.1. Agile Project Integration Management: Project Charter
+## 2.1. Agile Project Integration Management: Project Charter
 
 El **Project Charter** (Acta de Constitución del Proyecto) constituye el documento fundacional formal que autoriza oficialmente el inicio del proyecto **SmartStay** dentro del marco de trabajo ágil de la startup **Sísifo**, otorgando al equipo de ingeniería y al Project Manager la autoridad para planificar, comprometer recursos y ejecutar los Sprints sucesivos.
 
@@ -658,7 +658,7 @@ Alineado con las directrices del PMI-ACP (*Agile Certified Practitioner*) y los 
 
 ---
 
-### 4.1.1. Resumen Ejecutivo
+### 2.1.1. Resumen Ejecutivo
 
 El proyecto **Sísifo** surge como una solución tecnológica integral orientada a resolver la brecha de digitalización y las ineficiencias en la gestión operativa y de reservas del sector hotelero independiente (hoteles boutique y de mediana escala de entre 20 y 100 habitaciones). El diagnóstico del sector en Lima y Latinoamérica evidencia un desafío crítico de competitividad originado por la fragmentación operativa y la dependencia de bitácoras manuales o herramientas aisladas. Esta falta de integración se traduce en errores de disponibilidad (*overbooking*), demoras en el flujo de recepción y atención al cliente, descoordinación en las labores de servicio y una limitada visibilidad sobre los estados de facturación y métricas clave del negocio.
 
@@ -672,14 +672,14 @@ Gracias a este enfoque técnico monolítico por capas y modular, SmartStay elimi
 
 ---
 
-### 4.1.2. Nombre del Proyecto
+### 2.1.2. Nombre del Proyecto
 
 * **Nombre Oficial del Proyecto:** *SmartStay: Intelligent Hospitality Operations & Guest Experience Platform*
 * **Startup:** Sísifo (`sisifoGroup`)
 
 ---
 
-### 4.1.3. Autoridades
+### 2.1.3. Autoridades
 
 La gobernanza de **SmartStay**, desarrollado por el equipo **Sísifo**, establece las responsabilidades y facultades necesarias para orientar el proyecto, coordinar el trabajo y resolver las decisiones que afectan su ejecución.
 
@@ -693,7 +693,7 @@ Para ello, se distinguen tres ámbitos de autoridad:
 
 La distribución de responsabilidades se formalizará mediante la aprobación del Project Charter. Los cambios posteriores deberán acordarse entre los integrantes y registrarse en la documentación del proyecto.
 
-#### 4.1.3.1. Estructura de responsabilidades
+#### 2.1.3.1. Estructura de responsabilidades
 
 | Rol | Responsable | Responsabilidades principales | Límites de autoridad |
 | :--- | :--- | :--- | :--- |
@@ -708,7 +708,7 @@ La distribución de responsabilidades se formalizará mediante la aprobación de
 
 Las responsabilidades de arquitectura, calidad y análisis funcionan como puntos de coordinación dentro del equipo. Los integrantes podrán colaborar en distintas actividades según las necesidades y la carga de trabajo de cada iteración.
 
-#### 4.1.3.2. Principios para la toma de decisiones
+#### 2.1.3.2. Principios para la toma de decisiones
 
 Las decisiones de SmartStay se orientarán por los siguientes principios:
 
@@ -722,7 +722,7 @@ Las decisiones de SmartStay se orientarán por los siguientes principios:
 
 La selección de funcionalidades deberá mantener una relación clara con el problema central. Las capacidades complementarias, como integraciones externas o dispositivos IoT, se evaluarán según su contribución al producto y su viabilidad durante el periodo académico.
 
-#### 4.1.3.3. Distribución de facultades de decisión
+#### 2.1.3.3. Distribución de facultades de decisión
 
 | Decisión | Responsable de conducirla | Participación requerida | Registro |
 | :--- | :--- | :--- | :--- |
@@ -739,7 +739,7 @@ La selección de funcionalidades deberá mantener una relación clara con el pro
 
 La revisión funcional, la verificación técnica y la evaluación académica se realizarán de acuerdo con sus respectivos criterios. El cierre interno de una actividad deberá acompañarse de la evidencia necesaria para su revisión.
 
-#### 4.1.3.4. Gestión de cambios
+#### 2.1.3.4. Gestión de cambios
 
 Los cambios podrán originarse en observaciones del docente, resultados de validación, dificultades técnicas o nuevas necesidades identificadas durante el trabajo.
 
@@ -754,7 +754,7 @@ Su evaluación seguirá este procedimiento:
 
 Los cambios que afecten un requisito obligatorio del curso se consultarán al docente antes de modificar el compromiso académico.
 
-#### 4.1.3.5. Resolución de desacuerdos y escalamiento
+#### 2.1.3.5. Resolución de desacuerdos y escalamiento
 
 Los desacuerdos se abordarán a partir del problema, las alternativas y sus consecuencias. Cada integrante podrá presentar observaciones y proponer soluciones respaldadas por requisitos, pruebas o restricciones concretas.
 
@@ -768,7 +768,7 @@ El Project Manager facilitará la conversación y canalizará la decisión segú
 
 El registro de la decisión incluirá el motivo, los responsables y las acciones posteriores. Cuando no sea posible resolver un asunto dentro del equipo, se comunicarán su impacto y las alternativas evaluadas a la instancia correspondiente.
 
-#### 4.1.3.6. Comunicación y trazabilidad
+#### 2.1.3.6. Comunicación y trazabilidad
 
 La coordinación del equipo se fundamenta en una **modalidad de trabajo híbrida y remota**, adoptando el concepto de **co-localización virtual (*Virtual Colocation*)** enfatizado en las buenas prácticas de PMI-ACP para mantener alta cohesión, fluidez en la comunicación y respuesta inmediata:
 
@@ -783,7 +783,7 @@ Las reuniones que impliquen decisiones relevantes concluirán con acuerdos forma
 
 ---
 
-### 4.1.4. Autoridad Iniciadora
+### 2.1.4. Autoridad Iniciadora
 
 La autoridad iniciadora de **SmartStay** corresponde al **equipo promotor Sísifo**, integrado por los cinco miembros del proyecto. Esta instancia tiene la responsabilidad de establecer la orientación inicial del trabajo, acordar el alcance y organizar los recursos necesarios para desarrollar la solución dentro del curso de **Agile Project Management**.
 
@@ -791,7 +791,7 @@ La orientación y evaluación académica corresponden al docente **Rouillon Sixt
 
 Las decisiones internas del proyecto se formalizarán mediante acuerdos del equipo y se registrarán en el Project Charter y sus actualizaciones.
 
-#### 4.1.4.1. Fundamento de la iniciativa
+#### 2.1.4.1. Fundamento de la iniciativa
 
 SmartStay se orienta a atender las dificultades de coordinación entre recepción, limpieza, mantenimiento y administración de hoteles boutique y pequeños de Lima Metropolitana.
 
@@ -809,7 +809,7 @@ La autoridad iniciadora velará por que el alcance conserve esta relación con e
 
 Los porcentajes de mejora, ahorro y adopción se utilizarán como metas de evaluación. Su cumplimiento se determinará mediante mediciones y actividades de validación.
 
-#### 4.1.4.2. Mandato inicial del proyecto
+#### 2.1.4.2. Mandato inicial del proyecto
 
 El mandato inicial comprende la organización y ejecución de las actividades necesarias para definir, desarrollar y evaluar SmartStay.
 
@@ -825,7 +825,7 @@ El mandato inicial comprende la organización y ejecución de las actividades ne
 
 El mandato se ejecutará de manera progresiva. Cada iteración deberá contribuir a un objetivo concreto y generar resultados que puedan revisarse antes de asumir nuevos compromisos.
 
-#### 4.1.4.3. Facultades de la autoridad iniciadora
+#### 2.1.4.3. Facultades de la autoridad iniciadora
 
 Corresponde al equipo promotor Sísifo:
 
@@ -840,7 +840,7 @@ Corresponde al equipo promotor Sísifo:
 
 Los acuerdos internos no modifican las fechas oficiales ni los criterios de evaluación. Cualquier ajuste de estas condiciones deberá tramitarse mediante los canales académicos correspondientes.
 
-#### 4.1.4.4. Recursos y Presupuesto Preliminar (High-Level Budget)
+#### 2.1.4.4. Recursos y Presupuesto Preliminar (High-Level Budget)
 
 La viabilidad financiera y operativa de SmartStay se sustenta en una estimación preliminar de recursos que equilibra la optimización de costos en infraestructura cloud con la valorización del esfuerzo humano de ingeniería. Dado el carácter académico-profesional de la startup Sísifo, los costos directos se cubren mediante créditos gratuitos y herramientas de tier para desarrolladores, mientras que se proyecta el costo comercial simulado para fines de evaluación gerencial y presupuestaria (PMBOK / PMI-ACP):
 
@@ -873,7 +873,7 @@ La viabilidad financiera y operativa de SmartStay se sustenta en una estimación
 | **Capital Humano (Esfuerzo)** | 5 Desarrolladores (900 horas totales / 6 Sprints quincenales) | $0.00 (Equipo Promotor) | $13,500.00 USD |
 | **TOTAL CONSOLIDADO** | **Inversión y Esfuerzo Total del Proyecto SmartStay** | **$0.00 USD** | **$13,836.00 USD** |
 
-#### 4.1.4.5. Timebox, Cronograma Macro y Articulación con el Calendario Académico
+#### 2.1.4.5. Timebox, Cronograma Macro y Articulación con el Calendario Académico
 
 El ciclo de desarrollo de SmartStay se estructura bajo un **enfoque de timeboxing estricto (PMI-ACP)** con fecha de inicio formal en **Septiembre de 2026** y fecha de cierre comprometida en la **Semana 15 (Diciembre de 2026)**, cubriendo un total de **6 Sprints quincenales (2 semanas por Sprint)**.
 
@@ -888,7 +888,7 @@ El cronograma macro se articula rigurosamente con los hitos y entregables de eva
 | **Sprint 5** | Semanas 11 y 12 | Implementación del módulo de Housekeeping (Kanban operativo), portal web responsivo para huéspedes e integración continua de componentes. | **Hito TB3 (Final):** Segundo incremento funcional con tableros operativos y métricas de calidad. | Semana 12 (Noviembre 2026) |
 | **Sprint 6** | Semanas 13 y 14 | Desarrollo del dashboard analítico (RevPAR / ADR), auditoría de seguridad RBAC, pruebas de rendimiento, carga y estabilización pre-entrega. | **Hito TF:** Solución integral SmartStay completada, informe final y lecciones aprendidas (Trabajo Final). | Semana 15 (Diciembre 2026) |
 
-#### 4.1.4.6. Formalización y revisión de acuerdos
+#### 2.1.4.6. Formalización y revisión de acuerdos
 
 La aprobación interna del Project Charter deberá identificar:
 
@@ -905,7 +905,7 @@ La autoridad iniciadora revisará el mandato cuando se produzcan cambios relevan
 
 ---
 
-### 4.1.5. Project Manager
+### 2.1.5. Project Manager
 
 La estructura de trabajo de SmartStay contempla a **Italo Sebastian Verona Flores**, como **Project Manager**, cuya designación se formalizará en el acuerdo de aprobación del Project Charter.
 
@@ -913,7 +913,7 @@ El Project Manager coordinará la planificación, el seguimiento de compromisos 
 
 La coordinación se realizará junto con el Product Owner y los responsables de análisis, arquitectura y calidad, respetando las decisiones que corresponden a cada función.
 
-#### 4.1.5.1. Propósito y alcance del rol
+#### 2.1.5.1. Propósito y alcance del rol
 
 El Project Manager deberá asegurar que el trabajo se organice alrededor de objetivos claros y compatibles con los recursos disponibles. Para ello, mantendrá visibilidad sobre:
 
@@ -929,7 +929,7 @@ Cada integrante será responsable del trabajo que asuma y de comunicar oportunam
 
 Cuando el Project Manager desempeñe también funciones de facilitación de Scrum, promoverá la colaboración, la inspección de resultados y la mejora de la forma de trabajo. La coordinación del proyecto y la facilitación del marco se ejercerán respetando la autonomía del equipo para organizar su ejecución.
 
-#### 4.1.5.2. Facultades y límites de autoridad
+#### 2.1.5.2. Facultades y límites de autoridad
 
 | Ámbito | Facultades del Project Manager | Límite de actuación |
 | :--- | :--- | :--- |
@@ -944,7 +944,7 @@ Cuando el Project Manager desempeñe también funciones de facilitación de Scru
 
 El Project Manager verificará que los resultados presentados como terminados cumplan los criterios acordados. Las aprobaciones académicas y funcionales deberán quedar registradas por sus responsables.
 
-#### 4.1.5.3. Planificación y control del alcance
+#### 2.1.5.3. Planificación y control del alcance
 
 El Project Manager coordinará la elaboración y actualización del plan de trabajo mediante las siguientes actividades:
 
@@ -962,7 +962,7 @@ Las integraciones externas, los pagos, los dispositivos IoT y otras funcionalida
 
 El Project Manager coordinará la definición de la arquitectura con el responsable técnico. Una vez acordada, se actualizarán el resumen ejecutivo, la descripción de la solución y las restricciones para mantener una misma definición del sistema.
 
-#### 4.1.5.4. Coordinación de las iteraciones
+#### 2.1.5.4. Coordinación de las iteraciones
 
 La duración y los objetivos de las iteraciones se acordarán considerando el calendario académico y la capacidad del equipo.
 
@@ -978,7 +978,7 @@ Cuando se utilice Scrum, el Daily Scrum será un espacio de los desarrolladores 
 
 El trabajo podrá ajustarse durante una iteración conforme se obtenga nueva información. Los cambios se revisarán con el Product Owner y el equipo, considerando sus efectos sobre el objetivo, la capacidad y la calidad.
 
-#### 4.1.5.5. Gestión de riesgos e impedimentos
+#### 2.1.5.5. Gestión de riesgos e impedimentos
 
 El Project Manager coordinará un registro que incluya la descripción de cada riesgo o impedimento, su impacto, responsable, respuesta y estado.
 
@@ -996,7 +996,7 @@ Los problemas se atenderán según su efecto sobre el objetivo de la iteración 
 
 Cada acción de respuesta deberá contar con un responsable y una fecha de seguimiento. El cierre de un impedimento se registrará cuando se haya resuelto su efecto sobre el trabajo.
 
-#### 4.1.5.6. Seguimiento y comunicación
+#### 2.1.5.6. Seguimiento y comunicación
 
 El seguimiento permitirá identificar qué se completó, qué permanece pendiente, qué dificultades existen y qué decisiones se necesitan.
 
@@ -1013,7 +1013,7 @@ Las métricas se calcularán a partir de los registros del tablero. El tiempo de
 
 Las decisiones relevantes se conservarán en el repositorio, el tablero o el registro de acuerdos. Las comunicaciones de estado incluirán las acciones necesarias para atender los pendientes.
 
-#### 4.1.5.7. Calidad y cierre del trabajo
+#### 2.1.5.7. Calidad y cierre del trabajo
 
 El Project Manager dará seguimiento a los criterios de cierre acordados por el equipo.
 
@@ -1037,7 +1037,7 @@ Para los componentes de software se verificará:
 
 La calidad será una responsabilidad compartida. El Project Manager coordinará su seguimiento y comunicará los pendientes que puedan afectar una entrega.
 
-#### 4.1.5.8. Continuidad y revisión del rol
+#### 2.1.5.8. Continuidad y revisión del rol
 
 Ante una ausencia temporal, el equipo acordará quién asumirá las actividades de coordinación. La transferencia incluirá el estado de los entregables, los compromisos próximos, los riesgos y las decisiones pendientes.
 
@@ -1054,7 +1054,7 @@ Cualquier cambio de responsable se registrará con su fecha efectiva y las activ
 
 ---
 
-### 4.1.6. Necesidades del Negocio
+### 2.1.6. Necesidades del Negocio
 
 El desarrollo e implementación de un sistema de gestión como **SmartStay** responde a la necesidad de resolver deficiencias operativas y comerciales críticas que afectan al sector hotelero independiente en el Perú. En este segmento, predomina el uso de métodos analógicos —tales como registros en papel, pizarras de control y coordinación mediante radiofrecuencia—, lo que desencadena ineficiencias severas en la gestión de las habitaciones. Diversas investigaciones en la hotelería local demuestran que la falta de automatización en las tareas de *housekeeping* y mantenimiento genera retrasos de hasta 45 minutos en la actualización del estado de los cuartos limpios; esto imposibilita su puesta a disposición inmediata para la venta y reduce significativamente la tasa de rotación del inventario (Vásquez & Sandoval, 2021).
 
@@ -1068,11 +1068,11 @@ Como consecuencia de esta desorganización estructural, los establecimientos ind
 
 ---
 
-### 4.1.7. Descripción del Proyecto
+### 2.1.7. Descripción del Proyecto
 
 El proyecto **SmartStay** comprende el diseño, construcción, prueba y despliegue continuo de una plataforma tecnológica modular bajo un enfoque ágil e iterativo, mediante Sprints quincenales.
 
-#### 4.1.7.1. Arquitectura Macro de la Solución
+#### 2.1.7.1. Arquitectura Macro de la Solución
 La solución adopta formalmente una **Arquitectura Monolítica por Capas (Layered Monolithic Architecture)** basada en principios de *Domain-Driven Design* (DDD) modular y *Clean Architecture*. Esta arquitectura consolida la lógica de negocio en una sola unidad de despliegue altamente cohesiva y estructurada en tres capas estrictamente desacopladas:
 
 ```
@@ -1124,7 +1124,7 @@ La arquitectura formalmente descrita se compone de:
 
 ---
 
-### 4.1.8. Características del Producto/Servicio
+### 2.1.8. Características del Producto/Servicio
 
 El catálogo de funcionalidades del sistema se categoriza en los siguientes módulos operacionales:
 
@@ -1195,7 +1195,7 @@ graph TD
 
 ---
 
-### 4.1.9 Relación del Proyecto con la Necesidad Comercial
+### 2.1.9 Relación del Proyecto con la Necesidad Comercial
 
 El proyecto **SmartStay** responde de manera directa a la necesidad comercial de digitalizar, centralizar y optimizar la gestión operativa de los hoteles boutique y pequeños (segmento de 15 a 60 habitaciones), un sector que actualmente sufre una merma de entre el 15% y 20% en su productividad debido a la fragmentación de procesos, el uso de bitácoras físicas y canales de comunicación informales.
 
@@ -1205,7 +1205,7 @@ Desde una perspectiva técnica y de negocio, la solución se vincula con los obj
 * **Escalabilidad y Flexibilidad Comercial:** La arquitectura monolítica por capas estructurada bajo principios de Domain-Driven Design (DDD) modular permite a los administradores hoteleros expandir sus operaciones sin fricciones tecnológicas, asegurando alta disponibilidad (24/7), óptima mantenibilidad y facilitando futuras integraciones con pasarelas de pago y canales de reserva de terceros (OTAs).
 
 ---
-### 4.1.10 Supuestos
+### 2.1.10 Supuestos
 
 Para el desarrollo, despliegue y validación exitosa de **SmartStay**, se establecen los siguientes supuestos fundamentales:
 1. **Infraestructura de Conectividad:** Se asume que los hoteles boutique objetivo disponen de una infraestructura de red e Internet estable (Wi-Fi de alta velocidad) que permite el consumo fluido de servicios en la nube y la sincronización de datos en tiempo real.
@@ -1214,7 +1214,7 @@ Para el desarrollo, despliegue y validación exitosa de **SmartStay**, se establ
 4. **Estabilidad del Dominio y Requerimientos:** Se asume que los flujos principales definidos mediante el proceso Lean UX y el modelado orientado al dominio (DDD) se mantendrán estables, permitiendo iteraciones ágiles sin modificaciones estructurales drásticas en los componentes críticos.
 
 ---
-### 4.1.11 Restricciones
+### 2.1.11 Restricciones
 
 La implementación y el ciclo de desarrollo de **SmartStay** se encuentran condicionados por las siguientes restricciones técnicas, operativas y de tiempo:
 1. **Restricciones del Ciclo Académico y Plazos:** El proyecto debe desarrollarse, validarse e implementarse de manera evolutiva cumpliendo estrictamente con los plazos establecidos por el curso de *Agile Project Management* y sus entregas periódicas, contemplando los periodos de evaluación correspondientes al examen parcial.
@@ -1224,7 +1224,7 @@ La implementación y el ciclo de desarrollo de **SmartStay** se encuentran condi
 
 ---
 
-### 4.1.12. Eventos de Riesgo
+### 2.1.12. Eventos de Riesgo
 
 Identificamos los siguientes eventos de riesgo que podrían afectar el cumplimiento de los objetivos, cada riesgo incluye una valoración preliminar de probabilidad e impacto, así como acciones de respuesta coherentes con la organización y restricciones definidas en el Project Charter.
 
@@ -1240,7 +1240,7 @@ Identificamos los siguientes eventos de riesgo que podrían afectar el cumplimie
 
 ---
 
-### 4.1.13. Aprobaciones
+### 2.1.13. Aprobaciones
 
 | Rol de Aprobación | Responsable | Versión Revisada | Fecha | Estado | Alcance de la Conformidad |
 | :--- | :--- | :---: | :---: | :---: | :--- |
@@ -1253,11 +1253,11 @@ Identificamos los siguientes eventos de riesgo que podrían afectar el cumplimie
 
 ---
 
-## 4.2. Agile Project Scope Management
+## 2.2. Agile Project Scope Management
 
 La gestión del alcance de **SmartStay** se ejecuta bajo el principio ágil del Triángulo Invertido de PMI-ACP: el tiempo y los costos se mantienen fijos, mientras que el alcance se gestiona de forma adaptativa y orientada al valor de negocio para el staff operativo, la administración hotelera y los huéspedes. El **Product Backlog** consolida y prioriza el catálogo de épicas descompuestas en historias de usuario granulares, mientras que el **Sprint Backlog** detalla las tareas de ingeniería comprometidas y ejecutadas para cada iteración.
 
-### 4.2.1. Product Backlog
+### 2.2.1. Product Backlog
 
 El Product Owner (Eddo Su Caletti) gestiona y prioriza el Product Backlog evaluando el retorno operativo y la viabilidad técnica de cada funcionalidad, aplicando priorización **MoSCoW** (*Must have, Should have, Could have, Won't have this time*) y estimación relativa del esfuerzo en **Story Points** (secuencia de Fibonacci: 1, 2, 3, 5, 8) consensuada con el equipo de desarrollo.
 
@@ -1390,7 +1390,7 @@ El Product Owner (Eddo Su Caletti) gestiona y prioriza el Product Backlog evalua
 
 ---
 
-### 4.2.2. Sprint Backlog
+### 2.2.2. Sprint Backlog
 
 Al cierre del Trabajo Parcial (Semana 7 - TP1), el equipo completó la ejecución del **Sprint 3** (Semanas 5 y 6), alcanzando el 100% de los compromisos de alcance definidos para el hito del parcial (modelado de dominio DDD, especificación BDD del Product Backlog, diseño de wireframes y prototipos UI/UX para la SPA Web y el Portal de Autogestión responsivo). Con la conclusión de la ceremonia de *Sprint Review* y *Sprint Retrospective*, el equipo da por cerrado el Sprint 3 e inicia la transición hacia el **Sprint 4** (Semanas 8 y 9), enfocado en la construcción del núcleo transaccional en backend y SPA Web.
 
@@ -1411,7 +1411,7 @@ La totalidad de tareas del Sprint Backlog fue validada contra la Definición de 
 
 ---
 
-### 4.2.3. Estrategias de Calidad y Definition of Done (DoD)
+### 2.2.3. Estrategias de Calidad y Definition of Done (DoD)
 
 La calidad de **SmartStay** se gestiona de forma continua e integrada al flujo de trabajo (*Built-in Quality*), en lugar de reservarse como una fase final de verificación. El equipo aplica las siguientes estrategias a lo largo de cada Sprint:
 
@@ -1420,7 +1420,7 @@ La calidad de **SmartStay** se gestiona de forma continua e integrada al flujo d
 | **Desarrollo guiado por pruebas (TDD):** el equipo redacta primero la prueba unitaria sobre la regla de negocio del dominio y luego implementa el código mínimo que la satisface (ciclo *red-green-refactor*). | Framework de pruebas unitarias del stack backend (ej. xUnit/JUnit/Jest, según el lenguaje adoptado por el equipo). | Durante la implementación de cada tarea de backend, antes de abrir el Pull Request. |
 | **Revisión por pares (Code Review):** todo cambio se integra mediante *Pull Requests*, revisados por al menos un integrante distinto al autor. | GitHub Pull Requests y GitFlow. | Antes de fusionar cualquier rama a `main`/`develop`. |
 | **Pruebas automatizadas de integración:** validación de los endpoints RESTful críticos (autenticación, reservas, estados de habitación) de extremo a extremo. | Suite de pruebas de integración ejecutada vía GitHub Actions. | Al finalizar cada historia de usuario, antes de marcarla como "Hecho". |
-| **Verificación de criterios de aceptación (BDD):** cada historia se valida contra los escenarios *Given-When-Then* de la sección 4.2.1. | Especificaciones Gherkin documentadas en el Product Backlog. | Durante la *Sprint Review*, como condición para aceptar el incremento. |
+| **Verificación de criterios de aceptación (BDD):** cada historia se valida contra los escenarios *Given-When-Then* de la sección 2.2.1. | Especificaciones Gherkin documentadas en el Product Backlog. | Durante la *Sprint Review*, como condición para aceptar el incremento. |
 | **Auditoría pre-entrega automatizada:** validación de integridad de enlaces, consistencia arquitectónica y compilación del informe. | `scripts/verify_report.py` y pipeline GitHub Actions (`report.yml`). | Antes de cada entrega oficial (TB1, TB2, TP1, TB3, TF). |
 | **Retrospectiva de calidad:** revisión de defectos detectados y ajuste de prácticas de ingeniería. | *Sprint Retrospective* (Trello + reunión de equipo). | Al cierre de cada Sprint. |
 
@@ -1440,13 +1440,13 @@ Solo las historias que satisfacen íntegramente esta Definición de Hecho se con
 
 ---
 
-## 4.3. Agile Project Schedule Management
+## 2.3. Agile Project Schedule Management
 
-La gestión del cronograma de **SmartStay** se ejecuta mediante Sprints quincenales de alcance fijo (*timeboxing*), donde la planificación se realiza al inicio de cada iteración (*Sprint Planning*) sobre la base de la capacidad real del equipo y la prioridad vigente del Product Backlog (sección 4.2.1).
+La gestión del cronograma de **SmartStay** se ejecuta mediante Sprints quincenales de alcance fijo (*timeboxing*), donde la planificación se realiza al inicio de cada iteración (*Sprint Planning*) sobre la base de la capacidad real del equipo y la prioridad vigente del Product Backlog (sección 2.2.1).
 
-### 4.3.1. Planificación de Sprints
+### 2.3.1. Planificación de Sprints
 
-**Metodología de planificación:** al inicio de cada Sprint (*Sprint Planning*), el Product Owner presenta las historias de mayor prioridad del Product Backlog (sección 4.2.1) y el equipo técnico estima su esfuerzo en Story Points mediante **Planning Poker**. La capacidad de referencia del equipo es de **150 horas-persona por Sprint** (5 integrantes × 30 horas quincenales), equivalente a una capacidad objetivo de entre **18 y 21 Story Points por Sprint**, según la complejidad técnica de las historias seleccionadas.
+**Metodología de planificación:** al inicio de cada Sprint (*Sprint Planning*), el Product Owner presenta las historias de mayor prioridad del Product Backlog (sección 2.2.1) y el equipo técnico estima su esfuerzo en Story Points mediante **Planning Poker**. La capacidad de referencia del equipo es de **150 horas-persona por Sprint** (5 integrantes × 30 horas quincenales), equivalente a una capacidad objetivo de entre **18 y 21 Story Points por Sprint**, según la complejidad técnica de las historias seleccionadas.
 
 **Herramienta de gestión:** el equipo utiliza un tablero **Trello** con columnas *Backlog*, *Por Hacer*, *En Progreso*, *En Revisión* y *Hecho*, donde cada tarjeta corresponde a una historia de usuario o tarea de ingeniería del Sprint Backlog, con su responsable y etiqueta de prioridad asignados.
 
@@ -1480,7 +1480,7 @@ Con el cierre del Sprint 3 (hito TP1), el equipo inicia la ejecución de los Spr
 | Transversal | Should | — | Compilar evidencias, actualizar el Registro de Versiones y el Student Outcome. | Augusto Sebastian Montes Maza | 20 |
 | **Total planificado** | | **18 pts** | | | **150 h** |
 
-### 4.3.2. Cronograma de Entregables
+### 2.3.2. Cronograma de Entregables
 
 El cronograma de entregables articula los hitos académicos oficiales del curso con los archivos exigidos por la rúbrica, el impacto de cada entrega en el avance del proyecto y el mecanismo utilizado para dar seguimiento a su cumplimiento, siguiendo la nomenclatura obligatoria `upc-pre-202620-1asi0722-<nrc>-sisifo-<tipo>-<entrega>`:
 
@@ -1496,13 +1496,13 @@ El cronograma de entregables articula los hitos académicos oficiales del curso 
 
 ---
 
-## 4.4. Agile Project Cost Management
+## 2.4. Agile Project Cost Management
 
-### 4.4.1. Estimación de Costos
+### 2.4.1. Estimación de Costos
 
-La estimación de costos de **SmartStay** parte de la línea base de alto nivel definida en el Project Charter (sección 4.1.4.4) y se refina mediante una técnica de **estimación ascendente (*bottom-up*)**: el esfuerzo de cada historia se estima en Story Points mediante **Planning Poker** (sección 4.3.1), se traduce a horas de ingeniería según la capacidad real del equipo (150 horas-persona por Sprint) y se valoriza con la tarifa referencial de mercado.
+La estimación de costos de **SmartStay** parte de la línea base de alto nivel definida en el Project Charter (sección 2.1.4.4) y se refina mediante una técnica de **estimación ascendente (*bottom-up*)**: el esfuerzo de cada historia se estima en Story Points mediante **Planning Poker** (sección 2.3.1), se traduce a horas de ingeniería según la capacidad real del equipo (150 horas-persona por Sprint) y se valoriza con la tarifa referencial de mercado.
 
-**Tarifas simuladas por rol:** dado que los 5 integrantes rotan de funciones según la carga de cada Sprint (sección 4.1.3.1), el equipo aplica una tarifa uniforme para un perfil junior/practicante en todos los roles, evitando distorsionar la estimación por una especialización que aún no es fija:
+**Tarifas simuladas por rol:** dado que los 5 integrantes rotan de funciones según la carga de cada Sprint (sección 2.1.3.1), el equipo aplica una tarifa uniforme para un perfil junior/practicante en todos los roles, evitando distorsionar la estimación por una especialización que aún no es fija:
 
 | Rol | Tarifa Referencial (USD/hora) |
 | :--- | :---: |
@@ -1512,7 +1512,7 @@ La estimación de costos de **SmartStay** parte de la línea base de alto nivel 
 | Responsable de calidad e integración | $15.00 |
 | Responsable de análisis de negocio y requerimientos | $15.00 |
 
-**Riesgos que afectan la estimación de costos:** el riesgo RSK-03 (*scope creep*, sección 4.1.12) es el principal factor que puede incrementar el costo real respecto a lo estimado, al incorporar historias no priorizadas que consumen horas no presupuestadas; este riesgo se absorbe mediante la reserva de contingencia definida en el Presupuesto Total del Proyecto.
+**Riesgos que afectan la estimación de costos:** el riesgo RSK-03 (*scope creep*, sección 2.1.12) es el principal factor que puede incrementar el costo real respecto a lo estimado, al incorporar historias no priorizadas que consumen horas no presupuestadas; este riesgo se absorbe mediante la reserva de contingencia definida en el Presupuesto Total del Proyecto.
 
 **Costo de ingeniería por Sprint:** 150 horas × $15.00 USD/hora = **$2,250.00 USD** por Sprint (valorización comercial simulada; costo real desembolsado $0.00, al ser aportado por el equipo promotor).
 
@@ -1524,11 +1524,11 @@ La estimación de costos de **SmartStay** parte de la línea base de alto nivel 
 | **Sprint 5** | 18 pts | 150 h | $2,250.00 USD |
 | **Subtotal TB3** | 39 pts | 300 h | **$4,500.00 USD** |
 
-A este subtotal se añade la proporción correspondiente de infraestructura cloud y herramientas de gestión durante el periodo de los Sprints 4 y 5 (un mes calendario, sección 4.1.4.4-A y 4.1.4.4-B): $50.00 USD (infraestructura) + $46.00 USD (herramientas) = **$96.00 USD**, resultando en un costo total simulado de **$4,596.00 USD** para la presente entrega.
+A este subtotal se añade la proporción correspondiente de infraestructura cloud y herramientas de gestión durante el periodo de los Sprints 4 y 5 (un mes calendario, sección 2.1.4.4-A y 2.1.4.4-B): $50.00 USD (infraestructura) + $46.00 USD (herramientas) = **$96.00 USD**, resultando en un costo total simulado de **$4,596.00 USD** para la presente entrega.
 
 #### Presupuesto Total del Proyecto
 
-Consolidando los seis Sprints del ciclo de vida completo de SmartStay (15 semanas académicas) y aplicando una **reserva de contingencia del 10%** sobre el presupuesto base —recomendada por PMI-ACP para proyectos ágiles ante el riesgo de *scope creep* (RSK-03, sección 4.1.12)—, el presupuesto total del proyecto queda establecido de la siguiente manera:
+Consolidando los seis Sprints del ciclo de vida completo de SmartStay (15 semanas académicas) y aplicando una **reserva de contingencia del 10%** sobre el presupuesto base —recomendada por PMI-ACP para proyectos ágiles ante el riesgo de *scope creep* (RSK-03, sección 2.1.12)—, el presupuesto total del proyecto queda establecido de la siguiente manera:
 
 **Distribución del Capital Humano por Sprint y Fase:**
 
@@ -1546,18 +1546,18 @@ Consolidando los seis Sprints del ciclo de vida completo de SmartStay (15 semana
 | Desarrollo (arquitectura, backend y frontend) | $8,100.00 USD | 58.5% |
 | Pruebas y Aseguramiento de Calidad (QA) | $2,700.00 USD | 19.5% |
 | Gestión y Documentación (PM / Análisis de Negocio) | $2,700.00 USD | 19.5% |
-| Infraestructura Cloud y Herramientas (sección 4.1.4.4-A/B) | $336.00 USD | 2.4% |
+| Infraestructura Cloud y Herramientas (sección 2.1.4.4-A/B) | $336.00 USD | 2.4% |
 | **Presupuesto Base Total** | **$13,836.00 USD** | **100%** |
 
 **Consolidado Final:**
 
 | Rubro Presupuestal | Costo Real Desembolsado | Costo Comercial Simulado |
 | :--- | :---: | :---: |
-| Presupuesto base consolidado (sección 4.1.4.4-D) | $0.00 USD | $13,836.00 USD |
+| Presupuesto base consolidado (sección 2.1.4.4-D) | $0.00 USD | $13,836.00 USD |
 | Reserva de contingencia (10%, ante riesgos RSK-01 a RSK-07) | $0.00 USD | $1,383.60 USD |
 | **PRESUPUESTO TOTAL DEL PROYECTO** | **$0.00 USD** | **$15,219.60 USD** |
 
-Este presupuesto total constituye la línea base de costos autorizada para el ciclo de vida completo del proyecto; cualquier variación relevante deberá registrarse mediante el procedimiento de gestión de cambios descrito en la sección 4.1.3.4.
+Este presupuesto total constituye la línea base de costos autorizada para el ciclo de vida completo del proyecto; cualquier variación relevante deberá registrarse mediante el procedimiento de gestión de cambios descrito en la sección 2.1.3.4.
 
 ---
 

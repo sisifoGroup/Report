@@ -8,7 +8,7 @@ Curso: 1ASI0722 Agile Project Management (Ciclo 2026-20)
 Profesor: Rouillon Sixto César Elías
 
 Comprobaciones implementadas:
-  1. Comprobación de Fotografías de Integrantes (Sección 3.1.2)
+  1. Comprobación de Fotografías de Integrantes (Sección 1.1.2)
   2. Alerta de Student Outcome (ABET 2 - TB2)
   3. Control de Erratas Residuales (ej. RapiFast, CanchaYa)
   4. Control de Coherencia Arquitectónica en Project Charter (Monolito por Capas)
@@ -112,20 +112,20 @@ def resolve_report_path(explicit_path: Optional[str] = None) -> str:
 
 def check_member_photos(markdown_content: str, doc_dir: str) -> Tuple[bool, List[str]]:
     """
-    1. Comprobación de Fotografías (Sección 3.1.2):
+    1. Comprobación de Fotografías (Sección 1.1.2):
        Verifica que cada uno de los 5 integrantes tenga una imagen asociada válida,
        que exista físicamente en disco, su tamaño sea > 0 KB y extensión permitida.
     """
     errors: List[str] = []
     
-    # Extraer la sección 3.1.2
+    # Extraer la sección 1.1.2
     sec_match = re.search(
-        r"### 3\.1\.2\.\s*Perfiles de Integrantes del Equipo(.*?)(?=## 3\.2|\Z)",
+        r"### 1\.1\.2\.\s*Perfiles de Integrantes del Equipo(.*?)(?=## 1\.2|\Z)",
         markdown_content,
         re.DOTALL | re.IGNORECASE
     )
     if not sec_match:
-        errors.append("No se encontró la sección '3.1.2. Perfiles de Integrantes del Equipo' en el informe.")
+        errors.append("No se encontró la sección '1.1.2. Perfiles de Integrantes del Equipo' en el informe.")
         return False, errors
 
     sec_content = sec_match.group(1)
@@ -297,19 +297,19 @@ def check_prohibited_words(markdown_content: str) -> Tuple[bool, List[str]]:
 def check_architectural_coherence(markdown_content: str) -> Tuple[bool, List[str]]:
     """
     4. Control de Coherencia Arquitectónica:
-       Verifica que en la sección del Project Charter (4.1) no existan menciones
+       Verifica que en la sección del Project Charter (2.1) no existan menciones
        a microservicios u otros términos contradictorios con la Arquitectura Monolítica por Capas.
     """
     errors: List[str] = []
 
-    # Extraer el Project Charter (sección 4.1 hasta la siguiente sección de primer nivel o bibliografía)
+    # Extraer el Project Charter (sección 2.1 hasta la siguiente sección de primer nivel o bibliografía)
     charter_match = re.search(
-        r"## 4\.1\.\s*Agile Project Integration Management: Project Charter(.*?)(?=\n# |\Z)",
+        r"## 2\.1\.\s*Agile Project Integration Management: Project Charter(.*?)(?=\n# |\Z)",
         markdown_content,
         re.DOTALL | re.IGNORECASE
     )
     if not charter_match:
-        errors.append("No se encontró la sección '4.1. Project Charter' en el informe.")
+        errors.append("No se encontró la sección '2.1. Project Charter' en el informe.")
         return False, errors
 
     charter_text = charter_match.group(0)
@@ -378,7 +378,7 @@ def main():
     # -------------------------------------------------------------
     # Comprobación 1: Fotografías de Integrantes
     # -------------------------------------------------------------
-    print(f"\n{WHITE_BOLD}1. Verificación de Fotografías de Integrantes (Sección 3.1.2):{RESET}")
+    print(f"\n{WHITE_BOLD}1. Verificación de Fotografías de Integrantes (Sección 1.1.2):{RESET}")
     photos_ok, photo_errors = check_member_photos(markdown_content, doc_dir)
     if photos_ok:
         print(f"   {GREEN_BOLD}✔ [PASS]{RESET} Todos los 5 integrantes cuentan con fotografía válida, existente (>0 KB) y extensión permitida.")
