@@ -80,6 +80,9 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
        * 3.2.3.4. [Lean UX Canvas](#3234-lean-ux-canvas)
      * 3.2.4. [Propuesta de Valor](#324-propuesta-de-valor)
      * 3.2.5. [Segmentos Objetivo](#325-segmentos-objetivo)
+     * 3.2.6. [Análisis de Competidores](#326-análisis-de-competidores)
+     * 3.2.7. [Entrevistas](#327-entrevistas)
+       * 3.2.7.1. [Diseño de Entrevistas con Enfoque Operativo y Arquitectónico](#3271-diseño-de-entrevistas-con-enfoque-operativo-y-arquitectónico)
 4. [Capítulo II: Gestión de Áreas de Conocimiento Agile](#capítulo-ii-gestión-de-áreas-de-conocimiento-agile)
    * 4.1. [Agile Project Integration Management: Project Charter](#41-agile-project-integration-management-project-charter)
      * 4.1.1. [Resumen Ejecutivo](#411-resumen-ejecutivo)
@@ -508,6 +511,98 @@ A continuación se definen los segmentos de clientes asociados al dominio del pr
 * **Información Estadística de Sustento:**  
   * El 68% de los huéspedes dentro de este perfil selecciona su hospedaje considerando la reputación digital del establecimiento y la disponibilidad de facilidades tecnológicas durante su estancia.
     
+---
+
+### 3.2.6. Análisis de Competidores
+
+El mercado de soluciones para gestión hotelera en Lima y a nivel nacional presenta diversos actores que ofrecen herramientas digitales especializadas. Se han identificado **3 competidores principales** del segmento de sistemas de gestión de propiedades (PMS) en la nube para contrastar con la propuesta de valor de **SmartStay**.
+
+#### Competitive Analysis Landscape
+
+| ¿Por qué llevar a cabo este análisis? | El objetivo es identificar las brechas tecnológicas en la oferta actual de gestión hotelera para diferenciar a SmartStay mediante una arquitectura monolítica modular (DDD), un enfoque especializado en la coordinación del Staff Operativo y automatización en tiempo real para hoteles boutique en LATAM. |
+| :--- | :--- |
+
+| Competidor nombre y logo | Startup SmartStay | Cloudbeds | Little Hotelier | Mews |
+| :--- | :--- | :--- | :--- | :--- |
+| **Logo / Identidad** | *[SmartStay]* | <img src="./assets/Cloudbeds.jpg" width="100" alt="Cloudbeds"> | <img src="./assets/Little Hotelier.avif" width="100" alt="Little Hotelier"> | <img src="./assets/Mews.webp" width="100" alt="Mews"> |
+| **Perfil Overview** | Plataforma integral de gestión operativa para hoteles boutique, con enfoque central en la coordinación del Staff Operativo y la autonomía del huésped. | Plataforma PMS todo en uno orientada a hoteles independientes, hostales y grupos medianos, con fuerte presencia en automatización de distribución (Channel Manager). | Software PMS y Channel Manager diseñado específicamente para pequeños alojamientos, hostales y B&Bs que buscan simplicidad administrativa. | PMS innovador en la nube, altamente automatizado, enfocado en la experiencia del huésped (guest journey) y conectividad abierta (Open API). |
+| **Ventaja competitiva** *(¿Qué valor ofrece a los clientes?)* | Optimización del Staff Operativo mediante una arquitectura monolítica modular reactiva, gestión de tareas en tiempo real y personalización de la experiencia del huésped. | Ecosistema masivo de integraciones (*App Marketplace*) y conectividad con cientos de canales de reserva globales (OTA sync). | Curva de aprendizaje sumamente rápida, interfaz intuitiva y un precio accesible para pequeños administradores sin experiencia técnica. | Automatización avanzada de pagos, experiencia 100% digital sin fricciones (*kioscos y check-in móvil*) y arquitectura abierta para desarrolladores. |
+
+---
+
+#### Perfil de Marketing
+
+| Atributo | Startup SmartStay | Cloudbeds | Little Hotelier | Mews |
+| :--- | :--- | :--- | :--- | :--- |
+| **Mercado objetivo** | Hoteles boutique y medianos en LATAM que buscan modernizar su operación interna y la experiencia del huésped. | Hoteles independientes de escala mediana, hostales y propiedades múltiples a nivel global. | Pequeños alojamientos, B&Bs y hostales independientes (1 a 30 habitaciones). | Hoteles boutique modernos, hostales de diseño y cadenas innovadoras orientadas al viajero digital. |
+| **Estrategias de marketing** | Marketing de contenidos sobre eficiencia operativa, digitalización del staff y alianzas con gremios hoteleros locales. | Inbound marketing global, pauta digital avanzada, webinars educativos y presencia en ferias internacionales de turismo. | Campañas digitales directas (SEM/SEO), demostraciones guiadas y programas de referidos sencillos. | Posicionamiento de liderazgo en innovación tecnológica, marketing de experiencias y casos de éxito de automatización radical. |
+
+---
+
+#### Perfil de Producto
+
+| Atributo | Startup SmartStay | Cloudbeds | Little Hotelier | Mews |
+| :--- | :--- | :--- | :--- | :--- |
+| **Productos & Servicios** | Gestión de habitaciones, Housekeeping, Mantenimiento, Dashboard analítico y Portal de Autoservicio para Huéspedes. | PMS en la nube, Channel Manager, Motor de Reservas (Booking Engine), Cloudbeds Payments y Marketplace de aplicaciones. | PMS básico, Channel Manager integrado, Motor de Reservas y aplicación móvil simplificada para gestión diaria. | Mews PMS, Mews Payments, Mews POS, Mews Multiproperty y una tienda de integraciones robusta (*Mews Marketplace*). |
+| **Precios & Costos** | Modelo SaaS por suscripción mensual basado en el volumen de habitaciones gestionadas. | Suscripción modular escalable según el tamaño de la propiedad y características contratadas. | Tarifa plana mensual fija y transparente por niveles según la cantidad de habitaciones. | Modelo SaaS basado en porcentaje de transacciones o tarifa por habitación ocupada al mes (basado en uso). |
+| **Canales de distribución (Web y/o Móvil)** | Plataforma Web (Cloud) con SPA Administrativa y Portal de Autogestión responsivo, accesibles desde cualquier dispositivo sin instalaciones nativas. | Aplicación Web (Cloud) y aplicaciones complementarias para dispositivos móviles. | Aplicación Web (Cloud) optimizada y app móvil de gestión de reservas (*Little Hotelier Pocket*). | Plataforma Web 100% Cloud (Cloud-native) con interfaces adaptadas para tablets, móviles y escritorios. |
+
+---
+
+#### Análisis SWOT (FODA Cruzado)
+
+| Componente | Startup SmartStay | Cloudbeds | Little Hotelier | Mews |
+| :--- | :--- | :--- | :--- | :--- |
+| **Fortalezas** | • Enfoque especializado en nicho desatendido (Staff Operativo).<br>• Arquitectura monolítica modular (DDD) con consistencia inmediata y despliegue simplificado. | • Amplia red de distribución de canales (OTAs).<br>• Ecosistema de integraciones maduro. | • Simplicidad de uso y rapidez en la configuración inicial.<br>• Excelente soporte para pequeños hostales. | • Alta innovación y automatización de pagos.<br>• Experiencia de usuario disruptiva y moderna. |
+| **Debilidades** | • Startup nueva sin reputación consolidada previamente en el mercado local. | • Curva de aprendizaje compleja debido a la gran cantidad de módulos disponibles. | • Funcionalidades limitadas para hoteles con flujos operativos y de mantenimiento complejos. | • Costos más elevados que pueden resultar prohibitivos para pequeños hoteles independientes en LATAM. |
+| **Oportunidades** | • Creciente demanda de digitalización post-pandemia en hoteles boutique de Lima y regiones.<br>• Espacio para soluciones enfocadas en la productividad interna del staff. | • Expansión hacia nichos de hoteles boutique de lujo mediante adquisiciones tecnológicas. | • Crecimiento del turismo descentralizado y formalización de pequeños hospedajes. | • Adopción acelerada de tecnologías sin contacto (*contactless*) y pagos digitales en el sector hotelero. |
+| **Amenazas** | • Entrada agresiva de competidores globales consolidados en el mercado local.<br>• Resistencia al cambio tecnológico en establecimientos tradicionales. | • Saturación del mercado de PMS genéricos para medianas empresas.<br>• Cambios en las políticas de APIs de las principales OTAs. | • Aparición de startups locales con soluciones más económicas y adaptadas a la regulación regional. | • Consolidación de grandes suites hoteleras que repliquen funciones de automatización nativa. |
+
+---
+
+Para posicionar a SmartStay como la solución líder en el mercado de hoteles boutique, el equipo ha definido estrategias basadas en la modernización arquitectónica y tácticas técnicas que aseguren la escalabilidad y eficiencia del producto frente a estos competidores de la industria:
+
+* **Estrategias:**
+  * **Modularización por Dominios (DDD):** A diferencia de competidores con sistemas monolíticos rígidos y no modulares, SmartStay adopta un **Monolito Modular** basado en *Domain-Driven Design*, organizando la lógica de negocio en módulos cohesivos (*Room Management*, *Housekeeping*, *Booking Engine*, *Security & RBAC*) que evolucionan de forma independiente sin incurrir en la complejidad operativa de una arquitectura distribuida.
+  * **Consistencia Transaccional Inmediata:** Al operar sobre una base de datos relacional unificada (PostgreSQL) con control ACID, SmartStay evita las inconsistencias eventuales propias de arquitecturas distribuidas, garantizando disponibilidad e integridad de datos críticos de reservas e inventario.
+  * **Arquitectura Cloud Native y Alta Disponibilidad:** Utilizar servicios de nube (AWS/Azure) para garantizar que la plataforma esté disponible 24/7, permitiendo a los hoteles boutique escalar sus recursos de forma elástica según la temporada turística.
+  * **Diferenciación por Interoperabilidad:** Diseñar un API RESTful robusto y documentado, facilitando la integración rápida con otros sistemas (como cerraduras electrónicas o pasarelas de pago) donde otros competidores presentan fricciones.
+
+* **Tácticas:**
+  * **Identificación de Subdominios (Bounded Contexts):** Aplicar técnicas de análisis DDD para separar las responsabilidades del sistema, asegurando que el equipo pueda trabajar de forma autónoma en los distintos módulos del dominio dentro del monolito.
+  * **Implementación de GitFlow:** Mantener un flujo de trabajo organizado en GitHub que permita integraciones continuas y lanzamientos de versiones sin errores en el entorno de producción.
+  * **Documentación con C4 Model:** Utilizar diagramas de contexto, contenedores y componentes para que cualquier nuevo integrante o stakeholder entienda la estructura del sistema rápidamente.
+  * **Desarrollo Iterativo (Sprints):** Ejecutar ciclos de desarrollo ágiles para validar hipótesis de Lean UX y ajustar la arquitectura según el feedback real del Staff Operativo.
+  * **Uso de Tecnologías Modernas:** Adoptar lenguajes y frameworks (como SPA Web y PostgreSQL) que soporten patrones de diseño avanzados y faciliten la mantenibilidad a largo plazo.
+  * **Pruebas de Aceptación con BDD:** Escribir criterios en formato Gherkin (*Given-When-Then*) para asegurar que cada funcionalidad desarrollada cumpla estrictamente con las necesidades del usuario final.
+
+---
+
+### 3.2.7. Entrevistas
+
+Con el propósito de validar los supuestos del modelo Lean UX y contrastar las fricciones operativas actuales con los requerimientos técnicos del sistema, se llevaron a cabo entrevistas semiestructuradas enfocadas en flujos críticos de gestión y experiencia del usuario (UX).
+
+#### 3.2.7.1. Diseño de Entrevistas con Enfoque Operativo y Arquitectónico
+
+**Entrevista – Segmento 1: Administradores y Staff Operativo de Hoteles Boutique**
+1. ¿De qué manera manejan actualmente la sincronización de tareas críticas (como limpieza de habitaciones o reportes de mantenimiento) entre el personal de campo y la recepción?
+2. ¿Qué herramientas o canales informales (como WhatsApp, llamadas de radio o libretas físicas) utilizan cuando ocurren imprevistos o cambios de última hora en las reservas?
+3. ¿Cómo impacta en los costos operativos y en el tiempo del personal la falta de un inventario de habitaciones sincronizado en tiempo real?
+4. Ante picos de ocupación o alta rotación de huéspedes, ¿cuál es el mayor cuello de botella administrativo que experimenta su equipo?
+5. ¿Qué nivel de resistencia al cambio tecnológico percibe por parte del personal operativo al implementar nuevas herramientas digitales de gestión?
+6. ¿Qué métricas o indicadores de desempeño (KPIs) le gustaría visualizar en tiempo real para optimizar la toma de decisiones gerenciales?
+7. ¿Qué tan crítica es para su establecimiento la seguridad de la información y la gestión de permisos por roles (administrador, recepción, limpieza) frente a accesos no autorizados?
+8. Si implementáramos una plataforma centralizada que garantice alta disponibilidad (24/7) sin caídas del sistema, ¿qué expectativas tendría respecto a su interoperabilidad con sistemas de pago o cerraduras inteligentes?
+
+**Entrevista – Segmento 2: Huéspedes de Hoteles Boutique**
+1. Al llegar a un hotel después de un viaje largo, ¿qué tan frustrante resulta el proceso tradicional de registro en mostrador y qué esperaría de un check-in digital autónomo?
+2. ¿Qué tan dispuesto/a estaría a utilizar un portal web propio del hotel para solicitar servicios de habitación (room service, amenities) sin necesidad de llamar a recepción?
+3. ¿Qué importancia le concede a la posibilidad de gestionar de forma digital o automatizada aspectos del confort de su habitación (como iluminación o climatización) desde su smartphone?
+4. ¿Cómo califica los canales digitales actuales de comunicación con el hotel cuando necesita resolver una incidencia o solicitar información durante su estancia?
+5. ¿De qué manera influye la existencia de una reputación digital sólida y procesos sin fricción en su decisión de volver a elegir un hotel boutique?
+6. Si un hotel automatiza completamente los procesos de ingreso y salida, ¿siente que se pierde la calidez del servicio humano o prefiere la total independencia y rapidez?
+7. ¿Qué recomendaciones daría para asegurar que un portal de autoservicio para huéspedes sea verdaderamente intuitivo y fácil de usar desde el primer minuto?
+
 ---
 
 # Capítulo II: Gestión de Áreas de Conocimiento Agile
