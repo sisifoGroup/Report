@@ -1109,127 +1109,159 @@ Identificamos los siguientes eventos de riesgo que podrían afectar el cumplimie
 
 ## 4.2. Agile Project Scope Management
 
-La gestión del alcance de **SmartStay** se ejecuta bajo el principio ágil descrito en el Project Charter: el alcance no se fija por completo al inicio, sino que se refina y prioriza de manera continua en función del valor entregado a los usuarios (Staff Operativo, administradores y huéspedes). El **Product Backlog** concentra y ordena por prioridad la totalidad de épicas e historias de usuario derivadas del catálogo de funcionalidades (sección 4.1.8), mientras que el **Sprint Backlog** detalla el subconjunto de trabajo comprometido para la iteración en curso.
+La gestión del alcance de **SmartStay** se ejecuta bajo el principio ágil del Triángulo Invertido de PMI-ACP: el tiempo y los costos se mantienen fijos, mientras que el alcance se gestiona de forma adaptativa y orientada al valor de negocio para el staff operativo, la administración hotelera y los huéspedes. El **Product Backlog** consolida y prioriza el catálogo de épicas descompuestas en historias de usuario granulares, mientras que el **Sprint Backlog** detalla las tareas de ingeniería comprometidas y ejecutadas para cada iteración.
 
 ### 4.2.1. Product Backlog
 
-El Product Owner (Eddo Su Caletti) mantiene y ordena el Product Backlog según el valor que cada elemento aporta a los usuarios y a los objetivos del negocio, utilizando una priorización de tipo **MoSCoW** (Must have, Should have, Could have, Won't have this time) y una estimación relativa en *Story Points* (escala Fibonacci) validada con el equipo técnico.
+El Product Owner (Eddo Su Caletti) gestiona y prioriza el Product Backlog evaluando el retorno operativo y la viabilidad técnica de cada funcionalidad, aplicando priorización **MoSCoW** (*Must have, Should have, Could have, Won't have this time*) y estimación relativa del esfuerzo en **Story Points** (secuencia de Fibonacci: 1, 2, 3, 5, 8) consensuada con el equipo de desarrollo.
 
-| ID | Épica | Historia de Usuario | Prioridad | Story Points |
-| :--- | :--- | :--- | :---: | :---: |
-| **EP-01** | Seguridad y Control de Acceso (RBAC) | Como **administrador**, quiero iniciar sesión con autenticación JWT y roles granulares, para que cada perfil (recepción, housekeeping, mantenimiento, huésped) acceda únicamente a las funciones que le corresponden en la SPA Web y el portal de autogestión. | Must | 5 |
-| **EP-02** | Gestión de Habitaciones | Como **recepcionista**, quiero visualizar el estado de cada habitación en tiempo real (disponible, ocupada, en limpieza, mantenimiento), para asignar cuartos sin depender de bitácoras físicas. | Must | 8 |
-| **EP-03** | Motor de Reservas y Tarifas | Como **recepcionista**, quiero registrar una reserva con actualización instantánea de disponibilidad, para evitar la sobreventa (*overbooking*) de habitaciones. | Must | 8 |
-| **EP-04** | Check-in / Check-out Digital Express | Como **huésped**, quiero completar mi check-in y check-out autónomo desde el Portal Web de Autogestión responsivo, para reducir tiempos de espera en la recepción del hotel. | Should | 5 |
-| **EP-05** | Housekeeping y Mantenimiento | Como **operario de limpieza o técnico**, quiero ver y gestionar mis tareas asignadas en un tablero Kanban operativo y registrar incidencias, para que recepción conozca la disponibilidad real en tiempo real. | Must | 8 |
-| **EP-06** | Portal de Autoservicio del Huésped | Como **huésped**, quiero solicitar amenities o servicio a la habitación desde mi smartphone en el portal web responsivo, para no depender de llamadas o acudir presencialmente a recepción. | Should | 5 |
-| **EP-07** | Dashboard Analítico e Inteligencia de Negocios | Como **administrador**, quiero visualizar indicadores clave como RevPAR y ADR en la SPA Web Administrativa, para tomar decisiones de precios y operación con datos consolidados. | Could | 8 |
+#### Tabla Consolidada del Product Backlog
+
+| ID Historia | Épica Asociada | Título / Historia de Usuario | Prioridad | Story Points |
+| :---: | :--- | :--- | :---: | :---: |
+| **HU-01.1** | EP-01: Seguridad y RBAC | **Autenticación segura JWT:** Como usuario registrado, quiero iniciar sesión con credenciales validadas para obtener un token de acceso seguro a la plataforma. | Must | 3 |
+| **HU-01.2** | EP-01: Seguridad y RBAC | **Control de acceso granular (RBAC):** Como administrador, quiero restringir las vistas y endpoints según roles asignados para salvaguardar la privacidad de la información hotelera. | Must | 2 |
+| **HU-02.1** | EP-02: Gestión de Habitaciones | **Matriz de habitaciones en tiempo real:** Como recepcionista, quiero visualizar la matriz de estados de cuartos en la SPA Web para conocer la disponibilidad inmediata sin bitácoras físicas. | Must | 5 |
+| **HU-02.2** | EP-02: Gestión de Habitaciones | **Asignación operativa de cuartos:** Como recepcionista, quiero vincular una habitación disponible a una reserva confirmada para agilizar el ingreso presencial del cliente. | Must | 3 |
+| **HU-03.1** | EP-03: Motor de Reservas | **Registro transaccional de reservas:** Como recepcionista, quiero registrar reservas con actualización atómica de disponibilidad para evitar sobreventa (*overbooking*). | Must | 5 |
+| **HU-03.2** | EP-03: Motor de Reservas | **Gestión de tarifas estacionales:** Como administrador, quiero configurar tarifas dinámicas según fechas y categorías de habitación para optimizar los ingresos del establecimiento. | Should | 3 |
+| **HU-04.1** | EP-04: Check-in / Check-out Express | **Pre-check-in digital autónomo:** Como huésped con reserva, quiero completar mis datos y registro desde el portal web responsivo para reducir mi tiempo de espera en el mostrador. | Should | 3 |
+| **HU-04.2** | EP-04: Check-in / Check-out Express | **Check-out express y facturación:** Como huésped en fecha de salida, quiero verificar mi balance de cuenta y cerrar la estancia desde la web para recibir mi comprobante electrónico al instante. | Should | 2 |
+| **HU-05.1** | EP-05: Housekeeping y Mantenimiento | **Tablero Kanban de limpieza:** Como operario de housekeeping, quiero gestionar mis cuartos asignados en un tablero Kanban web para notificar que una habitación se encuentra limpia y lista. | Must | 5 |
+| **HU-05.2** | EP-05: Housekeeping y Mantenimiento | **Registro de órdenes de mantenimiento:** Como personal operativo, quiero reportar averías físicas con evidencia fotográfica y severidad para que el técnico ejecute la reparación oportuna. | Must | 3 |
+| **HU-06.1** | EP-06: Autoservicio del Huésped | **Solicitud digital de amenidades:** Como huésped hospedado, quiero solicitar suministros o servicio a la habitación desde mi smartphone para recibir atención directa sin acudir a recepción. | Should | 3 |
+| **HU-06.2** | EP-06: Autoservicio del Huésped | **Trazabilidad de solicitudes:** Como huésped, quiero visualizar el estado de atención de mis pedidos en tiempo real para conocer cuándo serán entregados. | Could | 2 |
+| **HU-07.1** | EP-07: Dashboard Analítico | **Cálculo de métricas hoteleras (RevPAR/ADR):** Como administrador, quiero consultar indicadores de rendimiento en la SPA Web para evaluar la rentabilidad del hotel con datos consolidados. | Could | 5 |
+| **HU-07.2** | EP-07: Dashboard Analítico | **Exportación de reportes ejecutivos:** Como administrador, quiero descargar informes de ocupación e ingresos en formato PDF para respaldar la toma de decisiones gerenciales. | Could | 3 |
 
 #### Especificación de Criterios de Aceptación en Formato BDD (Behavior-Driven Development / Gherkin)
 
-A fin de asegurar la verificabilidad técnica, la precisión del alcance y la alineación con las rúbricas de evaluación del curso, cada una de las historias de usuario prioritarias cuenta con sus respectivos criterios de aceptación formalizados bajo la estructura formal **Escenario / Dado que (Given) / Cuando (When) / Entonces (Then)**:
-
 ##### Épica EP-01: Seguridad y Control de Acceso (RBAC)
-* **Historia de Usuario:** Como **administrador**, quiero iniciar sesión con autenticación JWT y roles granulares, para que cada perfil (recepción, housekeeping, mantenimiento, huésped) acceda únicamente a las funciones que le corresponden en la SPA Web y en el portal de autogestión.
-  * **Criterio de Aceptación 1.1 (Autenticación exitosa y redirección por rol):**
-    * **Dado que** un usuario registrado ingresa un correo electrónico y una contraseña válidos en el formulario de inicio de sesión,
+
+* **HU-01.1: Autenticación segura JWT**
+  * *Escenario 1 (Inicio de sesión exitoso):*
+    * **Dado que** un usuario registrado ingresa un correo electrónico y una contraseña válidos en el formulario de login,
     * **Cuando** presiona el botón "Iniciar Sesión",
-    * **Entonces** el sistema valida las credenciales contra la base de datos PostgreSQL, genera un token JWT firmado que encapsula su rol y lo redirige automáticamente a su interfaz correspondiente (SPA Administrativa para staff o Portal de Autogestión para huéspedes).
-  * **Criterio de Aceptación 1.2 (Credenciales incorrectas):**
-    * **Dado que** un usuario ingresa credenciales incorrectas o inexistentes,
-    * **Cuando** solicita iniciar sesión,
-    * **Entonces** el sistema rechaza la autenticación sin generar token y muestra un mensaje de alerta genérico: *"Credenciales inválidas. Compruebe su correo y contraseña"*.
-  * **Criterio de Aceptación 1.3 (Restricción de acceso a rutas no autorizadas):**
-    * **Dado que** un usuario autenticado con rol de "Operario de Housekeeping" intenta navegar directamente a una URL administrativa restringida (por ejemplo, `/admin/billing`),
-    * **Cuando** el frontend envía la solicitud HTTP al backend monolítico con dicho token,
-    * **Entonces** el backend responde con código de error HTTP `403 Forbidden` y la interfaz redirige al usuario a su panel operativo con la advertencia: *"No posee los permisos necesarios para acceder a este recurso"*.
+    * **Entonces** el sistema valida las credenciales en PostgreSQL, genera un token JWT firmado y redirige al usuario a su panel correspondiente (SPA Administrativa o Portal de Autogestión).
+  * *Escenario 2 (Credenciales inválidas):*
+    * **Dado que** un usuario ingresa una contraseña incorrecta o un correo no registrado,
+    * **Cuando** solicita el inicio de sesión,
+    * **Entonces** el backend responde con código HTTP 401 Unauthorized y la interfaz despliega el mensaje de error: "Credenciales inválidas. Compruebe su correo y contraseña".
+
+* **HU-01.2: Control de acceso granular (RBAC)**
+  * *Escenario 1 (Acceso no autorizado por rol):*
+    * **Dado que** un usuario autenticado con rol de "Operario de Limpieza" intenta acceder a una ruta protegida administrativa (ej. `/admin/billing`),
+    * **Cuando** el cliente envía la petición con su token JWT,
+    * **Entonces** el servidor responde con HTTP 403 Forbidden y la SPA Web redirige a su tablero operativo con el mensaje: "No cuenta con permisos para acceder a este módulo".
 
 ##### Épica EP-02: Gestión de Habitaciones (Room Management)
-* **Historia de Usuario:** Como **recepcionista**, quiero visualizar el estado de cada habitación en tiempo real (disponible, ocupada, en limpieza, mantenimiento), para asignar cuartos sin depender de bitácoras físicas.
-  * **Criterio de Aceptación 2.1 (Sincronización de estados en tiempo real):**
-    * **Dado que** el recepcionista tiene abierta la matriz visual de habitaciones en la SPA Web Administrativa,
-    * **Cuando** un operario actualiza el estado de una habitación a "Limpia y Disponible" desde su dispositivo,
-    * **Entonces** la matriz de habitaciones en la recepción refleja el nuevo estado en color verde en menos de 2 segundos sin requerir la recarga manual de la página web.
-  * **Criterio de Aceptación 2.2 (Asignación de habitación en check-in):**
-    * **Dado que** una habitación se encuentra verificada en estado "Disponible",
-    * **Cuando** el recepcionista la vincula a una reserva confirmada durante el check-in,
-    * **Entonces** el sistema transiciona inmediatamente el estado de la habitación a "Ocupada", bloquea su disponibilidad para otras operaciones y genera la ficha de ocupación en la base de datos.
+
+* **HU-02.1: Matriz de habitaciones en tiempo real**
+  * *Escenario 1 (Actualización visual de disponibilidad):*
+    * **Dado que** el recepcionista visualiza la matriz de habitaciones en la SPA Web,
+    * **Cuando** un operario cambia el estado de un cuarto a "Limpia y Disponible",
+    * **Entonces** la cuadrícula de recepción actualiza el color del cuarto a verde en tiempo real sin requerir recarga manual del navegador.
+
+* **HU-02.2: Asignación operativa de cuartos**
+  * *Escenario 1 (Asignación en check-in presencial):*
+    * **Dado que** una habitación se encuentra verificada como "Limpia y Disponible",
+    * **Cuando** el recepcionista la asigna a un huésped con reserva confirmada,
+    * **Entonces** el sistema transiciona el cuarto a estado "Ocupada", bloquea su disponibilidad para otras operaciones y genera la ficha de ocupación en la base de datos.
 
 ##### Épica EP-03: Motor de Reservas y Tarifas (Booking Engine)
-* **Historia de Usuario:** Como **recepcionista**, quiero registrar una reserva con actualización instantánea de disponibilidad, para evitar la sobreventa (*overbooking*) de habitaciones.
-  * **Criterio de Aceptación 3.1 (Registro de reserva exitosa):**
-    * **Dado que** existen habitaciones disponibles para el rango de fechas seleccionado y tipo de habitación solicitado,
-    * **Cuando** el recepcionista ingresa los datos del huésped, selecciona la tarifa vigente y presiona "Confirmar Reserva",
-    * **Entonces** el motor de reservas descuenta de forma atómica la disponibilidad en la base de datos, asigna un código único alfanumérico y emite la confirmación de reserva.
-  * **Criterio de Aceptación 3.2 (Prevención estricta de sobreventa):**
-    * **Dado que** queda una única habitación disponible de cierta categoría para una fecha determinada y dos operadores intentan reservarla de forma simultánea,
-    * **Cuando** la primera reserva se procesa y confirma en la transacción relacional,
-    * **Entonces** el sistema rechaza la segunda solicitud notificando: *"No hay disponibilidad suficiente para el tipo de habitación y fechas solicitadas"*, garantizando consistencia ACID.
+
+* **HU-03.1: Registro transaccional de reservas**
+  * *Escenario 1 (Confirmación con consistencia transaccional):*
+    * **Dado que** existen habitaciones disponibles para el rango de fechas y categoría seleccionada,
+    * **Cuando** el operador ingresa los datos del huésped y confirma la reserva,
+    * **Entonces** el sistema descuenta el cupo de forma atómica en PostgreSQL y genera un código alfanumérico único de confirmación.
+  * *Escenario 2 (Prevención estricta de sobreventa / overbooking):*
+    * **Dado que** queda una sola habitación disponible en una fecha y dos peticiones intentan reservarla en paralelo,
+    * **Cuando** la primera transacción concluye con éxito,
+    * **Entonces** la segunda transacción falla por control de concurrencia ACID y notifica: "Disponibilidad agotada para la fecha seleccionada".
+
+* **HU-03.2: Gestión de tarifas estacionales**
+  * *Escenario 1 (Actualización de tarifa por temporada):*
+    * **Dado que** el administrador ingresa al módulo de tarificación,
+    * **Cuando** define un incremento porcentual para un rango de fechas festivas y guarda los cambios,
+    * **Entonces** el motor de reservas aplica automáticamente el nuevo importe a las cotizaciones dentro de dicho periodo.
 
 ##### Épica EP-04: Check-in / Check-out Digital Express (Self-Service)
-* **Historia de Usuario:** Como **huésped**, quiero completar mi check-in y check-out autónomo desde el Portal Web de Autogestión responsivo, para reducir tiempos de espera en la recepción del hotel.
-  * **Criterio de Aceptación 4.1 (Pre-check-in digital antes del arribo):**
-    * **Dado que** un huésped con reserva confirmada accede al Portal Web de Autogestión desde el navegador de su smartphone o computadora,
-    * **Cuando** ingresa su código de reserva, valida su información de identidad y acepta el reglamento del hotel,
-    * **Entonces** el sistema registra el estado "Pre-Check-in Completado" y genera un pase digital de registro para una rápida entrega de accesos al llegar al establecimiento.
-  * **Criterio de Aceptación 4.2 (Check-out express autónomo):**
-    * **Dado que** el huésped se encuentra en su fecha de salida y accede a la sección "Check-out Express" en el portal web responsivo,
-    * **Cuando** revisa el balance de consumos adicionales, confirma el saldo y presiona "Cerrar Estadía",
-    * **Entonces** el sistema procesa el cierre, despacha el estado de la habitación a "En Limpieza Requerida" para el equipo de housekeeping y envía la factura electrónica al correo del huésped.
+
+* **HU-04.1: Pre-check-in digital autónomo**
+  * *Escenario 1 (Registro previo exitoso):*
+    * **Dado que** un huésped con reserva confirmada ingresa al Portal Web de Autogestión desde su smartphone,
+    * **Cuando** introduce su código de reserva, adjunta su documento de identidad y acepta las políticas del hotel,
+    * **Entonces** el sistema cambia su estado a "Pre-Check-in Completado" y genera un pase digital para agilizar la entrega de llaves al llegar.
+
+* **HU-04.2: Check-out express y facturación**
+  * *Escenario 1 (Cierre de estancia autónomo):*
+    * **Dado que** el huésped se encuentra en su fecha de salida y accede a "Check-out Express" en el portal web,
+    * **Cuando** valida sus consumos acumulados y presiona "Finalizar Estadía",
+    * **Entonces** el sistema marca la habitación como "Limpieza Requerida", emite la factura electrónica a su correo y cierra la cuenta del huésped.
 
 ##### Épica EP-05: Housekeeping y Mantenimiento Operativo
-* **Historia de Usuario:** Como **operario de limpieza o técnico**, quiero ver y gestionar mis tareas asignadas en un tablero Kanban operativo y registrar incidencias, para que recepción conozca la disponibilidad real en tiempo real.
-  * **Criterio de Aceptación 5.1 (Gestión de ciclo de limpieza en tablero Kanban):**
-    * **Dado que** el operario de limpieza visualiza su lista de habitaciones en la columna "Pendiente" del tablero web,
-    * **Cuando** inicia las labores de aseo y mueve la tarjeta a la columna "En Proceso",
-    * **Entonces** el sistema registra la marca de tiempo de inicio y actualiza el estado visible para supervisión a "Limpieza en Curso".
-  * **Criterio de Aceptación 5.2 (Reporte de incidencia de mantenimiento):**
-    * **Dado que** durante la inspección de la habitación el personal detecta un desperfecto físico (ej. fuga de agua o falla eléctrica),
-    * **Cuando** registra un ticket de mantenimiento detallando la avería con nivel de severidad "Crítico",
-    * **Entonces** el sistema cambia automáticamente el estado de la habitación a "Fuera de Servicio / En Mantenimiento", emite una alerta prioritaria al técnico de mantenimiento y desactiva la habitación del motor de reservas.
+
+* **HU-05.1: Tablero Kanban de limpieza**
+  * *Escenario 1 (Transición de tarea de aseo):*
+    * **Dado que** el operario de limpieza abre su tablero de tareas en la SPA Web,
+    * **Cuando** arrastra la tarjeta de una habitación de "Pendiente" a "En Proceso",
+    * **Entonces** el sistema registra el inicio de la labor y notifica al panel de recepción que el aseo se encuentra en curso.
+
+* **HU-05.2: Registro de órdenes de mantenimiento**
+  * *Escenario 1 (Reporte de desperfecto crítico):*
+    * **Dado que** el personal detecta una avería grave en una habitación,
+    * **Cuando** crea un ticket de mantenimiento adjuntando evidencia y nivel de severidad "Crítico",
+    * **Entonces** el sistema coloca la habitación en "Fuera de Servicio", emite una alerta prioritaria al técnico y deshabilita el cuarto del motor de reservas.
 
 ##### Épica EP-06: Portal de Autoservicio del Huésped
-* **Historia de Usuario:** Como **huésped**, quiero solicitar amenities o servicio a la habitación desde mi smartphone en el portal web responsivo, para no depender de llamadas o acudir presencialmente a recepción.
-  * **Criterio de Aceptación 6.1 (Solicitud de requerimientos adicionales):**
-    * **Dado que** el huésped se encuentra alojado en una habitación activa y abre la sección "Solicitudes" en el Portal de Autogestión,
-    * **Cuando** selecciona un servicio o amenidad del catálogo (ej. toallas extra o servicio a la habitación) y presiona "Solicitar",
-    * **Entonces** el sistema crea una orden de servicio asignada al área operativa correspondiente y muestra al huésped una confirmación visual con tiempo estimado de atención.
-  * **Criterio de Aceptación 6.2 (Trazabilidad del estado de solicitud):**
-    * **Dado que** el personal operativo toma la solicitud del huésped y la marca como "En Camino",
-    * **Cuando** el huésped consulta su historial de pedidos en el portal web,
-    * **Entonces** visualiza en tiempo real la actualización de estado de su solicitud hasta el cierre en "Entregado".
+
+* **HU-06.1: Solicitud digital de amenidades**
+  * *Escenario 1 (Envío de requerimiento a habitación):*
+    * **Dado que** el huésped tiene una estancia activa y entra a la sección "Servicios" del portal web responsivo,
+    * **Cuando** selecciona un ítem del catálogo (ej. toallas adicionales o servicio a la habitación) y presiona "Solicitar",
+    * **Entonces** se crea una orden de servicio asignada al área operativa y el huésped visualiza el tiempo estimado de atención.
+
+* **HU-06.2: Trazabilidad de solicitudes**
+  * *Escenario 1 (Monitoreo de estado de entrega):*
+    * **Dado que** el personal operativo toma la orden y la actualiza a "En Camino",
+    * **Cuando** el huésped revisa su historial de pedidos en el portal web,
+    * **Entonces** visualiza en tiempo real el progreso de la entrega hasta su finalización en "Atendido".
 
 ##### Épica EP-07: Dashboard Analítico e Inteligencia de Negocios
-* **Historia de Usuario:** Como **administrador**, quiero visualizar indicadores clave como RevPAR y ADR en la SPA Web Administrativa, para tomar decisiones de precios y operación con datos consolidados.
-  * **Criterio de Aceptación 7.1 (Cálculo automatizado de KPIs hoteleros):**
-    * **Dado que** el administrador accede a la vista de "Métricas y Desempeño" en la SPA Web,
-    * **Cuando** selecciona un rango de fechas mensual o semanal,
-    * **Entonces** el sistema ejecuta las consultas analíticas sobre PostgreSQL y renderiza los valores exactos de **RevPAR** (*Ingreso por Habitación Disponible*), **ADR** (*Tarifa Media Diaria*) y tasa porcentual de ocupación junto con gráficas de tendencia.
-  * **Criterio de Aceptación 7.2 (Exportación de reportes operativos):**
-    * **Dado que** las métricas han sido procesadas en pantalla,
-    * **Cuando** el usuario presiona la opción "Descargar Reporte Ejecutivo",
-    * **Entonces** el sistema compila y descarga un documento estructurado en formato PDF con la síntesis de ingresos, cuartos atendidos y promedios de ocupación del periodo.
 
-La priorización anterior se revisará de manera continua en cada ceremonia de *Sprint Planning*, considerando el avance real del equipo, los hallazgos de validación con usuarios y las restricciones académicas vigentes (sección 4.1.11).
+* **HU-07.1: Cálculo de métricas hoteleras (RevPAR/ADR)**
+  * *Escenario 1 (Cálculo consolidado de indicadores):*
+    * **Dado que** el administrador entra al módulo analítico de la SPA Web,
+    * **Cuando** selecciona un rango mensual de análisis,
+    * **Entonces** el sistema procesa los datos en PostgreSQL y renderiza los valores calculados de RevPAR, ADR y tasa de ocupación con gráficas interactivas.
+
+* **HU-07.2: Exportación de reportes ejecutivos**
+  * *Escenario 1 (Generación de reporte gerencial):*
+    * **Dado que** las métricas han sido calculadas en pantalla,
+    * **Cuando** el administrador hace clic en "Exportar Reporte Ejecutivo",
+    * **Entonces** el sistema compila y descarga un archivo en formato PDF con el resumen financiero y operativo del periodo seleccionado.
+
+---
 
 ### 4.2.2. Sprint Backlog
 
-Al cierre del **Trabajo Parcial (Semana 7 - TP1)**, el equipo concluyó formalmente la ejecución del **Sprint 3 (Semanas 5 y 6)**, alcanzando el 100% de los compromisos de alcance previstos para el hito del parcial (diseño de arquitectura web por capas, refinamiento BDD del Product Backlog, modelos de dominio DDD y prototipado responsive). Con ello, el equipo completó la retrospectiva del Sprint 3 e inicia la transición hacia el **Sprint 4 (Semanas 8 y 9)** orientado a la construcción del núcleo transaccional en backend y SPA Web.
+Al cierre del Trabajo Parcial (Semana 7 - TP1), el equipo completó la ejecución del **Sprint 3** (Semanas 5 y 6), alcanzando el 100% de los compromisos de alcance definidos para el hito del parcial (modelado de dominio DDD, especificación BDD del Product Backlog, diseño de wireframes y prototipos UI/UX para la SPA Web y el Portal de Autogestión responsivo). Con la conclusión de la ceremonia de *Sprint Review* y *Sprint Retrospective*, el equipo da por cerrado el Sprint 3 e inicia la transición hacia el **Sprint 4** (Semanas 8 y 9), enfocado en la construcción del núcleo transaccional en backend y SPA Web.
 
-**Objetivo del Sprint 3 (Concluido en TP1):** Desarrollar y validar los modelos de dominio (DDD) de los contextos de usuarios y habitaciones, refinamiento integral de historias de usuario (EP-01 a EP-07) con criterios de aceptación BDD (Gherkin), y construcción de wireframes y prototipos UI/UX de alta fidelidad para la SPA Web Administrativa y el Portal Web de Autogestión responsivo.
+**Objetivo del Sprint 3 (Concluido al 100% en TP1):** Formalizar el modelado de dominio DDD para los subdominios de habitaciones y usuarios, refinar las 14 Historias de Usuario (HU-01.1 a HU-07.2) con criterios de aceptación BDD (Gherkin), y diseñar los prototipos de alta fidelidad para la SPA Web Administrativa y el Portal Web de Autogestión responsivo.
 
-| Historia de Usuario (Backlog Item) | Tarea de Ingeniería | Responsable | Estimación (h) | Estado al Cierre TP1 |
+| Historia de Usuario Vinculada | Tarea de Ingeniería | Responsable | Estimación (h) | Estado al Cierre TP1 |
 | :--- | :--- | :--- | :---: | :---: |
-| EP-01: Autenticación JWT y roles | Modelar entidades de dominio (Usuario, Rol, Permiso) bajo principios DDD. | Oskar Rodrigo Sosa Soto | 10 | **Hecho (Done)** |
-| EP-01: Autenticación JWT y roles | Definir criterios de aceptación BDD (Gherkin) y casos de prueba de autenticación. | Ever Giusephi Carlos Lavado | 6 | **Hecho (Done)** |
-| EP-02: Estado de habitaciones en tiempo real | Modelar el agregado *Room* y sus estados válidos en el contexto de habitaciones. | Oskar Rodrigo Sosa Soto | 10 | **Hecho (Done)** |
-| EP-02: Estado de habitaciones en tiempo real | Elaborar wireframes y prototipos de alta fidelidad de la matriz de habitaciones en la SPA Web. | Augusto Sebastian Montes Maza | 8 | **Hecho (Done)** |
-| EP-03: Registro de reservas sin sobreventa | Redactar historias de usuario y criterios de aceptación BDD del motor de reservas. | Augusto Sebastian Montes Maza | 8 | **Hecho (Done)** |
-| EP-03: Registro de reservas sin sobreventa | Validar reglas de negocio de disponibilidad e invariantes de dominio con el Product Owner. | Eddo Su Caletti | 6 | **Hecho (Done)** |
-| EP-04 / EP-06: Portal de Autogestión | Diseñar prototipos responsivos para pre-check-in y solicitudes del huésped en Figma. | Augusto Sebastian Montes Maza | 8 | **Hecho (Done)** |
-| Transversal | Gestionar el tablero de Sprint en Trello, facilitar Daily Scrums y consolidar artefactos de TP1. | Italo Sebastian Verona Flores | 6 | **Hecho (Done)** |
+| **HU-01.1 & HU-01.2** | Modelar entidades y agregados de seguridad (Usuario, Rol, Permiso) bajo principios de DDD modular. | Oskar Rodrigo Sosa Soto | 10 | Hecho (Done) |
+| **HU-01.1 & HU-01.2** | Especificar contratos de API RESTful y criterios de aceptación BDD para autenticación JWT y control RBAC. | Ever Giusephi Carlos Lavado | 6 | Hecho (Done) |
+| **HU-02.1 & HU-02.2** | Modelar el agregado Room y definir la máquina de estados válidos del cuarto en el contexto de inventario. | Oskar Rodrigo Sosa Soto | 10 | Hecho (Done) |
+| **HU-02.1 & HU-05.1** | Diseñar wireframes y prototipos de alta fidelidad para la matriz de cuartos y el tablero Kanban en la SPA Web. | Augusto Sebastian Montes Maza | 8 | Hecho (Done) |
+| **HU-03.1 & HU-03.2** | Formular reglas transaccionales ACID y criterios BDD de control de sobreventa (*overbooking*) en reservas. | Augusto Sebastian Montes Maza | 8 | Hecho (Done) |
+| **HU-03.1** | Validar invariantes del agregador Booking y flujos de disponibilidad con el Product Owner. | Eddo Su Caletti | 6 | Hecho (Done) |
+| **HU-04.1 & HU-06.1** | Diseñar la interfaz responsiva del Portal Web de Autogestión (pre-check-in y solicitudes) en Figma. | Augusto Sebastian Montes Maza | 8 | Hecho (Done) |
+| **Transversal** | Facilitar ceremonias ágiles, actualizar el tablero Kanban en Trello y compilar artefactos para TP1. | Italo Sebastian Verona Flores | 6 | Hecho (Done) |
 
-El cumplimiento de estas tareas fue verificado y validado en la ceremonia de *Sprint Review* del Sprint 3 contra la Definición de Hecho (*Definition of Done - DoD*), registrándose las evidencias de diseño y criterios en el repositorio GitHub oficial y tablero Kanban del equipo.
+La totalidad de tareas del Sprint Backlog fue validada contra la Definición de Hecho (Definition of Done - DoD), garantizando código documental limpio, trazabilidad de requerimientos y consistencia con la arquitectura del sistema.
 
 ---
 
