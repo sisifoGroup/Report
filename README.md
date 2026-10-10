@@ -630,22 +630,22 @@ A continuación se documentan las entrevistas ejecutadas y los enlaces de respal
 * **Entrevista 1 (Segmento 1 - Administrador): Harold Elías**
   * **Cargo:** Administrador General de Hotel Boutique
   * **Principales Hallazgos:** Destacó la urgencia de eliminar los canales informales de comunicación interna, señalando que la falta de trazabilidad en los reportes de limpieza genera demoras operativas graves en temporada alta.
-  * **Evidencia (Video):** [Enlace de Entrevista - Harold Elías](https://drive.google.com/file/d/12lyuZ1rFmlfwf6XMRJ1KY2TvLMS-1X2F/view?usp=sharing)
+  * **Evidencia (Video):** [Enlace de Entrevista - Harold Elías](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/ESyVWXpzLu5BntGjGocrfCQBzbC6LcTyvE1fJR1lpZgD7g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=croANB)
 
 * **Entrevista 2 (Segmento 1 - Administrador): Sebastián Beingolea**
   * **Cargo:** Supervisor de Operaciones y Recepción
   * **Principales Hallazgos:** Enfatizó que los errores humanos en la actualización manual de estados de habitaciones provocan rechazos de ingresos y fricciones directas con los huéspedes al momento del check-in.
-  * **Evidencia (Video):** [Enlace de Entrevista - Sebastián Beingolea](https://drive.google.com/file/d/1tYO329oIPZzRioHkiOSQryaJTc0Mqvoe/view?usp=sharing)
+  * **Evidencia (Video):** [Enlace de Entrevista - Sebastián Beingolea](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20191c464_upc_edu_pe/EafROYDObWhKpbd2D1HKOVYBNtkLrBMdElD0yQFrdCl0ZA?e=1qSp39&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 * **Entrevista 3 (Segmento 2 - Huésped): Víctor Meneses**
   * **Perfil:** Viajero frecuente por negocios y turismo urbano.
   * **Principales Hallazgos:** Validó la necesidad de contar con un flujo de check-in digital autónomo que evite esperas en el mostrador, mostrando alto interés en un portal de autoservicio móvil.
-  * **Evidencia (Video):** [Enlace de Entrevista - Víctor Meneses](https://drive.google.com/file/d/1o6CIsZgGzd-CJmENJCDW9OiAXDcQYDyi/view?usp=sharing)
+  * **Evidencia (Video):** [Enlace de Entrevista - Víctor Meneses](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202019498_upc_edu_pe/Ecu4CtT8NWxKgN-Lk8cgX0MB0LMVwWwuwQo6Bmx0fNUlCg?e=tbxK6m&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3Dhttps://drive.google.com/file/d/1o6CIsZgGzd-CJmENJCDW9OiAXDcQYDyi/view?usp=sharing)
 
 * **Entrevista 4 (Segmento 2 - Huésped): Juan Salcedo**
   * **Perfil:** Turista internacional y usuario recurrente de alojamientos boutique.
   * **Principales Hallazgos:** Sugirió priorizar la estabilidad de la conectividad (redes Wi-Fi de alta velocidad) y recalcó que la digitalización debe ser un soporte rápido, sin desplazar por completo la asistencia humana oportuna.
-  * **Evidencia (Audio):** [Enlace de Entrevista - Juan Salcedo](https://tinyurl.com/3mv3ytt5)
+  * **Evidencia (Audio):** [Enlace de Entrevista - Juan Salcedo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201f051_upc_edu_pe/EX5Eq-XT8MdGnWsqsTcHL7MBqeTy6xG91s4YoE9WcsRY_w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0XZvvA)
 
 ---
 
