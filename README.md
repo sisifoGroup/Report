@@ -1632,6 +1632,13 @@ Para maximizar la eficiencia operativa y mantener la co-localización virtual (*
   * *Sprint Planning & Review:* Reuniones al inicio y cierre de cada ciclo para planificar el incremento y validar los resultados con el equipo.
 
 ---
+### 2.5.5. Estrategias de seguimiento de recursos
+
+El monitoreo del rendimiento y la utilización óptima de los recursos se realiza mediante mecanismos cuantitativos y cualitativos integrados en las ceremonias ágiles:
+
+* **Gráficos de Consumo (*Sprint Burndown Charts*):** Visualización diaria de las horas o puntos de esfuerzo restantes frente al tiempo ideal del sprint, permitiendo detectar desviaciones o retrasos a mitad de iteración (por ejemplo, al día 4 o 5 de 10) para reasignar esfuerzos de manera proactiva.
+* **Retrospectivas de Sprint:** Sesiones al finalizar cada iteración orientadas a la mejora continua del equipo, donde se evalúa el uso de las herramientas, la distribución de la carga de trabajo y la efectividad de la comunicación.
+* **Registro de Lecciones Aprendidas:** Documentación continua de buenas prácticas técnicas y bloqueos superados (como integración de APIs o configuración de contenedores) para acelerar la curva de aprendizaje en futuros sprints.
 
 ---
 
