@@ -1598,6 +1598,19 @@ Para garantizar la ejecución exitosa del proyecto, se han clasificado y categor
   * Documentación técnica estandarizada en formato Markdown, modelado arquitectónico con el modelo C4, guías de diseño UX (Lean UX Canvas) y repositorios de lecciones aprendidas de iteraciones anteriores.
 
 ---
+### 2.5.2. Asignación de roles y responsabilidades
+
+Bajo el marco de trabajo ágil (Scrum adaptado al contexto académico), el equipo distribuye las responsabilidades para asegurar la trazabilidad y el compromiso en cada entrega:
+
+| Integrante | Código | Rol Principal en el Proyecto | Responsabilidades Clave |
+| :--- | :--- | :--- | :--- |
+| **Verona Flores, Italo Sebastian** | U20221E617 | Frontend Lead / Arquitecto Cloud | Diseño e implementación de interfaces web/móviles (Vue.js/Flutter) y configuración de la infraestructura base en la nube. |
+| **Su Caletti, Eddo** | U20221A390 | Backend Lead / Modelado de Datos | Desarrollo de servicios backend (APIs RESTful), modelado de bases de datos y gestión de documentación técnica. |
+| **Sosa Soto, Oskar Rodrigo** | U202212214 | Full-Stack & QA Engineer | Implementación de componentes transversales, aseguramiento de la calidad (pruebas unitarias/integración) y soporte full-stack. |
+| **Carlos Lavado, Ever Giusephi** | U202224867 | Frontend Developer / Integrador | Soporte en el desarrollo de vistas de usuario, gestión de control de versiones y sincronización de componentes web. |
+| **Montes Maza, Augusto Sebastian** | U202218645 | Scrum Master / Backend Developer | Facilitación de ceremonias ágiles, seguimiento del tablero Kanban, gestión de impedimentos y desarrollo de lógica backend (.NET/Java). |
+
+---
 
 ---
 
