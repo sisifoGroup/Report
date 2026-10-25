@@ -1579,6 +1579,26 @@ Consolidando los seis Sprints del ciclo de vida completo de SmartStay (15 semana
 
 Este presupuesto total constituye la línea base de costos autorizada para el ciclo de vida completo del proyecto; cualquier variación relevante deberá registrarse mediante el procedimiento de gestión de cambios descrito en la sección 2.1.3.4.
 
+## 2.5. Agile Project Resource Management
+
+La gestión de recursos en un entorno ágil se enfoca en optimizar el talento humano, las herramientas tecnológicas y los activos de conocimiento del equipo **Sisifo**, priorizando la colaboración, la autoorganización y la flexibilidad por encima de la asignación rígida de tareas tradicional. A continuación, se detallan los componentes clave para la administración de recursos del proyecto **SmartStay**.
+
+---
+### 2.5.1. Identificación de recursos clave
+
+Para garantizar la ejecución exitosa del proyecto, se han clasificado y categorizado los recursos indispensables con los que cuenta la startup **Sisifo**:
+
+* **Recursos Humanos (Equipo de Desarrollo e Ingeniería):**
+  * Conformado por los cinco (5) estudiantes de Ingeniería de Software de la UPC, quienes asumen de forma multidisciplinaria roles técnicos (desarrollo frontend, backend, bases de datos, arquitectura y control de calidad QA) y de gestión ágil.
+* **Recursos Tecnológicos e Infraestructura:**
+  * **Entornos de Desarrollo y Control de Versiones:** Repositorios centralizados en la organización de GitHub (`sisifoGroup`), control de ramas mediante GitFlow, y uso de entornos de desarrollo integrados como WebStorm y Visual Studio Code.
+  * **Infraestructura en la Nube:** Capas gratuitas y créditos de prueba en proveedores cloud (AWS/Azure/GCP) para el despliegue de microservicios y bases de datos relacionales/no relacionales.
+  * **Herramientas de Colaboración y Gestión:** Tablero Kanban en Trello para el seguimiento de historias de usuario y tareas del *Product Backlog*.
+* **Recursos de Conocimiento y Documentación:**
+  * Documentación técnica estandarizada en formato Markdown, modelado arquitectónico con el modelo C4, guías de diseño UX (Lean UX Canvas) y repositorios de lecciones aprendidas de iteraciones anteriores.
+
+---
+
 ---
 
 <div style="page-break-after: always;"></div>
