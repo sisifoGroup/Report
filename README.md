@@ -1621,6 +1621,17 @@ La capacidad del equipo se dimensiona por iteración (Sprint de 2 semanas), cons
 
 ---
 
+### 2.5.4. Planificación del uso de herramientas
+
+Para maximizar la eficiencia operativa y mantener la co-localización virtual (*virtual colocation*), el uso de herramientas se encuentra estructurado en canales síncronos y asíncronos:
+
+* **Gestión de Tareas y Flujo (Trello):** Visualización del estado de las tareas mediante columnas (*To Do, In Progress, Code Review, Done*) y aplicación de límites de trabajo en curso (*WIP Limits*) para evitar cuellos de botella individuales.
+* **Control de Código y Documentación (GitHub):** Uso estricto de *Pull Requests* (PR) con revisiones cruzadas obligatorias antes de fusionar código a la rama `main` o `develop`, asegurando que al menos un compañero valide los cambios.
+* **Comunicación Síncrona (Discord y Google Meet):**
+  * *Daily Standups (Asincrónicas/Síncronas breves):* Actualización diaria de avances, impedimentos y metas del día.
+  * *Sprint Planning & Review:* Reuniones al inicio y cierre de cada ciclo para planificar el incremento y validar los resultados con el equipo.
+
+---
 
 ---
 
