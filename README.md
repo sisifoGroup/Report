@@ -1611,6 +1611,16 @@ Bajo el marco de trabajo ágil (Scrum adaptado al contexto académico), el equip
 | **Montes Maza, Augusto Sebastian** | U202218645 | Scrum Master / Backend Developer | Facilitación de ceremonias ágiles, seguimiento del tablero Kanban, gestión de impedimentos y desarrollo de lógica backend (.NET/Java). |
 
 ---
+### 2.5.3. Gestión de capacidad del equipo (*Team Capacity Planning*)
+
+La capacidad del equipo se dimensiona por iteración (Sprint de 2 semanas), considerando las restricciones del ciclo académico (como semanas de exámenes parciales y entregas de otros cursos):
+
+* **Disponibilidad Horaria:** Cada integrante destina un promedio de 6 a 8 horas semanales al desarrollo técnico, documentación y ceremonias del proyecto, totalizando una capacidad estimada de 30 a 40 horas por sprint a nivel grupal.
+* **Velocidad y Puntos de Historia:** La estimación del esfuerzo de las historias de usuario se realiza mediante *Planning Poker*, asignando *Story Points* (SP) en función de la complejidad técnica. Se establece una velocidad promedio inicial de 15 a 18 SP por sprint, ajustándose dinámicamente según la carga académica del periodo.
+* **Mitigación de Sobrecarga:** Ante picos de evaluación (por ejemplo, el examen parcial), el *Product Owner* y el equipo realizan un re-refinamiento del *Product Backlog* para reducir el alcance (*scope adjustment*) del sprint en curso, priorizando el valor mínimo viable sin comprometer la calidad.
+
+---
+
 
 ---
 
