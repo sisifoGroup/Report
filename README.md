@@ -74,8 +74,8 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
      * 1.2.1. [Nombre del Producto](#121-nombre-del-producto)
      * 1.2.2. [Antecedentes y Problemática (Técnica 5W2H)](#122-antecedentes-y-problemática-técnica-5w2h)
      * 1.2.3. [Lean UX Process](#123-lean-ux-process)
-       * 1.2.1.1. [Lean UX Problem Statement](#1231-lean-ux-problem-statement)
-       * 1.2.1.2. [Lean UX Assumptions](#1232-lean-ux-assumptions)
+       * 1.2.3.1. [Lean UX Problem Statement](#1231-lean-ux-problem-statement)
+       * 1.2.3.2. [Lean UX Assumptions](#1232-lean-ux-assumptions)
        * 1.2.3.3. [Lean UX Hypothesis](#1233-lean-ux-hypothesis)
        * 1.2.3.4. [Lean UX Canvas](#1234-lean-ux-canvas)
      * 1.2.4. [Propuesta de Valor](#124-propuesta-de-valor)
@@ -87,28 +87,25 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
        * 1.2.7.3. [Análisis de Entrevistas](#1273-análisis-de-entrevistas)
 2. [Capítulo II: Gestión de Áreas de Conocimiento Agile](#capítulo-ii-gestión-de-áreas-de-conocimiento-agile)
    * 2.1. [Agile Project Integration Management: Project Charter](#21-agile-project-integration-management-project-charter)
-     * 2.1.1. [Resumen Ejecutivo](#211-resumen-ejecutivo)
-     * 2.1.2. [Nombre del Proyecto](#212-nombre-del-proyecto)
-     * 2.1.3. [Autoridades](#213-autoridades)
-     * 2.1.4. [Autoridad Iniciadora](#214-autoridad-iniciadora)
-     * 2.1.5. [Project Manager](#215-project-manager)
-     * 2.1.6. [Necesidades del Negocio](#216-necesidades-del-negocio)
-     * 2.1.7. [Descripción del Proyecto](#217-descripción-del-proyecto)
-     * 2.1.8. [Características del Producto/Servicio](#218-características-del-productoservicio)
-     * 2.1.9. [Relación del Proyecto con la Necesidad Comercial](#219-relación-del-proyecto-con-la-necesidad-comercial)
-     * 2.1.10. [Supuestos](#2110-supuestos)
-     * 2.1.11. [Restricciones](#2111-restricciones)
-     * 2.1.12. [Eventos de Riesgo](#2112-eventos-de-riesgo)
-     * 2.1.13. [Aprobaciones](#2113-aprobaciones)
    * 2.2. [Agile Project Scope Management](#22-agile-project-scope-management)
      * 2.2.1. [Product Backlog](#221-product-backlog)
      * 2.2.2. [Sprint Backlog](#222-sprint-backlog)
-     * 2.2.3. [Estrategias de Calidad y Definition of Done (DoD)](#223-estrategias-de-calidad-y-definition-of-done-dod)
    * 2.3. [Agile Project Schedule Management](#23-agile-project-schedule-management)
-     * 2.1.1. [Planificación de Sprints](#231-planificación-de-sprints)
-     * 2.1.2. [Cronograma de Entregables](#232-cronograma-de-entregables)
+     * 2.3.1. [Planificación de Sprints](#231-planificación-de-sprints)
+     * 2.3.2. [Cronograma de Entregables](#232-cronograma-de-entregables)
    * 2.4. [Agile Project Cost Management](#24-agile-project-cost-management)
-     * 2.2.1. [Estimación de Costos](#241-estimación-de-costos)
+     * 2.4.1. [Estimación de Costos](#241-estimación-de-costos)
+     * 2.4.2. [Presupuesto Total del Proyecto](#242-presupuesto-total-del-proyecto)
+   * 2.5. [Agile Project Quality Management](#25-agile-project-quality-management)
+     * 2.5.1. [Estrategias de Calidad](#251-estrategias-de-calidad)
+     * 2.5.2. [Definition of Done (DoD)](#252-definition-of-done-dod)
+     * 2.5.3. [Criterios de Aceptación de Historias](#253-criterios-de-aceptación-de-historias)
+   * 2.6. [Agile Project Resource Management](#26-agile-project-resource-management)
+     * 2.6.1. [Identificación de recursos clave](#261-identificación-de-recursos-clave)
+     * 2.6.2. [Asignación de roles y responsabilidades](#262-asignación-de-roles-y-responsabilidades)
+     * 2.6.3. [Gestión de capacidad del equipo](#263-gestión-de-capacidad-del-equipo)
+     * 2.6.4. [Planificación del uso de herramientas](#264-planificación-del-uso-de-herramientas)
+     * 2.6.5. [Estrategias de seguimiento de recursos](#265-estrategias-de-seguimiento-de-recursos)
 3. [Bibliografía](#bibliografia)
 
 <div style="page-break-after: always;"></div>
@@ -1300,6 +1297,185 @@ El Product Owner (Eddo Su Caletti) gestiona y prioriza el Product Backlog evalua
 | **HU-07.1** | EP-07: Dashboard Analítico | **Cálculo de métricas hoteleras (RevPAR/ADR):** Como administrador, quiero consultar indicadores de rendimiento en la SPA Web para evaluar la rentabilidad del hotel con datos consolidados. | Could | 5 |
 | **HU-07.2** | EP-07: Dashboard Analítico | **Exportación de reportes ejecutivos:** Como administrador, quiero descargar informes de ocupación e ingresos en formato PDF para respaldar la toma de decisiones gerenciales. | Could | 3 |
 
+---
+
+### 2.2.2. Sprint Backlog
+
+Al cierre del Trabajo Parcial (Semana 7 - TP1), el equipo completó la ejecución del **Sprint 3** (Semanas 5 y 6), alcanzando el 100% de los compromisos de alcance definidos para el hito del parcial (modelado de dominio DDD, especificación BDD del Product Backlog, diseño de wireframes y prototipos UI/UX para la SPA Web y el Portal de Autogestión responsivo). Con la conclusión de la ceremonia de *Sprint Review* y *Sprint Retrospective*, el equipo da por cerrado el Sprint 3 e inicia la transición hacia el **Sprint 4** (Semanas 8 y 9), enfocado en la construcción del núcleo transaccional en backend y SPA Web.
+
+**Objetivo del Sprint 3 (Concluido al 100% en TP1):** Formalizar el modelado de dominio DDD para los subdominios de habitaciones y usuarios, refinar las 14 Historias de Usuario (HU-01.1 a HU-07.2) con criterios de aceptación BDD (Gherkin), y diseñar los prototipos de alta fidelidad para la SPA Web Administrativa y el Portal Web de Autogestión responsivo.
+
+| Historia de Usuario Vinculada | Tarea de Ingeniería | Responsable | Estimación (h) | Estado al Cierre TP1 |
+| :--- | :--- | :--- | :---: | :---: |
+| **HU-01.1 & HU-01.2** | Modelar entidades y agregados de seguridad (Usuario, Rol, Permiso) bajo principios de DDD modular. | Oskar Rodrigo Sosa Soto | 10 | Hecho (Done) |
+| **HU-01.1 & HU-01.2** | Especificar contratos de API RESTful y criterios de aceptación BDD para autenticación JWT y control RBAC. | Ever Giusephi Carlos Lavado | 6 | Hecho (Done) |
+| **HU-02.1 & HU-02.2** | Modelar el agregado Room y definir la máquina de estados válidos del cuarto en el contexto de inventario. | Oskar Rodrigo Sosa Soto | 10 | Hecho (Done) |
+| **HU-02.1 & HU-05.1** | Diseñar wireframes y prototipos de alta fidelidad para la matriz de cuartos y el tablero Kanban en la SPA Web. | Augusto Sebastian Montes Maza | 8 | Hecho (Done) |
+| **HU-03.1 & HU-03.2** | Formular reglas transaccionales ACID y criterios BDD de control de sobreventa (*overbooking*) en reservas. | Augusto Sebastian Montes Maza | 8 | Hecho (Done) |
+| **HU-03.1** | Validar invariantes del agregador Booking y flujos de disponibilidad con el Product Owner. | Eddo Su Caletti | 6 | Hecho (Done) |
+| **HU-04.1 & HU-06.1** | Diseñar la interfaz responsiva del Portal Web de Autogestión (pre-check-in y solicitudes) en Figma. | Augusto Sebastian Montes Maza | 8 | Hecho (Done) |
+| **Transversal** | Facilitar ceremonias ágiles, actualizar el tablero Kanban en Trello y compilar artefactos para TP1. | Italo Sebastian Verona Flores | 6 | Hecho (Done) |
+
+La totalidad de tareas del Sprint Backlog fue validada contra la Definición de Hecho (Definition of Done - DoD), garantizando código documental limpio, trazabilidad de requerimientos y consistencia con la arquitectura del sistema.
+
+---
+
+## 2.3. Agile Project Schedule Management
+
+La gestión del cronograma de **SmartStay** se ejecuta mediante Sprints quincenales de alcance fijo (*timeboxing*), donde la planificación se realiza al inicio de cada iteración (*Sprint Planning*) sobre la base de la capacidad real del equipo y la prioridad vigente del Product Backlog (sección 2.2.1).
+
+### 2.3.1. Planificación de Sprints
+
+**Metodología de planificación:** al inicio de cada Sprint (*Sprint Planning*), el Product Owner presenta las historias de mayor prioridad del Product Backlog (sección 2.2.1) y el equipo técnico estima su esfuerzo en Story Points mediante **Planning Poker**. La capacidad de referencia del equipo es de **150 horas-persona por Sprint** (5 integrantes × 30 horas quincenales), equivalente a una capacidad objetivo de entre **18 y 21 Story Points por Sprint**, según la complejidad técnica de las historias seleccionadas.
+
+**Herramienta de gestión:** el equipo utiliza un tablero **Trello** con columnas *Backlog*, *Por Hacer*, *En Progreso*, *En Revisión* y *Hecho*, donde cada tarjeta corresponde a una historia de usuario o tarea de ingeniería del Sprint Backlog, con su responsable y etiqueta de prioridad asignados.
+
+**Justificación de la duración del Sprint (2 semanas):** se adoptó un Sprint quincenal en lugar de semanal porque la disponibilidad real del equipo es de 15 horas semanales por integrante (estudiantes a tiempo parcial), lo que exige un periodo más amplio para completar incrementos de software verificables (código, pruebas y documentación) sin comprometer la calidad; y en lugar de mensual, porque un ciclo más corto permite mayor frecuencia de retroalimentación del Product Owner y alineación con el calendario quincenal de entregables académicos (TB1, TB2, TP1, TB3, TF).
+
+Con el cierre del Sprint 3 (hito TP1), el equipo inicia la ejecución de los Sprints 4 y 5, que constituyen el alcance formal de la presente entrega **TB3**:
+
+**Sprint 4 (Semanas 8 y 9) — Objetivo:** Construir el núcleo transaccional del sistema (seguridad, inventario de habitaciones y motor de reservas) sobre la arquitectura monolítica por capas, con persistencia en PostgreSQL y pruebas unitarias.
+
+| Historia de Usuario | Prioridad (MoSCoW) | Story Points | Tarea de Ingeniería | Responsable | Estimación (h) |
+| :--- | :---: | :---: | :--- | :--- | :---: |
+| HU-01.1 / HU-01.2 | Must | 3 / 2 | Implementar autenticación JWT y middleware de control de acceso RBAC. | Oskar Rodrigo Sosa Soto | 20 |
+| HU-02.1 / HU-02.2 | Must | 5 / 3 | Implementar el agregado Room, persistencia en PostgreSQL y endpoints de matriz de habitaciones. | Oskar Rodrigo Sosa Soto | 30 |
+| HU-03.1 / HU-03.2 | Must | 5 / 3 | Implementar el motor de reservas transaccional (control ACID de sobreventa) y tarifas estacionales. | Ever Giusephi Carlos Lavado | 30 |
+| Transversal | Must | — | Elaborar pruebas unitarias de los módulos de seguridad, habitaciones y reservas. | Ever Giusephi Carlos Lavado | 20 |
+| Transversal | Must | — | Validar los incrementos contra los criterios de aceptación BDD y el Product Backlog. | Eddo Su Caletti | 20 |
+| Transversal | Should | — | Facilitar ceremonias ágiles (Daily, Review, Retrospective) y actualizar el tablero Trello. | Italo Sebastian Verona Flores | 15 |
+| Transversal | Should | — | Documentar el avance técnico y actualizar el informe del proyecto. | Augusto Sebastian Montes Maza | 15 |
+| **Total planificado** | | **21 pts** | | | **150 h** |
+
+**Sprint 5 (Semanas 11 y 12) — Objetivo:** Implementar el módulo operativo de Housekeeping, el portal web responsivo de autoservicio para huéspedes y habilitar la integración continua de componentes.
+
+| Historia de Usuario | Prioridad (MoSCoW) | Story Points | Tarea de Ingeniería | Responsable | Estimación (h) |
+| :--- | :---: | :---: | :--- | :--- | :---: |
+| HU-05.1 / HU-05.2 | Must | 5 / 3 | Implementar el tablero Kanban de Housekeeping y el registro de órdenes de mantenimiento. | Oskar Rodrigo Sosa Soto | 30 |
+| HU-04.1 / HU-04.2 | Should | 3 / 2 | Implementar el flujo de pre-check-in y check-out digital en el portal de autogestión. | Ever Giusephi Carlos Lavado | 25 |
+| HU-06.1 / HU-06.2 | Should | 3 / 2 | Implementar la solicitud de amenidades y la trazabilidad de pedidos del huésped. | Augusto Sebastian Montes Maza | 25 |
+| Transversal | Must | — | Configurar el pipeline de integración continua (GitHub Actions) para pruebas automatizadas. | Oskar Rodrigo Sosa Soto | 15 |
+| Transversal | Must | — | Validar incrementos contra criterios BDD y priorizar ajustes del Product Backlog. | Eddo Su Caletti | 20 |
+| Transversal | Should | — | Facilitar ceremonias ágiles y dar seguimiento al tablero Trello. | Italo Sebastian Verona Flores | 15 |
+| Transversal | Should | — | Compilar evidencias, actualizar el Registro de Versiones y el Student Outcome. | Augusto Sebastian Montes Maza | 20 |
+| **Total planificado** | | **18 pts** | | | **150 h** |
+
+### 2.3.2. Cronograma de Entregables
+
+El cronograma de entregables articula los hitos académicos oficiales del curso con los archivos exigidos por la rúbrica, el impacto de cada entrega en el avance del proyecto y el mecanismo utilizado para dar seguimiento a su cumplimiento, siguiendo la nomenclatura obligatoria `upc-pre-202620-1asi0722-<nrc>-sisifo-<tipo>-<entrega>`:
+
+| Entrega | Fecha Compromiso | Archivos Exigidos | Impacto en el Proyecto | Mecanismo de Seguimiento |
+| :---: | :---: | :--- | :--- | :--- |
+| **TB1** | Semana 3 (Septiembre 2026) | Informe de proyecto (.docx y .pdf) | Valida el Startup y Solution Profile; sin esta base, el equipo no puede iniciar el Project Charter. | Tarjeta "TB1" en Trello + commit tag `v-tb1` en GitHub. |
+| **TB2** | Semana 5 (Septiembre 2026) | Informe de proyecto (.docx y .pdf) | Formaliza el Project Charter; autoriza la ejecución de los Sprints de construcción (4-6). | Tarjeta "TB2" en Trello + release etiquetado en GitHub Actions. |
+| **TP1** | Semana 7 (Octubre 2026) | Informe de proyecto (.docx y .pdf) | Consolida el Product Backlog y los prototipos; condiciona el alcance técnico que se construirá en TB3. | Tarjeta "TP1" en Trello + ejecución de `scripts/verify_report.py`. |
+| **TB3** | Semana 10-12 (Noviembre 2026) | Informe de proyecto (.docx y .pdf), presentación Power Point (.pptx y .pdf), documento de informe de participación (.docx y .pdf), archivo .zip con complementarios | Entrega el primer y segundo incremento funcional de software (Sprints 4 y 5); valida que el núcleo transaccional y Housekeeping operan según el DoD. | Tablero Trello (Sprints 4-5) + pipeline `report.yml` + script de auditoría pre-entrega. |
+| **TF (Trabajo Final)** | Semana 15 (Diciembre 2026) | Informe final (.docx y .pdf), presentación (.pptx y .pdf), informe de participación, video de exposición (.mp4, máx. 15 min) y .zip de complementarios | Cierra el ciclo de vida del proyecto con la solución integral y las lecciones aprendidas del equipo. | Tablero Trello (Sprint 6) + release final en GitHub + grabación del video de exposición. |
+
+> **Nota de cumplimiento:** conforme a las condiciones del enunciado del TB3, no se admiten envíos mediante rutas o enlaces externos; la totalidad de los archivos de cada entrega debe cargarse directamente en el aula virtual, respetando la nomenclatura indicada.
+
+---
+
+## 2.4. Agile Project Cost Management
+
+### 2.4.1. Estimación de Costos
+
+La estimación de costos de **SmartStay** parte de la línea base de alto nivel definida en el Project Charter (sección 2.1.4.4) y se refina mediante una técnica de **estimación ascendente (*bottom-up*)**: el esfuerzo de cada historia se estima en Story Points mediante **Planning Poker** (sección 2.3.1), se traduce a horas de ingeniería según la capacidad real del equipo (150 horas-persona por Sprint) y se valoriza con la tarifa referencial de mercado.
+
+**Tarifas simuladas por rol:** dado que los 5 integrantes rotan de funciones según la carga de cada Sprint (sección 2.1.3.1), el equipo aplica una tarifa uniforme para un perfil junior/practicante en todos los roles, evitando distorsionar la estimación por una especialización que aún no es fija:
+
+| Rol | Tarifa Referencial (USD/hora) |
+| :--- | :---: |
+| Project Manager y facilitador ágil | $15.00 |
+| Product Owner | $15.00 |
+| Responsable de arquitectura y coordinación técnica | $15.00 |
+| Responsable de calidad e integración | $15.00 |
+| Responsable de análisis de negocio y requerimientos | $15.00 |
+
+**Riesgos que afectan la estimación de costos:** el riesgo RSK-03 (*scope creep*, sección 2.1.12) es el principal factor que puede incrementar el costo real respecto a lo estimado, al incorporar historias no priorizadas que consumen horas no presupuestadas; este riesgo se absorbe mediante la reserva de contingencia definida en el Presupuesto Total del Proyecto.
+
+**Costo de ingeniería por Sprint:** 150 horas × $15.00 USD/hora = **$2,250.00 USD** por Sprint (valorización comercial simulada; costo real desembolsado $0.00, al ser aportado por el equipo promotor).
+
+**Costo de ingeniería específico de la entrega TB3 (Sprints 4 y 5):**
+
+| Sprint | Story Points Planificados | Horas-Persona | Costo de Ingeniería (Simulado) |
+| :---: | :---: | :---: | :---: |
+| **Sprint 4** | 21 pts | 150 h | $2,250.00 USD |
+| **Sprint 5** | 18 pts | 150 h | $2,250.00 USD |
+| **Subtotal TB3** | 39 pts | 300 h | **$4,500.00 USD** |
+
+A este subtotal se añade la proporción correspondiente de infraestructura cloud y herramientas de gestión durante el periodo de los Sprints 4 y 5 (un mes calendario, sección 2.1.4.4-A y 2.1.4.4-B): $50.00 USD (infraestructura) + $46.00 USD (herramientas) = **$96.00 USD**, resultando en un costo total simulado de **$4,596.00 USD** para la presente entrega.
+
+### 2.4.2. Presupuesto Total del Proyecto
+
+Consolidando los seis Sprints del ciclo de vida completo de SmartStay (15 semanas académicas) y aplicando una **reserva de contingencia del 10%** sobre el presupuesto base —recomendada por PMI-ACP para proyectos ágiles ante el riesgo de *scope creep* (RSK-03, sección 2.1.12)—, el presupuesto total del proyecto queda establecido de la siguiente manera:
+
+**Distribución del Capital Humano por Sprint y Fase:**
+
+| Fase | Sprints | Entregable Asociado | Costo de Ingeniería (Simulado) |
+| :--- | :---: | :---: | :---: |
+| Formulación | Sprint 1, 2 y 3 | TB1, TB2, TP1 | $6,750.00 USD |
+| Construcción | Sprint 4 y 5 | TB3 | $4,500.00 USD |
+| Cierre | Sprint 6 | TF | $2,250.00 USD |
+| **Subtotal Capital Humano (6 Sprints)** | | | **$13,500.00 USD** |
+
+**Distribución del Presupuesto Base por Categoría:**
+
+| Categoría | Costo (Simulado) | % del Presupuesto Base |
+| :--- | :---: | :---: |
+| Desarrollo (arquitectura, backend y frontend) | $8,100.00 USD | 58.5% |
+| Pruebas y Aseguramiento de Calidad (QA) | $2,700.00 USD | 19.5% |
+| Gestión y Documentación (PM / Análisis de Negocio) | $2,700.00 USD | 19.5% |
+| Infraestructura Cloud y Herramientas (sección 2.1.4.4-A/B) | $336.00 USD | 2.4% |
+| **Presupuesto Base Total** | **$13,836.00 USD** | **100%** |
+
+**Consolidado Final:**
+
+| Rubro Presupuestal | Costo Real Desembolsado | Costo Comercial Simulado |
+| :--- | :---: | :---: |
+| Presupuesto base consolidado (sección 2.1.4.4-D) | $0.00 USD | $13,836.00 USD |
+| Reserva de contingencia (10%, ante riesgos RSK-01 a RSK-07) | $0.00 USD | $1,383.60 USD |
+| **PRESUPUESTO TOTAL DEL PROYECTO** | **$0.00 USD** | **$15,219.60 USD** |
+
+Este presupuesto total constituye la línea base de costos autorizada para el ciclo de vida completo del proyecto; cualquier variación relevante deberá registrarse mediante el procedimiento de gestión de cambios descrito en la sección 2.1.3.4.
+
+---
+
+## 2.5. Agile Project Quality Management
+
+### 2.5.1. Estrategias de Calidad
+
+La calidad de **SmartStay** se gestiona de forma continua e integrada al flujo de trabajo (*Built-in Quality*), en lugar de reservarse como una fase final de verificación. El equipo aplica las siguientes estrategias a lo largo de cada Sprint:
+
+| Estrategia | Herramienta Específica | Momento de Aplicación |
+| :--- | :--- | :--- |
+| **Desarrollo guiado por pruebas (TDD):** el equipo redacta primero la prueba unitaria sobre la regla de negocio del dominio y luego implementa el código mínimo que la satisface (ciclo *red-green-refactor*). | Framework de pruebas unitarias del stack backend (ej. xUnit/JUnit/Jest, según el lenguaje adoptado por el equipo). | Durante la implementación de cada tarea de backend, antes de abrir el Pull Request. |
+| **Revisión por pares (Code Review):** todo cambio se integra mediante *Pull Requests*, revisados por al menos un integrante distinto al autor. | GitHub Pull Requests y GitFlow. | Antes de fusionar cualquier rama a `main`/`develop`. |
+| **Pruebas automatizadas de integración:** validación de los endpoints RESTful críticos (autenticación, reservas, estados de habitación) de extremo a extremo. | Suite de pruebas de integración ejecutada vía GitHub Actions. | Al finalizar cada historia de usuario, antes de marcarla como "Hecho". |
+| **Verificación de criterios de aceptación (BDD):** cada historia se valida contra los escenarios *Given-When-Then* de la sección 2.5.3. | Especificaciones Gherkin documentadas en el Product Backlog. | Durante la *Sprint Review*, como condición para aceptar el incremento. |
+| **Auditoría pre-entrega automatizada:** validación de integridad de enlaces, consistencia arquitectónica y compilación del informe. | `scripts/verify_report.py` y pipeline GitHub Actions (`report.yml`). | Antes de cada entrega oficial (TB1, TB2, TP1, TB3, TF). |
+| **Retrospectiva de calidad:** revisión de defectos detectados y ajuste de prácticas de ingeniería. | *Sprint Retrospective* (Trello + reunión de equipo). | Al cierre de cada Sprint. |
+
+---
+
+### 2.5.2. Definition of Done (DoD)
+
+Una historia de usuario o tarea de ingeniería se considera **Hecha (Done)** únicamente cuando cumple, de manera verificable, con la totalidad de los siguientes criterios:
+
+1. El código fuente está implementado, integrado a la rama principal y libre de errores de compilación o advertencias críticas.
+2. Los criterios de aceptación BDD (*Given-When-Then*) definidos para la historia fueron validados manualmente o mediante pruebas automatizadas.
+3. Las pruebas unitarias y/o de integración relevantes fueron ejecutadas y aprobadas.
+4. El cambio fue revisado por pares (*Code Review*) y aprobado mediante Pull Request en GitHub.
+5. La documentación técnica y el informe del proyecto (README.md) fueron actualizados para reflejar el cambio, cuando corresponda.
+6. No existen defectos abiertos de severidad "Crítica" o "Alta" asociados a la funcionalidad entregada.
+7. El Product Owner (Eddo Su Caletti) validó que el resultado satisface el valor de negocio esperado por la historia de usuario.
+
+Solo las historias que satisfacen íntegramente esta Definición de Hecho se contabilizan dentro de la velocidad real del equipo y se presentan como incremento de producto en la *Sprint Review*.
+
+---
+
+### 2.5.3. Criterios de Aceptación de Historias
+
 #### Especificación de Criterios de Aceptación en Formato BDD (Behavior-Driven Development / Gherkin)
 
 ##### Épica EP-01: Seguridad y Control de Acceso (RBAC)
@@ -1410,181 +1586,12 @@ El Product Owner (Eddo Su Caletti) gestiona y prioriza el Product Backlog evalua
 
 ---
 
-### 2.2.2. Sprint Backlog
-
-Al cierre del Trabajo Parcial (Semana 7 - TP1), el equipo completó la ejecución del **Sprint 3** (Semanas 5 y 6), alcanzando el 100% de los compromisos de alcance definidos para el hito del parcial (modelado de dominio DDD, especificación BDD del Product Backlog, diseño de wireframes y prototipos UI/UX para la SPA Web y el Portal de Autogestión responsivo). Con la conclusión de la ceremonia de *Sprint Review* y *Sprint Retrospective*, el equipo da por cerrado el Sprint 3 e inicia la transición hacia el **Sprint 4** (Semanas 8 y 9), enfocado en la construcción del núcleo transaccional en backend y SPA Web.
-
-**Objetivo del Sprint 3 (Concluido al 100% en TP1):** Formalizar el modelado de dominio DDD para los subdominios de habitaciones y usuarios, refinar las 14 Historias de Usuario (HU-01.1 a HU-07.2) con criterios de aceptación BDD (Gherkin), y diseñar los prototipos de alta fidelidad para la SPA Web Administrativa y el Portal Web de Autogestión responsivo.
-
-| Historia de Usuario Vinculada | Tarea de Ingeniería | Responsable | Estimación (h) | Estado al Cierre TP1 |
-| :--- | :--- | :--- | :---: | :---: |
-| **HU-01.1 & HU-01.2** | Modelar entidades y agregados de seguridad (Usuario, Rol, Permiso) bajo principios de DDD modular. | Oskar Rodrigo Sosa Soto | 10 | Hecho (Done) |
-| **HU-01.1 & HU-01.2** | Especificar contratos de API RESTful y criterios de aceptación BDD para autenticación JWT y control RBAC. | Ever Giusephi Carlos Lavado | 6 | Hecho (Done) |
-| **HU-02.1 & HU-02.2** | Modelar el agregado Room y definir la máquina de estados válidos del cuarto en el contexto de inventario. | Oskar Rodrigo Sosa Soto | 10 | Hecho (Done) |
-| **HU-02.1 & HU-05.1** | Diseñar wireframes y prototipos de alta fidelidad para la matriz de cuartos y el tablero Kanban en la SPA Web. | Augusto Sebastian Montes Maza | 8 | Hecho (Done) |
-| **HU-03.1 & HU-03.2** | Formular reglas transaccionales ACID y criterios BDD de control de sobreventa (*overbooking*) en reservas. | Augusto Sebastian Montes Maza | 8 | Hecho (Done) |
-| **HU-03.1** | Validar invariantes del agregador Booking y flujos de disponibilidad con el Product Owner. | Eddo Su Caletti | 6 | Hecho (Done) |
-| **HU-04.1 & HU-06.1** | Diseñar la interfaz responsiva del Portal Web de Autogestión (pre-check-in y solicitudes) en Figma. | Augusto Sebastian Montes Maza | 8 | Hecho (Done) |
-| **Transversal** | Facilitar ceremonias ágiles, actualizar el tablero Kanban en Trello y compilar artefactos para TP1. | Italo Sebastian Verona Flores | 6 | Hecho (Done) |
-
-La totalidad de tareas del Sprint Backlog fue validada contra la Definición de Hecho (Definition of Done - DoD), garantizando código documental limpio, trazabilidad de requerimientos y consistencia con la arquitectura del sistema.
-
----
-
-### 2.2.3. Estrategias de Calidad y Definition of Done (DoD)
-
-La calidad de **SmartStay** se gestiona de forma continua e integrada al flujo de trabajo (*Built-in Quality*), en lugar de reservarse como una fase final de verificación. El equipo aplica las siguientes estrategias a lo largo de cada Sprint:
-
-| Estrategia | Herramienta Específica | Momento de Aplicación |
-| :--- | :--- | :--- |
-| **Desarrollo guiado por pruebas (TDD):** el equipo redacta primero la prueba unitaria sobre la regla de negocio del dominio y luego implementa el código mínimo que la satisface (ciclo *red-green-refactor*). | Framework de pruebas unitarias del stack backend (ej. xUnit/JUnit/Jest, según el lenguaje adoptado por el equipo). | Durante la implementación de cada tarea de backend, antes de abrir el Pull Request. |
-| **Revisión por pares (Code Review):** todo cambio se integra mediante *Pull Requests*, revisados por al menos un integrante distinto al autor. | GitHub Pull Requests y GitFlow. | Antes de fusionar cualquier rama a `main`/`develop`. |
-| **Pruebas automatizadas de integración:** validación de los endpoints RESTful críticos (autenticación, reservas, estados de habitación) de extremo a extremo. | Suite de pruebas de integración ejecutada vía GitHub Actions. | Al finalizar cada historia de usuario, antes de marcarla como "Hecho". |
-| **Verificación de criterios de aceptación (BDD):** cada historia se valida contra los escenarios *Given-When-Then* de la sección 2.2.1. | Especificaciones Gherkin documentadas en el Product Backlog. | Durante la *Sprint Review*, como condición para aceptar el incremento. |
-| **Auditoría pre-entrega automatizada:** validación de integridad de enlaces, consistencia arquitectónica y compilación del informe. | `scripts/verify_report.py` y pipeline GitHub Actions (`report.yml`). | Antes de cada entrega oficial (TB1, TB2, TP1, TB3, TF). |
-| **Retrospectiva de calidad:** revisión de defectos detectados y ajuste de prácticas de ingeniería. | *Sprint Retrospective* (Trello + reunión de equipo). | Al cierre de cada Sprint. |
-
-#### Definition of Done (DoD)
-
-Una historia de usuario o tarea de ingeniería se considera **Hecha (Done)** únicamente cuando cumple, de manera verificable, con la totalidad de los siguientes criterios:
-
-1. El código fuente está implementado, integrado a la rama principal y libre de errores de compilación o advertencias críticas.
-2. Los criterios de aceptación BDD (*Given-When-Then*) definidos para la historia fueron validados manualmente o mediante pruebas automatizadas.
-3. Las pruebas unitarias y/o de integración relevantes fueron ejecutadas y aprobadas.
-4. El cambio fue revisado por pares (*Code Review*) y aprobado mediante Pull Request en GitHub.
-5. La documentación técnica y el informe del proyecto (README.md) fueron actualizados para reflejar el cambio, cuando corresponda.
-6. No existen defectos abiertos de severidad "Crítica" o "Alta" asociados a la funcionalidad entregada.
-7. El Product Owner (Eddo Su Caletti) validó que el resultado satisface el valor de negocio esperado por la historia de usuario.
-
-Solo las historias que satisfacen íntegramente esta Definición de Hecho se contabilizan dentro de la velocidad real del equipo y se presentan como incremento de producto en la *Sprint Review*.
-
----
-
-## 2.3. Agile Project Schedule Management
-
-La gestión del cronograma de **SmartStay** se ejecuta mediante Sprints quincenales de alcance fijo (*timeboxing*), donde la planificación se realiza al inicio de cada iteración (*Sprint Planning*) sobre la base de la capacidad real del equipo y la prioridad vigente del Product Backlog (sección 2.2.1).
-
-### 2.3.1. Planificación de Sprints
-
-**Metodología de planificación:** al inicio de cada Sprint (*Sprint Planning*), el Product Owner presenta las historias de mayor prioridad del Product Backlog (sección 2.2.1) y el equipo técnico estima su esfuerzo en Story Points mediante **Planning Poker**. La capacidad de referencia del equipo es de **150 horas-persona por Sprint** (5 integrantes × 30 horas quincenales), equivalente a una capacidad objetivo de entre **18 y 21 Story Points por Sprint**, según la complejidad técnica de las historias seleccionadas.
-
-**Herramienta de gestión:** el equipo utiliza un tablero **Trello** con columnas *Backlog*, *Por Hacer*, *En Progreso*, *En Revisión* y *Hecho*, donde cada tarjeta corresponde a una historia de usuario o tarea de ingeniería del Sprint Backlog, con su responsable y etiqueta de prioridad asignados.
-
-**Justificación de la duración del Sprint (2 semanas):** se adoptó un Sprint quincenal en lugar de semanal porque la disponibilidad real del equipo es de 15 horas semanales por integrante (estudiantes a tiempo parcial), lo que exige un periodo más amplio para completar incrementos de software verificables (código, pruebas y documentación) sin comprometer la calidad; y en lugar de mensual, porque un ciclo más corto permite mayor frecuencia de retroalimentación del Product Owner y alineación con el calendario quincenal de entregables académicos (TB1, TB2, TP1, TB3, TF).
-
-Con el cierre del Sprint 3 (hito TP1), el equipo inicia la ejecución de los Sprints 4 y 5, que constituyen el alcance formal de la presente entrega **TB3**:
-
-**Sprint 4 (Semanas 8 y 9) — Objetivo:** Construir el núcleo transaccional del sistema (seguridad, inventario de habitaciones y motor de reservas) sobre la arquitectura monolítica por capas, con persistencia en PostgreSQL y pruebas unitarias.
-
-| Historia de Usuario | Prioridad (MoSCoW) | Story Points | Tarea de Ingeniería | Responsable | Estimación (h) |
-| :--- | :---: | :---: | :--- | :--- | :---: |
-| HU-01.1 / HU-01.2 | Must | 3 / 2 | Implementar autenticación JWT y middleware de control de acceso RBAC. | Oskar Rodrigo Sosa Soto | 20 |
-| HU-02.1 / HU-02.2 | Must | 5 / 3 | Implementar el agregado Room, persistencia en PostgreSQL y endpoints de matriz de habitaciones. | Oskar Rodrigo Sosa Soto | 30 |
-| HU-03.1 / HU-03.2 | Must | 5 / 3 | Implementar el motor de reservas transaccional (control ACID de sobreventa) y tarifas estacionales. | Ever Giusephi Carlos Lavado | 30 |
-| Transversal | Must | — | Elaborar pruebas unitarias de los módulos de seguridad, habitaciones y reservas. | Ever Giusephi Carlos Lavado | 20 |
-| Transversal | Must | — | Validar los incrementos contra los criterios de aceptación BDD y el Product Backlog. | Eddo Su Caletti | 20 |
-| Transversal | Should | — | Facilitar ceremonias ágiles (Daily, Review, Retrospective) y actualizar el tablero Trello. | Italo Sebastian Verona Flores | 15 |
-| Transversal | Should | — | Documentar el avance técnico y actualizar el informe del proyecto. | Augusto Sebastian Montes Maza | 15 |
-| **Total planificado** | | **21 pts** | | | **150 h** |
-
-**Sprint 5 (Semanas 11 y 12) — Objetivo:** Implementar el módulo operativo de Housekeeping, el portal web responsivo de autoservicio para huéspedes y habilitar la integración continua de componentes.
-
-| Historia de Usuario | Prioridad (MoSCoW) | Story Points | Tarea de Ingeniería | Responsable | Estimación (h) |
-| :--- | :---: | :---: | :--- | :--- | :---: |
-| HU-05.1 / HU-05.2 | Must | 5 / 3 | Implementar el tablero Kanban de Housekeeping y el registro de órdenes de mantenimiento. | Oskar Rodrigo Sosa Soto | 30 |
-| HU-04.1 / HU-04.2 | Should | 3 / 2 | Implementar el flujo de pre-check-in y check-out digital en el portal de autogestión. | Ever Giusephi Carlos Lavado | 25 |
-| HU-06.1 / HU-06.2 | Should | 3 / 2 | Implementar la solicitud de amenidades y la trazabilidad de pedidos del huésped. | Augusto Sebastian Montes Maza | 25 |
-| Transversal | Must | — | Configurar el pipeline de integración continua (GitHub Actions) para pruebas automatizadas. | Oskar Rodrigo Sosa Soto | 15 |
-| Transversal | Must | — | Validar incrementos contra criterios BDD y priorizar ajustes del Product Backlog. | Eddo Su Caletti | 20 |
-| Transversal | Should | — | Facilitar ceremonias ágiles y dar seguimiento al tablero Trello. | Italo Sebastian Verona Flores | 15 |
-| Transversal | Should | — | Compilar evidencias, actualizar el Registro de Versiones y el Student Outcome. | Augusto Sebastian Montes Maza | 20 |
-| **Total planificado** | | **18 pts** | | | **150 h** |
-
-### 2.3.2. Cronograma de Entregables
-
-El cronograma de entregables articula los hitos académicos oficiales del curso con los archivos exigidos por la rúbrica, el impacto de cada entrega en el avance del proyecto y el mecanismo utilizado para dar seguimiento a su cumplimiento, siguiendo la nomenclatura obligatoria `upc-pre-202620-1asi0722-<nrc>-sisifo-<tipo>-<entrega>`:
-
-| Entrega | Fecha Compromiso | Archivos Exigidos | Impacto en el Proyecto | Mecanismo de Seguimiento |
-| :---: | :---: | :--- | :--- | :--- |
-| **TB1** | Semana 3 (Septiembre 2026) | Informe de proyecto (.docx y .pdf) | Valida el Startup y Solution Profile; sin esta base, el equipo no puede iniciar el Project Charter. | Tarjeta "TB1" en Trello + commit tag `v-tb1` en GitHub. |
-| **TB2** | Semana 5 (Septiembre 2026) | Informe de proyecto (.docx y .pdf) | Formaliza el Project Charter; autoriza la ejecución de los Sprints de construcción (4-6). | Tarjeta "TB2" en Trello + release etiquetado en GitHub Actions. |
-| **TP1** | Semana 7 (Octubre 2026) | Informe de proyecto (.docx y .pdf) | Consolida el Product Backlog y los prototipos; condiciona el alcance técnico que se construirá en TB3. | Tarjeta "TP1" en Trello + ejecución de `scripts/verify_report.py`. |
-| **TB3** | Semana 10-12 (Noviembre 2026) | Informe de proyecto (.docx y .pdf), presentación Power Point (.pptx y .pdf), documento de informe de participación (.docx y .pdf), archivo .zip con complementarios | Entrega el primer y segundo incremento funcional de software (Sprints 4 y 5); valida que el núcleo transaccional y Housekeeping operan según el DoD. | Tablero Trello (Sprints 4-5) + pipeline `report.yml` + script de auditoría pre-entrega. |
-| **TF (Trabajo Final)** | Semana 15 (Diciembre 2026) | Informe final (.docx y .pdf), presentación (.pptx y .pdf), informe de participación, video de exposición (.mp4, máx. 15 min) y .zip de complementarios | Cierra el ciclo de vida del proyecto con la solución integral y las lecciones aprendidas del equipo. | Tablero Trello (Sprint 6) + release final en GitHub + grabación del video de exposición. |
-
-> **Nota de cumplimiento:** conforme a las condiciones del enunciado del TB3, no se admiten envíos mediante rutas o enlaces externos; la totalidad de los archivos de cada entrega debe cargarse directamente en el aula virtual, respetando la nomenclatura indicada.
-
----
-
-## 2.4. Agile Project Cost Management
-
-### 2.4.1. Estimación de Costos
-
-La estimación de costos de **SmartStay** parte de la línea base de alto nivel definida en el Project Charter (sección 2.1.4.4) y se refina mediante una técnica de **estimación ascendente (*bottom-up*)**: el esfuerzo de cada historia se estima en Story Points mediante **Planning Poker** (sección 2.3.1), se traduce a horas de ingeniería según la capacidad real del equipo (150 horas-persona por Sprint) y se valoriza con la tarifa referencial de mercado.
-
-**Tarifas simuladas por rol:** dado que los 5 integrantes rotan de funciones según la carga de cada Sprint (sección 2.1.3.1), el equipo aplica una tarifa uniforme para un perfil junior/practicante en todos los roles, evitando distorsionar la estimación por una especialización que aún no es fija:
-
-| Rol | Tarifa Referencial (USD/hora) |
-| :--- | :---: |
-| Project Manager y facilitador ágil | $15.00 |
-| Product Owner | $15.00 |
-| Responsable de arquitectura y coordinación técnica | $15.00 |
-| Responsable de calidad e integración | $15.00 |
-| Responsable de análisis de negocio y requerimientos | $15.00 |
-
-**Riesgos que afectan la estimación de costos:** el riesgo RSK-03 (*scope creep*, sección 2.1.12) es el principal factor que puede incrementar el costo real respecto a lo estimado, al incorporar historias no priorizadas que consumen horas no presupuestadas; este riesgo se absorbe mediante la reserva de contingencia definida en el Presupuesto Total del Proyecto.
-
-**Costo de ingeniería por Sprint:** 150 horas × $15.00 USD/hora = **$2,250.00 USD** por Sprint (valorización comercial simulada; costo real desembolsado $0.00, al ser aportado por el equipo promotor).
-
-**Costo de ingeniería específico de la entrega TB3 (Sprints 4 y 5):**
-
-| Sprint | Story Points Planificados | Horas-Persona | Costo de Ingeniería (Simulado) |
-| :---: | :---: | :---: | :---: |
-| **Sprint 4** | 21 pts | 150 h | $2,250.00 USD |
-| **Sprint 5** | 18 pts | 150 h | $2,250.00 USD |
-| **Subtotal TB3** | 39 pts | 300 h | **$4,500.00 USD** |
-
-A este subtotal se añade la proporción correspondiente de infraestructura cloud y herramientas de gestión durante el periodo de los Sprints 4 y 5 (un mes calendario, sección 2.1.4.4-A y 2.1.4.4-B): $50.00 USD (infraestructura) + $46.00 USD (herramientas) = **$96.00 USD**, resultando en un costo total simulado de **$4,596.00 USD** para la presente entrega.
-
-#### Presupuesto Total del Proyecto
-
-Consolidando los seis Sprints del ciclo de vida completo de SmartStay (15 semanas académicas) y aplicando una **reserva de contingencia del 10%** sobre el presupuesto base —recomendada por PMI-ACP para proyectos ágiles ante el riesgo de *scope creep* (RSK-03, sección 2.1.12)—, el presupuesto total del proyecto queda establecido de la siguiente manera:
-
-**Distribución del Capital Humano por Sprint y Fase:**
-
-| Fase | Sprints | Entregable Asociado | Costo de Ingeniería (Simulado) |
-| :--- | :---: | :---: | :---: |
-| Formulación | Sprint 1, 2 y 3 | TB1, TB2, TP1 | $6,750.00 USD |
-| Construcción | Sprint 4 y 5 | TB3 | $4,500.00 USD |
-| Cierre | Sprint 6 | TF | $2,250.00 USD |
-| **Subtotal Capital Humano (6 Sprints)** | | | **$13,500.00 USD** |
-
-**Distribución del Presupuesto Base por Categoría:**
-
-| Categoría | Costo (Simulado) | % del Presupuesto Base |
-| :--- | :---: | :---: |
-| Desarrollo (arquitectura, backend y frontend) | $8,100.00 USD | 58.5% |
-| Pruebas y Aseguramiento de Calidad (QA) | $2,700.00 USD | 19.5% |
-| Gestión y Documentación (PM / Análisis de Negocio) | $2,700.00 USD | 19.5% |
-| Infraestructura Cloud y Herramientas (sección 2.1.4.4-A/B) | $336.00 USD | 2.4% |
-| **Presupuesto Base Total** | **$13,836.00 USD** | **100%** |
-
-**Consolidado Final:**
-
-| Rubro Presupuestal | Costo Real Desembolsado | Costo Comercial Simulado |
-| :--- | :---: | :---: |
-| Presupuesto base consolidado (sección 2.1.4.4-D) | $0.00 USD | $13,836.00 USD |
-| Reserva de contingencia (10%, ante riesgos RSK-01 a RSK-07) | $0.00 USD | $1,383.60 USD |
-| **PRESUPUESTO TOTAL DEL PROYECTO** | **$0.00 USD** | **$15,219.60 USD** |
-
-Este presupuesto total constituye la línea base de costos autorizada para el ciclo de vida completo del proyecto; cualquier variación relevante deberá registrarse mediante el procedimiento de gestión de cambios descrito en la sección 2.1.3.4.
-
-## 2.5. Agile Project Resource Management
+## 2.6. Agile Project Resource Management
 
 La gestión de recursos en un entorno ágil se enfoca en optimizar el talento humano, las herramientas tecnológicas y los activos de conocimiento del equipo **Sisifo**, priorizando la colaboración, la autoorganización y la flexibilidad por encima de la asignación rígida de tareas tradicional. A continuación, se detallan los componentes clave para la administración de recursos del proyecto **SmartStay**.
 
 ---
-### 2.5.1. Identificación de recursos clave
+### 2.6.1. Identificación de recursos clave
 
 Para garantizar la ejecución exitosa del proyecto, se han clasificado y categorizado los recursos indispensables con los que cuenta la startup **Sisifo**:
 
@@ -1598,7 +1605,7 @@ Para garantizar la ejecución exitosa del proyecto, se han clasificado y categor
   * Documentación técnica estandarizada en formato Markdown, modelado arquitectónico con el modelo C4, guías de diseño UX (Lean UX Canvas) y repositorios de lecciones aprendidas de iteraciones anteriores.
 
 ---
-### 2.5.2. Asignación de roles y responsabilidades
+### 2.6.2. Asignación de roles y responsabilidades
 
 Bajo el marco de trabajo ágil (Scrum adaptado al contexto académico), el equipo distribuye las responsabilidades para asegurar la trazabilidad y el compromiso en cada entrega:
 
@@ -1611,7 +1618,7 @@ Bajo el marco de trabajo ágil (Scrum adaptado al contexto académico), el equip
 | **Montes Maza, Augusto Sebastian** | U202218645 | Scrum Master / Backend Developer | Facilitación de ceremonias ágiles, seguimiento del tablero Kanban, gestión de impedimentos y desarrollo de lógica backend (.NET/Java). |
 
 ---
-### 2.5.3. Gestión de capacidad del equipo (*Team Capacity Planning*)
+### 2.6.3. Gestión de capacidad del equipo (*Team Capacity Planning*)
 
 La capacidad del equipo se dimensiona por iteración (Sprint de 2 semanas), considerando las restricciones del ciclo académico (como semanas de exámenes parciales y entregas de otros cursos):
 
@@ -1621,7 +1628,7 @@ La capacidad del equipo se dimensiona por iteración (Sprint de 2 semanas), cons
 
 ---
 
-### 2.5.4. Planificación del uso de herramientas
+### 2.6.4. Planificación del uso de herramientas
 
 Para maximizar la eficiencia operativa y mantener la co-localización virtual (*virtual colocation*), el uso de herramientas se encuentra estructurado en canales síncronos y asíncronos:
 
@@ -1632,7 +1639,7 @@ Para maximizar la eficiencia operativa y mantener la co-localización virtual (*
   * *Sprint Planning & Review:* Reuniones al inicio y cierre de cada ciclo para planificar el incremento y validar los resultados con el equipo.
 
 ---
-### 2.5.5. Estrategias de seguimiento de recursos
+### 2.6.5. Estrategias de seguimiento de recursos
 
 El monitoreo del rendimiento y la utilización óptima de los recursos se realiza mediante mecanismos cuantitativos y cualitativos integrados en las ceremonias ágiles:
 
@@ -1643,8 +1650,6 @@ El monitoreo del rendimiento y la utilización óptima de los recursos se realiz
 ---
 
 <div style="page-break-after: always;"></div>
-
-
 
 # Bibliografía
 

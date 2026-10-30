@@ -304,7 +304,7 @@ def check_architectural_coherence(markdown_content: str) -> Tuple[bool, List[str
 
     # Extraer el Project Charter (sección 2.1 hasta la siguiente sección de primer nivel o bibliografía)
     charter_match = re.search(
-        r"## 2\.1\.\s*Agile Project Integration Management: Project Charter(.*?)(?=\n# |\Z)",
+        r"## 2\.1\.\s*Agile Project Integration Management: Project Charter(.*?)(?=\n## 2\.2|\n# |\Z)",
         markdown_content,
         re.DOTALL | re.IGNORECASE
     )
