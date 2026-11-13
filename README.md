@@ -106,6 +106,13 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
      * 2.6.3. [Gestión de capacidad del equipo](#263-gestión-de-capacidad-del-equipo)
      * 2.6.4. [Planificación del uso de herramientas](#264-planificación-del-uso-de-herramientas)
      * 2.6.5. [Estrategias de seguimiento de recursos](#265-estrategias-de-seguimiento-de-recursos)
+   * 2.7. [Agile Project Risk Management](#27-agile-project-risk-management)
+     * 2.7.1. [Identificación de riesgos](#271-identificación-de-riesgos)
+     * 2.7.2. [Análisis de riesgos](#272-análisis-de-riesgos)
+     * 2.7.3. [Control y monitoreo de riesgos](#273-control-y-monitoreo-de-riesgos)
+   * 2.8. [Agile Project Communications Management](#28-agile-project-communications-management)
+     * 2.8.1. [Tipos de comunicación](#281-tipos-de-comunicación)
+     * 2.8.2. [Matriz de comunicaciones](#282-matriz-de-comunicaciones)
 3. [Bibliografía](#bibliografia)
 
 <div style="page-break-after: always;"></div>
@@ -1254,6 +1261,7 @@ Identificamos los siguientes eventos de riesgo que podrían afectar el cumplimie
 | **RSK-05** | **Fallas de integración entre componentes:** Diferencias en contratos de API, configuraciones, versiones o estructuras de datos podrían generar incompatibilidades entre frontend, backend y otros componentes del sistema. | Media | Alto | **Alta** | Mantener contratos de API documentados, integrar cambios de forma frecuente, realizar revisiones por pares y ejecutar pruebas de integración antes de cada entrega. Ante una incompatibilidad crítica, priorizar la corrección de los componentes que bloqueen la demostración o el objetivo de la iteración. |
 | **RSK-06** | **Menor disponibilidad del equipo en periodos de evaluación:** El examen parcial y otras responsabilidades académicas pueden reducir temporalmente la capacidad de algunos integrantes. | Alta | Medio | **Alta** | Revisar anticipadamente la disponibilidad del equipo, distribuir el trabajo considerando la capacidad real y reservar margen para integración y correcciones. Si se presenta una reducción de disponibilidad, reordenar tareas sin comprometer los entregables obligatorios. |
 | **RSK-07** | **Desalineación entre documentación e implementación:** Cambios realizados en arquitectura, alcance, requisitos o funcionalidades podrían no reflejarse oportunamente en el informe y demás artefactos. | Media | Medio | **Moderada** | Registrar las decisiones relevantes y actualizar los artefactos afectados como parte del cierre del trabajo. Antes de cada entrega, realizar una revisión cruzada entre implementación, documentación, backlog y Project Charter. |
+| **RSK-08** | **Silos de conocimiento en el equipo de desarrollo:** La concentración de conocimiento técnico en un solo integrante (por ejemplo, sobre un módulo específico) podría bloquear el avance si esa persona no está disponible. | Media | Medio | **Moderada** | Fomentar sesiones de *pair-programming* y revisiones cruzadas de código (Pull Requests) para asegurar que más de un integrante conozca cada componente de la arquitectura (ampliado en la sección 2.7.2). |
 
 ---
 
@@ -1646,6 +1654,86 @@ El monitoreo del rendimiento y la utilización óptima de los recursos se realiz
 * **Gráficos de Consumo (*Sprint Burndown Charts*):** Visualización diaria de las horas o puntos de esfuerzo restantes frente al tiempo ideal del sprint, permitiendo detectar desviaciones o retrasos a mitad de iteración (por ejemplo, al día 4 o 5 de 10) para reasignar esfuerzos de manera proactiva.
 * **Retrospectivas de Sprint:** Sesiones al finalizar cada iteración orientadas a la mejora continua del equipo, donde se evalúa el uso de las herramientas, la distribución de la carga de trabajo y la efectividad de la comunicación.
 * **Registro de Lecciones Aprendidas:** Documentación continua de buenas prácticas técnicas y bloqueos superados (como integración de APIs o configuración de contenedores) para acelerar la curva de aprendizaje en futuros sprints.
+
+---
+
+## 2.7. Agile Project Risk Management
+
+La gestión de riesgos bajo un enfoque ágil reconoce que el desarrollo de software en entornos dinámicos e innovadores conlleva incertidumbre técnica, operativa y de mercado. En lugar de intentar prever y controlar todos los riesgos a largo plazo mediante planes rígidos, el equipo **Sísifo** adopta una gestión iterativa y transparente, identificando y mitigando las amenazas de manera continua sprint a sprint.
+
+### 2.7.1. Identificación de riesgos
+
+Durante la planificación inicial y los refinamientos del Product Backlog, el equipo ha identificado los principales riesgos que podrían afectar el desarrollo del proyecto SmartStay, agrupados por naturaleza:
+
+* **Riesgos Técnicos y de Integración:**
+  * Incompatibilidad o retrasos en la integración de APIs de terceros (como pasarelas de pago o sistemas de control de acceso).
+  * Curva de aprendizaje imprevista en el uso de nuevos frameworks o herramientas del stack tecnológico seleccionado (arquitectura monolítica modular por capas).
+* **Riesgos Operativos y de Recursos:**
+  * Sobrecarga académica de los integrantes del equipo durante periodos de evaluaciones parciales o finales, afectando la velocidad de entrega.
+  * Dependencia crítica de componentes específicos desarrollados por miembros individuales sin respaldo cruzado (*knowledge silos*).
+* **Riesgos de Requisitos y Alcance:**
+  * Modificaciones tardías en las expectativas de los flujos de usuario (Lean UX) que alteren la arquitectura base establecida.
+  * Ambigüedad en la definición de criterios de aceptación para funcionalidades que aún no hayan sido refinadas en el Product Backlog.
+
+Estos riesgos complementan, desde una perspectiva cualitativa, la matriz formal de eventos de riesgo documentada en la sección 2.1.12.
+
+---
+
+### 2.7.2. Análisis de riesgos
+
+Para priorizar las acciones de respuesta, cada riesgo identificado se evalúa en función de dos dimensiones clave —**Probabilidad de ocurrencia** e **Impacto en el proyecto** (alcance, tiempo, costo y calidad)— y se consolida en la matriz formal de riesgos del Project Charter (sección 2.1.12). Del análisis cualitativo de esta sección, se incorpora un riesgo adicional no contemplado originalmente en dicha matriz:
+
+| Código | Evento de Riesgo | Probabilidad | Impacto | Severidad | Estrategia de Mitigación y Contingencia |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| **RSK-08** | **Silos de conocimiento en el equipo de desarrollo:** La concentración de conocimiento técnico en un solo integrante (por ejemplo, sobre un módulo específico) podría bloquear el avance si esa persona no está disponible. | Media | Medio | **Moderada** | Fomentar sesiones de *pair-programming* y revisiones cruzadas de código (Pull Requests) para asegurar que más de un integrante conozca cada componente de la arquitectura. |
+
+El detalle completo de los ocho riesgos identificados (RSK-01 a RSK-08), con su probabilidad, impacto, severidad y estrategia de mitigación, se encuentra consolidado en la sección 2.1.12.
+
+---
+
+### 2.7.3. Control y monitoreo de riesgos
+
+El seguimiento de los riesgos se ejecuta de forma activa y transversal a lo largo de todo el ciclo de vida del proyecto:
+
+* **Monitoreo en Ceremonias Ágiles:** Durante las reuniones diarias (*Daily Standups*) y las revisiones de sprint (*Sprint Reviews*), el equipo reporta impedimentos emergentes que puedan constituir riesgos activos, permitiendo una reacción inmediata.
+* **Uso del Tablero Kanban (Trello):** Las tareas de investigación técnica o mitigación (*Spike Tasks*) se gestionan visualmente en el tablero para asegurar que reciban atención prioritaria antes de comprometer historias de usuario complejas.
+* **Revisiones en Retrospectivas:** Al cierre de cada sprint, se analiza si las medidas de mitigación aplicadas a los riesgos RSK-01 a RSK-08 fueron efectivas, y se actualiza el registro según el contexto actual del proyecto.
+
+---
+
+## 2.8. Agile Project Communications Management
+
+La comunicación ágil prioriza la transparencia, la fluidez y la colaboración por encima de la burocracia documental. Este apartado define los **tipos** de comunicación del proyecto y una **matriz de comunicaciones** que complementa los canales y la modalidad de co-localización virtual ya establecidos en la sección 2.1.3.6.
+
+### 2.8.1. Tipos de comunicación
+
+La comunicación en el proyecto SmartStay se clasifica según su direccionalidad, propósito y frecuencia:
+
+* **Comunicación Interna del Equipo (Horizontal y Colaborativa):**
+  * *Síncrona diaria y semanal:* destinada a la sincronización de avances, resolución rápida de bloqueos técnicos y planificación de tareas (Daily Standups, Sprint Planning).
+  * *Asíncrona continua:* uso de canales de chat y repositorios para la coordinación diaria, notificación de cambios de código y seguimiento de incidencias.
+* **Comunicación Externa y Académica (Vertical):**
+  * *Reportes de avance y entregables:* presentación formal de los hitos del proyecto (TB1, TB2, TP1, TB3, TF) dirigida al docente del curso y evaluadores.
+  * *Validaciones y retroalimentación:* entrevistas y sesiones de demostración de incrementos funcionales para recopilar feedback y ajustar el rumbo de la solución (sección 1.2.7).
+
+---
+
+### 2.8.2. Matriz de comunicaciones
+
+Las herramientas específicas (Discord, Google Meet, GitHub, Trello y canales académicos) ya se encuentran descritas en la sección 2.1.3.6. La siguiente matriz precisa **qué** se comunica, a **quién**, con **qué frecuencia** y **quién** es responsable de emitirla:
+
+| Información a Comunicar | Audiencia | Frecuencia | Canal | Responsable |
+| :--- | :--- | :---: | :--- | :--- |
+| Avance de tareas y bloqueos | Equipo de desarrollo | Diaria | Discord (Daily Standup) + Trello | Project Manager |
+| Planificación del Sprint | Equipo + Product Owner | Quincenal (inicio de Sprint) | Google Meet (Sprint Planning) | Product Owner / PM |
+| Revisión del incremento funcional | Equipo + Product Owner | Quincenal (cierre de Sprint) | Google Meet (Sprint Review) | Project Manager |
+| Mejora continua de procesos | Equipo de desarrollo | Quincenal (cierre de Sprint) | Google Meet (Retrospective) | Project Manager |
+| Revisión y aprobación de código | Pares técnicos | Continua (por Pull Request) | GitHub Pull Requests | Responsable de arquitectura / calidad |
+| Entregables oficiales (TB1 a TF) | Docente del curso | Según cronograma académico (sección 2.3.2) | Aula virtual | Equipo completo |
+| Consultas y retroalimentación académica | Docente del curso | Bajo demanda | Canales académicos oficiales | Project Manager |
+| Validación de necesidades del sector hotelero | Administradores y huéspedes entrevistados | Puntual (Sprint 3) | Entrevistas (sección 1.2.7) | Responsable de análisis de negocio |
+
+Las reuniones que impliquen decisiones relevantes concluirán con acuerdos formales, responsables asignados y fechas compromiso, reflejados de inmediato en el repositorio o el tablero de trabajo, conforme al protocolo ya definido en la sección 2.1.3.6.
 
 ---
 
