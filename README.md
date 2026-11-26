@@ -59,6 +59,7 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
 | **2.3.0** | 10/10/2026 | Verona Flores Italo Sebastian | Consolidación de entrega TP1 (Semana 7): actualización de aportes individuales y grupales al Student Outcome para TP1, alineación de la propuesta de valor con la arquitectura monolítica web (SPA Administrativa y Portal de Autogestión responsivo), incorporación de criterios de aceptación BDD (Gherkin) en EP-01 a EP-07, cierre del Sprint 3 y actualización de matriz de aprobaciones. |
 | **3.0.0** | 10/10/2026 | Oskar Rodrigo Sosa Soto | Incorporación de las secciones 2.2.3 (Estrategias de Calidad y Definition of Done), 2.3 (Agile Project Schedule Management: Planificación de Sprints 4 y 5, Cronograma de Entregables) y 2.4 (Agile Project Cost Management: Estimación de Costos y Presupuesto Total del Proyecto) requeridas por el enunciado del TB3. |
 | **3.0.1** | 10/10/2026 | Oskar Rodrigo Sosa Soto | Corrección de la carátula (errata de formato y avance de rótulo de entrega a TB3), actualización del Registro de Versiones, la Tabla de Contenidos, la matriz de Aprobaciones y el Student Outcome con los aportes individuales y grupales de la entrega TB3 (Sprints 4 y 5). |
+| **3.1.0** | 26/11/2026 | Oskar Rodrigo Sosa Soto | Incorporación de las secciones 2.9 (Agile Project Procurement Management: Tipos de Contratos Ágiles, Riesgos en Adquisiciones) y 2.10 (Agile Project Stakeholder Management: Identificación y Análisis de Stakeholders), redacción de las Conclusiones del proyecto y los Anexos (Glosario, Enlaces y Matriz de Riesgos), corrección de una inconsistencia arquitectónica residual en la sección 2.6 (mención a microservicios) y ampliación del alcance del script de auditoría de coherencia arquitectónica a todo el Capítulo II. |
 
 <div style="page-break-after: always;"></div>
 
@@ -112,8 +113,16 @@ El objetivo de esta sección es registrar y evidenciar las modificaciones, adici
      * 2.7.3. [Control y monitoreo de riesgos](#273-control-y-monitoreo-de-riesgos)
    * 2.8. [Agile Project Communications Management](#28-agile-project-communications-management)
      * 2.8.1. [Tipos de comunicación](#281-tipos-de-comunicación)
-     * 2.8.2. [Matriz de comunicaciones](#282-matriz-de-comunicaciones)
-3. [Bibliografía](#bibliografia)
+     * 2.8.2. [Herramientas de comunicación](#282-herramientas-de-comunicación)
+   * 2.9. [Agile Project Procurement Management](#29-agile-project-procurement-management)
+     * 2.9.1. [Tipos de contratos ágiles](#291-tipos-de-contratos-ágiles)
+     * 2.9.2. [Riesgos en adquisiciones](#292-riesgos-en-adquisiciones)
+   * 2.10. [Agile Project Stakeholder Management](#210-agile-project-stakeholder-management)
+     * 2.10.1. [Identificación de stakeholders](#2101-identificación-de-stakeholders)
+     * 2.10.2. [Análisis de stakeholders](#2102-análisis-de-stakeholders)
+3. [Conclusiones](#conclusiones)
+4. [Bibliografía](#bibliografia)
+5. [Anexos](#anexos)
 
 <div style="page-break-after: always;"></div>
 
@@ -1262,6 +1271,8 @@ Identificamos los siguientes eventos de riesgo que podrían afectar el cumplimie
 | **RSK-06** | **Menor disponibilidad del equipo en periodos de evaluación:** El examen parcial y otras responsabilidades académicas pueden reducir temporalmente la capacidad de algunos integrantes. | Alta | Medio | **Alta** | Revisar anticipadamente la disponibilidad del equipo, distribuir el trabajo considerando la capacidad real y reservar margen para integración y correcciones. Si se presenta una reducción de disponibilidad, reordenar tareas sin comprometer los entregables obligatorios. |
 | **RSK-07** | **Desalineación entre documentación e implementación:** Cambios realizados en arquitectura, alcance, requisitos o funcionalidades podrían no reflejarse oportunamente en el informe y demás artefactos. | Media | Medio | **Moderada** | Registrar las decisiones relevantes y actualizar los artefactos afectados como parte del cierre del trabajo. Antes de cada entrega, realizar una revisión cruzada entre implementación, documentación, backlog y Project Charter. |
 | **RSK-08** | **Silos de conocimiento en el equipo de desarrollo:** La concentración de conocimiento técnico en un solo integrante (por ejemplo, sobre un módulo específico) podría bloquear el avance si esa persona no está disponible. | Media | Medio | **Moderada** | Fomentar sesiones de *pair-programming* y revisiones cruzadas de código (Pull Requests) para asegurar que más de un integrante conozca cada componente de la arquitectura (ampliado en la sección 2.7.2). |
+| **RSK-09** | **Agotamiento de créditos o límites del tier gratuito en servicios cloud** (AWS Educate / Azure for Students) antes de concluir el proyecto. | Baja | Alto | **Alta** | Monitorear mensualmente el consumo de cómputo, base de datos y almacenamiento frente al presupuesto de alto nivel (sección 2.1.4.4-A); mantener un plan de contingencia para migrar a un proveedor alterno o reducir el alcance de infraestructura si los créditos se agotan (ampliado en la sección 2.9.2). |
+| **RSK-10** | **Cambios en los términos de servicio o límites de las herramientas gratuitas** (minutos de GitHub Actions, límites del plan gratuito de Trello) que restrinjan la automatización o la visibilidad del tablero ágil. | Baja | Medio | **Moderada** | Revisar periódicamente los límites de uso de cada herramienta y mantener alternativas de respaldo (exportación del tablero, ejecución local del pipeline de CI/CD) ante una eventual restricción (ampliado en la sección 2.9.2). |
 
 ---
 
@@ -1607,7 +1618,7 @@ Para garantizar la ejecución exitosa del proyecto, se han clasificado y categor
   * Conformado por los cinco (5) estudiantes de Ingeniería de Software de la UPC, quienes asumen de forma multidisciplinaria roles técnicos (desarrollo frontend, backend, bases de datos, arquitectura y control de calidad QA) y de gestión ágil.
 * **Recursos Tecnológicos e Infraestructura:**
   * **Entornos de Desarrollo y Control de Versiones:** Repositorios centralizados en la organización de GitHub (`sisifoGroup`), control de ramas mediante GitFlow, y uso de entornos de desarrollo integrados como WebStorm y Visual Studio Code.
-  * **Infraestructura en la Nube:** Capas gratuitas y créditos de prueba en proveedores cloud (AWS/Azure/GCP) para el despliegue de microservicios y bases de datos relacionales/no relacionales.
+  * **Infraestructura en la Nube:** Capas gratuitas y créditos de prueba en proveedores cloud (AWS/Azure) para el despliegue de la arquitectura monolítica modular por capas y de la base de datos relacional unificada (PostgreSQL), conforme a lo definido en la sección 2.1.7.1.
   * **Herramientas de Colaboración y Gestión:** Tablero Kanban en Trello para el seguimiento de historias de usuario y tareas del *Product Backlog*.
 * **Recursos de Conocimiento y Documentación:**
   * Documentación técnica estandarizada en formato Markdown, modelado arquitectónico con el modelo C4, guías de diseño UX (Lean UX Canvas) y repositorios de lecciones aprendidas de iteraciones anteriores.
@@ -1718,9 +1729,19 @@ La comunicación en el proyecto SmartStay se clasifica según su direccionalidad
 
 ---
 
-### 2.8.2. Matriz de comunicaciones
+### 2.8.2. Herramientas de comunicación
 
-Las herramientas específicas (Discord, Google Meet, GitHub, Trello y canales académicos) ya se encuentran descritas en la sección 2.1.3.6. La siguiente matriz precisa **qué** se comunica, a **quién**, con **qué frecuencia** y **quién** es responsable de emitirla:
+El equipo SmartStay utiliza un conjunto de herramientas tecnológicas específicas, clasificadas por su naturaleza síncrona o asíncrona, que se articulan con los canales ya definidos en la sección 2.1.3.6:
+
+| Herramienta | Tipo | Propósito Principal |
+| :--- | :---: | :--- |
+| **Discord** | Síncrona | Ceremonias ágiles en tiempo real (Daily Standup, Sprint Planning, Sprint Review, Retrospective) y soporte técnico inmediato ante impedimentos. |
+| **Google Meet** | Síncrona | Videoconferencias formales con el Product Owner, demostraciones de incrementos y reuniones con stakeholders externos. |
+| **GitHub (Organización sisifoGroup)** | Asíncrona | Control de versiones, revisión de código (*Pull Requests*), trazabilidad de incidencias y versionado del informe en Markdown. |
+| **Trello** | Asíncrona | Tablero Kanban visual del Sprint Backlog, visibilidad del trabajo en curso (*WIP*) y registro de bloqueos. |
+| **Canales Académicos Oficiales (Aula Virtual)** | Asíncrona | Consignas, rúbricas de evaluación, fechas oficiales y retroalimentación del docente. |
+
+A partir de estas herramientas, se define la siguiente matriz de comunicaciones que precisa **qué** se comunica, a **quién**, con **qué frecuencia** y **quién** es responsable de emitirla:
 
 | Información a Comunicar | Audiencia | Frecuencia | Canal | Responsable |
 | :--- | :--- | :---: | :--- | :--- |
@@ -1737,6 +1758,103 @@ Las reuniones que impliquen decisiones relevantes concluirán con acuerdos forma
 
 ---
 
+## 2.9. Agile Project Procurement Management
+
+La gestión de adquisiciones de **SmartStay** no se orienta a contratos tradicionales con proveedores externos de desarrollo, sino a la administración de los servicios, licencias y herramientas de los cuales depende el proyecto (sección 2.1.4.4), así como a la definición del tipo de contrato que el equipo adoptaría si fuera necesario incorporar apoyo externo especializado durante el ciclo de vida del producto.
+
+### 2.9.1. Tipos de contratos ágiles
+
+Bajo el marco PMI-ACP, los contratos ágiles se diferencian de los contratos tradicionales de alcance fijo porque distribuyen el riesgo entre cliente y proveedor de forma incremental, permitiendo ajustar el alcance sprint a sprint sin renegociar el contrato completo. Los tipos más relevantes para un proyecto como SmartStay son:
+
+| Tipo de Contrato | Descripción | Aplicación en SmartStay |
+| :--- | :--- | :--- |
+| **Tiempo y Materiales (T&M)** | El cliente paga por las horas efectivamente trabajadas más los materiales/insumos consumidos, sin un alcance cerrado de antemano. | Modelo equivalente al consumo de servicios cloud bajo demanda (*pay-as-you-go*) de AWS/Azure: se paga únicamente por los recursos de cómputo, base de datos y almacenamiento efectivamente utilizados (sección 2.1.4.4-A). |
+| **Precio Fijo por Incremento (*Fixed Price per Feature/Sprint*)** | El alcance se fracciona en incrementos entregables (features o sprints), cada uno con un precio fijo acordado antes de iniciarlo. | Sería el modelo preferido por el equipo si se contratara un especialista externo (p. ej. un diseñador UX/UI o un auditor de seguridad) para un Sprint específico: se acuerda el precio y el alcance de ese Sprint únicamente, preservando la flexibilidad del resto del backlog. |
+| **Precio Fijo Graduado (*Graduated Fixed Price*)** | Establece un precio fijo por fase, con ajustes posteriores acordados según el desempeño observado en fases previas. | Aplicable a una eventual renovación de licencias de herramientas de gestión (p. ej. migrar de Trello Free a un plan pagado) una vez validado el valor que aporta tras los primeros Sprints. |
+| **Costo Objetivo (*Target Cost Contract*)** | Cliente y proveedor comparten los ahorros o sobrecostos respecto a un costo objetivo pactado, incentivando la eficiencia. | No aplica directamente en el contexto académico actual del proyecto, pero se documenta como opción de referencia ante una eventual escalación comercial de SmartStay fuera del curso. |
+
+El equipo Sísifo opera actualmente bajo un esquema equivalente a **Tiempo y Materiales de bajo riesgo** (créditos educativos y planes gratuitos, sección 2.1.4.4-B), y reserva el esquema de **Precio Fijo por Incremento** como el contrato preferido para cualquier adquisición futura de servicios especializados externos.
+
+---
+
+### 2.9.2. Riesgos en adquisiciones
+
+La dependencia de servicios de terceros —incluso bajo planes gratuitos o educativos— introduce riesgos propios de la gestión de adquisiciones, que se incorporan a la matriz formal de riesgos del Project Charter (sección 2.1.12):
+
+| Código | Riesgo de Adquisición | Probabilidad | Impacto | Severidad | Estrategia de Mitigación |
+| :---: | :--- | :---: | :---: | :---: | :--- |
+| **RSK-09** | Agotamiento de créditos o límites del tier gratuito en servicios cloud (AWS Educate / Azure for Students) antes de concluir el proyecto. | Baja | Alto | **Alta** | Monitorear mensualmente el consumo frente al presupuesto de alto nivel y mantener un plan de migración a un proveedor alterno. |
+| **RSK-10** | Cambios en los términos de servicio o límites de las herramientas gratuitas (minutos de GitHub Actions, límites del plan gratuito de Trello). | Baja | Medio | **Moderada** | Revisar periódicamente los límites de uso y mantener alternativas de respaldo (exportación del tablero, ejecución local del pipeline). |
+
+Ambos riesgos se detallan íntegramente, junto con RSK-01 a RSK-08, en la sección 2.1.12. A diferencia de los riesgos técnicos u operativos internos (sección 2.7), estos dos riesgos son de naturaleza específicamente contractual/comercial: dependen de condiciones impuestas por un tercero (el proveedor del servicio) y no del desempeño del equipo.
+
+---
+
+## 2.10. Agile Project Stakeholder Management
+
+La gestión de interesados reconoce que el éxito de SmartStay depende tanto de actores internos al equipo Sísifo como de actores externos cuya influencia o interés en el proyecto varía considerablemente. Esta sección consolida, desde una perspectiva de gestión, a los interesados ya introducidos de forma dispersa en secciones anteriores del informe.
+
+### 2.10.1. Identificación de stakeholders
+
+**Stakeholders Internos** (equipo del proyecto, detallados en la sección 2.1.3.1):
+
+* Autoridad académica del curso: Rouillon Sixto César Elías.
+* Project Manager y facilitador ágil: Italo Sebastian Verona Flores.
+* Product Owner: Eddo Su Caletti.
+* Responsable de arquitectura y coordinación técnica: Oskar Rodrigo Sosa Soto.
+* Responsable de calidad e integración: Ever Giusephi Carlos Lavado.
+* Responsable de análisis de negocio y requerimientos: Augusto Sebastian Montes Maza.
+
+**Stakeholders Externos** (usuarios, validadores y proveedores):
+
+* Staff Operativo y Administradores de hoteles boutique y pequeños (Segmento 1, sección 1.2.5), afectados directos de la problemática (sección 1.2.2).
+* Huéspedes de hoteles boutique (Segmento 2, sección 1.2.5), beneficiarios finales de la experiencia de autoservicio.
+* Participantes de validación entrevistados: Harold Elías, Sebastián Beingolea, Víctor Meneses y Juan Salcedo (sección 1.2.7.2).
+* Proveedores de infraestructura cloud y herramientas de gestión: AWS/Azure, GitHub y Trello (sección 2.1.4.4).
+* Competidores del mercado de gestión hotelera: Cloudbeds, Little Hotelier y Mews, como referencia indirecta de posicionamiento competitivo (sección 1.2.6).
+
+---
+
+### 2.10.2. Análisis de stakeholders
+
+El análisis se realiza mediante una matriz de **Poder / Interés**, que clasifica a cada stakeholder según su capacidad de influir en el proyecto y su nivel de interés en los resultados, definiendo una estrategia de gestión diferenciada para cada cuadrante:
+
+| Stakeholder | Poder | Interés | Cuadrante | Estrategia de Gestión |
+| :--- | :---: | :---: | :--- | :--- |
+| Autoridad académica del curso | Alto | Alto | **Gestionar de Cerca** | Comunicación formal en cada hito de entrega (TB1 a TF) y atención prioritaria a sus observaciones y criterios de evaluación. |
+| Product Owner (Eddo Su Caletti) | Alto | Alto | **Gestionar de Cerca** | Involucramiento continuo en la priorización del Product Backlog y en toda ceremonia ágil relevante. |
+| Equipo técnico (PM, arquitectura, calidad, análisis) | Alto | Alto | **Gestionar de Cerca** | Participación directa y obligatoria en Sprint Planning, Sprint Review y Retrospective. |
+| Administradores y Staff Operativo de hoteles boutique | Bajo | Alto | **Mantener Informado** | Entrevistas periódicas, demostraciones de incrementos funcionales y recolección estructurada de feedback (sección 1.2.7). |
+| Huéspedes de hoteles boutique | Bajo | Alto | **Mantener Informado** | Validación indirecta mediante entrevistas y contraste con los supuestos del Lean UX Canvas (sección 1.2.3.2). |
+| Proveedores cloud y de herramientas (AWS/Azure, GitHub, Trello) | Alto | Bajo | **Mantener Satisfecho** | Monitoreo de condiciones de servicio y límites de uso, conforme a la gestión de riesgos de adquisición (sección 2.9.2). |
+| Competidores (Cloudbeds, Little Hotelier, Mews) | Bajo | Bajo | **Monitorear** | Seguimiento periódico de su propuesta de valor para sostener la diferenciación competitiva de SmartStay (sección 1.2.6). |
+
+La matriz se revisará al cierre de cada Sprint junto con el registro de riesgos (sección 2.7.3), dado que el poder o interés de un stakeholder puede variar conforme avanza el proyecto (por ejemplo, si un hotel boutique formaliza una alianza piloto, su cuadrante podría ascender de "Mantener Informado" a "Gestionar de Cerca").
+
+---
+
+<div style="page-break-after: always;"></div>
+
+# Conclusiones
+
+El desarrollo de **SmartStay** a lo largo de las entregas TB1, TB2, TP1 y TB3 ha permitido al equipo **Sísifo** aplicar de manera práctica e integral las diez áreas de conocimiento de la gestión ágil de proyectos (PMI-ACP), partiendo de la identificación del problema en el sector hotelero boutique hasta la formalización de un Project Charter completo, un Product Backlog priorizado y los primeros incrementos funcionales de software.
+
+**Principales logros del proyecto:**
+
+* Se validó, mediante la técnica 5W2H y 4 entrevistas semiestructuradas (sección 1.2.7), que la fragmentación operativa y la falta de autonomía digital constituyen el problema central que SmartStay busca resolver.
+* Se consolidó una arquitectura monolítica modular por capas (DDD + PostgreSQL), descartando el enfoque inicial de microservicios/aplicaciones nativas por uno más viable dentro de las restricciones de tiempo y recursos del equipo (sección 2.1.7.1).
+* Se formalizó un Product Backlog de 7 épicas y 14 historias de usuario con criterios de aceptación en formato BDD (sección 2.5.3), ejecutado a través de Sprints quincenales con asignación explícita de responsables y estimación en Story Points.
+* Se establecieron mecanismos verificables de calidad (Definition of Done, sección 2.5.2) y un script de auditoría automatizada (`scripts/verify_report.py`) que valida la consistencia del informe antes de cada entrega.
+* Se identificaron y gestionaron de forma proactiva diez riesgos del proyecto (RSK-01 a RSK-10, secciones 2.1.12, 2.7 y 2.9.2), cubriendo dimensiones técnicas, operativas, de alcance y de adquisiciones.
+
+**Lecciones aprendidas:**
+
+* La disponibilidad real del equipo (estudiantes a tiempo parcial) exige una planificación de capacidad conservadora; sobreestimar la velocidad del equipo en los primeros Sprints hubiera comprometido la calidad de los incrementos.
+* Pivotar oportunamente la arquitectura (de microservicios a monolito modular) antes de iniciar la construcción evitó una deuda técnica significativa y mantuvo la coherencia entre el Project Charter y el código.
+* La automatización de validaciones pre-entrega (script de auditoría, pipeline de GitHub Actions) redujo considerablemente los errores de consistencia documental detectados en entregas anteriores.
+
+**Próximos pasos:** con el cierre de los Sprints 4 y 5 (TB3), el equipo iniciará el **Sprint 6** (sección 2.3.1), enfocado en el dashboard analítico, la auditoría de seguridad RBAC y la estabilización pre-entrega, para consolidar la solución integral de SmartStay en el **Trabajo Final (TF)**.
+
 <div style="page-break-after: always;"></div>
 
 # Bibliografía
@@ -1752,3 +1870,36 @@ Las reuniones que impliquen decisiones relevantes concluirán con acuerdos forma
 * Quispe, L. M., & Huamán, V. H. (2023). *Uso de analítica de datos e indicadores de rendimiento (ADR y RevPAR) para la toma de decisiones en el sector hotelero independiente* [Tesis de maestría, Pontificia Universidad Católica del Perú]. Repositorio Digital PUCP. https://tesis.pucp.edu.pe/repositorio/handle/20.500.12404/24105
 * Schwaber, K., & Sutherland, J. (2020). *The Scrum guide: The definitive guide to Scrum: The rules of the game*. Scrum.org.
 * Vásquez, E. J., & Sandoval, P. A. (2021). *Diseño de una solución tecnológica para la gestión operativa y reducción de tiempos muertos en el área de housekeeping en hoteles de 3 estrellas* [Tesis de licenciatura, Universidad Ricardo Palma]. Repositorio Institucional URP. https://repositorio.urp.edu.pe/handle/20.500.14138/4218
+
+<div style="page-break-after: always;"></div>
+
+# Anexos
+
+## Anexo A. Glosario de Términos
+
+| Término | Definición |
+| :--- | :--- |
+| **ADR** (*Average Daily Rate*) | Tarifa promedio diaria cobrada por habitación ocupada, uno de los indicadores clave calculados por el Dashboard Analítico (sección 2.1.8). |
+| **BDD** (*Behavior-Driven Development*) | Técnica de especificación de requisitos mediante escenarios en lenguaje natural estructurado (*Given-When-Then*), utilizada para los criterios de aceptación del Product Backlog (sección 2.5.3). |
+| **DDD** (*Domain-Driven Design*) | Enfoque de diseño de software que organiza la lógica de negocio alrededor del dominio del problema, base de la arquitectura monolítica modular de SmartStay (sección 2.1.7.1). |
+| **DoD** (*Definition of Done*) | Conjunto de criterios verificables que determinan cuándo una historia de usuario se considera terminada (sección 2.5.2). |
+| **MoSCoW** | Técnica de priorización de requisitos en cuatro niveles: *Must have, Should have, Could have, Won't have this time*, aplicada al Product Backlog (sección 2.2.1). |
+| **PMI-ACP** (*Agile Certified Practitioner*) | Certificación y marco de referencia del Project Management Institute para la gestión ágil de proyectos, utilizado como estándar metodológico del Project Charter (sección 2.1). |
+| **RevPAR** (*Revenue Per Available Room*) | Ingreso generado por habitación disponible, indicador financiero clave del sector hotelero calculado por SmartStay (sección 2.1.8). |
+| **Sprint Backlog** | Subconjunto de historias del Product Backlog comprometidas para una iteración específica (sección 2.2.2). |
+| **Story Points** | Unidad relativa de estimación de esfuerzo utilizada en la planificación de Sprints (sección 2.3.1). |
+| **Timebox** | Periodo de duración fija (en SmartStay, 2 semanas por Sprint) dentro del cual se ejecuta un conjunto de trabajo acordado (sección 2.3.1). |
+
+---
+
+## Anexo B. Enlaces del Proyecto
+
+* **Repositorio GitHub (Organización Sísifo):** [github.com/sisifoGroup](https://github.com/sisifoGroup)
+* **Evidencia completa de entrevistas (videos y audio):** ver sección 1.2.7.2 (Registro de Entrevistas Realizadas y Evidencias).
+* **Lean UX Canvas (imagen completa):** ver sección 1.2.3.4.
+
+---
+
+## Anexo C. Matriz Consolidada de Riesgos
+
+La matriz completa de los diez riesgos identificados (RSK-01 a RSK-10), con su probabilidad, impacto, severidad y estrategia de mitigación, se encuentra documentada en la sección 2.1.12 del Project Charter y se complementa con el análisis cualitativo de las secciones 2.7 (riesgos técnicos y operativos) y 2.9.2 (riesgos de adquisiciones).

@@ -297,14 +297,16 @@ def check_prohibited_words(markdown_content: str) -> Tuple[bool, List[str]]:
 def check_architectural_coherence(markdown_content: str) -> Tuple[bool, List[str]]:
     """
     4. Control de Coherencia Arquitectónica:
-       Verifica que en la sección del Project Charter (2.1) no existan menciones
-       a microservicios u otros términos contradictorios con la Arquitectura Monolítica por Capas.
+       Verifica que en todo el Capítulo II (Gestión de Áreas de Conocimiento Agile)
+       no existan menciones a microservicios u otros términos contradictorios con
+       la Arquitectura Monolítica por Capas, más allá de referencias históricas
+       explícitas al pivote arquitectónico (p. ej. en la sección de Conclusiones).
     """
     errors: List[str] = []
 
-    # Extraer el Project Charter (sección 2.1 hasta la siguiente sección de primer nivel o bibliografía)
+    # Extraer todo el Capítulo II (desde el Project Charter hasta Conclusiones/Bibliografía)
     charter_match = re.search(
-        r"## 2\.1\.\s*Agile Project Integration Management: Project Charter(.*?)(?=\n## 2\.2|\n# |\Z)",
+        r"## 2\.1\.\s*Agile Project Integration Management: Project Charter(.*?)(?=\n# Conclusiones|\n# Bibliograf|\Z)",
         markdown_content,
         re.DOTALL | re.IGNORECASE
     )
